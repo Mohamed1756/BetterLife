@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vwr-zb-Nrp">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Recipe For Nothing-->
+        <scene sceneID="xKK-9o-xHl">
+            <objects>
+                <viewController storyboardIdentifier="RecipeForNothing" id="vwr-zb-Nrp" customClass="RecipeForNothing" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vAX-CU-QVW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="kD4-lu-dUY">
+                                <rect key="frame" x="30" y="99" width="354" height="244"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="244" id="c2V-KV-wvQ"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="sW6-tm-HWF">
+                                <rect key="frame" x="20" y="351" width="374" height="112"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XMl-d9-bBP">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="56"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="56" id="SAc-4g-Ece"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hae-w3-b11">
+                                        <rect key="frame" x="0.0" y="56" width="374" height="56"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="56" id="e1r-jD-yz3"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="21"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZQ7-g8-fJw">
+                                <rect key="frame" x="30" y="496" width="352" height="350"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Zvx-st-gIr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Zvx-st-gIr" firstAttribute="trailing" secondItem="kD4-lu-dUY" secondAttribute="trailing" constant="30" id="25I-gK-cHq"/>
+                            <constraint firstItem="Zvx-st-gIr" firstAttribute="bottom" secondItem="ZQ7-g8-fJw" secondAttribute="bottom" constant="16" id="2Rs-Lw-EEZ"/>
+                            <constraint firstItem="kD4-lu-dUY" firstAttribute="leading" secondItem="Zvx-st-gIr" secondAttribute="leading" constant="30" id="2lI-2x-Lg8"/>
+                            <constraint firstItem="Zvx-st-gIr" firstAttribute="trailing" secondItem="sW6-tm-HWF" secondAttribute="trailing" constant="20" id="NuL-cg-Z87"/>
+                            <constraint firstItem="sW6-tm-HWF" firstAttribute="top" secondItem="kD4-lu-dUY" secondAttribute="bottom" constant="8" id="aNF-et-b1Z"/>
+                            <constraint firstItem="sW6-tm-HWF" firstAttribute="leading" secondItem="Zvx-st-gIr" secondAttribute="leading" constant="20" id="cvC-fQ-t27"/>
+                            <constraint firstItem="kD4-lu-dUY" firstAttribute="top" secondItem="Zvx-st-gIr" secondAttribute="top" constant="55" id="gwL-qo-FXW"/>
+                            <constraint firstItem="ZQ7-g8-fJw" firstAttribute="leading" secondItem="Zvx-st-gIr" secondAttribute="leading" constant="30" id="pdn-YN-FEI"/>
+                            <constraint firstItem="Zvx-st-gIr" firstAttribute="trailing" secondItem="ZQ7-g8-fJw" secondAttribute="trailing" constant="32" id="rud-cQ-g9r"/>
+                            <constraint firstItem="ZQ7-g8-fJw" firstAttribute="top" secondItem="sW6-tm-HWF" secondAttribute="bottom" constant="33" id="xzq-MV-M86"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="bXn-L6-gtC"/>
+                    <connections>
+                        <outlet property="mealImage" destination="kD4-lu-dUY" id="IsX-9n-lgl"/>
+                        <outlet property="mealTextView" destination="ZQ7-g8-fJw" id="NHL-Wf-Aji"/>
+                        <outlet property="recipeLabel" destination="Hae-w3-b11" id="VZh-ih-h1q"/>
+                        <outlet property="titleLabel" destination="XMl-d9-bBP" id="bar-tU-9rk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qTD-0v-3Cs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5880" y="-2386"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1" width="1114" height="650"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

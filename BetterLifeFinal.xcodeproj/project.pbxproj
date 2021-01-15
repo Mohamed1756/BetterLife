@@ -134,7 +134,7 @@
 		D9C1FD8225B09F5C00FDA667 /* VeganBreakfast.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VeganBreakfast.plist; sourceTree = "<group>"; };
 		D9C1FD8725B09F8200FDA667 /* VeganLunch.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VeganLunch.plist; sourceTree = "<group>"; };
 		D9C1FD8B25B09FA100FDA667 /* VeganDinner.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VeganDinner.plist; sourceTree = "<group>"; };
-		D9C1FD8F25B0A1AC00FDA667 /* RecipeScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = RecipeScreen.storyboard; path = ../../../../../RecipeScreen.storyboard; sourceTree = "<group>"; };
+		D9C1FD8F25B0A1AC00FDA667 /* RecipeScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = RecipeScreen.storyboard; path = ../RecipeScreen.storyboard; sourceTree = "<group>"; };
 		D9FFCAFA25A3444300502914 /* FoodIntoleranceScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodIntoleranceScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
