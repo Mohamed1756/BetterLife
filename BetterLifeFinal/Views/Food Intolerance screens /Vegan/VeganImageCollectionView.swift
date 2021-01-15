@@ -22,5 +22,22 @@ class VeganImageCollectionView:UICollectionViewCell {
     
     
     @IBOutlet weak var veganDinnerTextLabel: UILabel!
+  
+    
+    @IBOutlet weak var veganGlutenBreakfastImage: UIImageView!
+    
+    @IBOutlet weak var veganGlutenBreakfastTextLabel: UILabel!
+    
+ 
+    @IBOutlet weak var veganGlutenLunchImage: UIImageView!
+    
+    @IBOutlet weak var veganGlutenLunchTextLabel: UILabel!
+    
+    
+    
+    @IBOutlet weak var veganGlutenDinnerImage: UIImageView!
+    
+    
+    @IBOutlet weak var veganGlutenDinnerTextLabel: UILabel!
     
 }
