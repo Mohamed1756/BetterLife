@@ -36,6 +36,7 @@
 		D93BC13625B1CB3D0051602E /* VeganGlutenBreakfast.plist in Resources */ = {isa = PBXBuildFile; fileRef = D93BC13525B1CB3D0051602E /* VeganGlutenBreakfast.plist */; };
 		D93BC13A25B1CB580051602E /* VeganGlutenLunch.plist in Resources */ = {isa = PBXBuildFile; fileRef = D93BC13925B1CB580051602E /* VeganGlutenLunch.plist */; };
 		D93BC13E25B1CB6C0051602E /* VeganGlutenDinner.plist in Resources */ = {isa = PBXBuildFile; fileRef = D93BC13D25B1CB6C0051602E /* VeganGlutenDinner.plist */; };
+		D93BC14225B1E27F0051602E /* VeganNutIntolerance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93BC14125B1E27F0051602E /* VeganNutIntolerance.swift */; };
 		D9431D8625A5F69D009F13EF /* imageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9431D8525A5F69D009F13EF /* imageCollectionView.swift */; };
 		D96ED19425A9E48100B17082 /* LunchSelection.plist in Resources */ = {isa = PBXBuildFile; fileRef = D96ED19325A9E48100B17082 /* LunchSelection.plist */; };
 		D981F274259DEE810001F55E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D981F273259DEE810001F55E /* GoogleService-Info.plist */; };
@@ -101,10 +102,11 @@
 		D93948A625AF373D00E6784A /* FishBreakfast.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FishBreakfast.plist; sourceTree = "<group>"; };
 		D93948AA25AF374C00E6784A /* FishLunch.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FishLunch.plist; sourceTree = "<group>"; };
 		D93948AF25AF376300E6784A /* FishDinner.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FishDinner.plist; sourceTree = "<group>"; };
-		D93BC13025B1C76F0051602E /* VeganGlutenIntolerance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VeganGlutenIntolerance.swift; path = ../../../../../../VeganGlutenIntolerance.swift; sourceTree = "<group>"; };
+		D93BC13025B1C76F0051602E /* VeganGlutenIntolerance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeganGlutenIntolerance.swift; sourceTree = "<group>"; };
 		D93BC13525B1CB3D0051602E /* VeganGlutenBreakfast.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VeganGlutenBreakfast.plist; sourceTree = "<group>"; };
 		D93BC13925B1CB580051602E /* VeganGlutenLunch.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VeganGlutenLunch.plist; sourceTree = "<group>"; };
 		D93BC13D25B1CB6C0051602E /* VeganGlutenDinner.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VeganGlutenDinner.plist; sourceTree = "<group>"; };
+		D93BC14125B1E27F0051602E /* VeganNutIntolerance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeganNutIntolerance.swift; sourceTree = "<group>"; };
 		D9431D8525A5F69D009F13EF /* imageCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageCollectionView.swift; sourceTree = "<group>"; };
 		D96ED19325A9E48100B17082 /* LunchSelection.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = LunchSelection.plist; sourceTree = "<group>"; };
 		D981F273259DEE810001F55E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -369,6 +371,7 @@
 				D9C1FD5D25B09B2900FDA667 /* VeganBasicIntolerance.swift */,
 				D9C1FD6125B09C3700FDA667 /* VeganImageCollectionView.swift */,
 				D93BC13025B1C76F0051602E /* VeganGlutenIntolerance.swift */,
+				D93BC14125B1E27F0051602E /* VeganNutIntolerance.swift */,
 			);
 			path = Vegan;
 			sourceTree = "<group>";
@@ -583,6 +586,7 @@
 				D930D69A259E6713006A0093 /* FirebaseAuthManager.swift in Sources */,
 				D930D696259E64CD006A0093 /* SignUpScreen.swift in Sources */,
 				D9FFCAFB25A3444300502914 /* FoodIntoleranceScreen.swift in Sources */,
+				D93BC14225B1E27F0051602E /* VeganNutIntolerance.swift in Sources */,
 				D90F8EDF25A7628F00CCF022 /* RecipeForNothing.swift in Sources */,
 				D93BC13125B1C76F0051602E /* VeganGlutenIntolerance.swift in Sources */,
 				D9C1FD6225B09C3700FDA667 /* VeganImageCollectionView.swift in Sources */,
