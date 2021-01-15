@@ -1,0 +1,852 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E6A994F09949FDF28ED4642 /* Pods_BetterLifeFinal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A333640F53E6742607635E /* Pods_BetterLifeFinal.framework */; };
+		4F38F258B9AF7659D0A81029 /* Pods_BetterLifeFinalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EB39170BAF246FD33D6D3E /* Pods_BetterLifeFinalTests.framework */; };
+		D905512725A4905A009AB32D /* NoneToFoodIntolerance.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D905512625A4905A009AB32D /* NoneToFoodIntolerance.storyboard */; };
+		D905512B25A498FF009AB32D /* VeganFoodIntolerance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D905512A25A498FF009AB32D /* VeganFoodIntolerance.swift */; };
+		D905512F25A49BFF009AB32D /* VegeterianFoodIntolerance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D905512E25A49BFF009AB32D /* VegeterianFoodIntolerance.swift */; };
+		D905513325A49CFD009AB32D /* GlutenFoodIntolerance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D905513225A49CFD009AB32D /* GlutenFoodIntolerance.swift */; };
+		D905513725A49D32009AB32D /* PescFoodIntolerance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D905513625A49D32009AB32D /* PescFoodIntolerance.swift */; };
+		D905513B25A49E3F009AB32D /* VeganToFoodIntolerance.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D905513A25A49E3F009AB32D /* VeganToFoodIntolerance.storyboard */; };
+		D905514225A49ECF009AB32D /* VegeterianToFoodIntolerance.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D905514125A49ECF009AB32D /* VegeterianToFoodIntolerance.storyboard */; };
+		D905514625A49F48009AB32D /* GlutenToFoodIntolerance.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D905514525A49F48009AB32D /* GlutenToFoodIntolerance.storyboard */; };
+		D905514A25A49FD8009AB32D /* PescToFoodIntolerance.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D905514925A49FD8009AB32D /* PescToFoodIntolerance.storyboard */; };
+		D905515225A4A387009AB32D /* NoneSelectedFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = D905515125A4A387009AB32D /* NoneSelectedFood.swift */; };
+		D90F8EDF25A7628F00CCF022 /* RecipeForNothing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F8EDE25A7628F00CCF022 /* RecipeForNothing.swift */; };
+		D90F8EE325A8899400CCF022 /* Food.plist in Resources */ = {isa = PBXBuildFile; fileRef = D90F8EE225A8899400CCF022 /* Food.plist */; };
+		D928C0CF25ADBB0300A62C9A /* EggsIntolerance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D928C0CE25ADBB0300A62C9A /* EggsIntolerance.swift */; };
+		D928C0DE25ADCC9600A62C9A /* EggsBreakfast.plist in Resources */ = {isa = PBXBuildFile; fileRef = D928C0DD25ADCC9600A62C9A /* EggsBreakfast.plist */; };
+		D928C0E225ADCD8500A62C9A /* EggsLunch.plist in Resources */ = {isa = PBXBuildFile; fileRef = D928C0E125ADCD8500A62C9A /* EggsLunch.plist */; };
+		D928C0E625ADCF8800A62C9A /* EggsDinner.plist in Resources */ = {isa = PBXBuildFile; fileRef = D928C0E525ADCF8800A62C9A /* EggsDinner.plist */; };
+		D930A90D25AB71FD00E46FB0 /* DinnerSelection.plist in Resources */ = {isa = PBXBuildFile; fileRef = D930A90C25AB71FD00E46FB0 /* DinnerSelection.plist */; };
+		D930D696259E64CD006A0093 /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D930D695259E64CD006A0093 /* SignUpScreen.swift */; };
+		D930D69A259E6713006A0093 /* FirebaseAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D930D699259E6713006A0093 /* FirebaseAuthManager.swift */; };
+		D93948A225AF2F3700E6784A /* FishIntolerance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93948A125AF2F3700E6784A /* FishIntolerance.swift */; };
+		D93948A725AF373D00E6784A /* FishBreakfast.plist in Resources */ = {isa = PBXBuildFile; fileRef = D93948A625AF373D00E6784A /* FishBreakfast.plist */; };
+		D93948AB25AF374C00E6784A /* FishLunch.plist in Resources */ = {isa = PBXBuildFile; fileRef = D93948AA25AF374C00E6784A /* FishLunch.plist */; };
+		D93948B025AF376300E6784A /* FishDinner.plist in Resources */ = {isa = PBXBuildFile; fileRef = D93948AF25AF376300E6784A /* FishDinner.plist */; };
+		D9431D8625A5F69D009F13EF /* imageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9431D8525A5F69D009F13EF /* imageCollectionView.swift */; };
+		D96ED19425A9E48100B17082 /* LunchSelection.plist in Resources */ = {isa = PBXBuildFile; fileRef = D96ED19325A9E48100B17082 /* LunchSelection.plist */; };
+		D981F274259DEE810001F55E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D981F273259DEE810001F55E /* GoogleService-Info.plist */; };
+		D989E9FA25A1E7EA00ECEB5C /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D989E9F925A1E7EA00ECEB5C /* HomeScreenView.swift */; };
+		D989E9FE25A1EBCA00ECEB5C /* MyMeals.swift in Sources */ = {isa = PBXBuildFile; fileRef = D989E9FD25A1EBCA00ECEB5C /* MyMeals.swift */; };
+		D98A4FA9259CEA6D00294F64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98A4FA8259CEA6D00294F64 /* AppDelegate.swift */; };
+		D98A4FAB259CEA6D00294F64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98A4FAA259CEA6D00294F64 /* SceneDelegate.swift */; };
+		D98A4FAD259CEA6D00294F64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98A4FAC259CEA6D00294F64 /* ViewController.swift */; };
+		D98A4FB0259CEA6D00294F64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98A4FAE259CEA6D00294F64 /* Main.storyboard */; };
+		D98A4FB2259CEA7100294F64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98A4FB1259CEA7100294F64 /* Assets.xcassets */; };
+		D98A4FB5259CEA7100294F64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98A4FB3259CEA7100294F64 /* LaunchScreen.storyboard */; };
+		D98A4FC0259CEA7100294F64 /* BetterLifeFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98A4FBF259CEA7100294F64 /* BetterLifeFinalTests.swift */; };
+		D98A4FE6259D065500294F64 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98A4FE5259D065500294F64 /* LoginScreen.swift */; };
+		D9C1FD4725B0619200FDA667 /* DairyIntolerance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C1FD4625B0619200FDA667 /* DairyIntolerance.swift */; };
+		D9C1FD4C25B067FC00FDA667 /* DairyBreakfast.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9C1FD4B25B067FC00FDA667 /* DairyBreakfast.plist */; };
+		D9C1FD5025B0681300FDA667 /* DairyLunch.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9C1FD4F25B0681300FDA667 /* DairyLunch.plist */; };
+		D9C1FD5425B0683200FDA667 /* DairyDinner.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9C1FD5325B0683200FDA667 /* DairyDinner.plist */; };
+		D9C1FD5E25B09B2900FDA667 /* VeganBasicIntolerance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C1FD5D25B09B2900FDA667 /* VeganBasicIntolerance.swift */; };
+		D9C1FD6225B09C3700FDA667 /* VeganImageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C1FD6125B09C3700FDA667 /* VeganImageCollectionView.swift */; };
+		D9C1FD8325B09F5C00FDA667 /* VeganBreakfast.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9C1FD8225B09F5C00FDA667 /* VeganBreakfast.plist */; };
+		D9C1FD8825B09F8200FDA667 /* VeganLunch.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9C1FD8725B09F8200FDA667 /* VeganLunch.plist */; };
+		D9C1FD8C25B09FA100FDA667 /* VeganDinner.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9C1FD8B25B09FA100FDA667 /* VeganDinner.plist */; };
+		D9C1FD9025B0A1AC00FDA667 /* RecipeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C1FD8F25B0A1AC00FDA667 /* RecipeScreen.storyboard */; };
+		D9FFCAFB25A3444300502914 /* FoodIntoleranceScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FFCAFA25A3444300502914 /* FoodIntoleranceScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D98A4FBC259CEA7100294F64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D98A4F9D259CEA6D00294F64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D98A4FA4259CEA6D00294F64;
+			remoteInfo = BetterLifeFinal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42EB39170BAF246FD33D6D3E /* Pods_BetterLifeFinalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BetterLifeFinalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5AB5A123D092FA308E81E0 /* Pods-BetterLifeFinalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterLifeFinalTests.debug.xcconfig"; path = "Target Support Files/Pods-BetterLifeFinalTests/Pods-BetterLifeFinalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		80E35B4AC340A2947D48BA17 /* Pods-BetterLifeFinalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterLifeFinalTests.release.xcconfig"; path = "Target Support Files/Pods-BetterLifeFinalTests/Pods-BetterLifeFinalTests.release.xcconfig"; sourceTree = "<group>"; };
+		9772CC09C6B8E31A56670FE2 /* Pods-BetterLifeFinal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterLifeFinal.release.xcconfig"; path = "Target Support Files/Pods-BetterLifeFinal/Pods-BetterLifeFinal.release.xcconfig"; sourceTree = "<group>"; };
+		CF1D043EA2303B9A7AB811BC /* Pods-BetterLifeFinal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterLifeFinal.debug.xcconfig"; path = "Target Support Files/Pods-BetterLifeFinal/Pods-BetterLifeFinal.debug.xcconfig"; sourceTree = "<group>"; };
+		D905512625A4905A009AB32D /* NoneToFoodIntolerance.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NoneToFoodIntolerance.storyboard; sourceTree = "<group>"; };
+		D905512A25A498FF009AB32D /* VeganFoodIntolerance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeganFoodIntolerance.swift; sourceTree = "<group>"; };
+		D905512E25A49BFF009AB32D /* VegeterianFoodIntolerance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegeterianFoodIntolerance.swift; sourceTree = "<group>"; };
+		D905513225A49CFD009AB32D /* GlutenFoodIntolerance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlutenFoodIntolerance.swift; sourceTree = "<group>"; };
+		D905513625A49D32009AB32D /* PescFoodIntolerance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PescFoodIntolerance.swift; sourceTree = "<group>"; };
+		D905513A25A49E3F009AB32D /* VeganToFoodIntolerance.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = VeganToFoodIntolerance.storyboard; sourceTree = "<group>"; };
+		D905514125A49ECF009AB32D /* VegeterianToFoodIntolerance.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = VegeterianToFoodIntolerance.storyboard; path = "BetterLifeFinal/Storyboards /VegeterianToFoodIntolerance.storyboard"; sourceTree = SOURCE_ROOT; };
+		D905514525A49F48009AB32D /* GlutenToFoodIntolerance.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = GlutenToFoodIntolerance.storyboard; path = "BetterLifeFinal/Storyboards /GlutenToFoodIntolerance.storyboard"; sourceTree = SOURCE_ROOT; };
+		D905514925A49FD8009AB32D /* PescToFoodIntolerance.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = PescToFoodIntolerance.storyboard; path = "BetterLifeFinal/Storyboards /PescToFoodIntolerance.storyboard"; sourceTree = SOURCE_ROOT; };
+		D905515125A4A387009AB32D /* NoneSelectedFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NoneSelectedFood.swift; path = "BetterLifeFinal/Views/Food Intolerance screens /NoneSelectedFood.swift"; sourceTree = SOURCE_ROOT; };
+		D90F8EDE25A7628F00CCF022 /* RecipeForNothing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeForNothing.swift; sourceTree = "<group>"; };
+		D90F8EE225A8899400CCF022 /* Food.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Food.plist; sourceTree = "<group>"; };
+		D928C0CE25ADBB0300A62C9A /* EggsIntolerance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggsIntolerance.swift; sourceTree = "<group>"; };
+		D928C0DD25ADCC9600A62C9A /* EggsBreakfast.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = EggsBreakfast.plist; sourceTree = "<group>"; };
+		D928C0E125ADCD8500A62C9A /* EggsLunch.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = EggsLunch.plist; sourceTree = "<group>"; };
+		D928C0E525ADCF8800A62C9A /* EggsDinner.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = EggsDinner.plist; sourceTree = "<group>"; };
+		D930A90C25AB71FD00E46FB0 /* DinnerSelection.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DinnerSelection.plist; sourceTree = "<group>"; };
+		D930D695259E64CD006A0093 /* SignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
+		D930D699259E6713006A0093 /* FirebaseAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthManager.swift; sourceTree = "<group>"; };
+		D93948A125AF2F3700E6784A /* FishIntolerance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishIntolerance.swift; sourceTree = "<group>"; };
+		D93948A625AF373D00E6784A /* FishBreakfast.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FishBreakfast.plist; sourceTree = "<group>"; };
+		D93948AA25AF374C00E6784A /* FishLunch.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FishLunch.plist; sourceTree = "<group>"; };
+		D93948AF25AF376300E6784A /* FishDinner.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FishDinner.plist; sourceTree = "<group>"; };
+		D9431D8525A5F69D009F13EF /* imageCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageCollectionView.swift; sourceTree = "<group>"; };
+		D96ED19325A9E48100B17082 /* LunchSelection.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = LunchSelection.plist; sourceTree = "<group>"; };
+		D981F273259DEE810001F55E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D989E9F925A1E7EA00ECEB5C /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		D989E9FD25A1EBCA00ECEB5C /* MyMeals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMeals.swift; sourceTree = "<group>"; };
+		D98A4FA5259CEA6D00294F64 /* BetterLifeFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterLifeFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D98A4FA8259CEA6D00294F64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D98A4FAA259CEA6D00294F64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D98A4FAC259CEA6D00294F64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D98A4FAF259CEA6D00294F64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D98A4FB1259CEA7100294F64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D98A4FB4259CEA7100294F64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D98A4FB6259CEA7100294F64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D98A4FBB259CEA7100294F64 /* BetterLifeFinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterLifeFinalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D98A4FBF259CEA7100294F64 /* BetterLifeFinalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterLifeFinalTests.swift; sourceTree = "<group>"; };
+		D98A4FC1259CEA7100294F64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D98A4FE5259D065500294F64 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		D9A333640F53E6742607635E /* Pods_BetterLifeFinal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BetterLifeFinal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9C1FD4625B0619200FDA667 /* DairyIntolerance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DairyIntolerance.swift; sourceTree = "<group>"; };
+		D9C1FD4B25B067FC00FDA667 /* DairyBreakfast.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DairyBreakfast.plist; sourceTree = "<group>"; };
+		D9C1FD4F25B0681300FDA667 /* DairyLunch.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DairyLunch.plist; sourceTree = "<group>"; };
+		D9C1FD5325B0683200FDA667 /* DairyDinner.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DairyDinner.plist; sourceTree = "<group>"; };
+		D9C1FD5D25B09B2900FDA667 /* VeganBasicIntolerance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeganBasicIntolerance.swift; sourceTree = "<group>"; };
+		D9C1FD6125B09C3700FDA667 /* VeganImageCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeganImageCollectionView.swift; sourceTree = "<group>"; };
+		D9C1FD8225B09F5C00FDA667 /* VeganBreakfast.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VeganBreakfast.plist; sourceTree = "<group>"; };
+		D9C1FD8725B09F8200FDA667 /* VeganLunch.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VeganLunch.plist; sourceTree = "<group>"; };
+		D9C1FD8B25B09FA100FDA667 /* VeganDinner.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VeganDinner.plist; sourceTree = "<group>"; };
+		D9C1FD8F25B0A1AC00FDA667 /* RecipeScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = RecipeScreen.storyboard; path = ../../../../../RecipeScreen.storyboard; sourceTree = "<group>"; };
+		D9FFCAFA25A3444300502914 /* FoodIntoleranceScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodIntoleranceScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D98A4FA2259CEA6D00294F64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E6A994F09949FDF28ED4642 /* Pods_BetterLifeFinal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98A4FB8259CEA7100294F64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F38F258B9AF7659D0A81029 /* Pods_BetterLifeFinalTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		074FFE15697C5C81FF7F29EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9A333640F53E6742607635E /* Pods_BetterLifeFinal.framework */,
+				42EB39170BAF246FD33D6D3E /* Pods_BetterLifeFinalTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCCE0EE787486B5BA51782E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF1D043EA2303B9A7AB811BC /* Pods-BetterLifeFinal.debug.xcconfig */,
+				9772CC09C6B8E31A56670FE2 /* Pods-BetterLifeFinal.release.xcconfig */,
+				4D5AB5A123D092FA308E81E0 /* Pods-BetterLifeFinalTests.debug.xcconfig */,
+				80E35B4AC340A2947D48BA17 /* Pods-BetterLifeFinalTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D905513E25A49E4E009AB32D /* Food Intolerances Screen  */ = {
+			isa = PBXGroup;
+			children = (
+				D905514925A49FD8009AB32D /* PescToFoodIntolerance.storyboard */,
+				D905514525A49F48009AB32D /* GlutenToFoodIntolerance.storyboard */,
+				D905514125A49ECF009AB32D /* VegeterianToFoodIntolerance.storyboard */,
+				D905512625A4905A009AB32D /* NoneToFoodIntolerance.storyboard */,
+				D9C1FD8F25B0A1AC00FDA667 /* RecipeScreen.storyboard */,
+				D905513A25A49E3F009AB32D /* VeganToFoodIntolerance.storyboard */,
+			);
+			path = "Food Intolerances Screen ";
+			sourceTree = "<group>";
+		};
+		D905514D25A4A13D009AB32D /* Food Intolerance screens  */ = {
+			isa = PBXGroup;
+			children = (
+				D9C1FD5C25B099E900FDA667 /* Vegan */,
+				D905515025A4A320009AB32D /* None  */,
+				D905513625A49D32009AB32D /* PescFoodIntolerance.swift */,
+				D905513225A49CFD009AB32D /* GlutenFoodIntolerance.swift */,
+				D905512E25A49BFF009AB32D /* VegeterianFoodIntolerance.swift */,
+			);
+			path = "Food Intolerance screens ";
+			sourceTree = "<group>";
+		};
+		D905515025A4A320009AB32D /* None  */ = {
+			isa = PBXGroup;
+			children = (
+				D9FFCAFA25A3444300502914 /* FoodIntoleranceScreen.swift */,
+				D905515125A4A387009AB32D /* NoneSelectedFood.swift */,
+				D9431D8525A5F69D009F13EF /* imageCollectionView.swift */,
+				D928C0CE25ADBB0300A62C9A /* EggsIntolerance.swift */,
+				D93948A125AF2F3700E6784A /* FishIntolerance.swift */,
+				D90F8EDE25A7628F00CCF022 /* RecipeForNothing.swift */,
+				D9C1FD4625B0619200FDA667 /* DairyIntolerance.swift */,
+			);
+			path = "None ";
+			sourceTree = "<group>";
+		};
+		D928C0CB25ADB8CC00A62C9A /* No Dietery Requirements */ = {
+			isa = PBXGroup;
+			children = (
+				D9C1FD4A25B067BD00FDA667 /* Dairy */,
+				D93948A525AF372700E6784A /* Fish */,
+				D928C0DC25ADCC5800A62C9A /* Eggs */,
+				D928C0D825ADCC2F00A62C9A /* none  */,
+			);
+			path = "No Dietery Requirements";
+			sourceTree = "<group>";
+		};
+		D928C0D825ADCC2F00A62C9A /* none  */ = {
+			isa = PBXGroup;
+			children = (
+				D90F8EE225A8899400CCF022 /* Food.plist */,
+				D96ED19325A9E48100B17082 /* LunchSelection.plist */,
+				D930A90C25AB71FD00E46FB0 /* DinnerSelection.plist */,
+			);
+			path = "none ";
+			sourceTree = "<group>";
+		};
+		D928C0DC25ADCC5800A62C9A /* Eggs */ = {
+			isa = PBXGroup;
+			children = (
+				D928C0DD25ADCC9600A62C9A /* EggsBreakfast.plist */,
+				D928C0E125ADCD8500A62C9A /* EggsLunch.plist */,
+				D928C0E525ADCF8800A62C9A /* EggsDinner.plist */,
+			);
+			path = Eggs;
+			sourceTree = "<group>";
+		};
+		D93948A525AF372700E6784A /* Fish */ = {
+			isa = PBXGroup;
+			children = (
+				D93948A625AF373D00E6784A /* FishBreakfast.plist */,
+				D93948AA25AF374C00E6784A /* FishLunch.plist */,
+				D93948AF25AF376300E6784A /* FishDinner.plist */,
+			);
+			path = Fish;
+			sourceTree = "<group>";
+		};
+		D96ED19225A9E43800B17082 /* Properties  */ = {
+			isa = PBXGroup;
+			children = (
+				D928C0CB25ADB8CC00A62C9A /* No Dietery Requirements */,
+				D9C1FD5925B0984600FDA667 /* Vegan */,
+			);
+			path = "Properties ";
+			sourceTree = "<group>";
+		};
+		D972899525A4896A0063751F /* Storyboards  */ = {
+			isa = PBXGroup;
+			children = (
+				D905513E25A49E4E009AB32D /* Food Intolerances Screen  */,
+				D98A4FAE259CEA6D00294F64 /* Main.storyboard */,
+			);
+			path = "Storyboards ";
+			sourceTree = "<group>";
+		};
+		D98A4F9C259CEA6D00294F64 = {
+			isa = PBXGroup;
+			children = (
+				D98A4FA7259CEA6D00294F64 /* BetterLifeFinal */,
+				D98A4FBE259CEA7100294F64 /* BetterLifeFinalTests */,
+				D98A4FA6259CEA6D00294F64 /* Products */,
+				BCCE0EE787486B5BA51782E6 /* Pods */,
+				074FFE15697C5C81FF7F29EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D98A4FA6259CEA6D00294F64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D98A4FA5259CEA6D00294F64 /* BetterLifeFinal.app */,
+				D98A4FBB259CEA7100294F64 /* BetterLifeFinalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D98A4FA7259CEA6D00294F64 /* BetterLifeFinal */ = {
+			isa = PBXGroup;
+			children = (
+				D98A4FDE259D062B00294F64 /* Views */,
+				D972899525A4896A0063751F /* Storyboards  */,
+				D98A4FA8259CEA6D00294F64 /* AppDelegate.swift */,
+				D98A4FAA259CEA6D00294F64 /* SceneDelegate.swift */,
+				D98A4FB1259CEA7100294F64 /* Assets.xcassets */,
+				D930D699259E6713006A0093 /* FirebaseAuthManager.swift */,
+				D96ED19225A9E43800B17082 /* Properties  */,
+				D98A4FB3259CEA7100294F64 /* LaunchScreen.storyboard */,
+				D981F273259DEE810001F55E /* GoogleService-Info.plist */,
+				D98A4FB6259CEA7100294F64 /* Info.plist */,
+			);
+			path = BetterLifeFinal;
+			sourceTree = "<group>";
+		};
+		D98A4FBE259CEA7100294F64 /* BetterLifeFinalTests */ = {
+			isa = PBXGroup;
+			children = (
+				D98A4FBF259CEA7100294F64 /* BetterLifeFinalTests.swift */,
+				D98A4FC1259CEA7100294F64 /* Info.plist */,
+			);
+			path = BetterLifeFinalTests;
+			sourceTree = "<group>";
+		};
+		D98A4FDE259D062B00294F64 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D905514D25A4A13D009AB32D /* Food Intolerance screens  */,
+				D98A4FAC259CEA6D00294F64 /* ViewController.swift */,
+				D98A4FE5259D065500294F64 /* LoginScreen.swift */,
+				D930D695259E64CD006A0093 /* SignUpScreen.swift */,
+				D989E9F925A1E7EA00ECEB5C /* HomeScreenView.swift */,
+				D989E9FD25A1EBCA00ECEB5C /* MyMeals.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D9C1FD4A25B067BD00FDA667 /* Dairy */ = {
+			isa = PBXGroup;
+			children = (
+				D9C1FD4B25B067FC00FDA667 /* DairyBreakfast.plist */,
+				D9C1FD4F25B0681300FDA667 /* DairyLunch.plist */,
+				D9C1FD5325B0683200FDA667 /* DairyDinner.plist */,
+			);
+			path = Dairy;
+			sourceTree = "<group>";
+		};
+		D9C1FD5925B0984600FDA667 /* Vegan */ = {
+			isa = PBXGroup;
+			children = (
+				D9C1FD8625B09F6500FDA667 /* None */,
+			);
+			path = Vegan;
+			sourceTree = "<group>";
+		};
+		D9C1FD5C25B099E900FDA667 /* Vegan */ = {
+			isa = PBXGroup;
+			children = (
+				D905512A25A498FF009AB32D /* VeganFoodIntolerance.swift */,
+				D9C1FD5D25B09B2900FDA667 /* VeganBasicIntolerance.swift */,
+				D9C1FD6125B09C3700FDA667 /* VeganImageCollectionView.swift */,
+			);
+			path = Vegan;
+			sourceTree = "<group>";
+		};
+		D9C1FD8625B09F6500FDA667 /* None */ = {
+			isa = PBXGroup;
+			children = (
+				D9C1FD8225B09F5C00FDA667 /* VeganBreakfast.plist */,
+				D9C1FD8725B09F8200FDA667 /* VeganLunch.plist */,
+				D9C1FD8B25B09FA100FDA667 /* VeganDinner.plist */,
+			);
+			path = None;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D98A4FA4259CEA6D00294F64 /* BetterLifeFinal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D98A4FCF259CEA7100294F64 /* Build configuration list for PBXNativeTarget "BetterLifeFinal" */;
+			buildPhases = (
+				F39C469E04E84F128561B1D5 /* [CP] Check Pods Manifest.lock */,
+				D98A4FA1259CEA6D00294F64 /* Sources */,
+				D98A4FA2259CEA6D00294F64 /* Frameworks */,
+				D98A4FA3259CEA6D00294F64 /* Resources */,
+				99415842B5945300A1084EA4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BetterLifeFinal;
+			productName = BetterLifeFinal;
+			productReference = D98A4FA5259CEA6D00294F64 /* BetterLifeFinal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D98A4FBA259CEA7100294F64 /* BetterLifeFinalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D98A4FD2259CEA7100294F64 /* Build configuration list for PBXNativeTarget "BetterLifeFinalTests" */;
+			buildPhases = (
+				4EDDC5664E3246D6DC7B16FF /* [CP] Check Pods Manifest.lock */,
+				D98A4FB7259CEA7100294F64 /* Sources */,
+				D98A4FB8259CEA7100294F64 /* Frameworks */,
+				D98A4FB9259CEA7100294F64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D98A4FBD259CEA7100294F64 /* PBXTargetDependency */,
+			);
+			name = BetterLifeFinalTests;
+			productName = BetterLifeFinalTests;
+			productReference = D98A4FBB259CEA7100294F64 /* BetterLifeFinalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D98A4F9D259CEA6D00294F64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					D98A4FA4259CEA6D00294F64 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					D98A4FBA259CEA7100294F64 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = D98A4FA4259CEA6D00294F64;
+					};
+				};
+			};
+			buildConfigurationList = D98A4FA0259CEA6D00294F64 /* Build configuration list for PBXProject "BetterLifeFinal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D98A4F9C259CEA6D00294F64;
+			productRefGroup = D98A4FA6259CEA6D00294F64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D98A4FA4259CEA6D00294F64 /* BetterLifeFinal */,
+				D98A4FBA259CEA7100294F64 /* BetterLifeFinalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D98A4FA3259CEA6D00294F64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D905513B25A49E3F009AB32D /* VeganToFoodIntolerance.storyboard in Resources */,
+				D905512725A4905A009AB32D /* NoneToFoodIntolerance.storyboard in Resources */,
+				D90F8EE325A8899400CCF022 /* Food.plist in Resources */,
+				D98A4FB5259CEA7100294F64 /* LaunchScreen.storyboard in Resources */,
+				D9C1FD5425B0683200FDA667 /* DairyDinner.plist in Resources */,
+				D928C0DE25ADCC9600A62C9A /* EggsBreakfast.plist in Resources */,
+				D905514A25A49FD8009AB32D /* PescToFoodIntolerance.storyboard in Resources */,
+				D930A90D25AB71FD00E46FB0 /* DinnerSelection.plist in Resources */,
+				D928C0E225ADCD8500A62C9A /* EggsLunch.plist in Resources */,
+				D93948B025AF376300E6784A /* FishDinner.plist in Resources */,
+				D905514625A49F48009AB32D /* GlutenToFoodIntolerance.storyboard in Resources */,
+				D9C1FD4C25B067FC00FDA667 /* DairyBreakfast.plist in Resources */,
+				D928C0E625ADCF8800A62C9A /* EggsDinner.plist in Resources */,
+				D9C1FD9025B0A1AC00FDA667 /* RecipeScreen.storyboard in Resources */,
+				D93948A725AF373D00E6784A /* FishBreakfast.plist in Resources */,
+				D9C1FD8325B09F5C00FDA667 /* VeganBreakfast.plist in Resources */,
+				D981F274259DEE810001F55E /* GoogleService-Info.plist in Resources */,
+				D96ED19425A9E48100B17082 /* LunchSelection.plist in Resources */,
+				D905514225A49ECF009AB32D /* VegeterianToFoodIntolerance.storyboard in Resources */,
+				D98A4FB2259CEA7100294F64 /* Assets.xcassets in Resources */,
+				D9C1FD5025B0681300FDA667 /* DairyLunch.plist in Resources */,
+				D9C1FD8C25B09FA100FDA667 /* VeganDinner.plist in Resources */,
+				D98A4FB0259CEA6D00294F64 /* Main.storyboard in Resources */,
+				D93948AB25AF374C00E6784A /* FishLunch.plist in Resources */,
+				D9C1FD8825B09F8200FDA667 /* VeganLunch.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98A4FB9259CEA7100294F64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4EDDC5664E3246D6DC7B16FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BetterLifeFinalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99415842B5945300A1084EA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BetterLifeFinal/Pods-BetterLifeFinal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BetterLifeFinal/Pods-BetterLifeFinal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BetterLifeFinal/Pods-BetterLifeFinal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F39C469E04E84F128561B1D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BetterLifeFinal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D98A4FA1259CEA6D00294F64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9431D8625A5F69D009F13EF /* imageCollectionView.swift in Sources */,
+				D9C1FD5E25B09B2900FDA667 /* VeganBasicIntolerance.swift in Sources */,
+				D989E9FE25A1EBCA00ECEB5C /* MyMeals.swift in Sources */,
+				D905513325A49CFD009AB32D /* GlutenFoodIntolerance.swift in Sources */,
+				D905515225A4A387009AB32D /* NoneSelectedFood.swift in Sources */,
+				D930D69A259E6713006A0093 /* FirebaseAuthManager.swift in Sources */,
+				D930D696259E64CD006A0093 /* SignUpScreen.swift in Sources */,
+				D9FFCAFB25A3444300502914 /* FoodIntoleranceScreen.swift in Sources */,
+				D90F8EDF25A7628F00CCF022 /* RecipeForNothing.swift in Sources */,
+				D9C1FD6225B09C3700FDA667 /* VeganImageCollectionView.swift in Sources */,
+				D98A4FAD259CEA6D00294F64 /* ViewController.swift in Sources */,
+				D98A4FE6259D065500294F64 /* LoginScreen.swift in Sources */,
+				D98A4FA9259CEA6D00294F64 /* AppDelegate.swift in Sources */,
+				D905512F25A49BFF009AB32D /* VegeterianFoodIntolerance.swift in Sources */,
+				D989E9FA25A1E7EA00ECEB5C /* HomeScreenView.swift in Sources */,
+				D928C0CF25ADBB0300A62C9A /* EggsIntolerance.swift in Sources */,
+				D9C1FD4725B0619200FDA667 /* DairyIntolerance.swift in Sources */,
+				D93948A225AF2F3700E6784A /* FishIntolerance.swift in Sources */,
+				D905512B25A498FF009AB32D /* VeganFoodIntolerance.swift in Sources */,
+				D98A4FAB259CEA6D00294F64 /* SceneDelegate.swift in Sources */,
+				D905513725A49D32009AB32D /* PescFoodIntolerance.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98A4FB7259CEA7100294F64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D98A4FC0259CEA7100294F64 /* BetterLifeFinalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D98A4FBD259CEA7100294F64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D98A4FA4259CEA6D00294F64 /* BetterLifeFinal */;
+			targetProxy = D98A4FBC259CEA7100294F64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D98A4FAE259CEA6D00294F64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98A4FAF259CEA6D00294F64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D98A4FB3259CEA7100294F64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D98A4FB4259CEA7100294F64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D98A4FCD259CEA7100294F64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D98A4FCE259CEA7100294F64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D98A4FD0259CEA7100294F64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF1D043EA2303B9A7AB811BC /* Pods-BetterLifeFinal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6T5ZGRV4GY;
+				INFOPLIST_FILE = BetterLifeFinal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mohamed.BetterLifeFinal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D98A4FD1259CEA7100294F64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9772CC09C6B8E31A56670FE2 /* Pods-BetterLifeFinal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6T5ZGRV4GY;
+				INFOPLIST_FILE = BetterLifeFinal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mohamed.BetterLifeFinal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D98A4FD3259CEA7100294F64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D5AB5A123D092FA308E81E0 /* Pods-BetterLifeFinalTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6T5ZGRV4GY;
+				INFOPLIST_FILE = BetterLifeFinalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mohamed.BetterLifeFinalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetterLifeFinal.app/BetterLifeFinal";
+			};
+			name = Debug;
+		};
+		D98A4FD4259CEA7100294F64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80E35B4AC340A2947D48BA17 /* Pods-BetterLifeFinalTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6T5ZGRV4GY;
+				INFOPLIST_FILE = BetterLifeFinalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mohamed.BetterLifeFinalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetterLifeFinal.app/BetterLifeFinal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D98A4FA0259CEA6D00294F64 /* Build configuration list for PBXProject "BetterLifeFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D98A4FCD259CEA7100294F64 /* Debug */,
+				D98A4FCE259CEA7100294F64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D98A4FCF259CEA7100294F64 /* Build configuration list for PBXNativeTarget "BetterLifeFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D98A4FD0259CEA7100294F64 /* Debug */,
+				D98A4FD1259CEA7100294F64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D98A4FD2259CEA7100294F64 /* Build configuration list for PBXNativeTarget "BetterLifeFinalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D98A4FD3259CEA7100294F64 /* Debug */,
+				D98A4FD4259CEA7100294F64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D98A4F9D259CEA6D00294F64 /* Project object */;
+}
