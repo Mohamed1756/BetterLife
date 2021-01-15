@@ -3,7 +3,7 @@
 //  BetterLifeFinal
 //
 //  Created by Mohamed on 13/01/2021.
-//
+//  Section is about Fish Intolerance 
 
 import UIKit
 
