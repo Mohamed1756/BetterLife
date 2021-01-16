@@ -31,11 +31,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tHy-IJ-IYZ">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tHy-IJ-IYZ">
                                 <rect key="frame" x="210" y="580" width="167" height="47"/>
                                 <color key="backgroundColor" systemColor="quaternaryLabelColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="47" id="N43-VY-3uZ"/>
+                                    <constraint firstAttribute="height" constant="47" id="CcJ-dI-isg"/>
                                 </constraints>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -58,6 +58,9 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxN-sM-n34">
                                 <rect key="frame" x="41" y="577" width="174" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="YTV-A6-nqz"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="SFProDisplay-Black" family="SF Pro Display" pointSize="27"/>
                                 <state key="normal" title="Log in ">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -75,24 +78,23 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="bxN-sM-n34" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="21" id="12w-hR-uT9"/>
-                            <constraint firstItem="bxN-sM-n34" firstAttribute="top" secondItem="tHy-IJ-IYZ" secondAttribute="top" constant="-3" id="Cdo-ye-wxy"/>
-                            <constraint firstItem="bxN-sM-n34" firstAttribute="baseline" secondItem="tHy-IJ-IYZ" secondAttribute="baseline" constant="-1" id="Ehp-aG-14o"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tHy-IJ-IYZ" secondAttribute="trailing" constant="37" id="0Rc-kg-vut"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="tHy-IJ-IYZ" secondAttribute="bottom" constant="235" id="1Vm-Hr-fk6"/>
+                            <constraint firstItem="tHy-IJ-IYZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="210" id="Cpe-c9-CTi"/>
+                            <constraint firstItem="bxN-sM-n34" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="41" id="Cv0-Xk-1aE"/>
                             <constraint firstItem="JZx-er-fN7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Eiz-5v-aLu"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="tHy-IJ-IYZ" secondAttribute="bottom" constant="235" id="FUT-Kd-Bch"/>
                             <constraint firstItem="c6V-9M-05d" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Flm-Nk-0Gg"/>
-                            <constraint firstItem="tHy-IJ-IYZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="210" id="H6f-MQ-jEd"/>
                             <constraint firstAttribute="trailingMargin" secondItem="JZx-er-fN7" secondAttribute="trailing" constant="-51" id="Hrd-vn-dG6"/>
                             <constraint firstItem="9al-rJ-1C5" firstAttribute="leading" secondItem="JZx-er-fN7" secondAttribute="leading" id="RX3-jv-vrh"/>
-                            <constraint firstItem="bxN-sM-n34" firstAttribute="firstBaseline" secondItem="tHy-IJ-IYZ" secondAttribute="firstBaseline" constant="-1" id="TkT-AL-jyg"/>
                             <constraint firstItem="JZx-er-fN7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="160" id="UfY-T6-8Un"/>
                             <constraint firstAttribute="trailingMargin" secondItem="9al-rJ-1C5" secondAttribute="trailing" constant="-33" id="VXG-4f-fBA"/>
                             <constraint firstItem="c6V-9M-05d" firstAttribute="leading" secondItem="JZx-er-fN7" secondAttribute="leading" id="bFc-kh-2NY"/>
                             <constraint firstItem="c6V-9M-05d" firstAttribute="top" secondItem="JZx-er-fN7" secondAttribute="bottom" constant="29" id="bMz-vr-zX6"/>
                             <constraint firstItem="9al-rJ-1C5" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-56" id="bUM-MM-9hf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bxN-sM-n34" secondAttribute="bottom" constant="238" id="baO-4J-vJa"/>
                             <constraint firstAttribute="bottomMargin" secondItem="9al-rJ-1C5" secondAttribute="bottom" constant="-50" id="dnT-OX-ybQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bxN-sM-n34" secondAttribute="trailing" constant="199" id="eAM-cC-5If"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="c6V-9M-05d" secondAttribute="bottom" constant="410" id="lQI-fG-JtY"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bxN-sM-n34" secondAttribute="trailing" constant="199" id="txl-dV-HZs"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="pOQ-Qy-IRY"/>
@@ -168,6 +170,7 @@
                                         <state key="normal" title="Log in"/>
                                         <connections>
                                             <action selector="loginTapped:" destination="azS-e2-7qY" eventType="touchUpInside" id="X3K-fR-jqz"/>
+                                            <segue destination="b3C-ne-AFi" kind="showDetail" identifier="loginToHome" id="imz-9O-62o"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -474,10 +477,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ozX-o2-vMv"/>
+        <segue reference="imz-9O-62o"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="Background " width="270" height="591"/>
+        <image name="Background " width="540" height="1182"/>
         <image name="Background with Logo " width="270" height="591"/>
         <image name="small-Logo" width="752" height="298"/>
         <systemColor name="quaternaryLabelColor">

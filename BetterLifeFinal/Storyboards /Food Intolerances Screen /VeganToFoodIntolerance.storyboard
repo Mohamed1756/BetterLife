@@ -55,6 +55,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DJT-sq-pEU">
                                         <rect key="frame" x="0.0" y="80" width="334" height="30"/>
                                         <state key="normal" title="Nuts"/>
+                                        <connections>
+                                            <segue destination="3xC-7a-T6D" kind="showDetail" identifier="veganNutFree" id="fko-Yx-rcA"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Bq-AZ-TDU">
                                         <rect key="frame" x="0.0" y="120" width="334" height="30"/>
@@ -189,7 +192,7 @@
                                 <rect key="frame" x="0.0" y="315" width="414" height="197"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="8bP-To-LUy">
-                                    <size key="itemSize" width="135" height="142"/>
+                                    <size key="itemSize" width="152" height="151"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -321,6 +324,7 @@
                             <constraint firstItem="UrA-Lb-G7C" firstAttribute="trailing" secondItem="kji-1x-jMc" secondAttribute="trailing" id="SBI-Kl-r1m"/>
                             <constraint firstItem="UrA-Lb-G7C" firstAttribute="top" secondItem="EGf-Ot-qDp" secondAttribute="bottom" constant="8" id="Txy-FX-dLy"/>
                             <constraint firstItem="EGf-Ot-qDp" firstAttribute="top" secondItem="c9W-XU-PKZ" secondAttribute="top" constant="63" id="UeC-qJ-hdI"/>
+                            <constraint firstItem="kji-1x-jMc" firstAttribute="top" secondItem="UrA-Lb-G7C" secondAttribute="bottom" constant="63" id="Wgg-v5-JUo"/>
                             <constraint firstItem="kji-1x-jMc" firstAttribute="top" secondItem="OVc-QU-faQ" secondAttribute="bottom" constant="8" id="YVA-u9-zaT"/>
                             <constraint firstItem="EGf-Ot-qDp" firstAttribute="leading" secondItem="OVc-QU-faQ" secondAttribute="leading" id="aOm-Rc-QGr"/>
                             <constraint firstItem="UrA-Lb-G7C" firstAttribute="leading" secondItem="c9W-XU-PKZ" secondAttribute="leading" id="eQo-gP-5xD"/>
@@ -598,6 +602,243 @@
             </objects>
             <point key="canvasLocation" x="5989.8550724637689" y="-731.25"/>
         </scene>
+        <!--Vegan Nut Intolerance-->
+        <scene sceneID="zJh-HX-TjY">
+            <objects>
+                <viewController id="3xC-7a-T6D" customClass="VeganNutIntolerance" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mYP-lO-boO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background " translatesAutoresizingMaskIntoConstraints="NO" id="fUA-z8-ieH">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Breakfast" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PrO-95-YXf">
+                                <rect key="frame" x="20" y="41" width="95" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="VGg-JH-xuv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dinner" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sW1-g6-B2e">
+                                <rect key="frame" x="20" y="519" width="95" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="DVm-Vd-4u6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="nJZ-cf-aED">
+                                <rect key="frame" x="0.0" y="74" width="424" height="160"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="aGb-tK-UyC"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="eih-a9-aEn">
+                                    <size key="itemSize" width="132" height="132"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="BreakfastCell" id="YdW-PW-ED0" customClass="VeganImageCollectionView" customModule="BetterLifeFinal" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="14" width="132" height="132"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="wTK-iT-KVS">
+                                            <rect key="frame" x="0.0" y="0.0" width="132" height="132"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7Dy-7s-tnb">
+                                                    <rect key="frame" x="8" y="0.0" width="116" height="86"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sjh-Gp-8xS">
+                                                    <rect key="frame" x="8" y="87" width="116" height="37"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="37" id="TIR-Mb-GG3"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="7Dy-7s-tnb" firstAttribute="leading" secondItem="wTK-iT-KVS" secondAttribute="leadingMargin" id="9TN-NG-MVb"/>
+                                                <constraint firstItem="7Dy-7s-tnb" firstAttribute="leading" secondItem="sjh-Gp-8xS" secondAttribute="leading" id="BNf-ib-5v3"/>
+                                                <constraint firstItem="7Dy-7s-tnb" firstAttribute="trailing" secondItem="sjh-Gp-8xS" secondAttribute="trailing" id="H71-kC-hvz"/>
+                                                <constraint firstItem="sjh-Gp-8xS" firstAttribute="top" secondItem="7Dy-7s-tnb" secondAttribute="bottom" constant="1" id="QNm-iQ-NI2"/>
+                                                <constraint firstItem="7Dy-7s-tnb" firstAttribute="trailing" secondItem="wTK-iT-KVS" secondAttribute="trailingMargin" id="fKu-Cy-zDh"/>
+                                                <constraint firstItem="sjh-Gp-8xS" firstAttribute="bottom" secondItem="wTK-iT-KVS" secondAttribute="bottomMargin" id="mL0-PH-22E"/>
+                                                <constraint firstItem="7Dy-7s-tnb" firstAttribute="top" secondItem="wTK-iT-KVS" secondAttribute="top" id="ytG-vL-T4L"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <connections>
+                                            <outlet property="veganNutBreakfastImage" destination="7Dy-7s-tnb" id="fYp-vl-wQI"/>
+                                            <outlet property="veganNutBreakfastTextLabel" destination="sjh-Gp-8xS" id="Sgb-Sy-ruo"/>
+                                            <segue destination="TkB-hA-ZvJ" kind="showDetail" identifier="veganNutBreakfastToRecipe" id="R4i-Vm-DVx"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="3xC-7a-T6D" id="dSP-BW-blN"/>
+                                    <outlet property="delegate" destination="3xC-7a-T6D" id="SQW-eT-qiX"/>
+                                </connections>
+                            </collectionView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="BQC-tN-1mb">
+                                <rect key="frame" x="0.0" y="306" width="424" height="168"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="rDq-Hz-g3C">
+                                    <size key="itemSize" width="132" height="132"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="LunchCell" id="aDd-RC-B5j" customClass="VeganImageCollectionView" customModule="BetterLifeFinal" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="18" width="132" height="132"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="di7-mL-Px7">
+                                            <rect key="frame" x="0.0" y="0.0" width="132" height="132"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tbL-E4-VbO">
+                                                    <rect key="frame" x="8" y="0.0" width="116" height="86"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sQJ-38-1x3">
+                                                    <rect key="frame" x="8" y="87" width="116" height="37"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="37" id="dPL-Mq-V4j"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="tbL-E4-VbO" firstAttribute="leading" secondItem="di7-mL-Px7" secondAttribute="leadingMargin" id="3KL-HN-maE"/>
+                                                <constraint firstItem="sQJ-38-1x3" firstAttribute="top" secondItem="tbL-E4-VbO" secondAttribute="bottom" constant="1" id="Gbl-JV-3Pb"/>
+                                                <constraint firstItem="tbL-E4-VbO" firstAttribute="trailing" secondItem="di7-mL-Px7" secondAttribute="trailingMargin" id="JK6-DM-hhf"/>
+                                                <constraint firstItem="tbL-E4-VbO" firstAttribute="top" secondItem="di7-mL-Px7" secondAttribute="top" id="KJy-1m-vXZ"/>
+                                                <constraint firstItem="tbL-E4-VbO" firstAttribute="leading" secondItem="sQJ-38-1x3" secondAttribute="leading" id="aTa-QV-0V2"/>
+                                                <constraint firstItem="sQJ-38-1x3" firstAttribute="bottom" secondItem="di7-mL-Px7" secondAttribute="bottomMargin" id="da6-RR-OQt"/>
+                                                <constraint firstItem="tbL-E4-VbO" firstAttribute="trailing" secondItem="sQJ-38-1x3" secondAttribute="trailing" id="sUX-cM-fQh"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <connections>
+                                            <outlet property="veganNutLunchImage" destination="tbL-E4-VbO" id="nvf-jJ-D3G"/>
+                                            <outlet property="veganNutLunchTextLabel" destination="sQJ-38-1x3" id="erN-sl-NAp"/>
+                                            <segue destination="TkB-hA-ZvJ" kind="showDetail" identifier="veganNutLunchToRecipe" id="fmh-f4-rY8"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="3xC-7a-T6D" id="FBE-kK-2at"/>
+                                    <outlet property="delegate" destination="3xC-7a-T6D" id="HQJ-Ns-oJO"/>
+                                </connections>
+                            </collectionView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lunch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cWP-Av-phe">
+                                <rect key="frame" x="20" y="256" width="95" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="DPW-Ue-rMc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="frr-H8-9cH">
+                                <rect key="frame" x="0.0" y="553" width="424" height="167"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="FpH-dp-qn8">
+                                    <size key="itemSize" width="132" height="132"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DinnerCell" id="8MA-vs-jU3" customClass="VeganImageCollectionView" customModule="BetterLifeFinal" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="17.5" width="132" height="132"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="0Wt-fG-le1">
+                                            <rect key="frame" x="0.0" y="0.0" width="132" height="132"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kEh-ip-Jlt">
+                                                    <rect key="frame" x="8" y="0.0" width="116" height="86"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GPH-tC-Cvq">
+                                                    <rect key="frame" x="8" y="87" width="116" height="37"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="37" id="Vpn-jN-xUz"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="kEh-ip-Jlt" firstAttribute="leading" secondItem="GPH-tC-Cvq" secondAttribute="leading" id="3eZ-8K-F1b"/>
+                                                <constraint firstItem="kEh-ip-Jlt" firstAttribute="trailing" secondItem="0Wt-fG-le1" secondAttribute="trailingMargin" id="9eq-ec-mfv"/>
+                                                <constraint firstItem="kEh-ip-Jlt" firstAttribute="leading" secondItem="0Wt-fG-le1" secondAttribute="leadingMargin" id="CHc-rI-4Lr"/>
+                                                <constraint firstItem="GPH-tC-Cvq" firstAttribute="bottom" secondItem="0Wt-fG-le1" secondAttribute="bottomMargin" id="RY9-cZ-mMs"/>
+                                                <constraint firstItem="kEh-ip-Jlt" firstAttribute="trailing" secondItem="GPH-tC-Cvq" secondAttribute="trailing" id="SmS-0h-6bs"/>
+                                                <constraint firstItem="kEh-ip-Jlt" firstAttribute="top" secondItem="0Wt-fG-le1" secondAttribute="top" id="aK9-MC-cxW"/>
+                                                <constraint firstItem="GPH-tC-Cvq" firstAttribute="top" secondItem="kEh-ip-Jlt" secondAttribute="bottom" constant="1" id="fxe-sf-daM"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <connections>
+                                            <outlet property="veganNutDinnerImage" destination="kEh-ip-Jlt" id="lMD-6t-k6V"/>
+                                            <outlet property="veganNutDinnerTextLabel" destination="GPH-tC-Cvq" id="WOE-ML-U0Z"/>
+                                            <segue destination="TkB-hA-ZvJ" kind="showDetail" identifier="veganNutDinnerToRecipe" id="kiR-Oz-8ST"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="3xC-7a-T6D" id="461-55-Uz0"/>
+                                    <outlet property="delegate" destination="3xC-7a-T6D" id="pm7-CP-l5d"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wD7-9E-TdY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cWP-Av-phe" firstAttribute="top" secondItem="nJZ-cf-aED" secondAttribute="bottom" constant="22" id="2lv-dg-U0x"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nJZ-cf-aED" secondAttribute="trailing" constant="-30" id="2m6-qG-iWb"/>
+                            <constraint firstItem="BQC-tN-1mb" firstAttribute="trailing" secondItem="nJZ-cf-aED" secondAttribute="trailing" id="3Y2-JV-57W"/>
+                            <constraint firstItem="nJZ-cf-aED" firstAttribute="top" secondItem="wD7-9E-TdY" secondAttribute="top" constant="74" id="AC8-jg-zrZ"/>
+                            <constraint firstItem="cWP-Av-phe" firstAttribute="leading" secondItem="sW1-g6-B2e" secondAttribute="leading" id="FLO-bA-Bgo"/>
+                            <constraint firstItem="nJZ-cf-aED" firstAttribute="leading" secondItem="wD7-9E-TdY" secondAttribute="leading" id="Gh8-iL-McG"/>
+                            <constraint firstItem="frr-H8-9cH" firstAttribute="top" secondItem="BQC-tN-1mb" secondAttribute="bottom" constant="79" id="Gx2-RB-q82"/>
+                            <constraint firstItem="wD7-9E-TdY" firstAttribute="trailing" secondItem="PrO-95-YXf" secondAttribute="trailing" constant="299" id="Jkt-Ur-7CX"/>
+                            <constraint firstItem="cWP-Av-phe" firstAttribute="trailing" secondItem="sW1-g6-B2e" secondAttribute="trailing" id="LCR-LC-eBu"/>
+                            <constraint firstItem="PrO-95-YXf" firstAttribute="leading" secondItem="cWP-Av-phe" secondAttribute="leading" id="PVb-hd-aAd"/>
+                            <constraint firstItem="wD7-9E-TdY" firstAttribute="bottom" secondItem="sW1-g6-B2e" secondAttribute="bottom" constant="247" id="UsJ-YU-sTJ"/>
+                            <constraint firstItem="fUA-z8-ieH" firstAttribute="centerY" secondItem="mYP-lO-boO" secondAttribute="centerY" id="Vo4-4R-t1G"/>
+                            <constraint firstItem="frr-H8-9cH" firstAttribute="trailing" secondItem="BQC-tN-1mb" secondAttribute="trailing" id="a4o-PG-Gfl"/>
+                            <constraint firstItem="PrO-95-YXf" firstAttribute="leading" secondItem="mYP-lO-boO" secondAttribute="leadingMargin" id="cK2-Kq-kSc"/>
+                            <constraint firstItem="fUA-z8-ieH" firstAttribute="centerX" secondItem="mYP-lO-boO" secondAttribute="centerX" id="eeJ-eb-NnE"/>
+                            <constraint firstItem="fUA-z8-ieH" firstAttribute="top" secondItem="wD7-9E-TdY" secondAttribute="top" id="ege-XH-aws"/>
+                            <constraint firstItem="sW1-g6-B2e" firstAttribute="top" secondItem="BQC-tN-1mb" secondAttribute="bottom" constant="45" id="hml-Iz-Slv"/>
+                            <constraint firstItem="frr-H8-9cH" firstAttribute="leading" secondItem="BQC-tN-1mb" secondAttribute="leading" id="ng6-XJ-e8n"/>
+                            <constraint firstItem="PrO-95-YXf" firstAttribute="trailing" secondItem="cWP-Av-phe" secondAttribute="trailing" id="pCm-Lv-VHE"/>
+                            <constraint firstItem="PrO-95-YXf" firstAttribute="top" secondItem="wD7-9E-TdY" secondAttribute="top" constant="41" id="q8x-li-VOr"/>
+                            <constraint firstItem="fUA-z8-ieH" firstAttribute="leading" secondItem="nJZ-cf-aED" secondAttribute="leading" id="rwV-aq-xFE"/>
+                            <constraint firstItem="wD7-9E-TdY" firstAttribute="bottom" secondItem="frr-H8-9cH" secondAttribute="bottom" constant="88" id="uuG-59-GeR"/>
+                            <constraint firstItem="BQC-tN-1mb" firstAttribute="top" secondItem="cWP-Av-phe" secondAttribute="bottom" constant="8" symbolic="YES" id="wub-x2-apl"/>
+                            <constraint firstItem="BQC-tN-1mb" firstAttribute="leading" secondItem="nJZ-cf-aED" secondAttribute="leading" id="z8h-H7-MGR"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="breakfastCollectionView" destination="nJZ-cf-aED" id="AXp-lH-sby"/>
+                        <outlet property="dinnerCollectionView" destination="frr-H8-9cH" id="cQd-JR-Hx7"/>
+                        <outlet property="lunchCollectionView" destination="BQC-tN-1mb" id="rhM-VK-mLd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tYE-Pj-amC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6027.536231884058" y="-52.232142857142854"/>
+        </scene>
         <!--RecipeScreen-->
         <scene sceneID="0eC-8G-nK2">
             <objects>
@@ -608,7 +849,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="k5O-IS-82B"/>
+        <segue reference="R4i-Vm-DVx"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Background " width="540" height="1182"/>
