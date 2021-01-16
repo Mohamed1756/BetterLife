@@ -63,6 +63,11 @@
 		D9E3BEB625B32BC400AE110A /* VeganNutBreakfast.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9E3BEB525B32BC400AE110A /* VeganNutBreakfast.plist */; };
 		D9E3BEBA25B32BD100AE110A /* VeganNutLunch.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9E3BEB925B32BD100AE110A /* VeganNutLunch.plist */; };
 		D9E3BEBE25B32BEB00AE110A /* VeganNutDinner.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9E3BEBD25B32BEB00AE110A /* VeganNutDinner.plist */; };
+		D9E3BEC325B3466200AE110A /* VegeterianBasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E3BEC225B3466200AE110A /* VegeterianBasicView.swift */; };
+		D9E3BECF25B3472000AE110A /* VegeterianImageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E3BECE25B3472000AE110A /* VegeterianImageCollectionView.swift */; };
+		D9E3BED525B3498600AE110A /* VegeterianBreakfast.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9E3BED425B3498600AE110A /* VegeterianBreakfast.plist */; };
+		D9E3BED925B3498F00AE110A /* VegeterianLunch.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9E3BED825B3498F00AE110A /* VegeterianLunch.plist */; };
+		D9E3BEDD25B3499F00AE110A /* VegeterianDinner.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9E3BEDC25B3499F00AE110A /* VegeterianDinner.plist */; };
 		D9FFCAFB25A3444300502914 /* FoodIntoleranceScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FFCAFA25A3444300502914 /* FoodIntoleranceScreen.swift */; };
 /* End PBXBuildFile section */
 
@@ -141,6 +146,11 @@
 		D9E3BEB525B32BC400AE110A /* VeganNutBreakfast.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VeganNutBreakfast.plist; sourceTree = "<group>"; };
 		D9E3BEB925B32BD100AE110A /* VeganNutLunch.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VeganNutLunch.plist; sourceTree = "<group>"; };
 		D9E3BEBD25B32BEB00AE110A /* VeganNutDinner.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VeganNutDinner.plist; sourceTree = "<group>"; };
+		D9E3BEC225B3466200AE110A /* VegeterianBasicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegeterianBasicView.swift; sourceTree = "<group>"; };
+		D9E3BECE25B3472000AE110A /* VegeterianImageCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegeterianImageCollectionView.swift; sourceTree = "<group>"; };
+		D9E3BED425B3498600AE110A /* VegeterianBreakfast.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VegeterianBreakfast.plist; sourceTree = "<group>"; };
+		D9E3BED825B3498F00AE110A /* VegeterianLunch.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VegeterianLunch.plist; sourceTree = "<group>"; };
+		D9E3BEDC25B3499F00AE110A /* VegeterianDinner.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VegeterianDinner.plist; sourceTree = "<group>"; };
 		D9FFCAFA25A3444300502914 /* FoodIntoleranceScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodIntoleranceScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -199,6 +209,7 @@
 		D905514D25A4A13D009AB32D /* Food Intolerance screens  */ = {
 			isa = PBXGroup;
 			children = (
+				D9E3BEC125B3462C00AE110A /* Vegeterian */,
 				D9C1FD5C25B099E900FDA667 /* Vegan */,
 				D905515025A4A320009AB32D /* None  */,
 				D905513625A49D32009AB32D /* PescFoodIntolerance.swift */,
@@ -276,6 +287,7 @@
 		D96ED19225A9E43800B17082 /* Properties  */ = {
 			isa = PBXGroup;
 			children = (
+				D9E3BED225B3494B00AE110A /* Vegeterian */,
 				D928C0CB25ADB8CC00A62C9A /* No Dietery Requirements */,
 				D9C1FD5925B0984600FDA667 /* Vegan */,
 			);
@@ -403,6 +415,33 @@
 			path = "Nut Free";
 			sourceTree = "<group>";
 		};
+		D9E3BEC125B3462C00AE110A /* Vegeterian */ = {
+			isa = PBXGroup;
+			children = (
+				D9E3BEC225B3466200AE110A /* VegeterianBasicView.swift */,
+				D9E3BECE25B3472000AE110A /* VegeterianImageCollectionView.swift */,
+			);
+			path = Vegeterian;
+			sourceTree = "<group>";
+		};
+		D9E3BED225B3494B00AE110A /* Vegeterian */ = {
+			isa = PBXGroup;
+			children = (
+				D9E3BED325B3496400AE110A /* None */,
+			);
+			path = Vegeterian;
+			sourceTree = "<group>";
+		};
+		D9E3BED325B3496400AE110A /* None */ = {
+			isa = PBXGroup;
+			children = (
+				D9E3BED425B3498600AE110A /* VegeterianBreakfast.plist */,
+				D9E3BED825B3498F00AE110A /* VegeterianLunch.plist */,
+				D9E3BEDC25B3499F00AE110A /* VegeterianDinner.plist */,
+			);
+			path = None;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -500,10 +539,13 @@
 				D9E3BEBE25B32BEB00AE110A /* VeganNutDinner.plist in Resources */,
 				D9E3BEB625B32BC400AE110A /* VeganNutBreakfast.plist in Resources */,
 				D928C0E225ADCD8500A62C9A /* EggsLunch.plist in Resources */,
+				D9E3BEDD25B3499F00AE110A /* VegeterianDinner.plist in Resources */,
 				D93948B025AF376300E6784A /* FishDinner.plist in Resources */,
 				D905514625A49F48009AB32D /* GlutenToFoodIntolerance.storyboard in Resources */,
+				D9E3BED525B3498600AE110A /* VegeterianBreakfast.plist in Resources */,
 				D9C1FD4C25B067FC00FDA667 /* DairyBreakfast.plist in Resources */,
 				D928C0E625ADCF8800A62C9A /* EggsDinner.plist in Resources */,
+				D9E3BED925B3498F00AE110A /* VegeterianLunch.plist in Resources */,
 				D9C1FD9025B0A1AC00FDA667 /* RecipeScreen.storyboard in Resources */,
 				D93948A725AF373D00E6784A /* FishBreakfast.plist in Resources */,
 				D93BC13A25B1CB580051602E /* VeganGlutenLunch.plist in Resources */,
@@ -601,6 +643,7 @@
 				D9431D8625A5F69D009F13EF /* imageCollectionView.swift in Sources */,
 				D9C1FD5E25B09B2900FDA667 /* VeganBasicIntolerance.swift in Sources */,
 				D989E9FE25A1EBCA00ECEB5C /* MyMeals.swift in Sources */,
+				D9E3BEC325B3466200AE110A /* VegeterianBasicView.swift in Sources */,
 				D905513325A49CFD009AB32D /* GlutenFoodIntolerance.swift in Sources */,
 				D905515225A4A387009AB32D /* NoneSelectedFood.swift in Sources */,
 				D930D69A259E6713006A0093 /* FirebaseAuthManager.swift in Sources */,
@@ -608,6 +651,7 @@
 				D9FFCAFB25A3444300502914 /* FoodIntoleranceScreen.swift in Sources */,
 				D93BC14225B1E27F0051602E /* VeganNutIntolerance.swift in Sources */,
 				D90F8EDF25A7628F00CCF022 /* RecipeForNothing.swift in Sources */,
+				D9E3BECF25B3472000AE110A /* VegeterianImageCollectionView.swift in Sources */,
 				D93BC13125B1C76F0051602E /* VeganGlutenIntolerance.swift in Sources */,
 				D9C1FD6225B09C3700FDA667 /* VeganImageCollectionView.swift in Sources */,
 				D98A4FAD259CEA6D00294F64 /* ViewController.swift in Sources */,
