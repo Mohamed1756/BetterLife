@@ -18,7 +18,7 @@ class VegetarianGlutenView:UIViewController,UICollectionViewDelegate,UICollectio
     
     @IBOutlet weak var dinnerCollectionView: UICollectionView!
     
-    let breakfastLabels = ["Veggie", "2", "3", "4", "5"]
+    let breakfastLabels = ["Veg Gluten", "2", "3", "4", "5"]
     let lunchLabels = ["1- high calorie","2", "3", "4", "5"]
     let dinnerLabels = ["vegan", "apple", "shake", "avacado", "rice", "last"]
     
