@@ -37,4 +37,17 @@ class VegeterianImageCollectionView:UICollectionViewCell {
     @IBOutlet weak var vegetarianGlutenDinnerTextLabel: UILabel!
     
     
+    @IBOutlet weak var vegetarianEggBreakfastImage: UIImageView!
+    
+    @IBOutlet weak var vegetarianEggBreakfastTextLabel: UILabel!
+    
+    
+    @IBOutlet weak var vegetarianEggLunchImage: UIImageView!
+
+    @IBOutlet weak var vegetarianEggLunchTextLabel: UILabel!
+    
+    @IBOutlet weak var vegetarianEggDinnerImage: UIImageView!
+    
+    @IBOutlet weak var vegetarianEggDinnerTextLabel: UILabel!
+    
 }

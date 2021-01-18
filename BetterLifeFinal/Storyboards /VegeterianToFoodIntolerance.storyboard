@@ -17,8 +17,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background " translatesAutoresizingMaskIntoConstraints="NO" id="62q-Mt-33Q">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background " translatesAutoresizingMaskIntoConstraints="NO" id="62q-Mt-33Q">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bhP-4z-rKL">
                                 <rect key="frame" x="141" y="174" width="97.5" height="42"/>
@@ -38,92 +39,243 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="UZg-23-RN0">
-                                <rect key="frame" x="40" y="240" width="334" height="240"/>
+                                <rect key="frame" x="167" y="249" width="45" height="216"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="am0-w8-Pic">
-                                        <rect key="frame" x="0.0" y="0.0" width="334" height="23"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="41" height="30"/>
                                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="23" id="R9a-Xc-b5Z"/>
-                                        </constraints>
                                         <state key="normal" title="None "/>
                                         <connections>
                                             <segue destination="egP-zr-Yli" kind="showDetail" identifier="VeggieToNothing" id="j7I-vy-TQL"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CyR-Bk-PZn">
-                                        <rect key="frame" x="0.0" y="24" width="334" height="61"/>
+                                        <rect key="frame" x="0.0" y="31" width="35" height="30"/>
                                         <state key="normal" title="Eggs"/>
+                                        <connections>
+                                            <segue destination="XdF-Zy-3OS" kind="showDetail" identifier="VegEggFreeMeals" id="ece-eu-F6h"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QWn-p1-Sop">
-                                        <rect key="frame" x="0.0" y="86" width="334" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="leY-3u-eUa"/>
-                                        </constraints>
+                                        <rect key="frame" x="0.0" y="62" width="45" height="30"/>
                                         <state key="normal" title="Celery"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Mb-rb-cgj">
-                                        <rect key="frame" x="0.0" y="117" width="334" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="Lmh-F8-2lz"/>
-                                        </constraints>
+                                        <rect key="frame" x="0.0" y="93" width="36" height="30"/>
                                         <state key="normal" title="Dairy"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IgA-nJ-td5">
-                                        <rect key="frame" x="0.0" y="148" width="334" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="Cs7-H6-dAX"/>
-                                        </constraints>
+                                        <rect key="frame" x="0.0" y="124" width="33" height="30"/>
                                         <state key="normal" title="Nuts"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uMh-db-s9X">
-                                        <rect key="frame" x="0.0" y="179" width="334" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="tPJ-2T-uAt"/>
-                                        </constraints>
+                                        <rect key="frame" x="0.0" y="155" width="45" height="30"/>
                                         <state key="normal" title="Gluten"/>
                                         <connections>
                                             <segue destination="b7H-0C-Bm8" kind="showDetail" identifier="VegGlutenChoice" id="B5q-75-GoC"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uow-fa-8do">
-                                        <rect key="frame" x="0.0" y="210" width="334" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="Vv7-ze-TZI"/>
-                                        </constraints>
+                                        <rect key="frame" x="0.0" y="186" width="45" height="30"/>
                                         <state key="normal" title="Wheat"/>
                                     </button>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="am0-w8-Pic" secondAttribute="trailing" id="0Qa-W8-TSO"/>
-                                    <constraint firstAttribute="trailing" secondItem="uMh-db-s9X" secondAttribute="trailing" id="36A-lf-AaA"/>
-                                    <constraint firstAttribute="trailing" secondItem="IgA-nJ-td5" secondAttribute="trailing" id="FSR-4W-UgA"/>
-                                    <constraint firstAttribute="trailing" secondItem="8Mb-rb-cgj" secondAttribute="trailing" id="cg6-CI-bxb"/>
-                                    <constraint firstAttribute="trailing" secondItem="Uow-fa-8do" secondAttribute="trailing" id="jpS-LZ-41R"/>
-                                    <constraint firstAttribute="trailing" secondItem="QWn-p1-Sop" secondAttribute="trailing" id="o47-1V-vEN"/>
-                                    <constraint firstAttribute="trailing" secondItem="CyR-Bk-PZn" secondAttribute="trailing" id="ony-oz-a4v"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="HVX-Rw-20q"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="UZg-23-RN0" firstAttribute="leading" secondItem="HVX-Rw-20q" secondAttribute="leading" constant="40" id="14O-fk-j2c"/>
-                            <constraint firstItem="62q-Mt-33Q" firstAttribute="leading" secondItem="HVX-Rw-20q" secondAttribute="leading" id="4JM-y4-yo8"/>
-                            <constraint firstItem="HVX-Rw-20q" firstAttribute="bottom" secondItem="62q-Mt-33Q" secondAttribute="bottom" constant="-34" id="5PE-ke-GxX"/>
-                            <constraint firstItem="UZg-23-RN0" firstAttribute="top" secondItem="HVX-Rw-20q" secondAttribute="top" constant="196" id="GqZ-qe-i24"/>
-                            <constraint firstItem="HVX-Rw-20q" firstAttribute="bottom" secondItem="UZg-23-RN0" secondAttribute="bottom" constant="382" id="HjM-nm-S5W"/>
-                            <constraint firstItem="bhP-4z-rKL" firstAttribute="leading" secondItem="HVX-Rw-20q" secondAttribute="leading" constant="141" id="Ikn-f9-zFX"/>
-                            <constraint firstItem="bhP-4z-rKL" firstAttribute="top" secondItem="HVX-Rw-20q" secondAttribute="top" constant="130" id="SqS-S4-EzB"/>
-                            <constraint firstItem="HVX-Rw-20q" firstAttribute="trailing" secondItem="62q-Mt-33Q" secondAttribute="trailing" id="UsK-lX-tJK"/>
-                            <constraint firstItem="62q-Mt-33Q" firstAttribute="top" secondItem="nbl-i6-0EW" secondAttribute="top" id="cCL-XC-dVA"/>
-                            <constraint firstItem="HVX-Rw-20q" firstAttribute="trailing" secondItem="UZg-23-RN0" secondAttribute="trailing" constant="40" id="nYZ-9F-o7S"/>
+                            <constraint firstItem="UZg-23-RN0" firstAttribute="leading" secondItem="HVX-Rw-20q" secondAttribute="leading" constant="167" id="E7T-hF-I8h"/>
+                            <constraint firstItem="HVX-Rw-20q" firstAttribute="bottom" secondItem="UZg-23-RN0" secondAttribute="bottom" constant="397" id="Jle-bo-7Vb"/>
+                            <constraint firstItem="UZg-23-RN0" firstAttribute="centerX" secondItem="bhP-4z-rKL" secondAttribute="centerX" id="R2J-p4-dyj"/>
+                            <constraint firstItem="UZg-23-RN0" firstAttribute="top" secondItem="bhP-4z-rKL" secondAttribute="bottom" constant="33" id="xOU-xr-YMu"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5N9-6C-OZJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5069.5652173913049" y="-31.473214285714285"/>
+        </scene>
+        <!--Vegetarian Egg Free Views-->
+        <scene sceneID="Keu-mS-N9R">
+            <objects>
+                <viewController id="XdF-Zy-3OS" customClass="VegetarianEggFreeViews" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BB0-bJ-gBA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background " translatesAutoresizingMaskIntoConstraints="NO" id="HRa-CO-Khc">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Breakfast" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ec-bB-0wC">
+                                <rect key="frame" x="20" y="44" width="97" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="x0f-xw-cgv">
+                                <rect key="frame" x="0.0" y="86" width="414" height="159"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="g99-hk-CbT">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="BreakfastCell" id="lh2-Qh-Rht" customClass="VegeterianImageCollectionView" customModule="BetterLifeFinal" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="15.5" width="128" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="lCX-7p-olJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="69y-rJ-JuL">
+                                                    <rect key="frame" x="8" y="8" width="112" height="84"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TxM-2L-dGj">
+                                                    <rect key="frame" x="8" y="91" width="112" height="37"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </collectionViewCellContentView>
+                                        <connections>
+                                            <outlet property="vegetarianEggBreakfastImage" destination="69y-rJ-JuL" id="FZ9-P1-a4Q"/>
+                                            <outlet property="vegetarianEggBreakfastTextLabel" destination="TxM-2L-dGj" id="7sm-o7-N0D"/>
+                                            <segue destination="NBS-7C-DQJ" kind="showDetail" identifier="vegEggBreakfastToRecipe" id="eSn-Qb-ZRm"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="XdF-Zy-3OS" id="KwT-E2-3TB"/>
+                                    <outlet property="delegate" destination="XdF-Zy-3OS" id="6Sp-4X-oAy"/>
+                                </connections>
+                            </collectionView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lunch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Nt-tV-x2d">
+                                <rect key="frame" x="20" y="271" width="97" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="zYy-qf-eYd">
+                                <rect key="frame" x="0.0" y="307" width="414" height="168"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="IVb-0O-2Ha">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="LunchCell" id="6WL-oi-6Xu" customClass="VegeterianImageCollectionView" customModule="BetterLifeFinal" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="20" width="128" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="MCR-ge-9kw">
+                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bON-QT-IDJ">
+                                                    <rect key="frame" x="8" y="8" width="112" height="84"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fRF-hu-U6B">
+                                                    <rect key="frame" x="8" y="91" width="112" height="37"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </collectionViewCellContentView>
+                                        <connections>
+                                            <outlet property="vegetarianEggLunchImage" destination="bON-QT-IDJ" id="HVP-xK-CdM"/>
+                                            <outlet property="vegetarianEggLunchTextLabel" destination="fRF-hu-U6B" id="kfH-ov-aft"/>
+                                            <segue destination="NBS-7C-DQJ" kind="showDetail" identifier="vegEggLunchToRecipe" id="Lus-WR-aWo"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="XdF-Zy-3OS" id="25b-eY-13N"/>
+                                    <outlet property="delegate" destination="XdF-Zy-3OS" id="Ra3-VC-44D"/>
+                                </connections>
+                            </collectionView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="59P-EO-w86">
+                                <rect key="frame" x="0.0" y="553" width="414" height="162"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="XcS-oo-jzK">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DinnerCell" id="qjA-D6-83R" customClass="VegeterianImageCollectionView" customModule="BetterLifeFinal" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="17" width="128" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="plb-YP-A2E">
+                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9qM-dG-GVN">
+                                                    <rect key="frame" x="8" y="8" width="112" height="84"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cLK-m8-tmk">
+                                                    <rect key="frame" x="8" y="91" width="112" height="37"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </collectionViewCellContentView>
+                                        <connections>
+                                            <outlet property="vegetarianEggDinnerImage" destination="9qM-dG-GVN" id="hqy-va-df4"/>
+                                            <outlet property="vegetarianEggDinnerTextLabel" destination="cLK-m8-tmk" id="Bhy-4O-dUS"/>
+                                            <segue destination="NBS-7C-DQJ" kind="showDetail" identifier="vegEggDinnerToRecipe" id="ugW-hY-tvi"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="XdF-Zy-3OS" id="B80-Xs-aEM"/>
+                                    <outlet property="delegate" destination="XdF-Zy-3OS" id="XA3-uw-O1H"/>
+                                </connections>
+                            </collectionView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dinner" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TBO-bU-bbA">
+                                <rect key="frame" x="20" y="499" width="97" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Y0O-5j-gYN"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="HRa-CO-Khc" firstAttribute="top" secondItem="Y0O-5j-gYN" secondAttribute="top" id="Bpj-iB-soT"/>
+                            <constraint firstItem="HRa-CO-Khc" firstAttribute="centerY" secondItem="BB0-bJ-gBA" secondAttribute="centerY" id="hfB-ed-fEe"/>
+                            <constraint firstItem="HRa-CO-Khc" firstAttribute="leading" secondItem="Y0O-5j-gYN" secondAttribute="leading" id="nJK-u2-Le6"/>
+                            <constraint firstItem="HRa-CO-Khc" firstAttribute="centerX" secondItem="BB0-bJ-gBA" secondAttribute="centerX" id="o8s-Lg-YPu"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="breakfastCollectionView" destination="x0f-xw-cgv" id="t3g-Em-2qj"/>
+                        <outlet property="dinnerCollectionView" destination="59P-EO-w86" id="qs2-Jh-huI"/>
+                        <outlet property="lunchCollectionView" destination="zYy-qf-eYd" id="C6E-x5-qmO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jxn-si-mqj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6031.884057971015" y="-758.03571428571422"/>
         </scene>
         <!--Vegeterian Basic View-->
         <scene sceneID="aHi-0d-SrN">
@@ -319,13 +471,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lunch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m5q-VD-7Fl">
-                                <rect key="frame" x="20" y="274" width="122" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dinner" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tgw-vE-Mpj">
                                 <rect key="frame" x="20" y="504" width="122" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -462,6 +607,13 @@
                                     <outlet property="delegate" destination="b7H-0C-Bm8" id="I0m-88-t5l"/>
                                 </connections>
                             </collectionView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lunch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m5q-VD-7Fl">
+                                <rect key="frame" x="20" y="265" width="122" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mtb-lf-tBx"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -492,7 +644,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="v7z-Cr-Hge"/>
+        <segue reference="Lus-WR-aWo"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Background " width="540" height="1182"/>
