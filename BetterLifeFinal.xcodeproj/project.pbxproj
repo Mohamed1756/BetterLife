@@ -58,6 +58,10 @@
 		D98A4FB5259CEA7100294F64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98A4FB3259CEA7100294F64 /* LaunchScreen.storyboard */; };
 		D98A4FC0259CEA7100294F64 /* BetterLifeFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98A4FBF259CEA7100294F64 /* BetterLifeFinalTests.swift */; };
 		D98A4FE6259D065500294F64 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98A4FE5259D065500294F64 /* LoginScreen.swift */; };
+		D9BCD8BD25B6FA650038626F /* VegetarianNutFreeViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BCD8BC25B6FA650038626F /* VegetarianNutFreeViews.swift */; };
+		D9BCD8C225B6FAA00038626F /* VegetarianNutBreakfast.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9BCD8C125B6FAA00038626F /* VegetarianNutBreakfast.plist */; };
+		D9BCD8C625B6FACA0038626F /* VegetarianNutLunch.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9BCD8C525B6FACA0038626F /* VegetarianNutLunch.plist */; };
+		D9BCD8CA25B6FAD80038626F /* VegetarianNutDinner.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9BCD8C925B6FAD80038626F /* VegetarianNutDinner.plist */; };
 		D9C1FD4725B0619200FDA667 /* DairyIntolerance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C1FD4625B0619200FDA667 /* DairyIntolerance.swift */; };
 		D9C1FD4C25B067FC00FDA667 /* DairyBreakfast.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9C1FD4B25B067FC00FDA667 /* DairyBreakfast.plist */; };
 		D9C1FD5025B0681300FDA667 /* DairyLunch.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9C1FD4F25B0681300FDA667 /* DairyLunch.plist */; };
@@ -149,6 +153,10 @@
 		D98A4FC1259CEA7100294F64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D98A4FE5259D065500294F64 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		D9A333640F53E6742607635E /* Pods_BetterLifeFinal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BetterLifeFinal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9BCD8BC25B6FA650038626F /* VegetarianNutFreeViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetarianNutFreeViews.swift; sourceTree = "<group>"; };
+		D9BCD8C125B6FAA00038626F /* VegetarianNutBreakfast.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VegetarianNutBreakfast.plist; sourceTree = "<group>"; };
+		D9BCD8C525B6FACA0038626F /* VegetarianNutLunch.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VegetarianNutLunch.plist; sourceTree = "<group>"; };
+		D9BCD8C925B6FAD80038626F /* VegetarianNutDinner.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VegetarianNutDinner.plist; sourceTree = "<group>"; };
 		D9C1FD4625B0619200FDA667 /* DairyIntolerance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DairyIntolerance.swift; sourceTree = "<group>"; };
 		D9C1FD4B25B067FC00FDA667 /* DairyBreakfast.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DairyBreakfast.plist; sourceTree = "<group>"; };
 		D9C1FD4F25B0681300FDA667 /* DairyLunch.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DairyLunch.plist; sourceTree = "<group>"; };
@@ -399,6 +407,16 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		D9BCD8C025B6FA840038626F /* Nut Free */ = {
+			isa = PBXGroup;
+			children = (
+				D9BCD8C125B6FAA00038626F /* VegetarianNutBreakfast.plist */,
+				D9BCD8C525B6FACA0038626F /* VegetarianNutLunch.plist */,
+				D9BCD8C925B6FAD80038626F /* VegetarianNutDinner.plist */,
+			);
+			path = "Nut Free";
+			sourceTree = "<group>";
+		};
 		D9C1FD4A25B067BD00FDA667 /* Dairy */ = {
 			isa = PBXGroup;
 			children = (
@@ -458,6 +476,7 @@
 				D9E3BECE25B3472000AE110A /* VegeterianImageCollectionView.swift */,
 				D96F043225B49E8A00467282 /* VegetarianGlutenView.swift */,
 				D917A1E125B5D1E7006449DA /* VegetarianEggFreeViews.swift */,
+				D9BCD8BC25B6FA650038626F /* VegetarianNutFreeViews.swift */,
 			);
 			path = Vegeterian;
 			sourceTree = "<group>";
@@ -465,6 +484,7 @@
 		D9E3BED225B3494B00AE110A /* Vegeterian */ = {
 			isa = PBXGroup;
 			children = (
+				D9BCD8C025B6FA840038626F /* Nut Free */,
 				D917A1E525B5D4D8006449DA /* Egg Free */,
 				D96F043625B4A2FC00467282 /* Gluten Free  */,
 				D9E3BED325B3496400AE110A /* None */,
@@ -566,6 +586,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D905513B25A49E3F009AB32D /* VeganToFoodIntolerance.storyboard in Resources */,
+				D9BCD8C225B6FAA00038626F /* VegetarianNutBreakfast.plist in Resources */,
 				D905512725A4905A009AB32D /* NoneToFoodIntolerance.storyboard in Resources */,
 				D90F8EE325A8899400CCF022 /* Food.plist in Resources */,
 				D98A4FB5259CEA7100294F64 /* LaunchScreen.storyboard in Resources */,
@@ -602,7 +623,9 @@
 				D9C1FD8C25B09FA100FDA667 /* VeganDinner.plist in Resources */,
 				D96F043E25B4A43D00467282 /* VegetarianGlutenLunch.plist in Resources */,
 				D98A4FB0259CEA6D00294F64 /* Main.storyboard in Resources */,
+				D9BCD8CA25B6FAD80038626F /* VegetarianNutDinner.plist in Resources */,
 				D96F044225B4A47B00467282 /* VegetarianGlutenDinner.plist in Resources */,
+				D9BCD8C625B6FACA0038626F /* VegetarianNutLunch.plist in Resources */,
 				D93948AB25AF374C00E6784A /* FishLunch.plist in Resources */,
 				D9C1FD8825B09F8200FDA667 /* VeganLunch.plist in Resources */,
 			);
@@ -702,6 +725,7 @@
 				D9C1FD6225B09C3700FDA667 /* VeganImageCollectionView.swift in Sources */,
 				D98A4FAD259CEA6D00294F64 /* ViewController.swift in Sources */,
 				D98A4FE6259D065500294F64 /* LoginScreen.swift in Sources */,
+				D9BCD8BD25B6FA650038626F /* VegetarianNutFreeViews.swift in Sources */,
 				D98A4FA9259CEA6D00294F64 /* AppDelegate.swift in Sources */,
 				D905512F25A49BFF009AB32D /* VegeterianFoodIntolerance.swift in Sources */,
 				D989E9FA25A1E7EA00ECEB5C /* HomeScreenView.swift in Sources */,
