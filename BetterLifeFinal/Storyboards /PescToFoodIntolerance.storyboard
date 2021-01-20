@@ -22,9 +22,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="BTG-iv-4OV">
-                                <rect key="frame" x="170" y="252" width="114" height="180"/>
+                                <rect key="frame" x="170" y="252" width="45" height="150"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="88j-Lr-MNF">
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="88j-Lr-MNF">
                                         <rect key="frame" x="0.0" y="0.0" width="41" height="30"/>
                                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="None "/>
@@ -39,30 +39,25 @@
                                             <segue destination="lKy-31-nfO" kind="showDetail" identifier="pescEggFreeScreen" id="nwR-jE-CdU"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Z5-6b-jV0">
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Z5-6b-jV0">
                                         <rect key="frame" x="0.0" y="60" width="36" height="30"/>
                                         <state key="normal" title="Dairy"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sh3-Zl-TOd">
-                                        <rect key="frame" x="0.0" y="90" width="33" height="30"/>
-                                        <state key="normal" title="Nuts"/>
+                                        <connections>
+                                            <segue destination="4MH-XN-3GW" kind="showDetail" identifier="DairyToGluten" id="Pv0-E4-1ss"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="80z-9k-QKn">
-                                        <rect key="frame" x="0.0" y="120" width="45" height="30"/>
+                                        <rect key="frame" x="0.0" y="90" width="45" height="30"/>
                                         <state key="normal" title="Gluten"/>
                                         <connections>
                                             <segue destination="4MH-XN-3GW" kind="showDetail" identifier="pescGlutenScreen" id="iyl-Qw-N8F"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="feA-kQ-mCi">
-                                        <rect key="frame" x="0.0" y="150" width="45" height="30"/>
+                                        <rect key="frame" x="0.0" y="120" width="45" height="30"/>
                                         <state key="normal" title="Wheat"/>
                                     </button>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="180" id="Hh4-aZ-ykH"/>
-                                    <constraint firstAttribute="width" constant="114" id="bRX-rm-Yzh"/>
-                                </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="mrf-qv-2CY">
                                 <rect key="frame" x="140" y="177" width="174" height="42"/>
@@ -88,9 +83,8 @@
                             <constraint firstItem="9EK-T1-2BX" firstAttribute="trailing" secondItem="mrf-qv-2CY" secondAttribute="trailing" constant="100" id="3Rc-PM-c29"/>
                             <constraint firstItem="mrf-qv-2CY" firstAttribute="leading" secondItem="9EK-T1-2BX" secondAttribute="leading" constant="140" id="4ci-eq-8DS"/>
                             <constraint firstItem="mrf-qv-2CY" firstAttribute="top" secondItem="9EK-T1-2BX" secondAttribute="top" constant="133" id="SbR-KB-LiY"/>
-                            <constraint firstItem="9EK-T1-2BX" firstAttribute="trailing" secondItem="BTG-iv-4OV" secondAttribute="trailing" constant="130" id="V8g-l6-iNs"/>
-                            <constraint firstItem="BTG-iv-4OV" firstAttribute="top" secondItem="mrf-qv-2CY" secondAttribute="bottom" constant="33" id="VH2-Sx-a4d"/>
-                            <constraint firstItem="BTG-iv-4OV" firstAttribute="leading" secondItem="9EK-T1-2BX" secondAttribute="leading" constant="170" id="euE-MQ-lIA"/>
+                            <constraint firstItem="BTG-iv-4OV" firstAttribute="leading" secondItem="9EK-T1-2BX" secondAttribute="leading" constant="170" id="c3J-gT-z1d"/>
+                            <constraint firstItem="BTG-iv-4OV" firstAttribute="top" secondItem="mrf-qv-2CY" secondAttribute="bottom" constant="33" id="sbf-wM-8k8"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -651,7 +645,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="uSE-Ab-zbL"/>
+        <segue reference="c7o-9H-EJh"/>
+        <segue reference="Pv0-E4-1ss"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Background " width="540" height="1182"/>

@@ -85,6 +85,16 @@
 		D9C1FD8825B09F8200FDA667 /* VeganLunch.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9C1FD8725B09F8200FDA667 /* VeganLunch.plist */; };
 		D9C1FD8C25B09FA100FDA667 /* VeganDinner.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9C1FD8B25B09FA100FDA667 /* VeganDinner.plist */; };
 		D9C1FD9025B0A1AC00FDA667 /* RecipeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C1FD8F25B0A1AC00FDA667 /* RecipeScreen.storyboard */; };
+		D9DDA4E025B86CE200C024BB /* GlutenFreeBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDA4DF25B86CE200C024BB /* GlutenFreeBasic.swift */; };
+		D9DDA4E425B86D1B00C024BB /* GlutenFreeImageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDA4E325B86D1B00C024BB /* GlutenFreeImageCollectionView.swift */; };
+		D9DDA4EA25B86F3300C024BB /* GlutenBreakfast.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9DDA4E925B86F3300C024BB /* GlutenBreakfast.plist */; };
+		D9DDA4EE25B86F9700C024BB /* GlutenLunch.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9DDA4ED25B86F9700C024BB /* GlutenLunch.plist */; };
+		D9DDA4F225B86FA600C024BB /* GlutenDinner.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9DDA4F125B86FA600C024BB /* GlutenDinner.plist */; };
+		D9DDA4F625B8773300C024BB /* VegeterianOptionFoodIntolerance.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9DDA4F525B8773300C024BB /* VegeterianOptionFoodIntolerance.storyboard */; };
+		D9DDA50025B879CA00C024BB /* GlutenDairyFreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDA4FF25B879CA00C024BB /* GlutenDairyFreeView.swift */; };
+		D9DDA50525B87DA400C024BB /* GlutenDairyBreakfast.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9DDA50425B87DA400C024BB /* GlutenDairyBreakfast.plist */; };
+		D9DDA50925B87DAD00C024BB /* GlutenDairyLunch.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9DDA50825B87DAD00C024BB /* GlutenDairyLunch.plist */; };
+		D9DDA50D25B87DB900C024BB /* GlutenDairyDinner.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9DDA50C25B87DB900C024BB /* GlutenDairyDinner.plist */; };
 		D9E3BEB625B32BC400AE110A /* VeganNutBreakfast.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9E3BEB525B32BC400AE110A /* VeganNutBreakfast.plist */; };
 		D9E3BEBA25B32BD100AE110A /* VeganNutLunch.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9E3BEB925B32BD100AE110A /* VeganNutLunch.plist */; };
 		D9E3BEBE25B32BEB00AE110A /* VeganNutDinner.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9E3BEBD25B32BEB00AE110A /* VeganNutDinner.plist */; };
@@ -193,6 +203,16 @@
 		D9C1FD8725B09F8200FDA667 /* VeganLunch.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VeganLunch.plist; sourceTree = "<group>"; };
 		D9C1FD8B25B09FA100FDA667 /* VeganDinner.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VeganDinner.plist; sourceTree = "<group>"; };
 		D9C1FD8F25B0A1AC00FDA667 /* RecipeScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RecipeScreen.storyboard; sourceTree = "<group>"; };
+		D9DDA4DF25B86CE200C024BB /* GlutenFreeBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlutenFreeBasic.swift; sourceTree = "<group>"; };
+		D9DDA4E325B86D1B00C024BB /* GlutenFreeImageCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlutenFreeImageCollectionView.swift; sourceTree = "<group>"; };
+		D9DDA4E925B86F3300C024BB /* GlutenBreakfast.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GlutenBreakfast.plist; sourceTree = "<group>"; };
+		D9DDA4ED25B86F9700C024BB /* GlutenLunch.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GlutenLunch.plist; sourceTree = "<group>"; };
+		D9DDA4F125B86FA600C024BB /* GlutenDinner.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GlutenDinner.plist; sourceTree = "<group>"; };
+		D9DDA4F525B8773300C024BB /* VegeterianOptionFoodIntolerance.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = VegeterianOptionFoodIntolerance.storyboard; path = "BetterLifeFinal/Storyboards /VegeterianOptionFoodIntolerance.storyboard"; sourceTree = SOURCE_ROOT; };
+		D9DDA4FF25B879CA00C024BB /* GlutenDairyFreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlutenDairyFreeView.swift; sourceTree = "<group>"; };
+		D9DDA50425B87DA400C024BB /* GlutenDairyBreakfast.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GlutenDairyBreakfast.plist; sourceTree = "<group>"; };
+		D9DDA50825B87DAD00C024BB /* GlutenDairyLunch.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GlutenDairyLunch.plist; sourceTree = "<group>"; };
+		D9DDA50C25B87DB900C024BB /* GlutenDairyDinner.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GlutenDairyDinner.plist; sourceTree = "<group>"; };
 		D9E3BEB525B32BC400AE110A /* VeganNutBreakfast.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VeganNutBreakfast.plist; sourceTree = "<group>"; };
 		D9E3BEB925B32BD100AE110A /* VeganNutLunch.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VeganNutLunch.plist; sourceTree = "<group>"; };
 		D9E3BEBD25B32BEB00AE110A /* VeganNutDinner.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VeganNutDinner.plist; sourceTree = "<group>"; };
@@ -250,6 +270,7 @@
 				D905514925A49FD8009AB32D /* PescToFoodIntolerance.storyboard */,
 				D905514525A49F48009AB32D /* GlutenToFoodIntolerance.storyboard */,
 				D905514125A49ECF009AB32D /* VegeterianToFoodIntolerance.storyboard */,
+				D9DDA4F525B8773300C024BB /* VegeterianOptionFoodIntolerance.storyboard */,
 				D905512625A4905A009AB32D /* NoneToFoodIntolerance.storyboard */,
 				D905513A25A49E3F009AB32D /* VeganToFoodIntolerance.storyboard */,
 			);
@@ -259,6 +280,7 @@
 		D905514D25A4A13D009AB32D /* Food Intolerance screens  */ = {
 			isa = PBXGroup;
 			children = (
+				D9DDA4DC25B86CAD00C024BB /* Gluten Free */,
 				D9BCD8CD25B7010E0038626F /* Pescatarain */,
 				D9E3BEC125B3462C00AE110A /* Vegeterian */,
 				D9C1FD5C25B099E900FDA667 /* Vegan */,
@@ -348,6 +370,7 @@
 		D96ED19225A9E43800B17082 /* Properties  */ = {
 			isa = PBXGroup;
 			children = (
+				D9DDA4E725B86F0200C024BB /* Gluten Free */,
 				D9BCD8DA25B705440038626F /* Pescatarian */,
 				D9E3BED225B3494B00AE110A /* Vegeterian */,
 				D928C0CB25ADB8CC00A62C9A /* No Dietery Requirements */,
@@ -538,6 +561,45 @@
 			path = None;
 			sourceTree = "<group>";
 		};
+		D9DDA4DC25B86CAD00C024BB /* Gluten Free */ = {
+			isa = PBXGroup;
+			children = (
+				D9DDA4DF25B86CE200C024BB /* GlutenFreeBasic.swift */,
+				D9DDA4E325B86D1B00C024BB /* GlutenFreeImageCollectionView.swift */,
+				D9DDA4FF25B879CA00C024BB /* GlutenDairyFreeView.swift */,
+			);
+			path = "Gluten Free";
+			sourceTree = "<group>";
+		};
+		D9DDA4E725B86F0200C024BB /* Gluten Free */ = {
+			isa = PBXGroup;
+			children = (
+				D9DDA50325B87D8400C024BB /* Dairy Free */,
+				D9DDA4E825B86F0E00C024BB /* Basic (None) */,
+			);
+			path = "Gluten Free";
+			sourceTree = "<group>";
+		};
+		D9DDA4E825B86F0E00C024BB /* Basic (None) */ = {
+			isa = PBXGroup;
+			children = (
+				D9DDA4E925B86F3300C024BB /* GlutenBreakfast.plist */,
+				D9DDA4ED25B86F9700C024BB /* GlutenLunch.plist */,
+				D9DDA4F125B86FA600C024BB /* GlutenDinner.plist */,
+			);
+			path = "Basic (None)";
+			sourceTree = "<group>";
+		};
+		D9DDA50325B87D8400C024BB /* Dairy Free */ = {
+			isa = PBXGroup;
+			children = (
+				D9DDA50425B87DA400C024BB /* GlutenDairyBreakfast.plist */,
+				D9DDA50825B87DAD00C024BB /* GlutenDairyLunch.plist */,
+				D9DDA50C25B87DB900C024BB /* GlutenDairyDinner.plist */,
+			);
+			path = "Dairy Free";
+			sourceTree = "<group>";
+		};
 		D9E3BEB425B32B6800AE110A /* Nut Free */ = {
 			isa = PBXGroup;
 			children = (
@@ -665,6 +727,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9BCD8E125B705BB0038626F /* PescatarianBasicLunch.plist in Resources */,
+				D9DDA4F225B86FA600C024BB /* GlutenDinner.plist in Resources */,
 				D905513B25A49E3F009AB32D /* VeganToFoodIntolerance.storyboard in Resources */,
 				D9BCD8F425B70A750038626F /* PescatarianEggDinner.plist in Resources */,
 				D9BCD8C225B6FAA00038626F /* VegetarianNutBreakfast.plist in Resources */,
@@ -672,6 +735,7 @@
 				D90F8EE325A8899400CCF022 /* Food.plist in Resources */,
 				D98A4FB5259CEA7100294F64 /* LaunchScreen.storyboard in Resources */,
 				D9C1FD5425B0683200FDA667 /* DairyDinner.plist in Resources */,
+				D9DDA4EE25B86F9700C024BB /* GlutenLunch.plist in Resources */,
 				D9BCD8EC25B70A620038626F /* PescatarianEggBreakfast.plist in Resources */,
 				D9BCD8E525B705C80038626F /* PescatarianBasicDinner.plist in Resources */,
 				D93BC13E25B1CB6C0051602E /* VeganGlutenDinner.plist in Resources */,
@@ -681,6 +745,7 @@
 				D905514A25A49FD8009AB32D /* PescToFoodIntolerance.storyboard in Resources */,
 				D930A90D25AB71FD00E46FB0 /* DinnerSelection.plist in Resources */,
 				D9BCD90125B712DC0038626F /* PescatarianGlutenBreakfast.plist in Resources */,
+				D9DDA50D25B87DB900C024BB /* GlutenDairyDinner.plist in Resources */,
 				D9E3BEBE25B32BEB00AE110A /* VeganNutDinner.plist in Resources */,
 				D9BCD8DD25B705AF0038626F /* PescatarianBasicBreakfast.plist in Resources */,
 				D917A1F125B5D560006449DA /* VegetarianEggDinner.plist in Resources */,
@@ -699,8 +764,10 @@
 				D9E3BED925B3498F00AE110A /* VegeterianLunch.plist in Resources */,
 				D9C1FD9025B0A1AC00FDA667 /* RecipeScreen.storyboard in Resources */,
 				D93948A725AF373D00E6784A /* FishBreakfast.plist in Resources */,
+				D9DDA4EA25B86F3300C024BB /* GlutenBreakfast.plist in Resources */,
 				D93BC13A25B1CB580051602E /* VeganGlutenLunch.plist in Resources */,
 				D9C1FD8325B09F5C00FDA667 /* VeganBreakfast.plist in Resources */,
+				D9DDA4F625B8773300C024BB /* VegeterianOptionFoodIntolerance.storyboard in Resources */,
 				D981F274259DEE810001F55E /* GoogleService-Info.plist in Resources */,
 				D96ED19425A9E48100B17082 /* LunchSelection.plist in Resources */,
 				D96F043A25B4A3E700467282 /* VegetarianGlutenBreakfast.plist in Resources */,
@@ -712,8 +779,10 @@
 				D96F043E25B4A43D00467282 /* VegetarianGlutenLunch.plist in Resources */,
 				D98A4FB0259CEA6D00294F64 /* Main.storyboard in Resources */,
 				D9BCD8CA25B6FAD80038626F /* VegetarianNutDinner.plist in Resources */,
+				D9DDA50925B87DAD00C024BB /* GlutenDairyLunch.plist in Resources */,
 				D96F044225B4A47B00467282 /* VegetarianGlutenDinner.plist in Resources */,
 				D9BCD8C625B6FACA0038626F /* VegetarianNutLunch.plist in Resources */,
+				D9DDA50525B87DA400C024BB /* GlutenDairyBreakfast.plist in Resources */,
 				D93948AB25AF374C00E6784A /* FishLunch.plist in Resources */,
 				D9C1FD8825B09F8200FDA667 /* VeganLunch.plist in Resources */,
 			);
@@ -805,11 +874,14 @@
 				D905515225A4A387009AB32D /* NoneSelectedFood.swift in Sources */,
 				D930D69A259E6713006A0093 /* FirebaseAuthManager.swift in Sources */,
 				D930D696259E64CD006A0093 /* SignUpScreen.swift in Sources */,
+				D9DDA4E025B86CE200C024BB /* GlutenFreeBasic.swift in Sources */,
 				D9FFCAFB25A3444300502914 /* FoodIntoleranceScreen.swift in Sources */,
 				D93BC14225B1E27F0051602E /* VeganNutIntolerance.swift in Sources */,
+				D9DDA4E425B86D1B00C024BB /* GlutenFreeImageCollectionView.swift in Sources */,
 				D90F8EDF25A7628F00CCF022 /* RecipeForNothing.swift in Sources */,
 				D9BCD8F825B70BC80038626F /* PescatarianEggFreeView.swift in Sources */,
 				D9E3BECF25B3472000AE110A /* VegeterianImageCollectionView.swift in Sources */,
+				D9DDA50025B879CA00C024BB /* GlutenDairyFreeView.swift in Sources */,
 				D93BC13125B1C76F0051602E /* VeganGlutenIntolerance.swift in Sources */,
 				D9C1FD6225B09C3700FDA667 /* VeganImageCollectionView.swift in Sources */,
 				D98A4FAD259CEA6D00294F64 /* ViewController.swift in Sources */,
