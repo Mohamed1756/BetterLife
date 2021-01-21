@@ -58,6 +58,9 @@
 		D98A4FB5259CEA7100294F64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98A4FB3259CEA7100294F64 /* LaunchScreen.storyboard */; };
 		D98A4FC0259CEA7100294F64 /* BetterLifeFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98A4FBF259CEA7100294F64 /* BetterLifeFinalTests.swift */; };
 		D98A4FE6259D065500294F64 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98A4FE5259D065500294F64 /* LoginScreen.swift */; };
+		D9A0B7A325B9A853001A7DD3 /* MyWorkoutsChoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A0B7A225B9A853001A7DD3 /* MyWorkoutsChoiceView.swift */; };
+		D9A0B7B625B9B495001A7DD3 /* MyFitnessGoalScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9A0B7B525B9B495001A7DD3 /* MyFitnessGoalScreen.storyboard */; };
+		D9A0B7BD25B9B60F001A7DD3 /* HomeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9A0B7BC25B9B60F001A7DD3 /* HomeScreen.storyboard */; };
 		D9BCD8BD25B6FA650038626F /* VegetarianNutFreeViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BCD8BC25B6FA650038626F /* VegetarianNutFreeViews.swift */; };
 		D9BCD8C225B6FAA00038626F /* VegetarianNutBreakfast.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9BCD8C125B6FAA00038626F /* VegetarianNutBreakfast.plist */; };
 		D9BCD8C625B6FACA0038626F /* VegetarianNutLunch.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9BCD8C525B6FACA0038626F /* VegetarianNutLunch.plist */; };
@@ -175,6 +178,9 @@
 		D98A4FBF259CEA7100294F64 /* BetterLifeFinalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterLifeFinalTests.swift; sourceTree = "<group>"; };
 		D98A4FC1259CEA7100294F64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D98A4FE5259D065500294F64 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		D9A0B7A225B9A853001A7DD3 /* MyWorkoutsChoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWorkoutsChoiceView.swift; sourceTree = "<group>"; };
+		D9A0B7B525B9B495001A7DD3 /* MyFitnessGoalScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyFitnessGoalScreen.storyboard; sourceTree = "<group>"; };
+		D9A0B7BC25B9B60F001A7DD3 /* HomeScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeScreen.storyboard; sourceTree = "<group>"; };
 		D9A333640F53E6742607635E /* Pods_BetterLifeFinal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BetterLifeFinal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9BCD8BC25B6FA650038626F /* VegetarianNutFreeViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetarianNutFreeViews.swift; sourceTree = "<group>"; };
 		D9BCD8C125B6FAA00038626F /* VegetarianNutBreakfast.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VegetarianNutBreakfast.plist; sourceTree = "<group>"; };
@@ -392,6 +398,8 @@
 		D972899525A4896A0063751F /* Storyboards  */ = {
 			isa = PBXGroup;
 			children = (
+				D9A0B7B925B9B5C8001A7DD3 /* Home Screen */,
+				D9A0B7A625B9B09B001A7DD3 /* Workouts */,
 				D905513E25A49E4E009AB32D /* Food Intolerances Screen  */,
 				D98A4FAE259CEA6D00294F64 /* Main.storyboard */,
 				D9C1FD8F25B0A1AC00FDA667 /* RecipeScreen.storyboard */,
@@ -448,6 +456,7 @@
 		D98A4FDE259D062B00294F64 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D9A0B7A125B9A802001A7DD3 /* Workout Screen */,
 				D905514D25A4A13D009AB32D /* Food Intolerance screens  */,
 				D98A4FAC259CEA6D00294F64 /* ViewController.swift */,
 				D98A4FE5259D065500294F64 /* LoginScreen.swift */,
@@ -456,6 +465,30 @@
 				D989E9FD25A1EBCA00ECEB5C /* MyMeals.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		D9A0B7A125B9A802001A7DD3 /* Workout Screen */ = {
+			isa = PBXGroup;
+			children = (
+				D9A0B7A225B9A853001A7DD3 /* MyWorkoutsChoiceView.swift */,
+			);
+			path = "Workout Screen";
+			sourceTree = "<group>";
+		};
+		D9A0B7A625B9B09B001A7DD3 /* Workouts */ = {
+			isa = PBXGroup;
+			children = (
+				D9A0B7B525B9B495001A7DD3 /* MyFitnessGoalScreen.storyboard */,
+			);
+			path = Workouts;
+			sourceTree = "<group>";
+		};
+		D9A0B7B925B9B5C8001A7DD3 /* Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				D9A0B7BC25B9B60F001A7DD3 /* HomeScreen.storyboard */,
+			);
+			path = "Home Screen";
 			sourceTree = "<group>";
 		};
 		D9BCD8C025B6FA840038626F /* Nut Free */ = {
@@ -742,6 +775,7 @@
 				D93BC13625B1CB3D0051602E /* VeganGlutenBreakfast.plist in Resources */,
 				D9E3BEBA25B32BD100AE110A /* VeganNutLunch.plist in Resources */,
 				D928C0DE25ADCC9600A62C9A /* EggsBreakfast.plist in Resources */,
+				D9A0B7BD25B9B60F001A7DD3 /* HomeScreen.storyboard in Resources */,
 				D905514A25A49FD8009AB32D /* PescToFoodIntolerance.storyboard in Resources */,
 				D930A90D25AB71FD00E46FB0 /* DinnerSelection.plist in Resources */,
 				D9BCD90125B712DC0038626F /* PescatarianGlutenBreakfast.plist in Resources */,
@@ -752,6 +786,7 @@
 				D917A1ED25B5D553006449DA /* VegetarianEggLunch.plist in Resources */,
 				D9E3BEB625B32BC400AE110A /* VeganNutBreakfast.plist in Resources */,
 				D928C0E225ADCD8500A62C9A /* EggsLunch.plist in Resources */,
+				D9A0B7B625B9B495001A7DD3 /* MyFitnessGoalScreen.storyboard in Resources */,
 				D9E3BEDD25B3499F00AE110A /* VegeterianDinner.plist in Resources */,
 				D93948B025AF376300E6784A /* FishDinner.plist in Resources */,
 				D9BCD90925B7130F0038626F /* PescatarianGlutenDinner.plist in Resources */,
@@ -893,6 +928,7 @@
 				D9BCD8D325B7034B0038626F /* PescatarianBasicView.swift in Sources */,
 				D9BCD8D725B7039E0038626F /* PescatarianImageCollectionView.swift in Sources */,
 				D989E9FA25A1E7EA00ECEB5C /* HomeScreenView.swift in Sources */,
+				D9A0B7A325B9A853001A7DD3 /* MyWorkoutsChoiceView.swift in Sources */,
 				D96F043325B49E8A00467282 /* VegetarianGlutenView.swift in Sources */,
 				D928C0CF25ADBB0300A62C9A /* EggsIntolerance.swift in Sources */,
 				D917A1E225B5D1E7006449DA /* VegetarianEggFreeViews.swift in Sources */,

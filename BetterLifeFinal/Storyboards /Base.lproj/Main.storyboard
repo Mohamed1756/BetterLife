@@ -170,7 +170,7 @@
                                         <state key="normal" title="Log in"/>
                                         <connections>
                                             <action selector="loginTapped:" destination="azS-e2-7qY" eventType="touchUpInside" id="X3K-fR-jqz"/>
-                                            <segue destination="b3C-ne-AFi" kind="showDetail" identifier="loginToHome" id="imz-9O-62o"/>
+                                            <segue destination="jXG-i4-Bjg" kind="showDetail" identifier="loginToHome" id="imz-9O-62o"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -282,55 +282,17 @@
                         <outlet property="firstNameTextField" destination="759-Dw-dsB" id="5EE-mc-5aJ"/>
                         <outlet property="lastNameTextField" destination="g71-HP-DAX" id="dJU-Hf-F6Z"/>
                         <outlet property="passwordTextField" destination="PsD-Ad-N01" id="4fo-sr-S1b"/>
-                        <segue destination="b3C-ne-AFi" kind="showDetail" identifier="toHomeScreen" id="JeH-sJ-Zl8"/>
+                        <segue destination="jXG-i4-Bjg" kind="showDetail" identifier="toHomeScreen" id="JeH-sJ-Zl8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iUM-Dq-gRu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2465.217391304348" y="93.75"/>
         </scene>
-        <!--Home ScreenV Iew-->
-        <scene sceneID="aUG-g0-oNz">
-            <objects>
-                <viewController modalPresentationStyle="fullScreen" id="b3C-ne-AFi" customClass="HomeScreenVIew" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Efy-FD-Td4">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="D4o-t2-xQc">
-                                <rect key="frame" x="20" y="436" width="177" height="128"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mEU-xe-cx1">
-                                <rect key="frame" x="36" y="504" width="136" height="36"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="My Meals "/>
-                                <connections>
-                                    <action selector="MealsButton:" destination="b3C-ne-AFi" eventType="touchUpInside" id="YZx-cS-PyJ"/>
-                                    <segue destination="6xZ-0b-p55" kind="showDetail" identifier="mealsToFoodPref" id="F0m-wF-r3n"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="u38-1u-nYs"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="u38-1u-nYs" firstAttribute="trailing" secondItem="mEU-xe-cx1" secondAttribute="trailing" constant="242" id="CI7-sI-vDl"/>
-                            <constraint firstItem="D4o-t2-xQc" firstAttribute="leading" secondItem="u38-1u-nYs" secondAttribute="leading" constant="20" id="TaP-wy-uOY"/>
-                            <constraint firstItem="mEU-xe-cx1" firstAttribute="leading" secondItem="u38-1u-nYs" secondAttribute="leading" constant="36" id="luC-FS-AQI"/>
-                            <constraint firstItem="D4o-t2-xQc" firstAttribute="top" secondItem="u38-1u-nYs" secondAttribute="top" constant="392" id="oj1-ts-9Ux"/>
-                            <constraint firstItem="u38-1u-nYs" firstAttribute="trailing" secondItem="D4o-t2-xQc" secondAttribute="trailing" constant="217" id="qqQ-16-4Ql"/>
-                            <constraint firstItem="u38-1u-nYs" firstAttribute="bottom" secondItem="D4o-t2-xQc" secondAttribute="bottom" constant="298" id="toi-eV-DF4"/>
-                            <constraint firstItem="u38-1u-nYs" firstAttribute="bottom" secondItem="mEU-xe-cx1" secondAttribute="bottom" constant="322" id="yYO-dJ-KhF"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="yWV-6Q-uuq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3253.6231884057975" y="93.75"/>
-        </scene>
         <!--My Meals-->
         <scene sceneID="FDg-ud-PIF">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="6xZ-0b-p55" customClass="MyMeals" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="UIViewController-6xZ-0b-p55" modalPresentationStyle="fullScreen" id="6xZ-0b-p55" customClass="MyMeals" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aoc-rn-OUK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -343,7 +305,7 @@
                                 <state key="normal" title="Back"/>
                                 <connections>
                                     <action selector="backButton:" destination="6xZ-0b-p55" eventType="touchUpInside" id="uUd-nt-mUX"/>
-                                    <segue destination="b3C-ne-AFi" kind="showDetail" identifier="backtoHomeScreen" id="ozX-o2-vMv"/>
+                                    <segue destination="jXG-i4-Bjg" kind="showDetail" id="oMi-YM-vFT"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="-2" translatesAutoresizingMaskIntoConstraints="NO" id="ZNp-sA-rw2">
@@ -475,9 +437,17 @@
             </objects>
             <point key="canvasLocation" x="5032" y="1375"/>
         </scene>
+        <!--HomeScreen-->
+        <scene sceneID="Ymo-Ob-Z7q">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="UIViewController-b3C-ne-AFi" storyboardName="HomeScreen" id="jXG-i4-Bjg" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g2E-kk-rsx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3253.6231884057975" y="93.75"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="imz-9O-62o"/>
+        <segue reference="oMi-YM-vFT"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Background " width="540" height="1182"/>
