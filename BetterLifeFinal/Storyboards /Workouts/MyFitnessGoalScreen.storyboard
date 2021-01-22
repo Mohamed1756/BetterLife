@@ -80,7 +80,7 @@
                                 <state key="normal" title="LoseWeightButton"/>
                                 <connections>
                                     <action selector="loseWeightButton:" destination="otf-Sa-0Zg" eventType="touchUpInside" id="7lG-hd-NgF"/>
-                                    <segue destination="N9o-ys-SwY" kind="showDetail" identifier="LoseWeightScreen" id="cq6-8j-3ag"/>
+                                    <segue destination="b3R-Og-Lxv" kind="showDetail" identifier="LoseWeightScreen" id="cq6-8j-3ag"/>
                                 </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" alpha="0.05000000074505806" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="On0-cD-2xq">
@@ -90,7 +90,7 @@
                                 <state key="normal" title="BuildMuscleButton"/>
                                 <connections>
                                     <action selector="buildMuscleButton:" destination="otf-Sa-0Zg" eventType="touchUpInside" id="m25-eM-YYT"/>
-                                    <segue destination="vlT-eY-XUb" kind="showDetail" identifier="ToBuildMuscleScreen" id="iTx-nw-Voo"/>
+                                    <segue destination="Y5A-1n-cSI" kind="showDetail" identifier="ToBuildMuscleScreen" id="iTx-nw-Voo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" alpha="0.05000000074505806" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ss-mE-kiI">
@@ -100,7 +100,7 @@
                                 <state key="normal" title="StayFitButton"/>
                                 <connections>
                                     <action selector="stayFitButton:" destination="otf-Sa-0Zg" eventType="touchUpInside" id="Qn7-jc-Ft3"/>
-                                    <segue destination="x8k-mR-drf" kind="showDetail" identifier="ToStayFitScreen" id="Rk6-2U-CAG"/>
+                                    <segue destination="a7T-4U-xT0" kind="showDetail" identifier="ToStayFitScreen" id="Rk6-2U-CAG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7DS-WW-Sw3">
@@ -126,158 +126,29 @@
             </objects>
             <point key="canvasLocation" x="3389.8550724637685" y="837.72321428571422"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="BXA-Xa-DFJ">
+        <!--LoseWeightScreen-->
+        <scene sceneID="8ap-dr-zst">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="vlT-eY-XUb" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="09M-kQ-WD6">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background " translatesAutoresizingMaskIntoConstraints="NO" id="WoT-Xi-oX0">
-                                <rect key="frame" x="0.0" y="-48" width="414" height="964"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Build Muscle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D3D-wx-y8n">
-                                <rect key="frame" x="127" y="104" width="160" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="SFProDisplay-Black" family="SF Pro Display" pointSize="19"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BIa-CY-gkT">
-                                <rect key="frame" x="20" y="44" width="64" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Back"/>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nSZ-UU-42C">
-                                <rect key="frame" x="38" y="149" width="338" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="What is your Fitness Level ?, Click on the image to select your preference">
-                                        <attributes>
-                                            <font key="NSFont" size="17" name="SFPro-Ultralight"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="yBk-So-7M8"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="WoT-Xi-oX0" firstAttribute="leading" secondItem="yBk-So-7M8" secondAttribute="leading" id="UYg-56-LhM"/>
-                            <constraint firstItem="WoT-Xi-oX0" firstAttribute="centerX" secondItem="09M-kQ-WD6" secondAttribute="centerX" id="Xet-vi-3AI"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="WoT-Xi-oX0" secondAttribute="bottom" constant="-54" id="djH-NK-2p9"/>
-                            <constraint firstItem="WoT-Xi-oX0" firstAttribute="top" secondItem="09M-kQ-WD6" secondAttribute="topMargin" constant="-92" id="tIV-I7-ywd"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0kw-Sc-n3z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4382.608695652174" y="862.5"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="reS-cW-nMi">
-            <objects>
-                <viewController modalPresentationStyle="fullScreen" id="x8k-mR-drf" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="FNW-UZ-sUp">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background " translatesAutoresizingMaskIntoConstraints="NO" id="kwD-Tx-CLS">
-                                <rect key="frame" x="-30" y="-44" width="486" height="970"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aeU-wU-iav">
-                                <rect key="frame" x="56" y="151" width="338" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="What is your Fitness Level ?, Click on the image to select your preference">
-                                        <attributes>
-                                            <font key="NSFont" size="17" name="SFPro-Ultralight"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Stay Fit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oji-er-qRl">
-                                <rect key="frame" x="144" y="118" width="123" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="SFProDisplay-Black" family="SF Pro Display" pointSize="19"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Zb-IM-JxF">
-                                <rect key="frame" x="0.0" y="44" width="64" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Back"/>
-                            </button>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="9K6-Lx-t2V"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="kwD-Tx-CLS" firstAttribute="leading" secondItem="FNW-UZ-sUp" secondAttribute="leadingMargin" constant="-50" id="NIy-dT-VrF"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="kwD-Tx-CLS" secondAttribute="trailing" constant="-62" id="bFK-IK-E7l"/>
-                            <constraint firstItem="kwD-Tx-CLS" firstAttribute="centerY" secondItem="FNW-UZ-sUp" secondAttribute="centerY" constant="-7" id="ryu-sh-mBw"/>
-                            <constraint firstItem="kwD-Tx-CLS" firstAttribute="top" secondItem="FNW-UZ-sUp" secondAttribute="topMargin" constant="-88" id="xIk-IJ-KFb"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3zP-YG-0FC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4350.7246376811599" y="1568.9732142857142"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="VHf-ie-Sic">
-            <objects>
-                <viewController modalPresentationStyle="fullScreen" id="N9o-ys-SwY" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Vy2-2A-m6b">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background " translatesAutoresizingMaskIntoConstraints="NO" id="Buh-VQ-4tk">
-                                <rect key="frame" x="-17" y="-32" width="451" height="928"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="raz-Ub-m2O">
-                                <rect key="frame" x="20" y="44" width="64" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Back"/>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lose Weight " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fJI-kC-bkw">
-                                <rect key="frame" x="94" y="109" width="227" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="SFProDisplay-Black" family="SF Pro Display" pointSize="19"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="198-2k-9cI">
-                                <rect key="frame" x="56" y="167" width="338" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="What is your Fitness Level ?, Click on the image to select your preference">
-                                        <attributes>
-                                            <font key="NSFont" size="17" name="SFPro-Ultralight"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="y1c-5s-igq"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="Buh-VQ-4tk" firstAttribute="leading" secondItem="Vy2-2A-m6b" secondAttribute="leadingMargin" constant="-37" id="MYJ-66-LBT"/>
-                            <constraint firstItem="Buh-VQ-4tk" firstAttribute="top" secondItem="Vy2-2A-m6b" secondAttribute="topMargin" constant="-76" id="NGO-ko-MsB"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Buh-VQ-4tk" secondAttribute="trailing" constant="-40" id="a8W-xa-S8x"/>
-                            <constraint firstItem="Buh-VQ-4tk" firstAttribute="centerY" secondItem="Vy2-2A-m6b" secondAttribute="centerY" constant="-16" id="zFw-ye-EFn"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gMk-f0-yDF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="LoseWeightScreen" id="b3R-Og-Lxv" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="USV-Uf-abS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4350.7246376811599" y="154.6875"/>
+        </scene>
+        <!--BuildMuscleScreen-->
+        <scene sceneID="bXG-0E-HZi">
+            <objects>
+                <viewControllerPlaceholder storyboardName="BuildMuscleScreen" id="Y5A-1n-cSI" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F4A-sR-qFp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4384.057971014493" y="859.82142857142856"/>
+        </scene>
+        <!--StayFitScreen-->
+        <scene sceneID="D0J-KH-Kmm">
+            <objects>
+                <viewControllerPlaceholder storyboardName="StayFitScreen" id="a7T-4U-xT0" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xra-eb-QbR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4350.7246376811599" y="1568.9732142857142"/>
         </scene>
     </scenes>
     <resources>

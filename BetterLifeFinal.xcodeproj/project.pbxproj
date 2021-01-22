@@ -32,6 +32,12 @@
 		D930A90D25AB71FD00E46FB0 /* DinnerSelection.plist in Resources */ = {isa = PBXBuildFile; fileRef = D930A90C25AB71FD00E46FB0 /* DinnerSelection.plist */; };
 		D930D696259E64CD006A0093 /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D930D695259E64CD006A0093 /* SignUpScreen.swift */; };
 		D930D69A259E6713006A0093 /* FirebaseAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D930D699259E6713006A0093 /* FirebaseAuthManager.swift */; };
+		D935314825BB4D4A00D4AC97 /* LoseWeightScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D935314725BB4D4A00D4AC97 /* LoseWeightScreen.swift */; };
+		D935314C25BB51C100D4AC97 /* LoseWeightScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D935314B25BB51C100D4AC97 /* LoseWeightScreen.storyboard */; };
+		D935315025BB54A300D4AC97 /* BuildMuscleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D935314F25BB54A300D4AC97 /* BuildMuscleView.swift */; };
+		D935315425BB564500D4AC97 /* BuildMuscleScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D935315325BB564500D4AC97 /* BuildMuscleScreen.storyboard */; };
+		D935315825BB57FB00D4AC97 /* StayFitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D935315725BB57FB00D4AC97 /* StayFitView.swift */; };
+		D935315C25BB59EA00D4AC97 /* StayFitScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D935315B25BB59EA00D4AC97 /* StayFitScreen.storyboard */; };
 		D93948A225AF2F3700E6784A /* FishIntolerance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93948A125AF2F3700E6784A /* FishIntolerance.swift */; };
 		D93948A725AF373D00E6784A /* FishBreakfast.plist in Resources */ = {isa = PBXBuildFile; fileRef = D93948A625AF373D00E6784A /* FishBreakfast.plist */; };
 		D93948AB25AF374C00E6784A /* FishLunch.plist in Resources */ = {isa = PBXBuildFile; fileRef = D93948AA25AF374C00E6784A /* FishLunch.plist */; };
@@ -148,6 +154,12 @@
 		D930A90C25AB71FD00E46FB0 /* DinnerSelection.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DinnerSelection.plist; sourceTree = "<group>"; };
 		D930D695259E64CD006A0093 /* SignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
 		D930D699259E6713006A0093 /* FirebaseAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthManager.swift; sourceTree = "<group>"; };
+		D935314725BB4D4A00D4AC97 /* LoseWeightScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseWeightScreen.swift; sourceTree = "<group>"; };
+		D935314B25BB51C100D4AC97 /* LoseWeightScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoseWeightScreen.storyboard; sourceTree = "<group>"; };
+		D935314F25BB54A300D4AC97 /* BuildMuscleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildMuscleView.swift; sourceTree = "<group>"; };
+		D935315325BB564500D4AC97 /* BuildMuscleScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BuildMuscleScreen.storyboard; sourceTree = "<group>"; };
+		D935315725BB57FB00D4AC97 /* StayFitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StayFitView.swift; sourceTree = "<group>"; };
+		D935315B25BB59EA00D4AC97 /* StayFitScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = StayFitScreen.storyboard; path = ../../../../../StayFitScreen.storyboard; sourceTree = "<group>"; };
 		D93948A125AF2F3700E6784A /* FishIntolerance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishIntolerance.swift; sourceTree = "<group>"; };
 		D93948A625AF373D00E6784A /* FishBreakfast.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FishBreakfast.plist; sourceTree = "<group>"; };
 		D93948AA25AF374C00E6784A /* FishLunch.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FishLunch.plist; sourceTree = "<group>"; };
@@ -471,6 +483,9 @@
 			isa = PBXGroup;
 			children = (
 				D9A0B7A225B9A853001A7DD3 /* MyWorkoutsChoiceView.swift */,
+				D935314F25BB54A300D4AC97 /* BuildMuscleView.swift */,
+				D935314725BB4D4A00D4AC97 /* LoseWeightScreen.swift */,
+				D935315725BB57FB00D4AC97 /* StayFitView.swift */,
 			);
 			path = "Workout Screen";
 			sourceTree = "<group>";
@@ -479,6 +494,9 @@
 			isa = PBXGroup;
 			children = (
 				D9A0B7B525B9B495001A7DD3 /* MyFitnessGoalScreen.storyboard */,
+				D935315B25BB59EA00D4AC97 /* StayFitScreen.storyboard */,
+				D935315325BB564500D4AC97 /* BuildMuscleScreen.storyboard */,
+				D935314B25BB51C100D4AC97 /* LoseWeightScreen.storyboard */,
 			);
 			path = Workouts;
 			sourceTree = "<group>";
@@ -792,12 +810,14 @@
 				D9BCD90925B7130F0038626F /* PescatarianGlutenDinner.plist in Resources */,
 				D917A1F525B5D9A5006449DA /* VegetarianEggBreakfast.plist in Resources */,
 				D905514625A49F48009AB32D /* GlutenToFoodIntolerance.storyboard in Resources */,
+				D935314C25BB51C100D4AC97 /* LoseWeightScreen.storyboard in Resources */,
 				D9E3BED525B3498600AE110A /* VegeterianBreakfast.plist in Resources */,
 				D9C1FD4C25B067FC00FDA667 /* DairyBreakfast.plist in Resources */,
 				D9BCD8F025B70A6C0038626F /* PescatarianEggLunch.plist in Resources */,
 				D928C0E625ADCF8800A62C9A /* EggsDinner.plist in Resources */,
 				D9E3BED925B3498F00AE110A /* VegeterianLunch.plist in Resources */,
 				D9C1FD9025B0A1AC00FDA667 /* RecipeScreen.storyboard in Resources */,
+				D935315425BB564500D4AC97 /* BuildMuscleScreen.storyboard in Resources */,
 				D93948A725AF373D00E6784A /* FishBreakfast.plist in Resources */,
 				D9DDA4EA25B86F3300C024BB /* GlutenBreakfast.plist in Resources */,
 				D93BC13A25B1CB580051602E /* VeganGlutenLunch.plist in Resources */,
@@ -808,6 +828,7 @@
 				D96F043A25B4A3E700467282 /* VegetarianGlutenBreakfast.plist in Resources */,
 				D9BCD90525B712EF0038626F /* PescatarianGlutenLunch.plist in Resources */,
 				D905514225A49ECF009AB32D /* VegeterianToFoodIntolerance.storyboard in Resources */,
+				D935315C25BB59EA00D4AC97 /* StayFitScreen.storyboard in Resources */,
 				D98A4FB2259CEA7100294F64 /* Assets.xcassets in Resources */,
 				D9C1FD5025B0681300FDA667 /* DairyLunch.plist in Resources */,
 				D9C1FD8C25B09FA100FDA667 /* VeganDinner.plist in Resources */,
@@ -903,12 +924,14 @@
 			files = (
 				D9431D8625A5F69D009F13EF /* imageCollectionView.swift in Sources */,
 				D9C1FD5E25B09B2900FDA667 /* VeganBasicIntolerance.swift in Sources */,
+				D935315025BB54A300D4AC97 /* BuildMuscleView.swift in Sources */,
 				D989E9FE25A1EBCA00ECEB5C /* MyMeals.swift in Sources */,
 				D9E3BEC325B3466200AE110A /* VegeterianBasicView.swift in Sources */,
 				D905513325A49CFD009AB32D /* GlutenFoodIntolerance.swift in Sources */,
 				D905515225A4A387009AB32D /* NoneSelectedFood.swift in Sources */,
 				D930D69A259E6713006A0093 /* FirebaseAuthManager.swift in Sources */,
 				D930D696259E64CD006A0093 /* SignUpScreen.swift in Sources */,
+				D935314825BB4D4A00D4AC97 /* LoseWeightScreen.swift in Sources */,
 				D9DDA4E025B86CE200C024BB /* GlutenFreeBasic.swift in Sources */,
 				D9FFCAFB25A3444300502914 /* FoodIntoleranceScreen.swift in Sources */,
 				D93BC14225B1E27F0051602E /* VeganNutIntolerance.swift in Sources */,
@@ -935,6 +958,7 @@
 				D9C1FD4725B0619200FDA667 /* DairyIntolerance.swift in Sources */,
 				D93948A225AF2F3700E6784A /* FishIntolerance.swift in Sources */,
 				D905512B25A498FF009AB32D /* VeganFoodIntolerance.swift in Sources */,
+				D935315825BB57FB00D4AC97 /* StayFitView.swift in Sources */,
 				D98A4FAB259CEA6D00294F64 /* SceneDelegate.swift in Sources */,
 				D905513725A49D32009AB32D /* PescFoodIntolerance.swift in Sources */,
 			);
