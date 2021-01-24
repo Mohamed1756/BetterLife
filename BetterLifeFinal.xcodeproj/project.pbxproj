@@ -38,6 +38,7 @@
 		D935315425BB564500D4AC97 /* BuildMuscleScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D935315325BB564500D4AC97 /* BuildMuscleScreen.storyboard */; };
 		D935315825BB57FB00D4AC97 /* StayFitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D935315725BB57FB00D4AC97 /* StayFitView.swift */; };
 		D935315C25BB59EA00D4AC97 /* StayFitScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D935315B25BB59EA00D4AC97 /* StayFitScreen.storyboard */; };
+		D935316125BC6C1A00D4AC97 /* LoseWeightBeginner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D935316025BC6C1A00D4AC97 /* LoseWeightBeginner.swift */; };
 		D93948A225AF2F3700E6784A /* FishIntolerance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93948A125AF2F3700E6784A /* FishIntolerance.swift */; };
 		D93948A725AF373D00E6784A /* FishBreakfast.plist in Resources */ = {isa = PBXBuildFile; fileRef = D93948A625AF373D00E6784A /* FishBreakfast.plist */; };
 		D93948AB25AF374C00E6784A /* FishLunch.plist in Resources */ = {isa = PBXBuildFile; fileRef = D93948AA25AF374C00E6784A /* FishLunch.plist */; };
@@ -104,6 +105,10 @@
 		D9DDA50525B87DA400C024BB /* GlutenDairyBreakfast.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9DDA50425B87DA400C024BB /* GlutenDairyBreakfast.plist */; };
 		D9DDA50925B87DAD00C024BB /* GlutenDairyLunch.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9DDA50825B87DAD00C024BB /* GlutenDairyLunch.plist */; };
 		D9DDA50D25B87DB900C024BB /* GlutenDairyDinner.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9DDA50C25B87DB900C024BB /* GlutenDairyDinner.plist */; };
+		D9E0B55E25BDF10A0066A379 /* BeginnerLoseWeight.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9E0B55D25BDF10A0066A379 /* BeginnerLoseWeight.plist */; };
+		D9E0B56225BDF4820066A379 /* LoseWeightImageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E0B56125BDF4820066A379 /* LoseWeightImageCollectionView.swift */; };
+		D9E0B56625BDF6980066A379 /* LoseWeightSecondWeek.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9E0B56525BDF6980066A379 /* LoseWeightSecondWeek.plist */; };
+		D9E0B56A25BDF6C20066A379 /* LoseWeightThirdWeek.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9E0B56925BDF6C20066A379 /* LoseWeightThirdWeek.plist */; };
 		D9E3BEB625B32BC400AE110A /* VeganNutBreakfast.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9E3BEB525B32BC400AE110A /* VeganNutBreakfast.plist */; };
 		D9E3BEBA25B32BD100AE110A /* VeganNutLunch.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9E3BEB925B32BD100AE110A /* VeganNutLunch.plist */; };
 		D9E3BEBE25B32BEB00AE110A /* VeganNutDinner.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9E3BEBD25B32BEB00AE110A /* VeganNutDinner.plist */; };
@@ -160,6 +165,7 @@
 		D935315325BB564500D4AC97 /* BuildMuscleScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BuildMuscleScreen.storyboard; sourceTree = "<group>"; };
 		D935315725BB57FB00D4AC97 /* StayFitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StayFitView.swift; sourceTree = "<group>"; };
 		D935315B25BB59EA00D4AC97 /* StayFitScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = StayFitScreen.storyboard; path = ../../../../../StayFitScreen.storyboard; sourceTree = "<group>"; };
+		D935316025BC6C1A00D4AC97 /* LoseWeightBeginner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseWeightBeginner.swift; sourceTree = "<group>"; };
 		D93948A125AF2F3700E6784A /* FishIntolerance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishIntolerance.swift; sourceTree = "<group>"; };
 		D93948A625AF373D00E6784A /* FishBreakfast.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FishBreakfast.plist; sourceTree = "<group>"; };
 		D93948AA25AF374C00E6784A /* FishLunch.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FishLunch.plist; sourceTree = "<group>"; };
@@ -231,6 +237,10 @@
 		D9DDA50425B87DA400C024BB /* GlutenDairyBreakfast.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GlutenDairyBreakfast.plist; sourceTree = "<group>"; };
 		D9DDA50825B87DAD00C024BB /* GlutenDairyLunch.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GlutenDairyLunch.plist; sourceTree = "<group>"; };
 		D9DDA50C25B87DB900C024BB /* GlutenDairyDinner.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GlutenDairyDinner.plist; sourceTree = "<group>"; };
+		D9E0B55D25BDF10A0066A379 /* BeginnerLoseWeight.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = BeginnerLoseWeight.plist; sourceTree = "<group>"; };
+		D9E0B56125BDF4820066A379 /* LoseWeightImageCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseWeightImageCollectionView.swift; sourceTree = "<group>"; };
+		D9E0B56525BDF6980066A379 /* LoseWeightSecondWeek.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = LoseWeightSecondWeek.plist; sourceTree = "<group>"; };
+		D9E0B56925BDF6C20066A379 /* LoseWeightThirdWeek.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = LoseWeightThirdWeek.plist; sourceTree = "<group>"; };
 		D9E3BEB525B32BC400AE110A /* VeganNutBreakfast.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VeganNutBreakfast.plist; sourceTree = "<group>"; };
 		D9E3BEB925B32BD100AE110A /* VeganNutLunch.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VeganNutLunch.plist; sourceTree = "<group>"; };
 		D9E3BEBD25B32BEB00AE110A /* VeganNutDinner.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VeganNutDinner.plist; sourceTree = "<group>"; };
@@ -365,6 +375,15 @@
 			path = Eggs;
 			sourceTree = "<group>";
 		};
+		D935315F25BC6BB800D4AC97 /* Lose Weight Levels  */ = {
+			isa = PBXGroup;
+			children = (
+				D935316025BC6C1A00D4AC97 /* LoseWeightBeginner.swift */,
+				D9E0B56125BDF4820066A379 /* LoseWeightImageCollectionView.swift */,
+			);
+			path = "Lose Weight Levels ";
+			sourceTree = "<group>";
+		};
 		D93948A525AF372700E6784A /* Fish */ = {
 			isa = PBXGroup;
 			children = (
@@ -388,6 +407,7 @@
 		D96ED19225A9E43800B17082 /* Properties  */ = {
 			isa = PBXGroup;
 			children = (
+				D9E0B55925BDF0AA0066A379 /* Workouts  */,
 				D9DDA4E725B86F0200C024BB /* Gluten Free */,
 				D9BCD8DA25B705440038626F /* Pescatarian */,
 				D9E3BED225B3494B00AE110A /* Vegeterian */,
@@ -482,6 +502,7 @@
 		D9A0B7A125B9A802001A7DD3 /* Workout Screen */ = {
 			isa = PBXGroup;
 			children = (
+				D935315F25BC6BB800D4AC97 /* Lose Weight Levels  */,
 				D9A0B7A225B9A853001A7DD3 /* MyWorkoutsChoiceView.swift */,
 				D935314F25BB54A300D4AC97 /* BuildMuscleView.swift */,
 				D935314725BB4D4A00D4AC97 /* LoseWeightScreen.swift */,
@@ -651,6 +672,32 @@
 			path = "Dairy Free";
 			sourceTree = "<group>";
 		};
+		D9E0B55925BDF0AA0066A379 /* Workouts  */ = {
+			isa = PBXGroup;
+			children = (
+				D9E0B55B25BDF0D70066A379 /* Lose Weight */,
+			);
+			path = "Workouts ";
+			sourceTree = "<group>";
+		};
+		D9E0B55B25BDF0D70066A379 /* Lose Weight */ = {
+			isa = PBXGroup;
+			children = (
+				D9E0B55C25BDF0DF0066A379 /* Beginner */,
+			);
+			path = "Lose Weight";
+			sourceTree = "<group>";
+		};
+		D9E0B55C25BDF0DF0066A379 /* Beginner */ = {
+			isa = PBXGroup;
+			children = (
+				D9E0B55D25BDF10A0066A379 /* BeginnerLoseWeight.plist */,
+				D9E0B56525BDF6980066A379 /* LoseWeightSecondWeek.plist */,
+				D9E0B56925BDF6C20066A379 /* LoseWeightThirdWeek.plist */,
+			);
+			path = Beginner;
+			sourceTree = "<group>";
+		};
 		D9E3BEB425B32B6800AE110A /* Nut Free */ = {
 			isa = PBXGroup;
 			children = (
@@ -795,6 +842,7 @@
 				D928C0DE25ADCC9600A62C9A /* EggsBreakfast.plist in Resources */,
 				D9A0B7BD25B9B60F001A7DD3 /* HomeScreen.storyboard in Resources */,
 				D905514A25A49FD8009AB32D /* PescToFoodIntolerance.storyboard in Resources */,
+				D9E0B56A25BDF6C20066A379 /* LoseWeightThirdWeek.plist in Resources */,
 				D930A90D25AB71FD00E46FB0 /* DinnerSelection.plist in Resources */,
 				D9BCD90125B712DC0038626F /* PescatarianGlutenBreakfast.plist in Resources */,
 				D9DDA50D25B87DB900C024BB /* GlutenDairyDinner.plist in Resources */,
@@ -816,6 +864,7 @@
 				D9BCD8F025B70A6C0038626F /* PescatarianEggLunch.plist in Resources */,
 				D928C0E625ADCF8800A62C9A /* EggsDinner.plist in Resources */,
 				D9E3BED925B3498F00AE110A /* VegeterianLunch.plist in Resources */,
+				D9E0B56625BDF6980066A379 /* LoseWeightSecondWeek.plist in Resources */,
 				D9C1FD9025B0A1AC00FDA667 /* RecipeScreen.storyboard in Resources */,
 				D935315425BB564500D4AC97 /* BuildMuscleScreen.storyboard in Resources */,
 				D93948A725AF373D00E6784A /* FishBreakfast.plist in Resources */,
@@ -824,6 +873,7 @@
 				D9C1FD8325B09F5C00FDA667 /* VeganBreakfast.plist in Resources */,
 				D9DDA4F625B8773300C024BB /* VegeterianOptionFoodIntolerance.storyboard in Resources */,
 				D981F274259DEE810001F55E /* GoogleService-Info.plist in Resources */,
+				D9E0B55E25BDF10A0066A379 /* BeginnerLoseWeight.plist in Resources */,
 				D96ED19425A9E48100B17082 /* LunchSelection.plist in Resources */,
 				D96F043A25B4A3E700467282 /* VegetarianGlutenBreakfast.plist in Resources */,
 				D9BCD90525B712EF0038626F /* PescatarianGlutenLunch.plist in Resources */,
@@ -922,6 +972,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D935316125BC6C1A00D4AC97 /* LoseWeightBeginner.swift in Sources */,
 				D9431D8625A5F69D009F13EF /* imageCollectionView.swift in Sources */,
 				D9C1FD5E25B09B2900FDA667 /* VeganBasicIntolerance.swift in Sources */,
 				D935315025BB54A300D4AC97 /* BuildMuscleView.swift in Sources */,
@@ -938,6 +989,7 @@
 				D9DDA4E425B86D1B00C024BB /* GlutenFreeImageCollectionView.swift in Sources */,
 				D90F8EDF25A7628F00CCF022 /* RecipeForNothing.swift in Sources */,
 				D9BCD8F825B70BC80038626F /* PescatarianEggFreeView.swift in Sources */,
+				D9E0B56225BDF4820066A379 /* LoseWeightImageCollectionView.swift in Sources */,
 				D9E3BECF25B3472000AE110A /* VegeterianImageCollectionView.swift in Sources */,
 				D9DDA50025B879CA00C024BB /* GlutenDairyFreeView.swift in Sources */,
 				D93BC13125B1C76F0051602E /* VeganGlutenIntolerance.swift in Sources */,
