@@ -62,7 +62,53 @@ class LoseWeightBeginner:UIViewController,UICollectionViewDelegate,UICollectionV
      
     }
     
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == "weekOneToWorkoutScreen" {
+           
+            let detail = segue.destination as! WorkoutScreen
+        
+            if let indexPath = self.firstWeekCollectionView?.indexPath(for: sender as! UICollectionViewCell) {
+                
+                let firstWeekItem = self.firstWeekItems [indexPath.row]
+           
+                detail.sentData1 = firstWeekItem ["Title"]
+                detail.sentData2 = firstWeekItem ["Day"]
+                detail.sentData3 = firstWeekItem ["Image"]
+                detail.sentData4 = firstWeekItem ["Description"]
+            }
+        }
+        if segue.identifier == "weekTwoToWorkoutScreen" {
+            
+            let detail = segue.destination as! WorkoutScreen
+        
+            if let indexPath = self.secondWeekCollectionView?.indexPath(for: sender as! UICollectionViewCell) {
+                
+                let secondWeekItem = self.secondWeekItems [indexPath.row]
+           
+                detail.sentData1 = secondWeekItem ["Title"]
+                detail.sentData2 = secondWeekItem ["Day"]
+                detail.sentData3 = secondWeekItem ["Image"]
+                detail.sentData4 = secondWeekItem ["Description"]
+            }
+        }
+        if segue.identifier == "weekThreeToWorkoutScreen" {
+           
+            let detail = segue.destination as! WorkoutScreen
+        
+            if let indexPath = self.thirdWeekCollectionView?.indexPath(for: sender as! UICollectionViewCell) {
+                
+                let thirdWeekItem = self.thirdWeekItems [indexPath.row]
+           
+                detail.sentData1 = thirdWeekItem ["Title"]
+                detail.sentData2 = thirdWeekItem ["Day"]
+                detail.sentData3 = thirdWeekItem ["Image"]
+                detail.sentData4 = thirdWeekItem ["Description"]
+            }
+        }
+        
+    }
+
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         if (collectionView == firstWeekCollectionView) {
             return 1

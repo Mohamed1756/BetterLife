@@ -49,6 +49,7 @@
 		D93BC13E25B1CB6C0051602E /* VeganGlutenDinner.plist in Resources */ = {isa = PBXBuildFile; fileRef = D93BC13D25B1CB6C0051602E /* VeganGlutenDinner.plist */; };
 		D93BC14225B1E27F0051602E /* VeganNutIntolerance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93BC14125B1E27F0051602E /* VeganNutIntolerance.swift */; };
 		D9431D8625A5F69D009F13EF /* imageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9431D8525A5F69D009F13EF /* imageCollectionView.swift */; };
+		D9601A8E25BF4C25005B35CD /* WorkoutScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9601A8D25BF4C25005B35CD /* WorkoutScreen.swift */; };
 		D96ED19425A9E48100B17082 /* LunchSelection.plist in Resources */ = {isa = PBXBuildFile; fileRef = D96ED19325A9E48100B17082 /* LunchSelection.plist */; };
 		D96F043325B49E8A00467282 /* VegetarianGlutenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96F043225B49E8A00467282 /* VegetarianGlutenView.swift */; };
 		D96F043A25B4A3E700467282 /* VegetarianGlutenBreakfast.plist in Resources */ = {isa = PBXBuildFile; fileRef = D96F043925B4A3E700467282 /* VegetarianGlutenBreakfast.plist */; };
@@ -176,6 +177,7 @@
 		D93BC13D25B1CB6C0051602E /* VeganGlutenDinner.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VeganGlutenDinner.plist; sourceTree = "<group>"; };
 		D93BC14125B1E27F0051602E /* VeganNutIntolerance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeganNutIntolerance.swift; sourceTree = "<group>"; };
 		D9431D8525A5F69D009F13EF /* imageCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageCollectionView.swift; sourceTree = "<group>"; };
+		D9601A8D25BF4C25005B35CD /* WorkoutScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutScreen.swift; sourceTree = "<group>"; };
 		D96ED19325A9E48100B17082 /* LunchSelection.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = LunchSelection.plist; sourceTree = "<group>"; };
 		D96F043225B49E8A00467282 /* VegetarianGlutenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetarianGlutenView.swift; sourceTree = "<group>"; };
 		D96F043925B4A3E700467282 /* VegetarianGlutenBreakfast.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VegetarianGlutenBreakfast.plist; sourceTree = "<group>"; };
@@ -507,6 +509,7 @@
 				D935314F25BB54A300D4AC97 /* BuildMuscleView.swift */,
 				D935314725BB4D4A00D4AC97 /* LoseWeightScreen.swift */,
 				D935315725BB57FB00D4AC97 /* StayFitView.swift */,
+				D9601A8D25BF4C25005B35CD /* WorkoutScreen.swift */,
 			);
 			path = "Workout Screen";
 			sourceTree = "<group>";
@@ -995,6 +998,7 @@
 				D93BC13125B1C76F0051602E /* VeganGlutenIntolerance.swift in Sources */,
 				D9C1FD6225B09C3700FDA667 /* VeganImageCollectionView.swift in Sources */,
 				D98A4FAD259CEA6D00294F64 /* ViewController.swift in Sources */,
+				D9601A8E25BF4C25005B35CD /* WorkoutScreen.swift in Sources */,
 				D98A4FE6259D065500294F64 /* LoginScreen.swift in Sources */,
 				D9BCD8FC25B712320038626F /* PescatarianGlutenFreeView.swift in Sources */,
 				D9BCD8BD25B6FA650038626F /* VegetarianNutFreeViews.swift in Sources */,
