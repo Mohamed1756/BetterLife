@@ -40,6 +40,7 @@
 		D9328FE325C04E8500139846 /* advancedLoseWeightFirstWeek.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9328FE225C04E8500139846 /* advancedLoseWeightFirstWeek.plist */; };
 		D9328FE725C04E9C00139846 /* advancedLoseWeightSecondWeek.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9328FE625C04E9C00139846 /* advancedLoseWeightSecondWeek.plist */; };
 		D9328FEB25C04EAA00139846 /* advancedLoseWeightThirdWeek.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9328FEA25C04EAA00139846 /* advancedLoseWeightThirdWeek.plist */; };
+		D9328FF025C0AA8800139846 /* BuildMuscleBeginner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9328FEF25C0AA8800139846 /* BuildMuscleBeginner.swift */; };
 		D935314825BB4D4A00D4AC97 /* LoseWeightScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D935314725BB4D4A00D4AC97 /* LoseWeightScreen.swift */; };
 		D935314C25BB51C100D4AC97 /* LoseWeightScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D935314B25BB51C100D4AC97 /* LoseWeightScreen.storyboard */; };
 		D935315025BB54A300D4AC97 /* BuildMuscleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D935314F25BB54A300D4AC97 /* BuildMuscleView.swift */; };
@@ -104,6 +105,32 @@
 		D9C1FD8825B09F8200FDA667 /* VeganLunch.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9C1FD8725B09F8200FDA667 /* VeganLunch.plist */; };
 		D9C1FD8C25B09FA100FDA667 /* VeganDinner.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9C1FD8B25B09FA100FDA667 /* VeganDinner.plist */; };
 		D9C1FD9025B0A1AC00FDA667 /* RecipeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C1FD8F25B0A1AC00FDA667 /* RecipeScreen.storyboard */; };
+		D9CDA4ED25C1967800542931 /* BuildMuscleImageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CDA4EC25C1967800542931 /* BuildMuscleImageCollectionView.swift */; };
+		D9CDA4F525C19A2C00542931 /* BuildMuscleBeginnerWeekOne.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9CDA4F425C19A2C00542931 /* BuildMuscleBeginnerWeekOne.plist */; };
+		D9CDA4F925C19A4C00542931 /* BuildMuscleBeginnerWeekTwo.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9CDA4F825C19A4C00542931 /* BuildMuscleBeginnerWeekTwo.plist */; };
+		D9CDA4FD25C19A5700542931 /* BuildMuscleBeginnerWeekThree.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9CDA4FC25C19A5700542931 /* BuildMuscleBeginnerWeekThree.plist */; };
+		D9CDA50125C19A7300542931 /* BuildMuscleIntermediateWeekOne.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9CDA50025C19A7300542931 /* BuildMuscleIntermediateWeekOne.plist */; };
+		D9CDA50525C19A7E00542931 /* BuildMuscleIntermediateWeekTwo.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9CDA50425C19A7E00542931 /* BuildMuscleIntermediateWeekTwo.plist */; };
+		D9CDA50925C19A8B00542931 /* BuildMuscleIntermediateWeekThree.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9CDA50825C19A8B00542931 /* BuildMuscleIntermediateWeekThree.plist */; };
+		D9CDA50D25C19A9C00542931 /* BuildMuscleAdvancedWeekOne.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9CDA50C25C19A9C00542931 /* BuildMuscleAdvancedWeekOne.plist */; };
+		D9CDA51725C19AED00542931 /* BuildMuscleAdvancedWeekTwo.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9CDA51625C19AED00542931 /* BuildMuscleAdvancedWeekTwo.plist */; };
+		D9CDA51B25C19AF900542931 /* BuildMuscleAdvancedWeekThree.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9CDA51A25C19AF900542931 /* BuildMuscleAdvancedWeekThree.plist */; };
+		D9CDA51F25C19F1C00542931 /* ViewWorkoutChoiceScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9CDA51E25C19F1C00542931 /* ViewWorkoutChoiceScreen.storyboard */; };
+		D9CDA52325C1A01F00542931 /* BuildMuscleIntermediateViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CDA52225C1A01F00542931 /* BuildMuscleIntermediateViews.swift */; };
+		D9CDA52725C1A46500542931 /* BuildMuscleAdvancedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CDA52625C1A46500542931 /* BuildMuscleAdvancedViews.swift */; };
+		D9DB5C6825C2E18D006C1769 /* StayFitImageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DB5C6725C2E18D006C1769 /* StayFitImageCollectionView.swift */; };
+		D9DB5C6C25C2E1A4006C1769 /* StayFitBeginner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DB5C6B25C2E1A4006C1769 /* StayFitBeginner.swift */; };
+		D9DB5C7025C2E1BC006C1769 /* StayFitIntermediateViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DB5C6F25C2E1BC006C1769 /* StayFitIntermediateViews.swift */; };
+		D9DB5C7425C2E1CD006C1769 /* StayFitAdvancedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DB5C7325C2E1CD006C1769 /* StayFitAdvancedViews.swift */; };
+		D9DB5C7C25C2EDAE006C1769 /* stayFitBeginnerWeekOne.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9DB5C7B25C2EDAE006C1769 /* stayFitBeginnerWeekOne.plist */; };
+		D9DB5C8025C2EDC3006C1769 /* stayFitBeginnerWeekTwo.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9DB5C7F25C2EDC3006C1769 /* stayFitBeginnerWeekTwo.plist */; };
+		D9DB5C8425C2EDCE006C1769 /* stayFitBeginnerWeekThree.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9DB5C8325C2EDCE006C1769 /* stayFitBeginnerWeekThree.plist */; };
+		D9DB5C8825C2EDE9006C1769 /* stayFitIntermediateWeekOne.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9DB5C8725C2EDE9006C1769 /* stayFitIntermediateWeekOne.plist */; };
+		D9DB5C8C25C2EDF3006C1769 /* stayFitIntermediateWeekTwo.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9DB5C8B25C2EDF3006C1769 /* stayFitIntermediateWeekTwo.plist */; };
+		D9DB5C9025C2EDFE006C1769 /* stayFitIntermediateWeekThree.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9DB5C8F25C2EDFE006C1769 /* stayFitIntermediateWeekThree.plist */; };
+		D9DB5C9425C2EE15006C1769 /* stayFitAdvancedWeekOne.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9DB5C9325C2EE15006C1769 /* stayFitAdvancedWeekOne.plist */; };
+		D9DB5C9825C2EE1F006C1769 /* stayFitAdvancedWeekTwo.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9DB5C9725C2EE1F006C1769 /* stayFitAdvancedWeekTwo.plist */; };
+		D9DB5C9C25C2EE29006C1769 /* stayFitAdvancedWeekThree.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9DB5C9B25C2EE29006C1769 /* stayFitAdvancedWeekThree.plist */; };
 		D9DDA4E025B86CE200C024BB /* GlutenFreeBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDA4DF25B86CE200C024BB /* GlutenFreeBasic.swift */; };
 		D9DDA4E425B86D1B00C024BB /* GlutenFreeImageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDA4E325B86D1B00C024BB /* GlutenFreeImageCollectionView.swift */; };
 		D9DDA4EA25B86F3300C024BB /* GlutenBreakfast.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9DDA4E925B86F3300C024BB /* GlutenBreakfast.plist */; };
@@ -176,6 +203,7 @@
 		D9328FE225C04E8500139846 /* advancedLoseWeightFirstWeek.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = advancedLoseWeightFirstWeek.plist; sourceTree = "<group>"; };
 		D9328FE625C04E9C00139846 /* advancedLoseWeightSecondWeek.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = advancedLoseWeightSecondWeek.plist; sourceTree = "<group>"; };
 		D9328FEA25C04EAA00139846 /* advancedLoseWeightThirdWeek.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = advancedLoseWeightThirdWeek.plist; sourceTree = "<group>"; };
+		D9328FEF25C0AA8800139846 /* BuildMuscleBeginner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildMuscleBeginner.swift; sourceTree = "<group>"; };
 		D935314725BB4D4A00D4AC97 /* LoseWeightScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseWeightScreen.swift; sourceTree = "<group>"; };
 		D935314B25BB51C100D4AC97 /* LoseWeightScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoseWeightScreen.storyboard; sourceTree = "<group>"; };
 		D935314F25BB54A300D4AC97 /* BuildMuscleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildMuscleView.swift; sourceTree = "<group>"; };
@@ -245,6 +273,32 @@
 		D9C1FD8725B09F8200FDA667 /* VeganLunch.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VeganLunch.plist; sourceTree = "<group>"; };
 		D9C1FD8B25B09FA100FDA667 /* VeganDinner.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VeganDinner.plist; sourceTree = "<group>"; };
 		D9C1FD8F25B0A1AC00FDA667 /* RecipeScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RecipeScreen.storyboard; sourceTree = "<group>"; };
+		D9CDA4EC25C1967800542931 /* BuildMuscleImageCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildMuscleImageCollectionView.swift; sourceTree = "<group>"; };
+		D9CDA4F425C19A2C00542931 /* BuildMuscleBeginnerWeekOne.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = BuildMuscleBeginnerWeekOne.plist; sourceTree = "<group>"; };
+		D9CDA4F825C19A4C00542931 /* BuildMuscleBeginnerWeekTwo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = BuildMuscleBeginnerWeekTwo.plist; sourceTree = "<group>"; };
+		D9CDA4FC25C19A5700542931 /* BuildMuscleBeginnerWeekThree.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = BuildMuscleBeginnerWeekThree.plist; sourceTree = "<group>"; };
+		D9CDA50025C19A7300542931 /* BuildMuscleIntermediateWeekOne.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = BuildMuscleIntermediateWeekOne.plist; sourceTree = "<group>"; };
+		D9CDA50425C19A7E00542931 /* BuildMuscleIntermediateWeekTwo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = BuildMuscleIntermediateWeekTwo.plist; sourceTree = "<group>"; };
+		D9CDA50825C19A8B00542931 /* BuildMuscleIntermediateWeekThree.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = BuildMuscleIntermediateWeekThree.plist; sourceTree = "<group>"; };
+		D9CDA50C25C19A9C00542931 /* BuildMuscleAdvancedWeekOne.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = BuildMuscleAdvancedWeekOne.plist; sourceTree = "<group>"; };
+		D9CDA51625C19AED00542931 /* BuildMuscleAdvancedWeekTwo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = BuildMuscleAdvancedWeekTwo.plist; sourceTree = "<group>"; };
+		D9CDA51A25C19AF900542931 /* BuildMuscleAdvancedWeekThree.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = BuildMuscleAdvancedWeekThree.plist; sourceTree = "<group>"; };
+		D9CDA51E25C19F1C00542931 /* ViewWorkoutChoiceScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ViewWorkoutChoiceScreen.storyboard; sourceTree = "<group>"; };
+		D9CDA52225C1A01F00542931 /* BuildMuscleIntermediateViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildMuscleIntermediateViews.swift; sourceTree = "<group>"; };
+		D9CDA52625C1A46500542931 /* BuildMuscleAdvancedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildMuscleAdvancedViews.swift; sourceTree = "<group>"; };
+		D9DB5C6725C2E18D006C1769 /* StayFitImageCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StayFitImageCollectionView.swift; sourceTree = "<group>"; };
+		D9DB5C6B25C2E1A4006C1769 /* StayFitBeginner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StayFitBeginner.swift; sourceTree = "<group>"; };
+		D9DB5C6F25C2E1BC006C1769 /* StayFitIntermediateViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StayFitIntermediateViews.swift; sourceTree = "<group>"; };
+		D9DB5C7325C2E1CD006C1769 /* StayFitAdvancedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StayFitAdvancedViews.swift; sourceTree = "<group>"; };
+		D9DB5C7B25C2EDAE006C1769 /* stayFitBeginnerWeekOne.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = stayFitBeginnerWeekOne.plist; sourceTree = "<group>"; };
+		D9DB5C7F25C2EDC3006C1769 /* stayFitBeginnerWeekTwo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = stayFitBeginnerWeekTwo.plist; sourceTree = "<group>"; };
+		D9DB5C8325C2EDCE006C1769 /* stayFitBeginnerWeekThree.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = stayFitBeginnerWeekThree.plist; sourceTree = "<group>"; };
+		D9DB5C8725C2EDE9006C1769 /* stayFitIntermediateWeekOne.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = stayFitIntermediateWeekOne.plist; sourceTree = "<group>"; };
+		D9DB5C8B25C2EDF3006C1769 /* stayFitIntermediateWeekTwo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = stayFitIntermediateWeekTwo.plist; sourceTree = "<group>"; };
+		D9DB5C8F25C2EDFE006C1769 /* stayFitIntermediateWeekThree.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = stayFitIntermediateWeekThree.plist; sourceTree = "<group>"; };
+		D9DB5C9325C2EE15006C1769 /* stayFitAdvancedWeekOne.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = stayFitAdvancedWeekOne.plist; sourceTree = "<group>"; };
+		D9DB5C9725C2EE1F006C1769 /* stayFitAdvancedWeekTwo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = stayFitAdvancedWeekTwo.plist; sourceTree = "<group>"; };
+		D9DB5C9B25C2EE29006C1769 /* stayFitAdvancedWeekThree.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = stayFitAdvancedWeekThree.plist; sourceTree = "<group>"; };
 		D9DDA4DF25B86CE200C024BB /* GlutenFreeBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlutenFreeBasic.swift; sourceTree = "<group>"; };
 		D9DDA4E325B86D1B00C024BB /* GlutenFreeImageCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlutenFreeImageCollectionView.swift; sourceTree = "<group>"; };
 		D9DDA4E925B86F3300C024BB /* GlutenBreakfast.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GlutenBreakfast.plist; sourceTree = "<group>"; };
@@ -413,6 +467,17 @@
 			path = Advanced;
 			sourceTree = "<group>";
 		};
+		D9328FEE25C0AA5600139846 /* Build Muscle Levels */ = {
+			isa = PBXGroup;
+			children = (
+				D9328FEF25C0AA8800139846 /* BuildMuscleBeginner.swift */,
+				D9CDA4EC25C1967800542931 /* BuildMuscleImageCollectionView.swift */,
+				D9CDA52225C1A01F00542931 /* BuildMuscleIntermediateViews.swift */,
+				D9CDA52625C1A46500542931 /* BuildMuscleAdvancedViews.swift */,
+			);
+			path = "Build Muscle Levels";
+			sourceTree = "<group>";
+		};
 		D935315F25BC6BB800D4AC97 /* Lose Weight Levels  */ = {
 			isa = PBXGroup;
 			children = (
@@ -542,6 +607,8 @@
 		D9A0B7A125B9A802001A7DD3 /* Workout Screen */ = {
 			isa = PBXGroup;
 			children = (
+				D9DB5C6225C2E157006C1769 /* Stay Fit Levels */,
+				D9328FEE25C0AA5600139846 /* Build Muscle Levels */,
 				D935315F25BC6BB800D4AC97 /* Lose Weight Levels  */,
 				D9A0B7A225B9A853001A7DD3 /* MyWorkoutsChoiceView.swift */,
 				D935314F25BB54A300D4AC97 /* BuildMuscleView.swift */,
@@ -559,6 +626,7 @@
 				D935315B25BB59EA00D4AC97 /* StayFitScreen.storyboard */,
 				D935315325BB564500D4AC97 /* BuildMuscleScreen.storyboard */,
 				D935314B25BB51C100D4AC97 /* LoseWeightScreen.storyboard */,
+				D9CDA51E25C19F1C00542931 /* ViewWorkoutChoiceScreen.storyboard */,
 			);
 			path = Workouts;
 			sourceTree = "<group>";
@@ -674,6 +742,97 @@
 			path = None;
 			sourceTree = "<group>";
 		};
+		D9CDA4F025C199E100542931 /* Build Muscle  */ = {
+			isa = PBXGroup;
+			children = (
+				D9CDA4F125C199F400542931 /* Beginner */,
+				D9CDA4F325C19A0800542931 /* Intermediate  */,
+				D9CDA4F225C19A0100542931 /* Advanced */,
+			);
+			path = "Build Muscle ";
+			sourceTree = "<group>";
+		};
+		D9CDA4F125C199F400542931 /* Beginner */ = {
+			isa = PBXGroup;
+			children = (
+				D9CDA4F425C19A2C00542931 /* BuildMuscleBeginnerWeekOne.plist */,
+				D9CDA4F825C19A4C00542931 /* BuildMuscleBeginnerWeekTwo.plist */,
+				D9CDA4FC25C19A5700542931 /* BuildMuscleBeginnerWeekThree.plist */,
+			);
+			path = Beginner;
+			sourceTree = "<group>";
+		};
+		D9CDA4F225C19A0100542931 /* Advanced */ = {
+			isa = PBXGroup;
+			children = (
+				D9CDA50C25C19A9C00542931 /* BuildMuscleAdvancedWeekOne.plist */,
+				D9CDA51625C19AED00542931 /* BuildMuscleAdvancedWeekTwo.plist */,
+				D9CDA51A25C19AF900542931 /* BuildMuscleAdvancedWeekThree.plist */,
+			);
+			path = Advanced;
+			sourceTree = "<group>";
+		};
+		D9CDA4F325C19A0800542931 /* Intermediate  */ = {
+			isa = PBXGroup;
+			children = (
+				D9CDA50025C19A7300542931 /* BuildMuscleIntermediateWeekOne.plist */,
+				D9CDA50425C19A7E00542931 /* BuildMuscleIntermediateWeekTwo.plist */,
+				D9CDA50825C19A8B00542931 /* BuildMuscleIntermediateWeekThree.plist */,
+			);
+			path = "Intermediate ";
+			sourceTree = "<group>";
+		};
+		D9DB5C6225C2E157006C1769 /* Stay Fit Levels */ = {
+			isa = PBXGroup;
+			children = (
+				D9DB5C6725C2E18D006C1769 /* StayFitImageCollectionView.swift */,
+				D9DB5C6B25C2E1A4006C1769 /* StayFitBeginner.swift */,
+				D9DB5C6F25C2E1BC006C1769 /* StayFitIntermediateViews.swift */,
+				D9DB5C7325C2E1CD006C1769 /* StayFitAdvancedViews.swift */,
+			);
+			path = "Stay Fit Levels";
+			sourceTree = "<group>";
+		};
+		D9DB5C7725C2ED61006C1769 /* Stay Fit */ = {
+			isa = PBXGroup;
+			children = (
+				D9DB5C7825C2ED70006C1769 /* Beginner */,
+				D9DB5C7925C2ED7E006C1769 /* Intermediate */,
+				D9DB5C7A25C2ED87006C1769 /* Advanced */,
+			);
+			path = "Stay Fit";
+			sourceTree = "<group>";
+		};
+		D9DB5C7825C2ED70006C1769 /* Beginner */ = {
+			isa = PBXGroup;
+			children = (
+				D9DB5C7B25C2EDAE006C1769 /* stayFitBeginnerWeekOne.plist */,
+				D9DB5C7F25C2EDC3006C1769 /* stayFitBeginnerWeekTwo.plist */,
+				D9DB5C8325C2EDCE006C1769 /* stayFitBeginnerWeekThree.plist */,
+			);
+			path = Beginner;
+			sourceTree = "<group>";
+		};
+		D9DB5C7925C2ED7E006C1769 /* Intermediate */ = {
+			isa = PBXGroup;
+			children = (
+				D9DB5C8725C2EDE9006C1769 /* stayFitIntermediateWeekOne.plist */,
+				D9DB5C8B25C2EDF3006C1769 /* stayFitIntermediateWeekTwo.plist */,
+				D9DB5C8F25C2EDFE006C1769 /* stayFitIntermediateWeekThree.plist */,
+			);
+			path = Intermediate;
+			sourceTree = "<group>";
+		};
+		D9DB5C7A25C2ED87006C1769 /* Advanced */ = {
+			isa = PBXGroup;
+			children = (
+				D9DB5C9325C2EE15006C1769 /* stayFitAdvancedWeekOne.plist */,
+				D9DB5C9725C2EE1F006C1769 /* stayFitAdvancedWeekTwo.plist */,
+				D9DB5C9B25C2EE29006C1769 /* stayFitAdvancedWeekThree.plist */,
+			);
+			path = Advanced;
+			sourceTree = "<group>";
+		};
 		D9DDA4DC25B86CAD00C024BB /* Gluten Free */ = {
 			isa = PBXGroup;
 			children = (
@@ -716,6 +875,8 @@
 		D9E0B55925BDF0AA0066A379 /* Workouts  */ = {
 			isa = PBXGroup;
 			children = (
+				D9DB5C7725C2ED61006C1769 /* Stay Fit */,
+				D9CDA4F025C199E100542931 /* Build Muscle  */,
 				D9E0B55B25BDF0D70066A379 /* Lose Weight */,
 			);
 			path = "Workouts ";
@@ -874,6 +1035,7 @@
 				D9BCD8C225B6FAA00038626F /* VegetarianNutBreakfast.plist in Resources */,
 				D905512725A4905A009AB32D /* NoneToFoodIntolerance.storyboard in Resources */,
 				D90F8EE325A8899400CCF022 /* Food.plist in Resources */,
+				D9DB5C8025C2EDC3006C1769 /* stayFitBeginnerWeekTwo.plist in Resources */,
 				D98A4FB5259CEA7100294F64 /* LaunchScreen.storyboard in Resources */,
 				D9C1FD5425B0683200FDA667 /* DairyDinner.plist in Resources */,
 				D9DDA4EE25B86F9700C024BB /* GlutenLunch.plist in Resources */,
@@ -882,8 +1044,11 @@
 				D93BC13E25B1CB6C0051602E /* VeganGlutenDinner.plist in Resources */,
 				D93BC13625B1CB3D0051602E /* VeganGlutenBreakfast.plist in Resources */,
 				D9E3BEBA25B32BD100AE110A /* VeganNutLunch.plist in Resources */,
+				D9DB5C8425C2EDCE006C1769 /* stayFitBeginnerWeekThree.plist in Resources */,
+				D9CDA4FD25C19A5700542931 /* BuildMuscleBeginnerWeekThree.plist in Resources */,
 				D928C0DE25ADCC9600A62C9A /* EggsBreakfast.plist in Resources */,
 				D9A0B7BD25B9B60F001A7DD3 /* HomeScreen.storyboard in Resources */,
+				D9DB5C7C25C2EDAE006C1769 /* stayFitBeginnerWeekOne.plist in Resources */,
 				D905514A25A49FD8009AB32D /* PescToFoodIntolerance.storyboard in Resources */,
 				D9E0B56A25BDF6C20066A379 /* LoseWeightThirdWeek.plist in Resources */,
 				D930A90D25AB71FD00E46FB0 /* DinnerSelection.plist in Resources */,
@@ -891,15 +1056,21 @@
 				D9DDA50D25B87DB900C024BB /* GlutenDairyDinner.plist in Resources */,
 				D9E3BEBE25B32BEB00AE110A /* VeganNutDinner.plist in Resources */,
 				D9BCD8DD25B705AF0038626F /* PescatarianBasicBreakfast.plist in Resources */,
+				D9CDA51B25C19AF900542931 /* BuildMuscleAdvancedWeekThree.plist in Resources */,
+				D9CDA4F525C19A2C00542931 /* BuildMuscleBeginnerWeekOne.plist in Resources */,
 				D9328FD425C044D900139846 /* intermediateLoseWeightThirdWeek.plist in Resources */,
 				D917A1F125B5D560006449DA /* VegetarianEggDinner.plist in Resources */,
+				D9DB5C9425C2EE15006C1769 /* stayFitAdvancedWeekOne.plist in Resources */,
 				D9328FCC25C0448E00139846 /* intermediateLoseWeightFirstWeek.plist in Resources */,
 				D917A1ED25B5D553006449DA /* VegetarianEggLunch.plist in Resources */,
+				D9CDA50125C19A7300542931 /* BuildMuscleIntermediateWeekOne.plist in Resources */,
 				D9328FE325C04E8500139846 /* advancedLoseWeightFirstWeek.plist in Resources */,
+				D9CDA4F925C19A4C00542931 /* BuildMuscleBeginnerWeekTwo.plist in Resources */,
 				D9E3BEB625B32BC400AE110A /* VeganNutBreakfast.plist in Resources */,
 				D928C0E225ADCD8500A62C9A /* EggsLunch.plist in Resources */,
 				D9A0B7B625B9B495001A7DD3 /* MyFitnessGoalScreen.storyboard in Resources */,
 				D9E3BEDD25B3499F00AE110A /* VegeterianDinner.plist in Resources */,
+				D9DB5C9C25C2EE29006C1769 /* stayFitAdvancedWeekThree.plist in Resources */,
 				D9328FE725C04E9C00139846 /* advancedLoseWeightSecondWeek.plist in Resources */,
 				D93948B025AF376300E6784A /* FishDinner.plist in Resources */,
 				D9BCD90925B7130F0038626F /* PescatarianGlutenDinner.plist in Resources */,
@@ -907,6 +1078,7 @@
 				D9328FEB25C04EAA00139846 /* advancedLoseWeightThirdWeek.plist in Resources */,
 				D905514625A49F48009AB32D /* GlutenToFoodIntolerance.storyboard in Resources */,
 				D935314C25BB51C100D4AC97 /* LoseWeightScreen.storyboard in Resources */,
+				D9DB5C9025C2EDFE006C1769 /* stayFitIntermediateWeekThree.plist in Resources */,
 				D9E3BED525B3498600AE110A /* VegeterianBreakfast.plist in Resources */,
 				D9C1FD4C25B067FC00FDA667 /* DairyBreakfast.plist in Resources */,
 				D9BCD8F025B70A6C0038626F /* PescatarianEggLunch.plist in Resources */,
@@ -915,20 +1087,28 @@
 				D9E0B56625BDF6980066A379 /* LoseWeightSecondWeek.plist in Resources */,
 				D9C1FD9025B0A1AC00FDA667 /* RecipeScreen.storyboard in Resources */,
 				D935315425BB564500D4AC97 /* BuildMuscleScreen.storyboard in Resources */,
+				D9CDA50525C19A7E00542931 /* BuildMuscleIntermediateWeekTwo.plist in Resources */,
 				D93948A725AF373D00E6784A /* FishBreakfast.plist in Resources */,
+				D9CDA51F25C19F1C00542931 /* ViewWorkoutChoiceScreen.storyboard in Resources */,
 				D9DDA4EA25B86F3300C024BB /* GlutenBreakfast.plist in Resources */,
 				D93BC13A25B1CB580051602E /* VeganGlutenLunch.plist in Resources */,
 				D9C1FD8325B09F5C00FDA667 /* VeganBreakfast.plist in Resources */,
+				D9DB5C8C25C2EDF3006C1769 /* stayFitIntermediateWeekTwo.plist in Resources */,
 				D9DDA4F625B8773300C024BB /* VegeterianOptionFoodIntolerance.storyboard in Resources */,
 				D981F274259DEE810001F55E /* GoogleService-Info.plist in Resources */,
 				D9E0B55E25BDF10A0066A379 /* BeginnerLoseWeight.plist in Resources */,
+				D9CDA51725C19AED00542931 /* BuildMuscleAdvancedWeekTwo.plist in Resources */,
 				D96ED19425A9E48100B17082 /* LunchSelection.plist in Resources */,
 				D96F043A25B4A3E700467282 /* VegetarianGlutenBreakfast.plist in Resources */,
+				D9CDA50D25C19A9C00542931 /* BuildMuscleAdvancedWeekOne.plist in Resources */,
 				D9328FD025C044B200139846 /* intermediateLoseWeightSecondWeek.plist in Resources */,
 				D9BCD90525B712EF0038626F /* PescatarianGlutenLunch.plist in Resources */,
 				D905514225A49ECF009AB32D /* VegeterianToFoodIntolerance.storyboard in Resources */,
 				D935315C25BB59EA00D4AC97 /* StayFitScreen.storyboard in Resources */,
+				D9DB5C9825C2EE1F006C1769 /* stayFitAdvancedWeekTwo.plist in Resources */,
 				D98A4FB2259CEA7100294F64 /* Assets.xcassets in Resources */,
+				D9DB5C8825C2EDE9006C1769 /* stayFitIntermediateWeekOne.plist in Resources */,
+				D9CDA50925C19A8B00542931 /* BuildMuscleIntermediateWeekThree.plist in Resources */,
 				D9C1FD5025B0681300FDA667 /* DairyLunch.plist in Resources */,
 				D9C1FD8C25B09FA100FDA667 /* VeganDinner.plist in Resources */,
 				D96F043E25B4A43D00467282 /* VegetarianGlutenLunch.plist in Resources */,
@@ -1023,10 +1203,13 @@
 			files = (
 				D935316125BC6C1A00D4AC97 /* LoseWeightBeginner.swift in Sources */,
 				D9431D8625A5F69D009F13EF /* imageCollectionView.swift in Sources */,
+				D9DB5C6C25C2E1A4006C1769 /* StayFitBeginner.swift in Sources */,
 				D9C1FD5E25B09B2900FDA667 /* VeganBasicIntolerance.swift in Sources */,
 				D9328FDE25C04C7700139846 /* LoseWeightAdvancedView.swift in Sources */,
 				D935315025BB54A300D4AC97 /* BuildMuscleView.swift in Sources */,
 				D989E9FE25A1EBCA00ECEB5C /* MyMeals.swift in Sources */,
+				D9CDA52725C1A46500542931 /* BuildMuscleAdvancedViews.swift in Sources */,
+				D9DB5C7025C2E1BC006C1769 /* StayFitIntermediateViews.swift in Sources */,
 				D9E3BEC325B3466200AE110A /* VegeterianBasicView.swift in Sources */,
 				D905513325A49CFD009AB32D /* GlutenFoodIntolerance.swift in Sources */,
 				D905515225A4A387009AB32D /* NoneSelectedFood.swift in Sources */,
@@ -1035,12 +1218,15 @@
 				D935314825BB4D4A00D4AC97 /* LoseWeightScreen.swift in Sources */,
 				D9DDA4E025B86CE200C024BB /* GlutenFreeBasic.swift in Sources */,
 				D9FFCAFB25A3444300502914 /* FoodIntoleranceScreen.swift in Sources */,
+				D9DB5C6825C2E18D006C1769 /* StayFitImageCollectionView.swift in Sources */,
 				D93BC14225B1E27F0051602E /* VeganNutIntolerance.swift in Sources */,
 				D9DDA4E425B86D1B00C024BB /* GlutenFreeImageCollectionView.swift in Sources */,
+				D9CDA52325C1A01F00542931 /* BuildMuscleIntermediateViews.swift in Sources */,
 				D90F8EDF25A7628F00CCF022 /* RecipeForNothing.swift in Sources */,
 				D9BCD8F825B70BC80038626F /* PescatarianEggFreeView.swift in Sources */,
 				D9E0B56225BDF4820066A379 /* LoseWeightImageCollectionView.swift in Sources */,
 				D9E3BECF25B3472000AE110A /* VegeterianImageCollectionView.swift in Sources */,
+				D9CDA4ED25C1967800542931 /* BuildMuscleImageCollectionView.swift in Sources */,
 				D9DDA50025B879CA00C024BB /* GlutenDairyFreeView.swift in Sources */,
 				D93BC13125B1C76F0051602E /* VeganGlutenIntolerance.swift in Sources */,
 				D9C1FD6225B09C3700FDA667 /* VeganImageCollectionView.swift in Sources */,
@@ -1048,9 +1234,11 @@
 				D9601A8E25BF4C25005B35CD /* WorkoutScreen.swift in Sources */,
 				D98A4FE6259D065500294F64 /* LoginScreen.swift in Sources */,
 				D9BCD8FC25B712320038626F /* PescatarianGlutenFreeView.swift in Sources */,
+				D9328FF025C0AA8800139846 /* BuildMuscleBeginner.swift in Sources */,
 				D9BCD8BD25B6FA650038626F /* VegetarianNutFreeViews.swift in Sources */,
 				D98A4FA9259CEA6D00294F64 /* AppDelegate.swift in Sources */,
 				D905512F25A49BFF009AB32D /* VegeterianFoodIntolerance.swift in Sources */,
+				D9DB5C7425C2E1CD006C1769 /* StayFitAdvancedViews.swift in Sources */,
 				D9BCD8D325B7034B0038626F /* PescatarianBasicView.swift in Sources */,
 				D9BCD8D725B7039E0038626F /* PescatarianImageCollectionView.swift in Sources */,
 				D989E9FA25A1E7EA00ECEB5C /* HomeScreenView.swift in Sources */,

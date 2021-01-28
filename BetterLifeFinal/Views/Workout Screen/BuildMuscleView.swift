@@ -9,25 +9,10 @@ import UIKit
 
 class BuildMuscleView: UIViewController {
     
- 
-    @IBAction func buildMuscleBeginnerButton(_ sender: Any) {
-        self.performSegue(withIdentifier: "buildMuscleToBeginner", sender: self)
-        
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
     }
-    
-    
-    @IBAction func buildMuscleIntermediateButton(_ sender: Any) {
-        
-        self.performSegue(withIdentifier: "buildMuscleToIntermediate", sender: self)
-        
-    }
-    
-    
-    @IBAction func buildMuscleAdvancedButton(_ sender: Any) {
-        
-        self.performSegue(withIdentifier: "buildMuscleToAdvanced", sender: self)
-    }
-    
     
     
 }
