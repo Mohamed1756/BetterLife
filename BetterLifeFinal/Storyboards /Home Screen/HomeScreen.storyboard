@@ -43,6 +43,14 @@
                                     <segue destination="KOn-eq-dbd" kind="showDetail" id="qyS-29-P62"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wmF-zH-6fZ">
+                                <rect key="frame" x="256" y="436" width="122" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="BMI Calculator"/>
+                                <connections>
+                                    <segue destination="07B-cO-dS5" kind="showDetail" id="SYI-23-Hq0"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="u38-1u-nYs"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -83,6 +91,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1rj-0w-gpE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4123" y="94"/>
+        </scene>
+        <!--BMICalculatorScreen-->
+        <scene sceneID="knC-cS-r57">
+            <objects>
+                <viewControllerPlaceholder storyboardName="BMICalculatorScreen" id="07B-cO-dS5" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JNw-EU-5G9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4122" y="277"/>
         </scene>
     </scenes>
     <resources>

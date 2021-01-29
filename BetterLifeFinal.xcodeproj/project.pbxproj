@@ -64,6 +64,8 @@
 		D96F043A25B4A3E700467282 /* VegetarianGlutenBreakfast.plist in Resources */ = {isa = PBXBuildFile; fileRef = D96F043925B4A3E700467282 /* VegetarianGlutenBreakfast.plist */; };
 		D96F043E25B4A43D00467282 /* VegetarianGlutenLunch.plist in Resources */ = {isa = PBXBuildFile; fileRef = D96F043D25B4A43D00467282 /* VegetarianGlutenLunch.plist */; };
 		D96F044225B4A47B00467282 /* VegetarianGlutenDinner.plist in Resources */ = {isa = PBXBuildFile; fileRef = D96F044125B4A47B00467282 /* VegetarianGlutenDinner.plist */; };
+		D97F66FF25C439D500A9903A /* BMICalculatorScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D97F66FE25C439D500A9903A /* BMICalculatorScreen.storyboard */; };
+		D97F670425C43C5100A9903A /* BMICalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97F670325C43C5100A9903A /* BMICalculatorView.swift */; };
 		D981F274259DEE810001F55E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D981F273259DEE810001F55E /* GoogleService-Info.plist */; };
 		D989E9FA25A1E7EA00ECEB5C /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D989E9F925A1E7EA00ECEB5C /* HomeScreenView.swift */; };
 		D989E9FE25A1EBCA00ECEB5C /* MyMeals.swift in Sources */ = {isa = PBXBuildFile; fileRef = D989E9FD25A1EBCA00ECEB5C /* MyMeals.swift */; };
@@ -227,6 +229,8 @@
 		D96F043925B4A3E700467282 /* VegetarianGlutenBreakfast.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VegetarianGlutenBreakfast.plist; sourceTree = "<group>"; };
 		D96F043D25B4A43D00467282 /* VegetarianGlutenLunch.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VegetarianGlutenLunch.plist; sourceTree = "<group>"; };
 		D96F044125B4A47B00467282 /* VegetarianGlutenDinner.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VegetarianGlutenDinner.plist; sourceTree = "<group>"; };
+		D97F66FE25C439D500A9903A /* BMICalculatorScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BMICalculatorScreen.storyboard; sourceTree = "<group>"; };
+		D97F670325C43C5100A9903A /* BMICalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMICalculatorView.swift; sourceTree = "<group>"; };
 		D981F273259DEE810001F55E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D989E9F925A1E7EA00ECEB5C /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
 		D989E9FD25A1EBCA00ECEB5C /* MyMeals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMeals.swift; sourceTree = "<group>"; };
@@ -535,6 +539,7 @@
 		D972899525A4896A0063751F /* Storyboards  */ = {
 			isa = PBXGroup;
 			children = (
+				D97F66FB25C439AC00A9903A /* BMI Calculator */,
 				D9A0B7B925B9B5C8001A7DD3 /* Home Screen */,
 				D9A0B7A625B9B09B001A7DD3 /* Workouts */,
 				D905513E25A49E4E009AB32D /* Food Intolerances Screen  */,
@@ -542,6 +547,22 @@
 				D9C1FD8F25B0A1AC00FDA667 /* RecipeScreen.storyboard */,
 			);
 			path = "Storyboards ";
+			sourceTree = "<group>";
+		};
+		D97F66FB25C439AC00A9903A /* BMI Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				D97F66FE25C439D500A9903A /* BMICalculatorScreen.storyboard */,
+			);
+			path = "BMI Calculator";
+			sourceTree = "<group>";
+		};
+		D97F670225C43C3200A9903A /* BMI Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				D97F670325C43C5100A9903A /* BMICalculatorView.swift */,
+			);
+			path = "BMI Calculator";
 			sourceTree = "<group>";
 		};
 		D98A4F9C259CEA6D00294F64 = {
@@ -593,6 +614,7 @@
 		D98A4FDE259D062B00294F64 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D97F670225C43C3200A9903A /* BMI Calculator */,
 				D9A0B7A125B9A802001A7DD3 /* Workout Screen */,
 				D905514D25A4A13D009AB32D /* Food Intolerance screens  */,
 				D98A4FAC259CEA6D00294F64 /* ViewController.swift */,
@@ -1077,6 +1099,7 @@
 				D917A1F525B5D9A5006449DA /* VegetarianEggBreakfast.plist in Resources */,
 				D9328FEB25C04EAA00139846 /* advancedLoseWeightThirdWeek.plist in Resources */,
 				D905514625A49F48009AB32D /* GlutenToFoodIntolerance.storyboard in Resources */,
+				D97F66FF25C439D500A9903A /* BMICalculatorScreen.storyboard in Resources */,
 				D935314C25BB51C100D4AC97 /* LoseWeightScreen.storyboard in Resources */,
 				D9DB5C9025C2EDFE006C1769 /* stayFitIntermediateWeekThree.plist in Resources */,
 				D9E3BED525B3498600AE110A /* VegeterianBreakfast.plist in Resources */,
@@ -1224,6 +1247,7 @@
 				D9CDA52325C1A01F00542931 /* BuildMuscleIntermediateViews.swift in Sources */,
 				D90F8EDF25A7628F00CCF022 /* RecipeForNothing.swift in Sources */,
 				D9BCD8F825B70BC80038626F /* PescatarianEggFreeView.swift in Sources */,
+				D97F670425C43C5100A9903A /* BMICalculatorView.swift in Sources */,
 				D9E0B56225BDF4820066A379 /* LoseWeightImageCollectionView.swift in Sources */,
 				D9E3BECF25B3472000AE110A /* VegeterianImageCollectionView.swift in Sources */,
 				D9CDA4ED25C1967800542931 /* BuildMuscleImageCollectionView.swift in Sources */,
