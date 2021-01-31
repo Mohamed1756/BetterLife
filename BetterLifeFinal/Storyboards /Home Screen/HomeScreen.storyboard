@@ -51,6 +51,14 @@
                                     <segue destination="07B-cO-dS5" kind="showDetail" id="SYI-23-Hq0"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WBj-hH-2in">
+                                <rect key="frame" x="198" y="253" width="97" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="MY STEPS"/>
+                                <connections>
+                                    <segue destination="6i0-jn-5cf" kind="showDetail" id="ujV-eh-vq0"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="u38-1u-nYs"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -99,6 +107,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JNw-EU-5G9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4122" y="277"/>
+        </scene>
+        <!--StepCounterScreen-->
+        <scene sceneID="XBR-PS-MDV">
+            <objects>
+                <viewControllerPlaceholder storyboardName="StepCounterScreen" id="6i0-jn-5cf" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="moc-eH-faU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4413.04347826087" y="-239.0625"/>
         </scene>
     </scenes>
     <resources>
