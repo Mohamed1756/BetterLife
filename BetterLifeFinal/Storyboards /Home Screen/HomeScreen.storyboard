@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="b3C-ne-AFi">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5rN-8R-9KW">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Home ScreenV Iew-->
+        <!--Home-->
         <scene sceneID="aUG-g0-oNz">
             <objects>
                 <viewController storyboardIdentifier="UIViewController-b3C-ne-AFi" modalPresentationStyle="fullScreen" id="b3C-ne-AFi" customClass="HomeScreenVIew" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
@@ -16,26 +16,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="D4o-t2-xQc">
-                                <rect key="frame" x="20" y="436" width="177" height="128"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mEU-xe-cx1">
-                                <rect key="frame" x="36" y="504" width="136" height="36"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="My Meals "/>
-                                <connections>
-                                    <action selector="MealsButton:" destination="b3C-ne-AFi" eventType="touchUpInside" id="YZx-cS-PyJ"/>
-                                    <segue destination="kwt-iW-5CN" kind="showDetail" identifier="mealsToFoodPref" id="F0m-wF-r3n"/>
-                                </connections>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="w9P-Co-qNp">
-                                <rect key="frame" x="20" y="607" width="177" height="130"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background with Logo " translatesAutoresizingMaskIntoConstraints="NO" id="ZNQ-wb-dkb">
+                                <rect key="frame" x="-16" y="0.0" width="430" height="896"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QpW-vR-78X">
-                                <rect key="frame" x="46" y="690" width="125" height="47"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="47" id="xe4-3z-UiB"/>
-                                </constraints>
+                                <rect key="frame" x="53" y="527" width="121" height="44"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="My Workouts"/>
                                 <connections>
@@ -43,81 +28,132 @@
                                     <segue destination="KOn-eq-dbd" kind="showDetail" id="qyS-29-P62"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wmF-zH-6fZ">
-                                <rect key="frame" x="256" y="436" width="122" height="114"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wmF-zH-6fZ">
+                                <rect key="frame" x="213" y="492" width="125" height="66"/>
                                 <state key="normal" title="BMI Calculator"/>
                                 <connections>
                                     <segue destination="07B-cO-dS5" kind="showDetail" id="SYI-23-Hq0"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WBj-hH-2in">
-                                <rect key="frame" x="198" y="253" width="97" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WBj-hH-2in">
+                                <rect key="frame" x="227" y="421" width="97" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="Eob-Th-WD8"/>
+                                </constraints>
                                 <state key="normal" title="MY STEPS"/>
                                 <connections>
                                     <segue destination="6i0-jn-5cf" kind="showDetail" id="ujV-eh-vq0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mEU-xe-cx1">
+                                <rect key="frame" x="40" y="430" width="134" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="My Meals "/>
+                                <connections>
+                                    <action selector="MealsButton:" destination="b3C-ne-AFi" eventType="touchUpInside" id="YZx-cS-PyJ"/>
+                                    <segue destination="kwt-iW-5CN" kind="showDetail" identifier="mealsToFoodPref" id="F0m-wF-r3n"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="u38-1u-nYs"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="D4o-t2-xQc" firstAttribute="trailing" secondItem="w9P-Co-qNp" secondAttribute="trailing" id="3JW-8V-MYM"/>
-                            <constraint firstItem="w9P-Co-qNp" firstAttribute="top" secondItem="mEU-xe-cx1" secondAttribute="bottom" constant="67" id="7GO-6v-7wq"/>
-                            <constraint firstItem="u38-1u-nYs" firstAttribute="bottom" secondItem="QpW-vR-78X" secondAttribute="bottom" constant="125" id="8KD-tE-EDN"/>
-                            <constraint firstItem="D4o-t2-xQc" firstAttribute="leading" secondItem="w9P-Co-qNp" secondAttribute="leading" id="BFB-Xv-02W"/>
-                            <constraint firstItem="mEU-xe-cx1" firstAttribute="leading" secondItem="u38-1u-nYs" secondAttribute="leading" constant="36" id="Gjn-LA-tlh"/>
-                            <constraint firstItem="u38-1u-nYs" firstAttribute="trailing" secondItem="D4o-t2-xQc" secondAttribute="trailing" constant="217" id="KZk-Ic-GsR"/>
-                            <constraint firstItem="D4o-t2-xQc" firstAttribute="top" secondItem="u38-1u-nYs" secondAttribute="top" constant="392" id="Nvo-Ke-vv7"/>
-                            <constraint firstItem="w9P-Co-qNp" firstAttribute="centerX" secondItem="QpW-vR-78X" secondAttribute="centerX" id="R5k-0T-2AO"/>
-                            <constraint firstItem="QpW-vR-78X" firstAttribute="leading" secondItem="u38-1u-nYs" secondAttribute="leading" constant="46" id="WTp-zL-9ev"/>
-                            <constraint firstItem="u38-1u-nYs" firstAttribute="trailing" secondItem="mEU-xe-cx1" secondAttribute="trailing" constant="242" id="YDg-sO-pt0"/>
-                            <constraint firstItem="mEU-xe-cx1" firstAttribute="top" secondItem="u38-1u-nYs" secondAttribute="top" constant="460" id="aIm-N2-gcT"/>
-                            <constraint firstItem="w9P-Co-qNp" firstAttribute="bottom" secondItem="QpW-vR-78X" secondAttribute="bottom" id="dhE-Ek-1me"/>
-                            <constraint firstItem="w9P-Co-qNp" firstAttribute="top" secondItem="D4o-t2-xQc" secondAttribute="bottom" constant="43" id="p3b-ds-aJJ"/>
-                            <constraint firstItem="D4o-t2-xQc" firstAttribute="leading" secondItem="Efy-FD-Td4" secondAttribute="leadingMargin" id="t2h-Jl-ftY"/>
+                            <constraint firstItem="u38-1u-nYs" firstAttribute="bottom" secondItem="QpW-vR-78X" secondAttribute="bottom" constant="242" id="4eG-uh-nyC"/>
+                            <constraint firstItem="WBj-hH-2in" firstAttribute="top" secondItem="u38-1u-nYs" secondAttribute="top" constant="377" id="7mb-SV-Kpx"/>
+                            <constraint firstItem="QpW-vR-78X" firstAttribute="top" secondItem="mEU-xe-cx1" secondAttribute="bottom" constant="61" id="9jI-Bn-aT4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZNQ-wb-dkb" secondAttribute="trailing" constant="-20" id="9sw-Ov-jjJ"/>
+                            <constraint firstItem="mEU-xe-cx1" firstAttribute="centerY" secondItem="Efy-FD-Td4" secondAttribute="centerY" id="QzZ-f4-sze"/>
+                            <constraint firstItem="WBj-hH-2in" firstAttribute="leading" secondItem="mEU-xe-cx1" secondAttribute="trailing" constant="53" id="X6N-aA-zIo"/>
+                            <constraint firstItem="mEU-xe-cx1" firstAttribute="trailing" secondItem="QpW-vR-78X" secondAttribute="trailing" id="XEu-n0-oIn"/>
+                            <constraint firstItem="u38-1u-nYs" firstAttribute="bottom" secondItem="wmF-zH-6fZ" secondAttribute="bottom" constant="255" id="YfI-k3-slc"/>
+                            <constraint firstItem="QpW-vR-78X" firstAttribute="leading" secondItem="u38-1u-nYs" secondAttribute="leading" constant="53" id="aRH-q5-fxh"/>
+                            <constraint firstItem="ZNQ-wb-dkb" firstAttribute="centerY" secondItem="mEU-xe-cx1" secondAttribute="centerY" id="bYW-yZ-hvD"/>
+                            <constraint firstItem="wmF-zH-6fZ" firstAttribute="top" secondItem="WBj-hH-2in" secondAttribute="bottom" constant="17" id="cLb-8b-a1x"/>
+                            <constraint firstItem="wmF-zH-6fZ" firstAttribute="leading" secondItem="QpW-vR-78X" secondAttribute="trailing" constant="39" id="gNU-F5-cXo"/>
+                            <constraint firstItem="u38-1u-nYs" firstAttribute="trailing" secondItem="wmF-zH-6fZ" secondAttribute="trailing" constant="76" id="iFH-kE-eCP"/>
+                            <constraint firstItem="mEU-xe-cx1" firstAttribute="centerY" secondItem="WBj-hH-2in" secondAttribute="centerY" id="kVD-Es-sIl"/>
+                            <constraint firstItem="ZNQ-wb-dkb" firstAttribute="leading" secondItem="u38-1u-nYs" secondAttribute="leading" constant="-16" id="pxj-yu-Aak"/>
+                            <constraint firstItem="ZNQ-wb-dkb" firstAttribute="top" secondItem="Efy-FD-Td4" secondAttribute="topMargin" constant="-44" id="uHX-Kk-xIZ"/>
+                            <constraint firstItem="mEU-xe-cx1" firstAttribute="leading" secondItem="u38-1u-nYs" secondAttribute="leading" constant="40" id="xVJ-sf-ndc"/>
+                            <constraint firstItem="WBj-hH-2in" firstAttribute="centerX" secondItem="wmF-zH-6fZ" secondAttribute="centerX" id="zBH-RC-OFs"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Home" id="Mdm-Z6-Bz2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yWV-6Q-uuq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3253.6231884057975" y="93.75"/>
+            <point key="canvasLocation" x="2763.768115942029" y="301.33928571428572"/>
         </scene>
         <!--MyFitnessGoalScreen-->
         <scene sceneID="qns-IV-X7X">
             <objects>
-                <viewControllerPlaceholder storyboardName="MyFitnessGoalScreen" id="KOn-eq-dbd" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="MyFitnessGoalScreen" id="KOn-eq-dbd" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="GEP-Xs-33b"/>
+                </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jzD-vV-QAt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3232" y="981"/>
+            <point key="canvasLocation" x="3354" y="733"/>
         </scene>
         <!--UIViewController-6xZ-0b-p55-->
         <scene sceneID="ALW-Tw-1KL">
             <objects>
-                <viewControllerPlaceholder storyboardName="Main" referencedIdentifier="UIViewController-6xZ-0b-p55" id="kwt-iW-5CN" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardIdentifier="MealSelectionChoice" storyboardName="Main" referencedIdentifier="UIViewController-6xZ-0b-p55" id="kwt-iW-5CN" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Bx3-fZ-2Kn"/>
+                </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1rj-0w-gpE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4123" y="94"/>
+            <point key="canvasLocation" x="2396" y="-214"/>
         </scene>
         <!--BMICalculatorScreen-->
         <scene sceneID="knC-cS-r57">
             <objects>
-                <viewControllerPlaceholder storyboardName="BMICalculatorScreen" id="07B-cO-dS5" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="BMICalculatorScreen" id="07B-cO-dS5" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="1dd-ew-LUd"/>
+                </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JNw-EU-5G9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4122" y="277"/>
+            <point key="canvasLocation" x="3248" y="-171"/>
         </scene>
         <!--StepCounterScreen-->
         <scene sceneID="XBR-PS-MDV">
             <objects>
-                <viewControllerPlaceholder storyboardName="StepCounterScreen" id="6i0-jn-5cf" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="StepCounterScreen" id="6i0-jn-5cf" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="7da-nL-afh"/>
+                </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="moc-eH-faU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4413.04347826087" y="-239.0625"/>
+            <point key="canvasLocation" x="2192" y="-464"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="hDI-Gt-dQe">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="5rN-8R-9KW" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="z6T-lJ-NH5">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="b3C-ne-AFi" kind="relationship" relationship="viewControllers" id="9z1-pd-4Wy"/>
+                        <segue destination="KOn-eq-dbd" kind="relationship" relationship="viewControllers" id="XgE-al-rcr"/>
+                        <segue destination="kwt-iW-5CN" kind="relationship" relationship="viewControllers" id="6Da-ci-YP0"/>
+                        <segue destination="6i0-jn-5cf" kind="relationship" relationship="viewControllers" id="bzg-Sm-Vzh"/>
+                        <segue destination="07B-cO-dS5" kind="relationship" relationship="viewControllers" id="Tr0-yx-tMN"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ID5-cr-sW9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1853.6231884057972" y="301.33928571428572"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="ujV-eh-vq0"/>
+        <segue reference="SYI-23-Hq0"/>
+        <segue reference="F0m-wF-r3n"/>
+        <segue reference="qyS-29-P62"/>
+    </inferredMetricsTieBreakers>
     <resources>
+        <image name="Background with Logo " width="540" height="1182"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

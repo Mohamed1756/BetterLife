@@ -38,7 +38,7 @@ class StepCounterViews: UIViewController {
                     if let response = data {
                         DispatchQueue.main.async {
                             print("Number of steps == \(response.numberOfSteps)")
-                            self.stepCounterTextLabel.text = "\(response.numberOfSteps) Steps Taken"
+                            self.stepCounterTextLabel.text = "\(response.numberOfSteps) Steps"
                         }
                     }
                 }

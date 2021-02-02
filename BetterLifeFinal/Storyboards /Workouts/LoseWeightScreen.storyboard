@@ -377,7 +377,7 @@
                                         <connections>
                                             <outlet property="intermediateSecondWeekImage" destination="Cen-PB-sxF" id="OMk-Yx-bDI"/>
                                             <outlet property="intermediateSecondWeekTextLabel" destination="LtJ-7V-mXB" id="kXU-BC-OkE"/>
-                                            <segue destination="ppL-Zs-JiZ" kind="showDetail" identifier="intermediateWeekThreeToWorkoutScreen" id="0Dq-HL-ht7"/>
+                                            <segue destination="ppL-Zs-JiZ" kind="showDetail" identifier="intermediateWeekTwoToWorkoutScreen" id="0Dq-HL-ht7"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -420,7 +420,7 @@
                                         <connections>
                                             <outlet property="intermediateThirdWeekImage" destination="FUk-Or-D83" id="yoR-Du-Hvz"/>
                                             <outlet property="intermediateThirdWeekTextLabel" destination="jvY-tj-CDi" id="1ir-fX-hwf"/>
-                                            <segue destination="ppL-Zs-JiZ" kind="showDetail" identifier="intermediateBackToHome" id="2VE-29-gHn"/>
+                                            <segue destination="ppL-Zs-JiZ" kind="showDetail" identifier="intermediateWeekThreeToWorkoutScreen" id="2VE-29-gHn"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -648,7 +648,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="WFT-Se-0m2"/>
+        <segue reference="2VE-29-gHn"/>
         <segue reference="kLi-0y-iwZ"/>
     </inferredMetricsTieBreakers>
     <resources>
