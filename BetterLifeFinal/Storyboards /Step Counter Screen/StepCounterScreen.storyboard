@@ -8,38 +8,31 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Steps-->
+        <!--mySteps-->
         <scene sceneID="9Ql-Jl-vgm">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="dbW-Ce-ycs" customClass="StepCounterViews" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="mySteps" modalPresentationStyle="fullScreen" id="dbW-Ce-ycs" customClass="StepCounterViews" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yaA-Qu-atp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c7G-sR-z6b">
-                                <rect key="frame" x="20" y="74" width="34" height="30"/>
-                                <state key="normal" title="Back"/>
-                                <connections>
-                                    <segue destination="4j1-P0-5Mw" kind="showDetail" id="8nu-Hm-O2u"/>
-                                </connections>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shoes" translatesAutoresizingMaskIntoConstraints="NO" id="JOu-TY-fmN">
                                 <rect key="frame" x="87" y="260" width="240" height="137"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="137" id="NLe-cS-BUE"/>
+                                </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Step Counter" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P0d-sI-w8K">
                                 <rect key="frame" x="95" y="163" width="199" height="74"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="74" id="PVL-sL-CiY"/>
+                                    <constraint firstAttribute="height" constant="74" id="qrv-Ec-shL"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hNI-Aq-cKh">
-                                <rect key="frame" x="87" y="425" width="240" height="152"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="152" id="9GJ-Va-CR8"/>
-                                </constraints>
+                                <rect key="frame" x="87" y="425" width="240" height="201"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -48,22 +41,20 @@
                         <viewLayoutGuide key="safeArea" id="FUJ-oQ-pVB"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="JOu-TY-fmN" firstAttribute="leading" secondItem="hNI-Aq-cKh" secondAttribute="leading" id="3Rx-ZI-SMB"/>
-                            <constraint firstItem="c7G-sR-z6b" firstAttribute="leading" secondItem="yaA-Qu-atp" secondAttribute="leadingMargin" id="8wi-Uk-Ju5"/>
-                            <constraint firstItem="P0d-sI-w8K" firstAttribute="leading" secondItem="FUJ-oQ-pVB" secondAttribute="leading" constant="95" id="MkK-uI-LsQ"/>
-                            <constraint firstItem="c7G-sR-z6b" firstAttribute="top" secondItem="FUJ-oQ-pVB" secondAttribute="top" constant="30" id="OJo-hc-Zzs"/>
-                            <constraint firstItem="JOu-TY-fmN" firstAttribute="leading" secondItem="FUJ-oQ-pVB" secondAttribute="leading" constant="87" id="PLp-m5-OEB"/>
-                            <constraint firstItem="JOu-TY-fmN" firstAttribute="trailing" secondItem="hNI-Aq-cKh" secondAttribute="trailing" id="QkX-Rf-SDJ"/>
-                            <constraint firstItem="JOu-TY-fmN" firstAttribute="centerX" secondItem="yaA-Qu-atp" secondAttribute="centerX" id="Sas-7i-ybs"/>
-                            <constraint firstItem="hNI-Aq-cKh" firstAttribute="top" secondItem="JOu-TY-fmN" secondAttribute="bottom" constant="28" id="UK5-ra-6rU"/>
-                            <constraint firstItem="FUJ-oQ-pVB" firstAttribute="trailing" secondItem="P0d-sI-w8K" secondAttribute="trailing" constant="120" id="f7C-2e-jJ2"/>
-                            <constraint firstItem="FUJ-oQ-pVB" firstAttribute="bottom" secondItem="hNI-Aq-cKh" secondAttribute="bottom" constant="236" id="i48-Ay-XFo"/>
-                            <constraint firstItem="P0d-sI-w8K" firstAttribute="top" secondItem="FUJ-oQ-pVB" secondAttribute="top" constant="119" id="sgY-aR-im3"/>
-                            <constraint firstItem="JOu-TY-fmN" firstAttribute="top" secondItem="P0d-sI-w8K" secondAttribute="bottom" constant="23" id="wC1-kR-U8U"/>
+                            <constraint firstItem="JOu-TY-fmN" firstAttribute="leading" secondItem="FUJ-oQ-pVB" secondAttribute="leading" constant="87" id="0w3-00-xLs"/>
+                            <constraint firstItem="JOu-TY-fmN" firstAttribute="top" secondItem="P0d-sI-w8K" secondAttribute="bottom" constant="23" id="2ju-vd-Sun"/>
+                            <constraint firstItem="JOu-TY-fmN" firstAttribute="trailing" secondItem="hNI-Aq-cKh" secondAttribute="trailing" id="3jA-bP-S2s"/>
+                            <constraint firstItem="P0d-sI-w8K" firstAttribute="leading" secondItem="FUJ-oQ-pVB" secondAttribute="leading" constant="95" id="8on-P2-u76"/>
+                            <constraint firstItem="hNI-Aq-cKh" firstAttribute="top" secondItem="JOu-TY-fmN" secondAttribute="bottom" constant="28" id="T22-Ef-z8n"/>
+                            <constraint firstItem="JOu-TY-fmN" firstAttribute="centerX" secondItem="yaA-Qu-atp" secondAttribute="centerX" id="YsN-E9-Fa9"/>
+                            <constraint firstItem="JOu-TY-fmN" firstAttribute="leading" secondItem="hNI-Aq-cKh" secondAttribute="leading" id="u0M-EZ-GsC"/>
+                            <constraint firstItem="FUJ-oQ-pVB" firstAttribute="trailing" secondItem="P0d-sI-w8K" secondAttribute="trailing" constant="120" id="uum-LP-gMk"/>
+                            <constraint firstItem="FUJ-oQ-pVB" firstAttribute="bottom" secondItem="hNI-Aq-cKh" secondAttribute="bottom" constant="236" id="xzK-fM-hkH"/>
+                            <constraint firstItem="P0d-sI-w8K" firstAttribute="top" secondItem="FUJ-oQ-pVB" secondAttribute="top" constant="119" id="yYu-69-zFT"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Steps" id="s5V-uT-LD3"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <tabBarItem key="tabBarItem" title="MySteps" id="eqa-IH-iBf"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="stepCounterTextLabel" destination="hNI-Aq-cKh" id="x3Z-re-TD7"/>
                     </connections>
@@ -78,7 +69,7 @@
                 <viewControllerPlaceholder storyboardIdentifier="UIViewController-b3C-ne-AFi" storyboardName="HomeScreen" referencedIdentifier="UIViewController-b3C-ne-AFi" id="4j1-P0-5Mw" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XWr-8K-CXt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3376" y="-285"/>
+            <point key="canvasLocation" x="3149" y="-47"/>
         </scene>
     </scenes>
     <resources>

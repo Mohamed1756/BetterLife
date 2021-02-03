@@ -3,44 +3,59 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
-        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Lose Weight Screen-->
+        <!--Lose Weight-->
         <scene sceneID="VHf-ie-Sic">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="N9o-ys-SwY" customClass="LoseWeightScreen" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Lose Weight" modalPresentationStyle="fullScreen" id="N9o-ys-SwY" customClass="LoseWeightScreen" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Vy2-2A-m6b">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background " translatesAutoresizingMaskIntoConstraints="NO" id="Buh-VQ-4tk">
-                                <rect key="frame" x="-17" y="-32" width="451" height="928"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="raz-Ub-m2O">
-                                <rect key="frame" x="20" y="44" width="64" height="40"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background " translatesAutoresizingMaskIntoConstraints="NO" id="Buh-VQ-4tk">
+                                <rect key="frame" x="-17" y="44" width="451" height="808"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Back"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3TX-HE-Fpo">
+                                <rect key="frame" x="129" y="335" width="156" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Beginner"/>
                                 <connections>
-                                    <segue destination="8AG-Sc-eyH" kind="showDetail" id="zCV-hz-vrf"/>
+                                    <action selector="loseWeightBeginnerBtn:" destination="N9o-ys-SwY" eventType="touchUpInside" id="eKU-78-Wif"/>
+                                    <segue destination="Edx-rh-VGU" kind="show" id="YVB-WU-NvI"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lose Weight " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fJI-kC-bkw">
-                                <rect key="frame" x="94" y="109" width="227" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bYD-no-yqj">
+                                <rect key="frame" x="129" y="394" width="156" height="10"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="SFProDisplay-Black" family="SF Pro Display" pointSize="19"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="198-2k-9cI">
-                                <rect key="frame" x="39" y="202" width="338" height="54"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Intermediate"/>
+                                <connections>
+                                    <action selector="loseWeightIntermediateBtn:" destination="N9o-ys-SwY" eventType="touchUpInside" id="rBH-dc-ZZv"/>
+                                    <segue destination="7R3-f1-vm3" kind="show" identifier="IntermediateLoseWeight" id="keM-fu-sc9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LCv-7c-cVV">
+                                <rect key="frame" x="129" y="412" width="156" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Advanced"/>
+                                <connections>
+                                    <action selector="loseWeightAdvancedBtn:" destination="N9o-ys-SwY" eventType="touchUpInside" id="iFP-gn-RYU"/>
+                                    <segue destination="XNI-do-V4v" kind="show" identifier="loseWeightAdvanced" id="sxX-pQ-dsj"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="198-2k-9cI">
+                                <rect key="frame" x="36" y="211" width="342" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="What is your Fitness Level ?, Click on the image to select your preference">
+                                    <fragment content="What is your Fitness Level ?, select your preference">
                                         <attributes>
                                             <font key="NSFont" size="17" name="SFPro-Ultralight"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
@@ -49,52 +64,17 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3TX-HE-Fpo">
-                                <rect key="frame" x="129" y="318" width="157" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="Beginner"/>
-                                <connections>
-                                    <action selector="loseWeightBeginnerButton:" destination="N9o-ys-SwY" eventType="touchUpInside" id="kKp-1A-miI"/>
-                                    <segue destination="Edx-rh-VGU" kind="showDetail" identifier="loseWeightToBeginner" id="TIJ-Zw-rfM"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bYD-no-yqj">
-                                <rect key="frame" x="130" y="377" width="157" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="Intermediate"/>
-                                <connections>
-                                    <action selector="loseWeightIntermediateButton:" destination="N9o-ys-SwY" eventType="touchUpInside" id="geh-33-YZR"/>
-                                    <segue destination="7R3-f1-vm3" kind="showDetail" identifier="loseWeightToIntermediate" id="ygm-lp-D4f"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LCv-7c-cVV">
-                                <rect key="frame" x="129" y="439" width="157" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="Advanced"/>
-                                <connections>
-                                    <action selector="loseWeightAdvancedButton:" destination="N9o-ys-SwY" eventType="touchUpInside" id="4do-0j-xja"/>
-                                    <segue destination="XNI-do-V4v" kind="showDetail" identifier="loseWeightToAdvanced" id="cxg-5T-7EV"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="y1c-5s-igq"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="Buh-VQ-4tk" firstAttribute="leading" secondItem="Vy2-2A-m6b" secondAttribute="leadingMargin" constant="-37" id="MYJ-66-LBT"/>
-                            <constraint firstItem="Buh-VQ-4tk" firstAttribute="top" secondItem="Vy2-2A-m6b" secondAttribute="topMargin" constant="-76" id="NGO-ko-MsB"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Buh-VQ-4tk" secondAttribute="trailing" constant="-40" id="a8W-xa-S8x"/>
-                            <constraint firstItem="Buh-VQ-4tk" firstAttribute="centerY" secondItem="Vy2-2A-m6b" secondAttribute="centerY" constant="-16" id="zFw-ye-EFn"/>
-                        </constraints>
                     </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gMk-f0-yDF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4350.7246376811599" y="154.6875"/>
+            <point key="canvasLocation" x="4131.884057971015" y="217.63392857142856"/>
         </scene>
-        <!--Lose Weight Advanced View-->
+        <!--Advanced-->
         <scene sceneID="5RX-gu-A6Q">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="XNI-do-V4v" customClass="LoseWeightAdvancedView" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
@@ -102,29 +82,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background " translatesAutoresizingMaskIntoConstraints="NO" id="5Kj-GH-bKX">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background " translatesAutoresizingMaskIntoConstraints="NO" id="5Kj-GH-bKX">
                                 <rect key="frame" x="-22" y="-14" width="460" height="942"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xur-ep-LwH">
-                                <rect key="frame" x="0.0" y="59.5" width="61" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <imageReference key="image" image="arrow.backward" catalog="system" renderingMode="template"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Advanced Workouts " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Spw-tL-qNA">
-                                <rect key="frame" x="109" y="125" width="199" height="70"/>
+                                <rect key="frame" x="109" y="125" width="198" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="psD-hJ-AMo">
-                                <rect key="frame" x="10" y="55" width="51" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="N9o-ys-SwY" kind="showDetail" identifier="advancedBackToHome" id="KCr-eL-YP3"/>
-                                </connections>
-                            </button>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="eZA-TN-gOL">
                                 <rect key="frame" x="0.0" y="215" width="414" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -257,13 +225,8 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="DR6-K4-p3l"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="5Kj-GH-bKX" firstAttribute="leading" secondItem="Wf8-oT-QG1" secondAttribute="leadingMargin" constant="-42" id="D0x-aS-njM"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="5Kj-GH-bKX" secondAttribute="trailing" constant="-44" id="jiT-lI-EsE"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="5Kj-GH-bKX" secondAttribute="bottom" constant="-66" id="nox-Kl-v6L"/>
-                            <constraint firstItem="5Kj-GH-bKX" firstAttribute="top" secondItem="Wf8-oT-QG1" secondAttribute="topMargin" constant="-58" id="sQ8-gb-AiT"/>
-                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Advanced" id="iSW-nu-D2u"/>
                     <connections>
                         <outlet property="firstWeekCollectionView" destination="eZA-TN-gOL" id="rMp-fK-bY2"/>
                         <outlet property="secondWeekCollectionView" destination="OXL-f6-phs" id="DuU-Iw-M7y"/>
@@ -272,9 +235,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uuc-sV-Cdc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7371" y="646"/>
+            <point key="canvasLocation" x="5683" y="1016"/>
         </scene>
-        <!--Lose Weight Intermediate Views-->
+        <!--Intermediate-->
         <scene sceneID="64V-wf-zhV">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="7R3-f1-vm3" customClass="LoseWeightIntermediateViews" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
@@ -293,13 +256,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ov9-C6-agF">
-                                <rect key="frame" x="10" y="64" width="41" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="N9o-ys-SwY" kind="showDetail" id="kLi-0y-iwZ"/>
-                                </connections>
-                            </button>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="biH-XM-Azc">
                                 <rect key="frame" x="0.0" y="231" width="414" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -429,16 +385,11 @@
                                     <outlet property="delegate" destination="7R3-f1-vm3" id="PWe-rT-FQ7"/>
                                 </connections>
                             </collectionView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t0Z-pl-uL1">
-                                <rect key="frame" x="0.0" y="65.5" width="61" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <imageReference key="image" image="arrow.backward" catalog="system" renderingMode="template"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hY3-PK-I7J"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Intermediate" id="ORc-rd-A8C"/>
                     <connections>
                         <outlet property="firstWeekCollectionView" destination="biH-XM-Azc" id="VZx-1e-heV"/>
                         <outlet property="secondWeekCollectionView" destination="97R-Tc-Swq" id="Va2-Ln-s7j"/>
@@ -447,17 +398,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xxx-cZ-QcX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6013.04347826087" y="306.69642857142856"/>
+            <point key="canvasLocation" x="5787" y="98"/>
         </scene>
-        <!--MyFitnessGoalScreen-->
-        <scene sceneID="GIg-SI-5An">
-            <objects>
-                <viewControllerPlaceholder storyboardName="MyFitnessGoalScreen" id="8AG-Sc-eyH" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="AXv-sg-ygO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4181" y="-613"/>
-        </scene>
-        <!--Lose Weight Beginner-->
+        <!--Beginner-->
         <scene sceneID="1bA-I7-Vzj">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="Edx-rh-VGU" customClass="LoseWeightBeginner" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
@@ -466,21 +409,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background " translatesAutoresizingMaskIntoConstraints="NO" id="k0y-un-z36">
-                                <rect key="frame" x="-11" y="-21" width="445" height="935"/>
-                            </imageView>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W0h-Om-8aD">
-                                <rect key="frame" x="11" y="80" width="40" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="backButton:" destination="Edx-rh-VGU" eventType="touchUpInside" id="gYz-wc-tcF"/>
-                                    <segue destination="N9o-ys-SwY" kind="showDetail" identifier="beginnerBackToHome" id="van-rb-C2N"/>
-                                </connections>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bzh-2Y-CFa">
-                                <rect key="frame" x="0.0" y="82.5" width="61" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <imageReference key="image" image="arrow.backward" catalog="system" renderingMode="template"/>
+                                <rect key="frame" x="-11" y="23" width="445" height="847"/>
                             </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="hvn-FK-Cqt">
                                 <rect key="frame" x="0.0" y="258" width="414" height="127"/>
@@ -628,6 +557,10 @@
                             <constraint firstItem="k0y-un-z36" firstAttribute="centerY" secondItem="n4n-UC-2dm" secondAttribute="centerY" constant="-1.5" id="zEq-Y1-ewk"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Beginner" id="h6g-RG-M8W">
+                        <barButtonItem key="backBarButtonItem" title=" " id="UPu-pN-GlA"/>
+                    </navigationItem>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="firstWeekCollectionView" destination="hvn-FK-Cqt" id="nQe-JK-P3P"/>
                         <outlet property="secondWeekCollectionView" destination="8QX-7K-dEc" id="9pe-Ms-TeW"/>
@@ -636,7 +569,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d1K-hp-U3Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5581.1594202898559" y="-433.25892857142856"/>
+            <point key="canvasLocation" x="5729" y="-666"/>
         </scene>
         <!--RecipeForNothing-->
         <scene sceneID="QDy-3d-g83">
@@ -648,12 +581,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="2VE-29-gHn"/>
-        <segue reference="kLi-0y-iwZ"/>
+        <segue reference="fWi-BX-nfV"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Background " width="540" height="1182"/>
-        <image name="arrow.backward" catalog="system" width="128" height="98"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

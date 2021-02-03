@@ -1,161 +1,241 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5rN-8R-9KW">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Qzp-ZJ-fXQ">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="tL4-x6-mPP">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1A8-St-sEi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tabBarController modalPresentationStyle="fullScreen" id="Qzp-ZJ-fXQ" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ve6-d2-FPW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.91050320863723755" green="0.95721679925918579" blue="0.96999555826187134" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.91050320863723755" green="0.95721679925918579" blue="0.96999555826187134" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Lpb-g9-jWa" kind="relationship" relationship="viewControllers" id="ES2-jD-qoC"/>
+                        <segue destination="w2B-qi-Sru" kind="relationship" relationship="viewControllers" id="kpu-4w-VTl"/>
+                        <segue destination="cXx-KD-Kp3" kind="relationship" relationship="viewControllers" id="QAs-pD-db6"/>
+                        <segue destination="e7V-uF-CrC" kind="relationship" relationship="viewControllers" id="Wim-L3-Ne1"/>
+                        <segue destination="YCO-IJ-ubr" kind="relationship" relationship="viewControllers" id="Z6a-Fh-465"/>
+                    </connections>
+                </tabBarController>
+            </objects>
+            <point key="canvasLocation" x="3036" y="-243"/>
+        </scene>
         <!--Home-->
         <scene sceneID="aUG-g0-oNz">
             <objects>
                 <viewController storyboardIdentifier="UIViewController-b3C-ne-AFi" modalPresentationStyle="fullScreen" id="b3C-ne-AFi" customClass="HomeScreenVIew" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Efy-FD-Td4">
+                    <view key="view" contentMode="scaleAspectFit" id="Efy-FD-Td4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background with Logo " translatesAutoresizingMaskIntoConstraints="NO" id="ZNQ-wb-dkb">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background " translatesAutoresizingMaskIntoConstraints="NO" id="ZNQ-wb-dkb">
                                 <rect key="frame" x="-16" y="0.0" width="430" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QpW-vR-78X">
-                                <rect key="frame" x="53" y="527" width="121" height="44"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <state key="normal" title="My Workouts"/>
-                                <connections>
-                                    <action selector="WorkoutButton:" destination="b3C-ne-AFi" eventType="touchUpInside" id="AYT-qC-JCL"/>
-                                    <segue destination="KOn-eq-dbd" kind="showDetail" id="qyS-29-P62"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wmF-zH-6fZ">
-                                <rect key="frame" x="213" y="492" width="125" height="66"/>
-                                <state key="normal" title="BMI Calculator"/>
-                                <connections>
-                                    <segue destination="07B-cO-dS5" kind="showDetail" id="SYI-23-Hq0"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WBj-hH-2in">
-                                <rect key="frame" x="227" y="421" width="97" height="54"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="97" id="Eob-Th-WD8"/>
-                                </constraints>
-                                <state key="normal" title="MY STEPS"/>
-                                <connections>
-                                    <segue destination="6i0-jn-5cf" kind="showDetail" id="ujV-eh-vq0"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mEU-xe-cx1">
-                                <rect key="frame" x="40" y="430" width="134" height="36"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mEU-xe-cx1">
+                                <rect key="frame" x="132" y="430" width="134" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="My Meals "/>
                                 <connections>
                                     <action selector="MealsButton:" destination="b3C-ne-AFi" eventType="touchUpInside" id="YZx-cS-PyJ"/>
-                                    <segue destination="kwt-iW-5CN" kind="showDetail" identifier="mealsToFoodPref" id="F0m-wF-r3n"/>
+                                    <segue destination="kwt-iW-5CN" kind="show" id="AYz-7c-vgU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WBj-hH-2in">
+                                <rect key="frame" x="169" y="517" width="97" height="124"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="MY STEPS"/>
+                                <connections>
+                                    <segue destination="6i0-jn-5cf" kind="show" id="WxZ-CI-7IZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QpW-vR-78X">
+                                <rect key="frame" x="81" y="236" width="121" height="151"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="My Workouts"/>
+                                <connections>
+                                    <action selector="WorkoutButton:" destination="b3C-ne-AFi" eventType="touchUpInside" id="AYT-qC-JCL"/>
+                                    <segue destination="KOn-eq-dbd" kind="show" id="97e-ak-ZmI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wmF-zH-6fZ">
+                                <rect key="frame" x="61" y="627" width="125" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="BMI Calculator"/>
+                                <connections>
+                                    <segue destination="07B-cO-dS5" kind="show" id="jUP-q4-CVP"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="u38-1u-nYs"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="u38-1u-nYs" firstAttribute="bottom" secondItem="QpW-vR-78X" secondAttribute="bottom" constant="242" id="4eG-uh-nyC"/>
-                            <constraint firstItem="WBj-hH-2in" firstAttribute="top" secondItem="u38-1u-nYs" secondAttribute="top" constant="377" id="7mb-SV-Kpx"/>
-                            <constraint firstItem="QpW-vR-78X" firstAttribute="top" secondItem="mEU-xe-cx1" secondAttribute="bottom" constant="61" id="9jI-Bn-aT4"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="ZNQ-wb-dkb" secondAttribute="trailing" constant="-20" id="9sw-Ov-jjJ"/>
-                            <constraint firstItem="mEU-xe-cx1" firstAttribute="centerY" secondItem="Efy-FD-Td4" secondAttribute="centerY" id="QzZ-f4-sze"/>
-                            <constraint firstItem="WBj-hH-2in" firstAttribute="leading" secondItem="mEU-xe-cx1" secondAttribute="trailing" constant="53" id="X6N-aA-zIo"/>
-                            <constraint firstItem="mEU-xe-cx1" firstAttribute="trailing" secondItem="QpW-vR-78X" secondAttribute="trailing" id="XEu-n0-oIn"/>
-                            <constraint firstItem="u38-1u-nYs" firstAttribute="bottom" secondItem="wmF-zH-6fZ" secondAttribute="bottom" constant="255" id="YfI-k3-slc"/>
-                            <constraint firstItem="QpW-vR-78X" firstAttribute="leading" secondItem="u38-1u-nYs" secondAttribute="leading" constant="53" id="aRH-q5-fxh"/>
-                            <constraint firstItem="ZNQ-wb-dkb" firstAttribute="centerY" secondItem="mEU-xe-cx1" secondAttribute="centerY" id="bYW-yZ-hvD"/>
-                            <constraint firstItem="wmF-zH-6fZ" firstAttribute="top" secondItem="WBj-hH-2in" secondAttribute="bottom" constant="17" id="cLb-8b-a1x"/>
-                            <constraint firstItem="wmF-zH-6fZ" firstAttribute="leading" secondItem="QpW-vR-78X" secondAttribute="trailing" constant="39" id="gNU-F5-cXo"/>
-                            <constraint firstItem="u38-1u-nYs" firstAttribute="trailing" secondItem="wmF-zH-6fZ" secondAttribute="trailing" constant="76" id="iFH-kE-eCP"/>
-                            <constraint firstItem="mEU-xe-cx1" firstAttribute="centerY" secondItem="WBj-hH-2in" secondAttribute="centerY" id="kVD-Es-sIl"/>
-                            <constraint firstItem="ZNQ-wb-dkb" firstAttribute="leading" secondItem="u38-1u-nYs" secondAttribute="leading" constant="-16" id="pxj-yu-Aak"/>
-                            <constraint firstItem="ZNQ-wb-dkb" firstAttribute="top" secondItem="Efy-FD-Td4" secondAttribute="topMargin" constant="-44" id="uHX-Kk-xIZ"/>
-                            <constraint firstItem="mEU-xe-cx1" firstAttribute="leading" secondItem="u38-1u-nYs" secondAttribute="leading" constant="40" id="xVJ-sf-ndc"/>
-                            <constraint firstItem="WBj-hH-2in" firstAttribute="centerX" secondItem="wmF-zH-6fZ" secondAttribute="centerX" id="zBH-RC-OFs"/>
-                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" id="Mdm-Z6-Bz2"/>
+                    <navigationItem key="navigationItem" title="Home" id="ecY-D2-TOW"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yWV-6Q-uuq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2763.768115942029" y="301.33928571428572"/>
+            <point key="canvasLocation" x="2322" y="1232"/>
         </scene>
         <!--MyFitnessGoalScreen-->
         <scene sceneID="qns-IV-X7X">
             <objects>
                 <viewControllerPlaceholder storyboardName="MyFitnessGoalScreen" id="KOn-eq-dbd" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="GEP-Xs-33b"/>
+                    <navigationItem key="navigationItem" id="LfE-mS-N4P"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jzD-vV-QAt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3354" y="733"/>
+            <point key="canvasLocation" x="3597" y="988"/>
         </scene>
         <!--UIViewController-6xZ-0b-p55-->
         <scene sceneID="ALW-Tw-1KL">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="MealSelectionChoice" storyboardName="Main" referencedIdentifier="UIViewController-6xZ-0b-p55" id="kwt-iW-5CN" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Bx3-fZ-2Kn"/>
-                </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1rj-0w-gpE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardIdentifier="MealSelectionChoice" storyboardName="Main" referencedIdentifier="UIViewController-6xZ-0b-p55" id="kwt-iW-5CN" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" title="myMeals" id="JL1-iz-VCL"/>
+                </viewControllerPlaceholder>
             </objects>
-            <point key="canvasLocation" x="2396" y="-214"/>
+            <point key="canvasLocation" x="3036" y="1034"/>
         </scene>
         <!--BMICalculatorScreen-->
         <scene sceneID="knC-cS-r57">
             <objects>
                 <viewControllerPlaceholder storyboardName="BMICalculatorScreen" id="07B-cO-dS5" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="1dd-ew-LUd"/>
+                    <navigationItem key="navigationItem" id="HLO-XQ-g3g"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JNw-EU-5G9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3248" y="-171"/>
+            <point key="canvasLocation" x="4412" y="1034"/>
         </scene>
         <!--StepCounterScreen-->
         <scene sceneID="XBR-PS-MDV">
             <objects>
                 <viewControllerPlaceholder storyboardName="StepCounterScreen" id="6i0-jn-5cf" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="7da-nL-afh"/>
+                    <navigationItem key="navigationItem" id="FIc-l3-oz1"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="moc-eH-faU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2192" y="-464"/>
+            <point key="canvasLocation" x="1037" y="1044"/>
         </scene>
-        <!--Tab Bar Controller-->
-        <scene sceneID="hDI-Gt-dQe">
+        <!--Home-->
+        <scene sceneID="MFy-55-Z3j">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="5rN-8R-9KW" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="z6T-lJ-NH5">
+                <navigationController modalPresentationStyle="fullScreen" id="Lpb-g9-jWa" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" id="3ca-da-6Nf"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6uQ-NK-SHr">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </tabBar>
+                        <color key="barTintColor" red="0.91050320863723755" green="0.95721679925918579" blue="0.96999555826187134" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
                     <connections>
-                        <segue destination="b3C-ne-AFi" kind="relationship" relationship="viewControllers" id="9z1-pd-4Wy"/>
-                        <segue destination="KOn-eq-dbd" kind="relationship" relationship="viewControllers" id="XgE-al-rcr"/>
-                        <segue destination="kwt-iW-5CN" kind="relationship" relationship="viewControllers" id="6Da-ci-YP0"/>
-                        <segue destination="6i0-jn-5cf" kind="relationship" relationship="viewControllers" id="bzg-Sm-Vzh"/>
-                        <segue destination="07B-cO-dS5" kind="relationship" relationship="viewControllers" id="Tr0-yx-tMN"/>
+                        <segue destination="b3C-ne-AFi" kind="relationship" relationship="rootViewController" id="wpT-5s-hO2"/>
                     </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ID5-cr-sW9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qtt-dd-qfG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1853.6231884057972" y="301.33928571428572"/>
+            <point key="canvasLocation" x="2322" y="473"/>
+        </scene>
+        <!--myMeals-->
+        <scene sceneID="LCu-MN-PCT">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="w2B-qi-Sru" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="myMeals" id="5Ud-G5-djd"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="myMeals" id="c8g-Hz-QCL"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="SgD-g6-00R">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.91050320863723755" green="0.95721679925918579" blue="0.96999555826187134" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="kwt-iW-5CN" kind="relationship" relationship="rootViewController" id="cET-v1-a56"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eco-BW-D0L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3035" y="473"/>
+        </scene>
+        <!--myWorkouts-->
+        <scene sceneID="wPd-2y-ciP">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="cXx-KD-Kp3" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="myWorkouts" id="dL4-hN-Qfd"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="myWorkouts" id="15T-ip-Yd4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zUs-Rh-GE7">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.91050320863723755" green="0.95721679925918579" blue="0.96999555826187134" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="KOn-eq-dbd" kind="relationship" relationship="rootViewController" id="IeA-hy-NSh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KMw-5C-jUl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3709" y="473"/>
+        </scene>
+        <!--mySteps-->
+        <scene sceneID="qqV-8P-iy5">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="e7V-uF-CrC" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="mySteps" id="QOH-aQ-yfG"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="fyf-RV-Qya"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="NTp-sw-gfo">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.91050320863723755" green="0.95721679925918579" blue="0.96999555826187134" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="6i0-jn-5cf" kind="relationship" relationship="rootViewController" id="DF2-14-mnd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iDK-Ht-VSY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1588" y="473"/>
+        </scene>
+        <!--BMI-->
+        <scene sceneID="Zaw-fL-KEb">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="YCO-IJ-ubr" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="BMI" id="DgA-Ie-V8O"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="K2u-3B-DnK"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="phI-bG-dc0">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.91050320863723755" green="0.95721679925918579" blue="0.96999555826187134" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="07B-cO-dS5" kind="relationship" relationship="rootViewController" id="V4Y-Yi-Gqb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sdv-v9-nK9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4412" y="473"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ujV-eh-vq0"/>
-        <segue reference="SYI-23-Hq0"/>
-        <segue reference="F0m-wF-r3n"/>
-        <segue reference="qyS-29-P62"/>
+        <segue reference="WxZ-CI-7IZ"/>
+        <segue reference="jUP-q4-CVP"/>
+        <segue reference="AYz-7c-vgU"/>
+        <segue reference="97e-ak-ZmI"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="Background with Logo " width="540" height="1182"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <image name="Background " width="540" height="1182"/>
     </resources>
 </document>

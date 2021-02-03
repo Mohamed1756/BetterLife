@@ -289,20 +289,19 @@
             </objects>
             <point key="canvasLocation" x="2465.217391304348" y="93.75"/>
         </scene>
-        <!--Meals-->
+        <!--myMeals-->
         <scene sceneID="FDg-ud-PIF">
             <objects>
-                <viewController storyboardIdentifier="UIViewController-6xZ-0b-p55" modalPresentationStyle="fullScreen" id="6xZ-0b-p55" customClass="MyMeals" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="UIViewController-6xZ-0b-p55" title="myMeals" modalPresentationStyle="fullScreen" id="6xZ-0b-p55" customClass="MyMeals" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aoc-rn-OUK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background " translatesAutoresizingMaskIntoConstraints="NO" id="Sta-Rc-oah">
-                                <rect key="frame" x="0.0" y="0.0" width="428" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background " translatesAutoresizingMaskIntoConstraints="NO" id="Sta-Rc-oah">
+                                <rect key="frame" x="0.0" y="-44" width="428.5" height="984"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" spacing="-2" translatesAutoresizingMaskIntoConstraints="NO" id="ZNp-sA-rw2">
-                                <rect key="frame" x="154" y="179" width="120.5" height="40"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="-2" translatesAutoresizingMaskIntoConstraints="NO" id="ZNp-sA-rw2">
+                                <rect key="frame" x="154" y="135" width="120.5" height="40"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Any Dietry" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GJ0-sl-UrO">
                                         <rect key="frame" x="0.0" y="0.0" width="79" height="20.5"/>
@@ -318,11 +317,11 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="B7M-yf-41z">
-                                <rect key="frame" x="161" y="262" width="93" height="150"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="B7M-yf-41z">
+                                <rect key="frame" x="87" y="493" width="254.5" height="150"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KF0-Dh-44u">
-                                        <rect key="frame" x="26" y="0.0" width="41" height="30"/>
+                                        <rect key="frame" x="107" y="0.0" width="41" height="30"/>
                                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="None "/>
                                         <connections>
@@ -331,58 +330,61 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vpe-Kh-BV5">
-                                        <rect key="frame" x="23" y="30" width="47" height="30"/>
+                                        <rect key="frame" x="104" y="30" width="47" height="30"/>
                                         <state key="normal" title="Vegan "/>
                                         <connections>
                                             <segue destination="JSV-C5-TBP" kind="showDetail" identifier="veganToFoodIntolerance" id="WOw-Ua-7f9"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uu2-5U-A5w">
-                                        <rect key="frame" x="7.5" y="60" width="78" height="30"/>
+                                        <rect key="frame" x="88.5" y="60" width="77.5" height="30"/>
                                         <state key="normal" title="Vegeterian "/>
                                         <connections>
                                             <segue destination="MWv-H3-xyL" kind="showDetail" identifier="vegeterianToIntolerance" id="REy-dp-D0d"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vuc-E9-uXu">
-                                        <rect key="frame" x="6.5" y="90" width="80" height="30"/>
+                                        <rect key="frame" x="87.5" y="90" width="79.5" height="30"/>
                                         <state key="normal" title="Gluten Free"/>
                                         <connections>
                                             <segue destination="JVa-3r-iQW" kind="showDetail" identifier="glutenToIntolerance" id="xRy-Lb-nb4"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cRa-7V-yM8">
-                                        <rect key="frame" x="0.0" y="120" width="93" height="30"/>
+                                        <rect key="frame" x="81" y="120" width="92.5" height="30"/>
                                         <state key="normal" title="Pescateraian "/>
                                         <connections>
                                             <segue destination="iLA-aT-cCI" kind="showDetail" identifier="pescToIntolerance" id="svg-iQ-SUB"/>
                                         </connections>
                                     </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="cRa-7V-yM8" firstAttribute="leading" secondItem="B7M-yf-41z" secondAttribute="leading" constant="81" id="9ex-9B-cwC"/>
+                                    <constraint firstItem="vuc-E9-uXu" firstAttribute="leading" secondItem="B7M-yf-41z" secondAttribute="leading" constant="87.5" id="ap2-fO-G0W"/>
+                                    <constraint firstItem="Uu2-5U-A5w" firstAttribute="leading" secondItem="B7M-yf-41z" secondAttribute="leading" constant="88.5" id="eAq-V3-UCp"/>
+                                </constraints>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1o0-Ar-WnB">
-                                <rect key="frame" x="20" y="76" width="46" height="30"/>
-                                <state key="normal" title="Back"/>
-                                <connections>
-                                    <action selector="backButton:" destination="6xZ-0b-p55" eventType="touchUpInside" id="uUd-nt-mUX"/>
-                                    <segue destination="jXG-i4-Bjg" kind="showDetail" id="oMi-YM-vFT"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="7WJ-oB-qRF"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="7WJ-oB-qRF" firstAttribute="trailing" secondItem="1o0-Ar-WnB" secondAttribute="trailing" constant="348" id="7LL-I2-Qa8"/>
-                            <constraint firstItem="1o0-Ar-WnB" firstAttribute="top" secondItem="7WJ-oB-qRF" secondAttribute="top" constant="32" id="M7f-CQ-Or3"/>
-                            <constraint firstItem="1o0-Ar-WnB" firstAttribute="leading" secondItem="aoc-rn-OUK" secondAttribute="leadingMargin" id="eAg-Jk-cKT"/>
+                            <constraint firstItem="ZNp-sA-rw2" firstAttribute="centerX" secondItem="B7M-yf-41z" secondAttribute="centerX" id="Bzk-ck-4W2"/>
+                            <constraint firstItem="7WJ-oB-qRF" firstAttribute="bottom" secondItem="B7M-yf-41z" secondAttribute="bottom" constant="219" id="FQR-rc-C77"/>
+                            <constraint firstItem="Sta-Rc-oah" firstAttribute="leading" secondItem="7WJ-oB-qRF" secondAttribute="leading" id="Fjz-V7-gsg"/>
+                            <constraint firstItem="ZNp-sA-rw2" firstAttribute="top" secondItem="7WJ-oB-qRF" secondAttribute="top" constant="91" id="Lbk-br-mAs"/>
+                            <constraint firstItem="Sta-Rc-oah" firstAttribute="centerY" secondItem="aoc-rn-OUK" secondAttribute="centerY" id="RLt-rE-AHQ"/>
+                            <constraint firstItem="Sta-Rc-oah" firstAttribute="top" secondItem="aoc-rn-OUK" secondAttribute="topMargin" constant="-88" id="Yy1-zQ-Yb9"/>
+                            <constraint firstItem="Sta-Rc-oah" firstAttribute="centerX" secondItem="ZNp-sA-rw2" secondAttribute="centerX" id="eRY-Wh-ZkM"/>
+                            <constraint firstItem="7WJ-oB-qRF" firstAttribute="trailing" secondItem="B7M-yf-41z" secondAttribute="trailing" constant="72.5" id="lc4-cH-6eT"/>
+                            <constraint firstItem="B7M-yf-41z" firstAttribute="leading" secondItem="7WJ-oB-qRF" secondAttribute="leading" constant="87" id="ljY-oq-J4U"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Meals" id="4Wn-u9-q69"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0ht-dN-BnD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4123" y="94"/>
+            <point key="canvasLocation" x="4121.739130434783" y="93.75"/>
         </scene>
         <!--NoneToFoodIntolerance-->
         <scene sceneID="nfg-Z9-hno">
@@ -434,7 +436,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="oMi-YM-vFT"/>
+        <segue reference="imz-9O-62o"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Background " width="540" height="1182"/>

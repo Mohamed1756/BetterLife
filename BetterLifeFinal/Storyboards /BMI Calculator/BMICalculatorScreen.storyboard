@@ -8,18 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--HomeScreen-->
-        <scene sceneID="I5t-hZ-6am">
-            <objects>
-                <viewControllerPlaceholder storyboardName="HomeScreen" id="R9b-Yn-55a" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QAv-od-xkG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-689" y="-391"/>
-        </scene>
         <!--BMI-->
         <scene sceneID="Acy-dm-y1o">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="Q8Q-gw-1eR" customClass="BMICalculatorView" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="BMI" modalPresentationStyle="fullScreen" id="Q8Q-gw-1eR" customClass="BMICalculatorView" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9ZI-Ch-gWi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -57,14 +49,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Result " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Lz-X7-IjT">
-                                <rect key="frame" x="75" y="502" width="280" height="111"/>
+                                <rect key="frame" x="75" y="502" width="280" height="160"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yl4-uq-3nw">
-                                <rect key="frame" x="144" y="646" width="126" height="54"/>
+                                <rect key="frame" x="144" y="695" width="126" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Calculate"/>
                                 <connections>
@@ -92,20 +84,12 @@
                                     <action selector="weightSlider:" destination="Q8Q-gw-1eR" eventType="valueChanged" id="DV4-LQ-W0B"/>
                                 </connections>
                             </slider>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j2Q-bX-KnK">
-                                <rect key="frame" x="20" y="44" width="52" height="43"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Back"/>
-                                <connections>
-                                    <segue destination="R9b-Yn-55a" kind="showDetail" id="Gb5-Kt-VMy"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="s7A-8G-8J7"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="BMI" id="CFA-vZ-NUg"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <tabBarItem key="tabBarItem" title="BMI" id="3Mx-OH-d2T"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="heightValue" destination="9qi-gN-v8h" id="5Da-pE-mIK"/>
                         <outlet property="resultAnswer" destination="5Lz-X7-IjT" id="pGi-ff-N5Y"/>

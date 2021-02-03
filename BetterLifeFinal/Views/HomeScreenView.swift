@@ -20,7 +20,7 @@ HomeScreenVIew:UIViewController{
     
     @IBAction func MealsButton(_ sender: UIButton) {
         
-        self.performSegue(withIdentifier: "mealsToFoodPref", sender: self)
+      
         
     }
     

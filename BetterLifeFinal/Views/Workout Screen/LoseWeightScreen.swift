@@ -9,19 +9,16 @@ import UIKit
 
 class LoseWeightScreen: UIViewController {
     
-    @IBAction func loseWeightBeginnerButton(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "loseWeightToBeginner", sender: self)
+    
+    
+    @IBAction func loseWeightBeginnerBtn(_ sender: UIButton) {
     }
     
-    
-    @IBAction func loseWeightIntermediateButton(_ sender: Any) {
-        self.performSegue(withIdentifier: "loseWeightToIntermediate", sender: self)
+    @IBAction func loseWeightIntermediateBtn(_ sender: UIButton) {
     }
     
-    @IBAction func loseWeightAdvancedButton(_ sender: Any) {
-        self.performSegue(withIdentifier: "loseWeightToAdvanced", sender: self)
+    @IBAction func loseWeightAdvancedBtn(_ sender: UIButton) {
     }
-    
     
     
 }
