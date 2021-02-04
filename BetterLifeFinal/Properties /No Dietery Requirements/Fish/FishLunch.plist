@@ -4,11 +4,11 @@
 <array>
 	<dict>
 		<key>Title</key>
-		<string></string>
+		<string>1</string>
 		<key>Recipe</key>
-		<string></string>
+		<string>Recipe</string>
 		<key>Image</key>
-		<string></string>
+		<string>1</string>
 		<key>Description</key>
 		<string>This is 1 Lunch</string>
 	</dict>

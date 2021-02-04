@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2E6A994F09949FDF28ED4642 /* Pods_BetterLifeFinal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A333640F53E6742607635E /* Pods_BetterLifeFinal.framework */; };
 		4F38F258B9AF7659D0A81029 /* Pods_BetterLifeFinalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EB39170BAF246FD33D6D3E /* Pods_BetterLifeFinalTests.framework */; };
+		D900E0F225CC284E0001379A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D900E0F125CC284E0001379A /* Main.storyboard */; };
 		D905512725A4905A009AB32D /* NoneToFoodIntolerance.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D905512625A4905A009AB32D /* NoneToFoodIntolerance.storyboard */; };
 		D905512B25A498FF009AB32D /* VeganFoodIntolerance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D905512A25A498FF009AB32D /* VeganFoodIntolerance.swift */; };
 		D905512F25A49BFF009AB32D /* VegeterianFoodIntolerance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D905512E25A49BFF009AB32D /* VegeterianFoodIntolerance.swift */; };
@@ -75,7 +76,6 @@
 		D98A4FA9259CEA6D00294F64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98A4FA8259CEA6D00294F64 /* AppDelegate.swift */; };
 		D98A4FAB259CEA6D00294F64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98A4FAA259CEA6D00294F64 /* SceneDelegate.swift */; };
 		D98A4FAD259CEA6D00294F64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98A4FAC259CEA6D00294F64 /* ViewController.swift */; };
-		D98A4FB0259CEA6D00294F64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98A4FAE259CEA6D00294F64 /* Main.storyboard */; };
 		D98A4FB2259CEA7100294F64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98A4FB1259CEA7100294F64 /* Assets.xcassets */; };
 		D98A4FB5259CEA7100294F64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D98A4FB3259CEA7100294F64 /* LaunchScreen.storyboard */; };
 		D98A4FC0259CEA7100294F64 /* BetterLifeFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98A4FBF259CEA7100294F64 /* BetterLifeFinalTests.swift */; };
@@ -177,6 +177,7 @@
 		80E35B4AC340A2947D48BA17 /* Pods-BetterLifeFinalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterLifeFinalTests.release.xcconfig"; path = "Target Support Files/Pods-BetterLifeFinalTests/Pods-BetterLifeFinalTests.release.xcconfig"; sourceTree = "<group>"; };
 		9772CC09C6B8E31A56670FE2 /* Pods-BetterLifeFinal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterLifeFinal.release.xcconfig"; path = "Target Support Files/Pods-BetterLifeFinal/Pods-BetterLifeFinal.release.xcconfig"; sourceTree = "<group>"; };
 		CF1D043EA2303B9A7AB811BC /* Pods-BetterLifeFinal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterLifeFinal.debug.xcconfig"; path = "Target Support Files/Pods-BetterLifeFinal/Pods-BetterLifeFinal.debug.xcconfig"; sourceTree = "<group>"; };
+		D900E0F125CC284E0001379A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D905512625A4905A009AB32D /* NoneToFoodIntolerance.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NoneToFoodIntolerance.storyboard; sourceTree = "<group>"; };
 		D905512A25A498FF009AB32D /* VeganFoodIntolerance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeganFoodIntolerance.swift; sourceTree = "<group>"; };
 		D905512E25A49BFF009AB32D /* VegeterianFoodIntolerance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegeterianFoodIntolerance.swift; sourceTree = "<group>"; };
@@ -245,7 +246,6 @@
 		D98A4FA8259CEA6D00294F64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D98A4FAA259CEA6D00294F64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D98A4FAC259CEA6D00294F64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D98A4FAF259CEA6D00294F64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D98A4FB1259CEA7100294F64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D98A4FB4259CEA7100294F64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D98A4FB6259CEA7100294F64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -564,12 +564,12 @@
 		D972899525A4896A0063751F /* Storyboards  */ = {
 			isa = PBXGroup;
 			children = (
+				D900E0F125CC284E0001379A /* Main.storyboard */,
 				D960037125C7325700030CA3 /* Step Counter Screen */,
 				D97F66FB25C439AC00A9903A /* BMI Calculator */,
 				D9A0B7B925B9B5C8001A7DD3 /* Home Screen */,
 				D9A0B7A625B9B09B001A7DD3 /* Workouts */,
 				D905513E25A49E4E009AB32D /* Food Intolerances Screen  */,
-				D98A4FAE259CEA6D00294F64 /* Main.storyboard */,
 				D9C1FD8F25B0A1AC00FDA667 /* RecipeScreen.storyboard */,
 			);
 			path = "Storyboards ";
@@ -1093,6 +1093,7 @@
 				D9BCD8E525B705C80038626F /* PescatarianBasicDinner.plist in Resources */,
 				D93BC13E25B1CB6C0051602E /* VeganGlutenDinner.plist in Resources */,
 				D93BC13625B1CB3D0051602E /* VeganGlutenBreakfast.plist in Resources */,
+				D900E0F225CC284E0001379A /* Main.storyboard in Resources */,
 				D9E3BEBA25B32BD100AE110A /* VeganNutLunch.plist in Resources */,
 				D9DB5C8425C2EDCE006C1769 /* stayFitBeginnerWeekThree.plist in Resources */,
 				D9CDA4FD25C19A5700542931 /* BuildMuscleBeginnerWeekThree.plist in Resources */,
@@ -1164,7 +1165,6 @@
 				D9C1FD5025B0681300FDA667 /* DairyLunch.plist in Resources */,
 				D9C1FD8C25B09FA100FDA667 /* VeganDinner.plist in Resources */,
 				D96F043E25B4A43D00467282 /* VegetarianGlutenLunch.plist in Resources */,
-				D98A4FB0259CEA6D00294F64 /* Main.storyboard in Resources */,
 				D9BCD8CA25B6FAD80038626F /* VegetarianNutDinner.plist in Resources */,
 				D9DDA50925B87DAD00C024BB /* GlutenDairyLunch.plist in Resources */,
 				D96F044225B4A47B00467282 /* VegetarianGlutenDinner.plist in Resources */,
@@ -1329,14 +1329,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D98A4FAE259CEA6D00294F64 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D98A4FAF259CEA6D00294F64 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D98A4FB3259CEA7100294F64 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
