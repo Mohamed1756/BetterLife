@@ -10,7 +10,6 @@
         <!--Tab Bar Controller-->
         <scene sceneID="tL4-x6-mPP">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1A8-St-sEi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tabBarController modalPresentationStyle="fullScreen" id="Qzp-ZJ-fXQ" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ve6-d2-FPW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
@@ -26,6 +25,7 @@
                         <segue destination="YCO-IJ-ubr" kind="relationship" relationship="viewControllers" id="Z6a-Fh-465"/>
                     </connections>
                 </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1A8-St-sEi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3036" y="-243"/>
         </scene>
@@ -80,7 +80,13 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="u38-1u-nYs"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Home" id="ecY-D2-TOW"/>
+                    <navigationItem key="navigationItem" title="Home" id="ecY-D2-TOW">
+                        <barButtonItem key="rightBarButtonItem" title="Log Out" id="aiA-zv-lTH">
+                            <connections>
+                                <action selector="logOutButton:" destination="b3C-ne-AFi" id="QEH-P1-eRh"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yWV-6Q-uuq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -99,10 +105,10 @@
         <!--UIViewController-6xZ-0b-p55-->
         <scene sceneID="ALW-Tw-1KL">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1rj-0w-gpE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewControllerPlaceholder storyboardIdentifier="MealSelectionChoice" storyboardName="Main" referencedIdentifier="UIViewController-6xZ-0b-p55" id="kwt-iW-5CN" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" title="myMeals" id="JL1-iz-VCL"/>
                 </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1rj-0w-gpE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3036" y="1034"/>
         </scene>

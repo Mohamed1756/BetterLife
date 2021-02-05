@@ -6,17 +6,22 @@
 //
 
 import UIKit
+import Firebase
 
 class
 HomeScreenVIew:UIViewController{
     
     
     override func viewDidLoad() {
-       
+        super.viewDidLoad()
         
     }
     
-    
+    @IBAction func logOutButton(_ target:UIBarButtonItem) {
+        try! Auth.auth().signOut()
+        self.dismiss(animated: false, completion: nil)
+        
+    }
     
     @IBAction func MealsButton(_ sender: UIButton) {
         
@@ -27,6 +32,7 @@ HomeScreenVIew:UIViewController{
     @IBAction func WorkoutButton(_ sender: Any) {
         
         }
+    
     
 
     

@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import FirebaseAuth
+import Firebase
 class LoginScreen:UIViewController {
     
     @IBOutlet weak var emailTextField: UITextField!
@@ -22,8 +22,10 @@ override func viewDidLoad() {
     }
     @IBAction func loginTapped(_ sender: Any) {
         Auth.auth().signIn(withEmail: emailTextField.text!, password: passwordTextField.text!) { (user, error) in
-           if error == nil{
-             self.performSegue(withIdentifier: "loginToHome", sender: self)
+           if error == nil && user != nil {
+             
+            //self.performSegue(withIdentifier: "loginToHome", sender: self)
+            self.dismiss(animated: false, completion: nil)
             
                           }
             else{

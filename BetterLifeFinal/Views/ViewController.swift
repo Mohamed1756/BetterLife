@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class ViewController: UIViewController {
 
@@ -20,6 +21,14 @@ class ViewController: UIViewController {
     }
     @IBAction func loginButton(_ sender: Any) {
         self.performSegue(withIdentifier: "toLoginScreen", sender: self)
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        if let user = Auth.auth().currentUser {
+            self.performSegue(withIdentifier: "toTheHomeScreen", sender: self)
+        }
     }
 }
 

@@ -10,6 +10,8 @@ target 'BetterLifeFinal' do
  pod 'Firebase/Auth' 
  pod 'Firebase/Firestore'
  pod 'Firebase/Core'
+ pod 'Firebase/Database'
+ pod 'Firebase/Storage'
  
 
   target 'BetterLifeFinalTests' do
