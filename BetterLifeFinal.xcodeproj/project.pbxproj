@@ -110,6 +110,7 @@
 		D9C1FD8825B09F8200FDA667 /* VeganLunch.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9C1FD8725B09F8200FDA667 /* VeganLunch.plist */; };
 		D9C1FD8C25B09FA100FDA667 /* VeganDinner.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9C1FD8B25B09FA100FDA667 /* VeganDinner.plist */; };
 		D9C1FD9025B0A1AC00FDA667 /* RecipeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C1FD8F25B0A1AC00FDA667 /* RecipeScreen.storyboard */; };
+		D9C8EE6E25CEF49E00356CB0 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C8EE6D25CEF49E00356CB0 /* EditProfileView.swift */; };
 		D9CDA4ED25C1967800542931 /* BuildMuscleImageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CDA4EC25C1967800542931 /* BuildMuscleImageCollectionView.swift */; };
 		D9CDA4F525C19A2C00542931 /* BuildMuscleBeginnerWeekOne.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9CDA4F425C19A2C00542931 /* BuildMuscleBeginnerWeekOne.plist */; };
 		D9CDA4F925C19A4C00542931 /* BuildMuscleBeginnerWeekTwo.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9CDA4F825C19A4C00542931 /* BuildMuscleBeginnerWeekTwo.plist */; };
@@ -284,6 +285,7 @@
 		D9C1FD8725B09F8200FDA667 /* VeganLunch.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VeganLunch.plist; sourceTree = "<group>"; };
 		D9C1FD8B25B09FA100FDA667 /* VeganDinner.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VeganDinner.plist; sourceTree = "<group>"; };
 		D9C1FD8F25B0A1AC00FDA667 /* RecipeScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RecipeScreen.storyboard; sourceTree = "<group>"; };
+		D9C8EE6D25CEF49E00356CB0 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 		D9CDA4EC25C1967800542931 /* BuildMuscleImageCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildMuscleImageCollectionView.swift; sourceTree = "<group>"; };
 		D9CDA4F425C19A2C00542931 /* BuildMuscleBeginnerWeekOne.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = BuildMuscleBeginnerWeekOne.plist; sourceTree = "<group>"; };
 		D9CDA4F825C19A4C00542931 /* BuildMuscleBeginnerWeekTwo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = BuildMuscleBeginnerWeekTwo.plist; sourceTree = "<group>"; };
@@ -650,6 +652,7 @@
 				D930D695259E64CD006A0093 /* SignUpScreen.swift */,
 				D989E9F925A1E7EA00ECEB5C /* HomeScreenView.swift */,
 				D989E9FD25A1EBCA00ECEB5C /* MyMeals.swift */,
+				D9C8EE6D25CEF49E00356CB0 /* EditProfileView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -1278,6 +1281,7 @@
 				D90F8EDF25A7628F00CCF022 /* RecipeForNothing.swift in Sources */,
 				D9BCD8F825B70BC80038626F /* PescatarianEggFreeView.swift in Sources */,
 				D97F670425C43C5100A9903A /* BMICalculatorView.swift in Sources */,
+				D9C8EE6E25CEF49E00356CB0 /* EditProfileView.swift in Sources */,
 				D9E0B56225BDF4820066A379 /* LoseWeightImageCollectionView.swift in Sources */,
 				D9E3BECF25B3472000AE110A /* VegeterianImageCollectionView.swift in Sources */,
 				D9CDA4ED25C1967800542931 /* BuildMuscleImageCollectionView.swift in Sources */,
