@@ -24,7 +24,6 @@ override func viewDidLoad() {
         Auth.auth().signIn(withEmail: emailTextField.text!, password: passwordTextField.text!) { (user, error) in
            if error == nil && user != nil {
              
-            //self.performSegue(withIdentifier: "loginToHome", sender: self)
             self.dismiss(animated: false, completion: nil)
             
                           }
