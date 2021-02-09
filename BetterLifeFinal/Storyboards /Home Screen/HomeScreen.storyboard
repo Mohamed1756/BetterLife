@@ -13,7 +13,7 @@
         <scene sceneID="tL4-x6-mPP">
             <objects>
                 <tabBarController modalPresentationStyle="fullScreen" id="Qzp-ZJ-fXQ" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ve6-d2-FPW">
+                    <tabBar key="tabBar" contentMode="scaleAspectFit" insetsLayoutMarginsFromSafeArea="NO" id="ve6-d2-FPW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.91050320863723755" green="0.95721679925918579" blue="0.96999555826187134" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -432,7 +432,7 @@
         <scene sceneID="MFy-55-Z3j">
             <objects>
                 <navigationController modalPresentationStyle="fullScreen" id="Lpb-g9-jWa" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" id="3ca-da-6Nf"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="Home" selectedImage="Home" id="3ca-da-6Nf"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="6uQ-NK-SHr">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -450,7 +450,7 @@
         <scene sceneID="LCu-MN-PCT">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="w2B-qi-Sru" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="myMeals" id="5Ud-G5-djd"/>
+                    <tabBarItem key="tabBarItem" title="myMeals" image="Meals" selectedImage="Meals" id="5Ud-G5-djd"/>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="myMeals" id="c8g-Hz-QCL"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="SgD-g6-00R">
@@ -471,7 +471,7 @@
         <scene sceneID="wPd-2y-ciP">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="cXx-KD-Kp3" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="myWorkouts" id="dL4-hN-Qfd"/>
+                    <tabBarItem key="tabBarItem" title="myWorkouts" image="Gym" selectedImage="Gym" id="dL4-hN-Qfd"/>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="myWorkouts" id="15T-ip-Yd4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="zUs-Rh-GE7">
@@ -492,7 +492,9 @@
         <scene sceneID="qqV-8P-iy5">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="e7V-uF-CrC" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="mySteps" id="QOH-aQ-yfG"/>
+                    <tabBarItem key="tabBarItem" title="mySteps" image="Steps" selectedImage="Steps" id="QOH-aQ-yfG">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="fyf-RV-Qya"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="NTp-sw-gfo">
@@ -513,7 +515,7 @@
         <scene sceneID="Zaw-fL-KEb">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="YCO-IJ-ubr" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="BMI" id="DgA-Ie-V8O"/>
+                    <tabBarItem key="tabBarItem" title="BMI" image="BMI" selectedImage="BMI" id="DgA-Ie-V8O"/>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="K2u-3B-DnK"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="phI-bG-dc0">
@@ -532,13 +534,18 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="WxZ-CI-7IZ"/>
-        <segue reference="jUP-q4-CVP"/>
-        <segue reference="AYz-7c-vgU"/>
-        <segue reference="97e-ak-ZmI"/>
+        <segue reference="DF2-14-mnd"/>
+        <segue reference="V4Y-Yi-Gqb"/>
+        <segue reference="cET-v1-a56"/>
+        <segue reference="IeA-hy-NSh"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="BMI" width="25" height="25"/>
         <image name="Background " width="540" height="1182"/>
+        <image name="Gym" width="25" height="25"/>
+        <image name="Home" width="25" height="25"/>
+        <image name="Meals" width="25" height="25"/>
+        <image name="Steps" width="25" height="25"/>
         <image name="plus" catalog="system" width="128" height="113"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
