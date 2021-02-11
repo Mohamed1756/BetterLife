@@ -16,9 +16,9 @@ class VegetarianNutFreeViews:UIViewController,UICollectionViewDelegate,UICollect
     
     @IBOutlet weak var dinnerCollectionView: UICollectionView!
     
-    let breakfastLabels = ["Veg Nut Free", "2", "3", "4", "5"]
-    let lunchLabels = ["1- high calorie","2", "3", "4", "5"]
-    let dinnerLabels = ["vegan", "apple", "shake", "avacado", "rice", "last"]
+    let breakfastLabels = ["Breakfast Casserole", "Veggie Sandwich", "Homemade Muesli", "Banana-Oat Pancakes", "Avocado toast"]
+    let lunchLabels = ["Veggie Pizza","Lentil Soup", "Fattoush Salad", "Vegetable Paella", "Tacos with Avocado Sauce"]
+    let dinnerLabels = ["Caprese Pasta Salad", "Curried Cauliflower Soup", "Vegetable Fried Rice", "Lemony Green Pasta ", "Vegetarian Stuffed Peppers"]
     
     var breakfastItems = [[String:String]]()
     var lunchItems = [[String:String]]()

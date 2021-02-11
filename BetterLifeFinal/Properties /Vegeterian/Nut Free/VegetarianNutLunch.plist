@@ -4,53 +4,111 @@
 <array>
 	<dict>
 		<key>Title</key>
-		<string>1</string>
+		<string>Veggie Pizza</string>
 		<key>Recipe</key>
 		<string>Recipe</string>
 		<key>Image</key>
-		<string>1</string>
+		<string>Veggie Pizza</string>
 		<key>Description</key>
-		<string>This is Vegeterian Nut Free Lunch 1</string>
+		<string>Ingredients: 
+1. 1 lbs pizza dough, 1 cup pizza sauce, 2 cups baby spinach
+2. 3 cups mozzarella cheese, ½ cup fresh red pepper, ½ cup red onion cut thinly
+3. ½ cup halved tomatoes &amp;amp; olives 
+
+Recipe: 
+1. Preheat the oven and prepare dough 
+2. Spread pizza sauce over the dough, distribute the spinach on top of the sauce, and the cheese
+3. Top the pizzas with pepper, red onion, tomatoes, olives 
+4. Bake pizzas individually on the top rack until the crust is golden. Serve 
+</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>2</string>
+		<string>Lentil Soup</string>
 		<key>Recipe</key>
 		<string>Recipe</string>
 		<key>Image</key>
-		<string>2</string>
+		<string>Lentil Soup</string>
 		<key>Description</key>
-		<string>This is Vegeterian Nut Free Lunch 2</string>
+		<string>Ingredients: 
+
+1. ¼ cup of olive oil, 1 onion chopped, 2 carrots chopped, 4 garlic clove minced
+2. 1 tsp curry powder &amp; ½ tsp dried thyme,1 large can diced tomatoes 
+3. 1 cup brown or green lentils, 4 cups vegetable broth, 2 cups water, 1 tsp salt
+4. Pinch of red pepper flakes, black pepper, 1 tbsp lemon juice 
+
+Recipe: 
+
+1. Warm the olive oil in pot, add the chopped onion and carrot and cook, 5 mins
+2. Add the curry powder and thyme. Stir. Pour in the drained diced tomatoes and cook 
+3. Pour in the lentils and the water. Add 1 tsp salt &amp; red pepper flakes with black pepper and cook 30 mins
+4. Transfer 2 cups of the soup to a blender. and purée the soup until smooth. Pour the puréed soup back into the pot.
+5. Add the chopped greens and cook for 5 more minutes,  stir in 1 tbsp of lemon juice and serve</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>3</string>
+		<string>Fattoush Salad</string>
 		<key>Recipe</key>
 		<string>Recipe</string>
 		<key>Image</key>
-		<string>3</string>
+		<string>Fattoush Salad</string>
 		<key>Description</key>
-		<string>This is Vegeterian Nut Free Lunch 3</string>
+		<string>Ingredients: 
+
+1. 2 toasted pita - torn into bitesize. 2 tbsp extra-virgin olive oil, pinch of sea salt
+2. ½ batch fresh mint dressing, fresh romaine lettuce, chopped, 1 large tomato, chopped,
+3. 1 cup quartered of cucumber, 1 chopped red onion, ½ cup torn fresh mint leaves 
+
+Recipe: 
+
+1. Toast the pita in your oven for 8-12 minutes until golden and crispy 
+2. In a large bowl, combine the chopped lettuce, tomatoes, cucumber, onion, mint and toasted pita.
+3. drizzle up to ½ cup dressing over the salad. Gently toss until all of the ingredients are lightly coated in dressing. Serve promptly.</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>4</string>
+		<string>Vegetable Paella</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook time 60 Minutes </string>
 		<key>Image</key>
-		<string>4</string>
+		<string>Vegetable Paella</string>
 		<key>Description</key>
-		<string>This is Vegeterian Nut Free Lunch 4</string>
+		<string>Ingredients: 
+
+1. 3 tbsp olive oil, 1 onion &amp; 6 garlic cloves chopped. 1 ½ tsp fine sea salt. 
+2. 2 tsp paprika, 1 can diced tomatoes &amp; chickpeas, 2 cups short-grain brown rice
+3. 3 cups vegetable broth, 2 red peppers sliced, ½ cup Kalamata olives halved
+4. Black pepper, ¼ cup chopped fresh parsley, 2 tbsp lemon juice, ½ cup frozen peas
+
+Recipe: 
+
+1. Preheat the oven, heat 2 tbsp oil into pot, add onions &amp; salt, 5 minutes 
+2. Stir in the garlic, paprika, tomatoes for 2 mins, then stir in rice until its coated and chickpeas
+3. Increase the heat and bring mixture to boil. On baking combine the artichoke, peppers, chopped olives, 1 tablespoon of the olive oil, ½ teaspoon of the salt, and about 10 twists of freshly ground black pepper. Toss to combine, then spread the contents evenly across the pan. 
+4. Roast the vegetables on the upper rack until the artichokes and peppers are tender, about 40 to 45 minutes. remove and let vegetable cool. Serve</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>5</string>
+		<string>Tacos with Avocado Sauce</string>
 		<key>Recipe</key>
 		<string>Recipe</string>
 		<key>Image</key>
-		<string>5</string>
+		<string>Tacos with Avocado Sauce</string>
 		<key>Description</key>
-		<string>This is Vegeterian Nut Free Lunch 5</string>
+		<string>Ingredients: 
+
+1. Tacos - Olive oil, ½  red onion chopped, 1 clove garlic, minced , 1 small jalapeño
+2. Salt and black pepper, 2 small zucchinis chopped, handful cherry tomatoes sliced 
+3. 1 can of black beans rinsed, 6 small corn tortillas, 3 radishes, sliced super thin
+4. Avacodo sauce - 1 cup parsley, handful cilantro, 1 avocado sliced into chunks
+5. 2 cloves garlic, 2 tbsp lime juice &amp; 3 tbsp olive oil, 1 tbsp water. Salt and black pepper
+
+Recipe: 
+
+1. First, make the chimichurri sauce. In a food processor, combine the parsley, cilantro, avocado, garlic and lime juice.
+2. With the machine running, slowly stream in the olive oil and water. 
+3. In a large pan, add a drizzle of olive oil and onions until tender, Add the jalapeño, zucchini, yellow squash and a sprinkle of salt and black pepper. Cook for 5 minutes
+4. Reduce the heat to low and add the cherry tomatoes and black-eyed peas, stirring until the mixture is heated. heat each tortilla on both sides then fill. </string>
 	</dict>
 </array>
 </plist>

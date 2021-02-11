@@ -8,52 +8,100 @@
 		<key>Recipe</key>
 		<string>Recipe</string>
 		<key>Image</key>
-		<string>1</string>
+		<string>Veg Casserole</string>
 		<key>Description</key>
 		<string>1. Sauté the bell peppers and green onion until tender, then add spinach and cook until wilted. Set the pan aside for a few minutes to cool, so the warm veggies don’t cook the eggs when we stir them together.
+
 2. Whisk together the eggs with a dash of full-fat dairy, like whole milk or Greek yogurt, plus some salt and pepper. Stir in half of the cheese (we’re reserving the other half for topping the casserole). 
+
 3. Transfer the veggies into the egg mixture, stir to combine, then gently pour it all into a buttered baking dish. Top with the rest of the cheese. 
+
 4. Bake until the eggs are cooked through. </string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>2</string>
+		<string>Veggie Sandwich</string>
 		<key>Recipe</key>
 		<string>Recipe</string>
 		<key>Image</key>
-		<string>2</string>
+		<string>Veggie Sandwich</string>
 		<key>Description</key>
-		<string>This is Vegeterian Nut Free Breakfast 2</string>
+		<string>1. Toast your English muffin, to get a toasty flavor. 
+
+2. Spread mayonnaise across the bottom bun. 
+
+3. Mash up some avocado in a bowl. And spread over the remaining bun. 
+
+4. Once your cheesy egg is ready, place it onto the mayo side of the bun. 
+
+5. Then add some red onion for flavor, Top the red onion with a couple splashes of hot sauce. 
+
+8. place the avocado bun on top, avocado side down and slice it in half. Serve warm. </string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>3</string>
+		<string>Homemade Muesli </string>
 		<key>Recipe</key>
 		<string>Recipe</string>
 		<key>Image</key>
-		<string>3</string>
+		<string>Homemade Muesli </string>
 		<key>Description</key>
-		<string>This is Vegeterian Nut Free Breakfast 3</string>
+		<string>Ingredients: 
+
+1. ⅓ cup of oats, 
+1 tablespoon raisins, 1 tablespoon almond butter or peanut butter 
+2. 2 tablespoon Applesauce, ⅓ cup milk of choice, Chopped almonds, Drizzle of honey 
+
+Recipe: 
+1. In a bowl, combine the oats, raisins, and applesauce. Stir. Then add milk and stir.
+
+2. Place the lid on the bowl and refrigerate for at least 30 minutes, or up to 5 days. When you’re ready to serve
+</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>4</string>
+		<string>Banana Oat Pancakes</string>
 		<key>Recipe</key>
 		<string>Recipe</string>
 		<key>Image</key>
-		<string>4</string>
+		<string>Banana Oat Pancakes</string>
 		<key>Description</key>
-		<string>This is Vegeterian Nut Free Breakfast 4</string>
+		<string>Ingredients: 
+
+1. Scant 1 ¼ cup mashed bananas, 2 tbsp coconut oil, 1 tbsp lemon juice, 1 tsp honey
+2. 2 eggs, 1 cup oat flour, ½ tsp baking soda &amp; salt &amp; cinnamon 
+
+Recipe: 
+1. In a bowl, stir the mashed bananas, coconut oil , lemon juice and honey
+ 
+2. In another bowl, whisk together the oat flour, baking soda &amp; salt. 
+
+3. Form a well in the center of the dry ingredients and pour in the wet ingredients. stir just until the dry ingredients are thoroughly moistened.
+
+4. let it stay for 10 mins, Heat a pan, lightly oil the surface with coconut oil, 
+
+5. Once the pan is hot enough, pour ¼ cup of batter onto the pan. Let it cook for 3 minutes,
+ 
+6. Flip the pancake until its golden brown on both sides. Serve</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>5</string>
+		<string>Avocado toast</string>
 		<key>Recipe</key>
 		<string>Recipe</string>
 		<key>Image</key>
-		<string>5</string>
+		<string>Avocado toast</string>
 		<key>Description</key>
-		<string>This is Vegeterian Nut Free Breakfast 5</string>
+		<string>Ingredients: 
+
+1. 1 slice of bread, ½ ripe avocado, Pinch of salt
+
+Recipe: 
+1. Toast your slice of bread until golden and firm.
+
+2. Remove the pit from your avocado. Use a big spoon to scoop out the flesh. 
+3. Put it in a bowl and mash it up until smooth. Mix in a pinch of salt 
+4. Spread avocado on top of your toast. Enjoy </string>
 	</dict>
 </array>
 </plist>
