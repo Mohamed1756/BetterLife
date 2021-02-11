@@ -12,6 +12,8 @@ target 'BetterLifeFinal' do
  pod 'Firebase/Core'
  pod 'Firebase/Database'
  pod 'Firebase/Storage'
+ pod 'Firebase/Crashlytics'
+ pod 'Firebase/Analytics'
  
 
   target 'BetterLifeFinalTests' do

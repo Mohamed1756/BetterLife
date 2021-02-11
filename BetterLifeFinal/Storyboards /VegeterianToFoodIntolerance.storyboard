@@ -12,7 +12,7 @@
         <!--Vegetarian-->
         <scene sceneID="Up6-hT-1rA">
             <objects>
-                <viewController title="Vegetarian" modalPresentationStyle="fullScreen" id="PTS-vx-otJ" customClass="VegeterianFoodIntolerance" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Vegetarian" modalPresentationStyle="fullScreen" id="PTS-vx-otJ" customClass="VegetarainFoodIntoleranceScreen" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nbl-i6-0EW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -59,7 +59,7 @@
                                         <rect key="frame" x="0.0" y="62" width="36" height="30"/>
                                         <state key="normal" title="Dairy"/>
                                         <connections>
-                                            <segue destination="b7H-0C-Bm8" kind="show" id="aIY-gg-YGB"/>
+                                            <segue destination="b7H-0C-Bm8" kind="show" identifier="dairyVegToGlutenView" id="aIY-gg-YGB"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IgA-nJ-td5">
@@ -645,7 +645,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nmm-Ca-vAm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4902.898550724638" y="946.875"/>
+            <point key="canvasLocation" x="3339" y="802"/>
         </scene>
         <!--RecipeScreen-->
         <scene sceneID="HWB-Ow-fNQ">
@@ -667,8 +667,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ugW-hY-tvi"/>
-        <segue reference="B5q-75-GoC"/>
+        <segue reference="v7z-Cr-Hge"/>
+        <segue reference="aIY-gg-YGB"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Background " width="540" height="1182"/>

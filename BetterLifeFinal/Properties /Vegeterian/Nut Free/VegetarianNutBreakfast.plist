@@ -4,13 +4,16 @@
 <array>
 	<dict>
 		<key>Title</key>
-		<string>1</string>
+		<string>Breakfast Casserole</string>
 		<key>Recipe</key>
 		<string>Recipe</string>
 		<key>Image</key>
 		<string>1</string>
 		<key>Description</key>
-		<string>This is Vegeterian Nut Free Breakfast 1</string>
+		<string>1. Sauté the bell peppers and green onion until tender, then add spinach and cook until wilted. Set the pan aside for a few minutes to cool, so the warm veggies don’t cook the eggs when we stir them together.
+2. Whisk together the eggs with a dash of full-fat dairy, like whole milk or Greek yogurt, plus some salt and pepper. Stir in half of the cheese (we’re reserving the other half for topping the casserole). 
+3. Transfer the veggies into the egg mixture, stir to combine, then gently pour it all into a buttered baking dish. Top with the rest of the cheese. 
+4. Bake until the eggs are cooked through. </string>
 	</dict>
 	<dict>
 		<key>Title</key>
