@@ -26,9 +26,6 @@ class MyMeals:UIViewController {
     }
     
     
-    @IBAction func vegetarianButton(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "choiceVegetarian" , sender: self)
-    }
     
     
     

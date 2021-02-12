@@ -6,7 +6,7 @@
 		<key>Title</key>
 		<string>Veggie Pizza</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time 60 Minutes </string>
 		<key>Image</key>
 		<string>Veggie Pizza</string>
 		<key>Description</key>
@@ -49,7 +49,7 @@ Recipe:
 		<key>Title</key>
 		<string>Fattoush Salad</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 35 mins</string>
 		<key>Image</key>
 		<string>Fattoush Salad</string>
 		<key>Description</key>
@@ -69,7 +69,7 @@ Recipe:
 		<key>Title</key>
 		<string>Vegetable Paella</string>
 		<key>Recipe</key>
-		<string>Cook time 60 Minutes </string>
+		<string>Cook Time 60 Minutes </string>
 		<key>Image</key>
 		<string>Vegetable Paella</string>
 		<key>Description</key>

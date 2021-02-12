@@ -37,22 +37,22 @@ class BMICalculatorView:UIViewController {
     
     @IBAction func calculateBMIButton(_ sender: UIButton) {
         bmi = w/(h*h)
-        resultAnswer.text = NSString (format: " Your BMI value is %.2f ", bmi) as String
+        resultAnswer.text = NSString (format: " BMI value is %.2f ", bmi) as String
         
         if bmi < 18.5 {
-            resultAnswer.text = NSString (format: " Your BMI value is %.2f ----> Under Weight ", bmi) as String
+            resultAnswer.text = NSString (format: " BMI value is %.2f: Under Weight ", bmi) as String
             resultAnswer.alpha = 1
             
         } else if bmi >= 18.5 && bmi < 25 {
-            resultAnswer.text = NSString (format: " Your BMI value is %.2f ----> Normal Weight ", bmi) as String
+            resultAnswer.text = NSString (format: " BMI value is %.2f: Normal Weight ", bmi) as String
             resultAnswer.alpha = 1
 
         } else if bmi >= 25 && bmi < 30 {
-            resultAnswer.text = NSString (format: " Your BMI value is %.2f ----> Over Weight ", bmi) as String
+            resultAnswer.text = NSString (format: " BMI value is %.2f: Over Weight ", bmi) as String
             resultAnswer.alpha = 1
 
         } else {
-            resultAnswer.text = NSString (format: " Your BMI value is %.2f ----> Obese ", bmi) as String
+            resultAnswer.text = NSString (format: " BMI value is %.2f:  Obese ", bmi) as String
             resultAnswer.alpha = 1
 
         }

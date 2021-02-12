@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "icons8-trainers.png",
+      "filename" : "Screenshot 2021-02-12 at 17.05.02.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -19,7 +19,6 @@
     "version" : 1
   },
   "properties" : {
-    "preserves-vector-representation" : true,
-    "template-rendering-intent" : "template"
+    "preserves-vector-representation" : true
   }
 }

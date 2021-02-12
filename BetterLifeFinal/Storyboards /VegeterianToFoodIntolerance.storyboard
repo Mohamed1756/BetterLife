@@ -20,28 +20,11 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background " translatesAutoresizingMaskIntoConstraints="NO" id="62q-Mt-33Q">
                                 <rect key="frame" x="0.0" y="44" width="414" height="808"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bhP-4z-rKL">
-                                <rect key="frame" x="141" y="205" width="97.5" height="42"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Any Food" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cOc-m0-Xli">
-                                        <rect key="frame" x="0.0" y="0.0" width="97.5" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Intolerance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ql9-nw-Nu7">
-                                        <rect key="frame" x="0.0" y="20.5" width="97.5" height="21.5"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="UZg-23-RN0">
-                                <rect key="frame" x="167" y="280" width="45" height="185"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="UZg-23-RN0">
+                                <rect key="frame" x="185" y="296" width="45.5" height="210"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="am0-w8-Pic">
-                                        <rect key="frame" x="0.0" y="0.0" width="41" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="45" height="30"/>
                                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="None "/>
                                         <connections>
@@ -49,54 +32,89 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CyR-Bk-PZn">
-                                        <rect key="frame" x="0.0" y="31" width="35" height="30"/>
+                                        <rect key="frame" x="0.0" y="36" width="45" height="30"/>
                                         <state key="normal" title="Eggs"/>
                                         <connections>
                                             <segue destination="XdF-Zy-3OS" kind="show" identifier="VegEggFreeMeals" id="ece-eu-F6h"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Mb-rb-cgj">
-                                        <rect key="frame" x="0.0" y="62" width="36" height="30"/>
+                                        <rect key="frame" x="0.0" y="72" width="45" height="30"/>
                                         <state key="normal" title="Dairy"/>
                                         <connections>
                                             <segue destination="b7H-0C-Bm8" kind="show" identifier="dairyVegToGlutenView" id="aIY-gg-YGB"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IgA-nJ-td5">
-                                        <rect key="frame" x="0.0" y="93" width="33" height="30"/>
+                                        <rect key="frame" x="0.0" y="108" width="45" height="30"/>
                                         <state key="normal" title="Nuts"/>
                                         <connections>
                                             <segue destination="oFj-yk-kTU" kind="show" identifier="vegetarianNutFree" id="4eY-pQ-VZE"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uMh-db-s9X">
-                                        <rect key="frame" x="0.0" y="124" width="45" height="30"/>
+                                        <rect key="frame" x="0.0" y="144" width="45" height="30"/>
                                         <state key="normal" title="Gluten"/>
                                         <connections>
                                             <segue destination="b7H-0C-Bm8" kind="show" identifier="VegGlutenChoice" id="B5q-75-GoC"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uow-fa-8do">
-                                        <rect key="frame" x="0.0" y="155" width="45" height="30"/>
+                                        <rect key="frame" x="0.0" y="180" width="45" height="30"/>
                                         <state key="normal" title="Wheat"/>
                                         <connections>
                                             <segue destination="b7H-0C-Bm8" kind="show" id="45h-aM-meh"/>
                                         </connections>
                                     </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="Uow-fa-8do" firstAttribute="height" secondItem="am0-w8-Pic" secondAttribute="height" id="ACb-1B-NPF"/>
+                                    <constraint firstItem="IgA-nJ-td5" firstAttribute="height" secondItem="am0-w8-Pic" secondAttribute="height" id="B3Z-nh-pNu"/>
+                                    <constraint firstItem="Uow-fa-8do" firstAttribute="width" secondItem="am0-w8-Pic" secondAttribute="width" id="EcR-rH-xQi"/>
+                                    <constraint firstItem="uMh-db-s9X" firstAttribute="height" secondItem="am0-w8-Pic" secondAttribute="height" id="KIL-yD-0YO"/>
+                                    <constraint firstItem="8Mb-rb-cgj" firstAttribute="width" secondItem="am0-w8-Pic" secondAttribute="width" id="OSt-Iz-gE8"/>
+                                    <constraint firstItem="CyR-Bk-PZn" firstAttribute="height" secondItem="am0-w8-Pic" secondAttribute="height" id="RIr-mK-Xa7"/>
+                                    <constraint firstItem="CyR-Bk-PZn" firstAttribute="width" secondItem="am0-w8-Pic" secondAttribute="width" id="Ser-4s-M5m"/>
+                                    <constraint firstItem="IgA-nJ-td5" firstAttribute="width" secondItem="am0-w8-Pic" secondAttribute="width" id="SjH-2G-ZtY"/>
+                                    <constraint firstItem="uMh-db-s9X" firstAttribute="width" secondItem="am0-w8-Pic" secondAttribute="width" id="f0o-wd-YeB"/>
+                                    <constraint firstItem="8Mb-rb-cgj" firstAttribute="height" secondItem="am0-w8-Pic" secondAttribute="height" id="qQo-OV-ioy"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3Or-bz-8Wb">
+                                <rect key="frame" x="159" y="229" width="97.5" height="43"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Any Food" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cOc-m0-Xli">
+                                        <rect key="frame" x="0.0" y="0.0" width="97.5" height="21.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Intolerance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ql9-nw-Nu7">
+                                        <rect key="frame" x="0.0" y="21.5" width="97.5" height="21.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ql9-nw-Nu7" firstAttribute="width" secondItem="cOc-m0-Xli" secondAttribute="width" id="bOV-QP-MF4"/>
+                                    <constraint firstItem="ql9-nw-Nu7" firstAttribute="height" secondItem="cOc-m0-Xli" secondAttribute="height" id="q6u-X7-hs1"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="HVX-Rw-20q"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="HVX-Rw-20q" firstAttribute="trailing" secondItem="3Or-bz-8Wb" secondAttribute="trailing" constant="157.5" id="4zl-Ay-SaK"/>
                             <constraint firstItem="62q-Mt-33Q" firstAttribute="centerY" secondItem="nbl-i6-0EW" secondAttribute="centerY" id="E1l-Bl-1Yc"/>
-                            <constraint firstItem="UZg-23-RN0" firstAttribute="leading" secondItem="HVX-Rw-20q" secondAttribute="leading" constant="167" id="E7T-hF-I8h"/>
-                            <constraint firstItem="HVX-Rw-20q" firstAttribute="bottom" secondItem="UZg-23-RN0" secondAttribute="bottom" constant="397" id="Jle-bo-7Vb"/>
+                            <constraint firstItem="3Or-bz-8Wb" firstAttribute="leading" secondItem="HVX-Rw-20q" secondAttribute="leading" constant="159" id="ENt-nP-PSc"/>
                             <constraint firstItem="62q-Mt-33Q" firstAttribute="centerX" secondItem="nbl-i6-0EW" secondAttribute="centerX" id="K7J-qP-l9D"/>
-                            <constraint firstItem="UZg-23-RN0" firstAttribute="centerX" secondItem="bhP-4z-rKL" secondAttribute="centerX" id="R2J-p4-dyj"/>
+                            <constraint firstItem="UZg-23-RN0" firstAttribute="top" secondItem="3Or-bz-8Wb" secondAttribute="bottom" constant="24" id="LSH-Y2-qpz"/>
+                            <constraint firstItem="UZg-23-RN0" firstAttribute="leading" secondItem="HVX-Rw-20q" secondAttribute="leading" constant="185" id="N3i-cB-F8m"/>
                             <constraint firstItem="62q-Mt-33Q" firstAttribute="leading" secondItem="HVX-Rw-20q" secondAttribute="leading" id="WGz-AM-0P2"/>
+                            <constraint firstItem="UZg-23-RN0" firstAttribute="centerX" secondItem="3Or-bz-8Wb" secondAttribute="centerX" id="YOQ-3H-7uY"/>
                             <constraint firstItem="62q-Mt-33Q" firstAttribute="top" secondItem="nbl-i6-0EW" secondAttribute="topMargin" constant="-44" id="fk4-cF-1BW"/>
-                            <constraint firstItem="UZg-23-RN0" firstAttribute="top" secondItem="bhP-4z-rKL" secondAttribute="bottom" constant="33" id="xOU-xr-YMu"/>
+                            <constraint firstItem="3Or-bz-8Wb" firstAttribute="top" secondItem="HVX-Rw-20q" secondAttribute="top" constant="141" id="jfm-8r-NHm"/>
                         </constraints>
                     </view>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>

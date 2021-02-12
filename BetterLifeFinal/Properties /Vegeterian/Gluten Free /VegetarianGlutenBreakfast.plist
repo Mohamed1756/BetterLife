@@ -4,13 +4,23 @@
 <array>
 	<dict>
 		<key>Title</key>
-		<string>1</string>
+		<string>Indian scrambled eggs</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 20 mins </string>
 		<key>Image</key>
-		<string>1</string>
+		<string>Indian scrambled eggs</string>
 		<key>Description</key>
-		<string>This is Vegeterian Gluten 1</string>
+		<string>Ingredients: 
+
+1. 1 tbsp butter, 1 small red onion, 1 green or red chilli , 2 garlic cloves 
+2. ¼ tsp ground cumin, ¼ tsp garam masala, good pinch of turmeric, 2 tomatoes. 
+3. 7 eggs , beaten. Small pack coriander, 4 chapatis (or gluten-free alternative), lightly toasted, to serve
+
+Recipe: 
+
+1. Heat a large frying pan over a low-medium heat and add the butter.  fry the onion, chilli and garlic – about 5 mins, Add the spices and cook for 1-2 mins.
+2. Add the tomatoes, cook for 1 min, then pour in the eggs. Stir slowly to scramble the eggs as they cook
+3. Stir through the coriander and serve with chapatis for a delicious breakfast </string>
 	</dict>
 	<dict>
 		<key>Title</key>

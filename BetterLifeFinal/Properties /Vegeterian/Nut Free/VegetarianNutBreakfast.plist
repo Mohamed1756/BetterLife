@@ -6,7 +6,7 @@
 		<key>Title</key>
 		<string>Breakfast Casserole</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 60 mins</string>
 		<key>Image</key>
 		<string>Veg Casserole</string>
 		<key>Description</key>
@@ -22,7 +22,7 @@
 		<key>Title</key>
 		<string>Veggie Sandwich</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 10 mins</string>
 		<key>Image</key>
 		<string>Veggie Sandwich</string>
 		<key>Description</key>
@@ -42,7 +42,7 @@
 		<key>Title</key>
 		<string>Homemade Muesli </string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 20 mins</string>
 		<key>Image</key>
 		<string>Homemade Muesli </string>
 		<key>Description</key>
@@ -62,7 +62,7 @@ Recipe:
 		<key>Title</key>
 		<string>Banana Oat Pancakes</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 20 mins</string>
 		<key>Image</key>
 		<string>Banana Oat Pancakes</string>
 		<key>Description</key>
@@ -88,7 +88,7 @@ Recipe:
 		<key>Title</key>
 		<string>Avocado toast</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 10 mins</string>
 		<key>Image</key>
 		<string>Avocado toast</string>
 		<key>Description</key>
