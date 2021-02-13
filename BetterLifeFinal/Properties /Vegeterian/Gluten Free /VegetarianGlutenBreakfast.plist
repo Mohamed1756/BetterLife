@@ -24,43 +24,80 @@ Recipe:
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>2</string>
+		<string>Eggs &amp; potatoes</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 50 mins </string>
 		<key>Image</key>
-		<string>2</string>
+		<string>Eggs &amp; potatoes</string>
 		<key>Description</key>
-		<string>This is Vegeterian Gluten 2</string>
+		<string>Ingredients: 
+
+1. 400g new potatoes , 4 tbsp olive oil, 1 onion thinly sliced
+2. 2-4 eggs, few large pinches of paprika, handful chopped parsley
+
+Recipe: 
+
+1. Cut the potatoes into medium-sized chips, then dry in a clean tea towel. 
+2. Heat the oil in a large frying pan, add the potatoes and onion, and cook fairly gently for 20-25 mins
+3. Make 2-4 spaces in the pan and crack in the eggs. Cook until the whites are set, then break the yolks. Sprinkle with paprika and parsley, and serve. </string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>3</string>
+		<string>One-pan summer eggs</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 17 mins </string>
 		<key>Image</key>
-		<string>3</string>
+		<string>One-pan summer eggs</string>
 		<key>Description</key>
-		<string>This is Vegeterian Gluten 3</string>
+		<string>Ingredients: 
+
+1. 1 tbsp olive oil, 400g courgettes, 200g pack cherry tomatoes halved
+2. 1 garlic clove , 2 eggs, few basil leaves , to serve
+
+Recipe: 
+
+1. Heat the oil in a non-stick frying pan, then add the courgettes. Fry for 5 mins, 
+2. add the tomatoes and garlic, then cook for a few mins more. Stir in a little seasoning
+3. ake two gaps in the mix and crack in the eggs. Cover the pan with a lid or a sheet of foil,
+4. then cook for 2-3 mins until the eggs are done to your liking.Scatter over a few basil leaves and serve with crusty bread.</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>4</string>
+		<string>Blueberry &amp; banana power smoothie</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 5 mins</string>
 		<key>Image</key>
-		<string>4</string>
+		<string>Blueberry &amp; banana power smoothie</string>
 		<key>Description</key>
-		<string>This is Vegeterian Gluten 4</string>
+		<string>Ingredients: 
+
+1. 2 ripe bananas , peeled. 125g blueberries (fresh or frozen)
+2. 300g pack silken tofu, 2 tbsp porridge oats 
+
+Recipe: 
+
+1. Whizz all of the ingredients together in a blender with 300ml water. 
+2. Drink straight away or transfer to a bottle for later, shaking well before drinking.</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>5</string>
+		<string>Homemade Muesli </string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 20 mins</string>
 		<key>Image</key>
-		<string>5</string>
+		<string>Homemade Muesli</string>
 		<key>Description</key>
-		<string>This is Vegeterian Gluten 5</string>
+		<string>Ingredients: 
+
+1. ⅓ cup of oats, 
+1 tablespoon raisins, 1 tablespoon almond butter or peanut butter 
+2. 2 tablespoon Applesauce, ⅓ cup milk of choice, Chopped almonds, Drizzle of honey 
+
+Recipe: 
+1. In a bowl, combine the oats, raisins, and applesauce. Stir. Then add milk and stir.
+
+2. Place the lid on the bowl and refrigerate for at least 30 minutes, or up to 5 days. When you’re ready to serve
+</string>
 	</dict>
 </array>
 </plist>

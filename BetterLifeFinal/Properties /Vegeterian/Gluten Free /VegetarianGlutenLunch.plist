@@ -4,33 +4,51 @@
 <array>
 	<dict>
 		<key>Title</key>
-		<string>1</string>
+		<string>Sweet potato &amp; avacado</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 30 mins</string>
 		<key>Image</key>
-		<string>1</string>
+		<string>Sweet potato &amp; avacado</string>
 		<key>Description</key>
-		<string>This is Vegeterian Gluten Lunch 1</string>
+		<string>Ingredients: 
+
+1. 1 large ripe avocado, 1 lime, 1 tbsp olive oil, 1 red onion
+2. 2 medium sweet potatoes , 2 large eggs, sriracha , for drizzling
+
+Recipe: 
+
+1. Smash up the avocado with a fork, then add the lime juice and season to taste.
+2. Heat the oil in a large, non-stick frying pan over a medium heat. Add the onion and cook for 2 mins
+3. then stir in the sweet potato. Season and press the potato into the pan with the back of a wooden spoon. Cook for 10-15 mins, until golden.
+4. Make two spaces in the pan, crack in the eggs and cook for 2-3 mins until the whites are just set and the yolks runny. Add the avocado and drizzle with sriracha to serve.</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>2</string>
+		<string>Greek courgetti salad</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 20 mins</string>
 		<key>Image</key>
-		<string>2</string>
+		<string>Greek courgetti salad</string>
 		<key>Description</key>
-		<string>This is Vegeterian Gluten Lunch 2</string>
+		<string>Ingredients:
+
+1. ½ cucumber, 60g feta, 200g tub marinated olives with sundried tomato
+2. 250g pack courgetti
+
+Recipes: 
+
+1. Slice the cucumber on the diagonal and crumble the feta. 
+2. Combine all the ingredients in a bowl with a little extra virgin olive oil and some seasoning, then serve. </string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>3</string>
+		<string>Mushroom buckwheat risotto</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 45 mins</string>
 		<key>Image</key>
-		<string>3</string>
+		<string>Mushroom buckwheat risotto</string>
 		<key>Description</key>
-		<string>This is Vegeterian Gluten Lunch 3</string>
+		<string>Ingredients: </string>
 	</dict>
 	<dict>
 		<key>Title</key>
