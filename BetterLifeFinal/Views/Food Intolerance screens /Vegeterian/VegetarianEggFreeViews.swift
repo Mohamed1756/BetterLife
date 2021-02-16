@@ -13,12 +13,11 @@ class VegetarianEggFreeViews:UIViewController,UICollectionViewDelegate,UICollect
     
     @IBOutlet weak var lunchCollectionView: UICollectionView!
     
-    
     @IBOutlet weak var dinnerCollectionView: UICollectionView!
     
-    let breakfastLabels = ["Veg Fish", "2", "3", "4", "5"]
-    let lunchLabels = ["1- high calorie","2", "3", "4", "5"]
-    let dinnerLabels = ["vegan", "apple", "shake", "avacado", "rice", "last"]
+    let breakfastLabels = ["Power Smoothie", "Homemade Muesli", "Avocado toast", "Carrot cake porridge", "Chia pudding"]
+    let lunchLabels = ["Greek courgetti salad","Thai green curry", "Fattoush Salad", "Mushroom buckwheat risotto", "Lentil Soup"]
+    let dinnerLabels = ["Sweet potato curry", "Caponata pasta", "Chilli & avocado salsa sweet potatoes", "Curried Cauliflower Soup", "Vegetarian Stuffed Peppers"]
     
     var breakfastItems = [[String:String]]()
     var lunchItems = [[String:String]]()

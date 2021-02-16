@@ -4,53 +4,111 @@
 <array>
 	<dict>
 		<key>Title</key>
-		<string>1</string>
+		<string>Sweet potato curry</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 60 mins</string>
 		<key>Image</key>
-		<string>1</string>
+		<string>Sweet potato curry</string>
 		<key>Description</key>
-		<string>This is Vegeterian Egg Dinner 1</string>
+		<string>Ingredients: 
+
+1. 1 tbsp coconut oil, 1 onion, 2 garlic cloves, thumb-sized piece ginger, 3 tbsp Thai red curry paste
+2. 1 tbsp smooth peanut butter, 500g sweet potato, 400ml can coconut milk, 200g bag spinach
+3. 1 lime juiced, cooked rice, to serve
+
+Recipe: 
+
+1. Melt 1 tbsp coconut oil in a saucepan over a medium heat and soften 1 chopped onion for 5 mins
+2. Add 2 grated garlic cloves and a grated thumb-sized piece of ginger, and cook for 1 min. Stir in 3 tbsp Thai red curry paste, 1 tbsp smooth peanut butter and 500g sweet potato.
+3.  Then add 400ml coconut milk and 200ml water. Bring to the boil, turn down the heat and simmer, uncovered, for 25-30 min. 
+4. Stir through 200g spinach and the juice of 1 lime, and season well. Serve with cooked rice. </string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>2</string>
+		<string>Caponata pasta</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 30 mins</string>
 		<key>Image</key>
-		<string>2</string>
+		<string>Caponata pasta</string>
 		<key>Description</key>
-		<string>This is Vegeterian Egg Dinner 2</string>
+		<string>Ingredients: 
+
+1. 4 tbsp olive oil, 1 onion, 4 garlic cloves, 250g chargrilled Mediterranean veg
+2. 400g can chopped tomatoes, 1 tbsp small capers, 2 tbsp raisins, 350g rigatoni pasta
+3. bunch basil leaves and parmesan 
+
+Recipe: 
+
+1. Heat the oil in a large pan and cook the onion for 8-10 mins, Add the garlic for the final 2 mins of cooking time.
+2. Tip in the mixed veg, tomatoes, capers and raisins. 10 mins. Meanwhile, boil the kettle.
+3. Pour the kettleful of water into a large pan with a little salt and bring back to the boil. Add the pasta and cook until tender
+4.  Tip the pasta into the sauce, Scatter with the basil leaves and parmesan. Serve</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>3</string>
+		<string>Chilli &amp; avocado salsa sweet potatoes</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 60 mins</string>
 		<key>Image</key>
-		<string>3</string>
+		<string>Chilli &amp; avocado salsa sweet potatoes</string>
 		<key>Description</key>
-		<string>This is Vegeterian Egg Dinner 3</string>
+		<string>Ingredients: 
+
+1. 2 large sweet potatoes, 1 tbsp vegetable oil, 1 onion , 2 garlic cloves, 1 tsp paprika
+2. 400g can chopped tomatoes, 1 small avocado , 1 red chilli , ½ small pack coriander ,
+3. 400g can mixed beans , 460g jar roasted red peppers , 1 tbsp coconut yogurt
+
+Recipe: 
+
+1. Heat oven to 200C, Prick the sweet potatoes with a fork and bake for 40-45 mins. Meanwhile, heat the oil and cook the onion for about 10 mins 
+2. Add the garlic and paprika, and stir for 1 min. Tip in the tomatoes, leave for 10-15 mins.
+3. To make the salsa, combine the avocado, chilli and coriander in a small bowl. Pour the mixed beans into the pan with the red peppers. 5 mins
+4. Halve each baked potato, ladle over the chilli and spoon on the salsa. Add coconut yogurt. </string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>4</string>
+		<string>Curried Cauliflower Soup</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 45 mins</string>
 		<key>Image</key>
-		<string>4</string>
+		<string>Curried Cauliflower Soup</string>
 		<key>Description</key>
-		<string>This is Vegeterian Egg Dinner 4</string>
+		<string>Ingredients: 
+
+1. 1 large cauliflower, stems chopped. 4 tbsp olive oil, 1 diced onion, 3 tbsp red Thai curry paste
+2. ½ tsp lemon zest, 1 ½ cups vegetable broth, 1 can light coconut milk, ½ tsp sugar, 3 tsp rice vinegar
+3. Freshly ground black pepper, ¼ cup chopped green onions, 1 tbsp chopped fresh basil &amp; Thinly sliced jalapeño
+
+Recipe: 
+
+1.  Preheat oven to 200c, Toss the cauliflower with enough oil to lightly coat it. 
+2. Spread the cauliflower on a large baking sheet and roast until the tips of the cauliflower are golden brown, about 25 to 30 minutes.
+3. In a Dutch oven - medium heat, warm 1 tbsp of the oil until shimmering. Add the onion and a dash of salt , stirring occasionally. 
+4. Add the curry paste and lemon zest and stir to incorporate.Add all of the roasted cauliflower stems and half of the florets to the pot. Add the vegetable broth, coconut milk and sugar. 
+5. After 10 mins, remove the pot from heat and let soup cool, then carefully use an immersion blender to blend until smooth, stir in 1 tsp vinegar  and serve ! </string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>5</string>
+		<string>Vegetarian Stuffed Peppers</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 60 mins</string>
 		<key>Image</key>
-		<string>5</string>
+		<string>Vegetarian Stuffed Peppers</string>
 		<key>Description</key>
-		<string>This is Vegeterian Egg Dinner 5</string>
+		<string>Ingredients: 
+
+1. 4 large red bell peppers, halved - seeds removed. 1 tbsp olive oil, Fine salt and freshly ground black pepper.
+2. 1 ½ cups cooked rice, 2 tbsp olive oil, 1 onion, ½ tsp fine salt, 2 cups cherry tomatoes cut. 
+3. ½ cup chopped fresh cilantro, 4 cloves garlic, 1 ½ teaspoons chili powder, 1 can (1 ½ cups) pinto beans, rinsed and drained
+4. 1 tbsp lime juice. 1 cup grated mozzarella. 
+
+Recipe: 
+
+1. Roast the peppers: Preheat the oven to 220 degrees, Place the halved peppers in baking dish, Drizzle 1 tablespoon olive oil over the peppers and sprinkle them with salt and pepper. Bake 25 mins
+2. Cook the rice: Bring a large pot of water to boil. Add the rice to the boiling water for 30 mins
+3. In a large skillet over medium heat, warm 2 tablespoons olive oil until shimmering. Add the onion and ½ teaspoon of the salt, 5 mins. Add tomatoes for another 5 min
+4. Add the cilantro, garlic, chili powder, cook for 30 to 60 seconds. Remove the pot from the heat and add the rice, beans, lime juice and about 10 twists of black pepper. 
+5. Stuff each pepper generously with the rice mixture, Top the peppers with the cheese. Bake at 225 for 12 to 13 minutes, until the cheese is golden in spots. Serve warm </string>
 	</dict>
 </array>
 </plist>
