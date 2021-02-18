@@ -4,13 +4,25 @@
 <array>
 	<dict>
 		<key>Title</key>
-		<string>1</string>
+		<string>Vegan chilli</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 60 minutes</string>
 		<key>Image</key>
-		<string>1</string>
+		<string>Vegan chilli</string>
 		<key>Description</key>
-		<string>This is Vegan Gluten 1</string>
+		<string>Ingredients: 
+
+1. 3 tbsp olive oil, 2 sweet potatoes, 2 tsp smoked paprika, 2 tsp ground cumin, 1 onion
+2. 2 carrots, 2 celery sticks, 2 garlic cloves, 1-2 tsp chilli powder, 1 tsp dried oregano
+3. 1 tbsp tomato purée, 1 red pepper, 2 x 400g cans chopped tomatoes, 400g can black beans, 400g can kidney beans, 
+4. lime wedges, guacamole, rice and coriander to serve
+
+Recipe: 
+
+1. Heat the oven to 200C, Put the sweet potato in a roasting tin and drizzle over 1½ tbsp oil, 1 tsp smoked paprika and 1 tsp ground cumin. Mix and cook 25 mins
+2. heat the remaining oil in a large saucepan over a medium heat. Add the onion, carrot and celery. Cook for 8-10 mins, then add crushed garlic, cook 1 mins
+3. Add the remaining dried spices and tomato purée, cook 1 more min, then Add the red pepper, chopped tomatoes and 200ml water.Bring the chilli to a boil, then simmer for 20 mins. Tip in the beans and cook for another 10 mins
+4. Season to taste then serve with lime wedges, guacamole, rice and coriander. </string>
 	</dict>
 	<dict>
 		<key>Title</key>

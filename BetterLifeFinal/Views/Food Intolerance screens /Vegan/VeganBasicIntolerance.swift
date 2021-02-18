@@ -17,8 +17,8 @@ class VeganBasicIntolerance:UIViewController,UICollectionViewDelegate,UICollecti
     
     @IBOutlet weak var dinnerCollectionView: UICollectionView!
     
-    let breakfastLabels = ["1", "2", "3", "4", "5"]
-    let lunchLabels = ["1- high calorie","2", "3", "4", "5"]
+    let breakfastLabels = ["Chia pudding", "Protein pancakes", "Vegan fry-up", "Blackcurrant compote", "Tropical smoothie bowl"]
+    let lunchLabels = ["Bean, tomato & watercress salad","Falafel burgers", "Indian chickpea & vegetable soup", "Minted green bean salad", "Curried Cauliflower Soup"]
     let dinnerLabels = ["vegan", "apple", "shake", "avacado", "rice", "last"]
     
     var breakfastItems = [[String:String]]()

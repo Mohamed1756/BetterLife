@@ -4,53 +4,100 @@
 <array>
 	<dict>
 		<key>Title</key>
-		<string>1</string>
+		<string>Falafel burgers</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 16 mins</string>
 		<key>Image</key>
-		<string>1</string>
+		<string>Falafel burgers</string>
 		<key>Description</key>
-		<string>This is Vegan Gluten 1</string>
+		<string>Ingredients:
+
+1. 400g can chickpeas, 1 small red onion, 1 garlic clove, handful of flat-leaf parsley or curly parsley, 1 tsp ground cumin
+2. 1 tsp ground coriander, ½ tsp harissa paste, 2 tbsp plain flour, 2 tbsp sunflower oil 
+3. toasted pitta bread, to serve. 200g tub tomato salsa, to serve. green salad, to serve. 
+
+Recipe: 
+
+1. Drain the chickpeas and pat dry with kitchen paper. Tip into a food processor along with the onion, garlic, parsley, cumin, coriander, harissa paste, flour and a little salt.
+2. Blend until fairly smooth, then shape into four patties with your hands. 
+3. Heat the sunflower oil in a non-stick frying pan, and fry the burgers for 3 mins on each side until lightly golden. Serve with the toasted pitta bread, tomato salsa and green salad.</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>2</string>
+		<string>Bean, tomato &amp; watercress salad</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 15 mins</string>
 		<key>Image</key>
-		<string>2</string>
+		<string>Bean, tomato &amp; watercress salad</string>
 		<key>Description</key>
-		<string>This is Vegan 2 Lunch</string>
+		<string>Ingredients: 
+
+1. 2 x 400g can cannellini beans, 100g watercress
+2. 1 lemon , zested and juiced, 250g pack sundried tomatoes and olives
+
+Recipe: 
+
+1. Drain and rinse the beans, then combine in a bowl with the watercress, zest and juice of the lemon, tomatoes and olives, including the oil from the pack. Toss well and season to taste.</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>3</string>
+		<string>Black bean, tofu &amp; avocado rice bowl</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 45 mins</string>
 		<key>Image</key>
-		<string>3</string>
+		<string>Black bean, tofu &amp; avocado rice bowl</string>
 		<key>Description</key>
-		<string>This is Vegan lunch boy</string>
+		<string>Ingredients: 
+
+1. 2 tbsp olive or rapeseed oil, 1 red onion , chopped, 3 garlic cloves , crushed. 2 tsp ground cumin
+2. 2 x 400g cans black beans , zest 2 limes , then 1 juiced, the other cut into wedges to serve, 396g pack tofu , halved through the centre, then chopped into small chunks.
+3. 2 tsp smoked paprika, 2 x 200g pouches cooked brown rice, 2 small ripe avocados , halved, stoned, peeled and chopped, small bunch coriander , leaves only, 1 red chilli
+
+Recipe: 
+
+1. Heat the grill to High. Heat 1 tbsp oil in a frying pan, add the onion and cook, stirring, for 5 mins. Add the garlic and sizzle for 30 secs more, then stir in the cumin and black beans. Cook for 5 mins. Stir through the lime zest and juice, and season.
+2. While the beans cook, put the tofu in a bowl and gently toss through the remaining oil, the paprika and some seasoning. Line a baking tray with foil and arrange the tofu on top. Cook under the grill for 5 mins
+3. Heat the rice following pack instructions, then divide between bowls. Top with the beans, tofu, avocado, coriander and a wedge of lime. Add a few slices of chilli too, if you like it spicy.</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>4</string>
+		<string>Curried Cauliflower Soup</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 45 mins</string>
 		<key>Image</key>
-		<string>4</string>
+		<string>Curried Cauliflower Soup</string>
 		<key>Description</key>
-		<string>This is Vegan G4</string>
+		<string>Ingredients: 
+
+1. 1 large cauliflower, stems chopped. 4 tbsp olive oil, 1 diced onion, 3 tbsp red Thai curry paste
+2. ½ tsp lemon zest, 1 ½ cups vegetable broth, 1 can light coconut milk, ½ tsp sugar, 3 tsp rice vinegar
+3. Freshly ground black pepper, ¼ cup chopped green onions, 1 tbsp chopped fresh basil &amp; Thinly sliced jalapeño
+
+Recipe: 
+
+1.  Preheat oven to 200c, Toss the cauliflower with enough oil to lightly coat it. 
+2. Spread the cauliflower on a large baking sheet and roast until the tips of the cauliflower are golden brown, about 25 to 30 minutes.
+3. In a Dutch oven - medium heat, warm 1 tbsp of the oil until shimmering. Add the onion and a dash of salt , stirring occasionally. 
+4. Add the curry paste and lemon zest and stir to incorporate.Add all of the roasted cauliflower stems and half of the florets to the pot. Add the vegetable broth, coconut milk and sugar. 
+5. After 10 mins, remove the pot from heat and let soup cool, then carefully use an immersion blender to blend until smooth, stir in 1 tsp vinegar  and serve ! </string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>5</string>
+		<string>Indian chickpea &amp; vegetable soup</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 25 mins</string>
 		<key>Image</key>
-		<string>5</string>
+		<string>Indian chickpea &amp; vegetable soup</string>
 		<key>Description</key>
-		<string>lunch time</string>
+		<string>Ingredients:
+
+1. 1 tbsp vegetable oil, 1 large onion, 1 tsp finely grated fresh root ginger, 1 garlic clove 
+2. 1 tbsp garam masala, 850ml vegetable stock, 2 large carrots, 400g can chickpea, 100g green bean
+
+Recipe: 
+
+1. Heat the oil in a medium saucepan, then add the onion, ginger and garlic. Fry for 2 mins, then add the garam masala, give it 1 min more, then add the stock and carrots. 
+2. Simmer for 10 mins, then add the chickpeas. Use a stick blender to whizz the soup a little. Stir in the beans and simmer for 3 mins. Pack into a flask or, if you’ve got a microwave at work, chill and heat up for lunch. Great with naan bread.</string>
 	</dict>
 </array>
 </plist>

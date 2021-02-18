@@ -4,53 +4,93 @@
 <array>
 	<dict>
 		<key>Title</key>
-		<string>1</string>
+		<string>Vegan fry-up</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 45 mins</string>
 		<key>Image</key>
-		<string>1</string>
+		<string>Vegan fry-up</string>
 		<key>Description</key>
-		<string>This is Vegan Nut Free 1</string>
+		<string>Ingredients: 
+
+1. For hash browns : 1 large potato, 1 ½ tbsp peanut butter
+2. For tomatoes and mushrooms : 14 cherry tomatoes, sunflower oil, 2 tsp maple syrup, 1 tsp soy sauce, ¼ tsp smoked paprika, 1 large Portobello mushroom. 
+3. For scrambled tofu : 349g pack silken tofu, 2 tbsp nutritional yeast, ½ tsp turmeric, 1 clove garlic, crushed. 
+4. To serve : 4 vegan sausages, 1 x 200g can baked beans
+
+Recipe: 
+
+1. Cook the potato whole in a large pan of water, boil for 10 mins then drain and allow to cool. Peel the skin away. Mix with the peanut butter and season well. Set aside in the fridge until needed.
+2. Heat oven to 200C, Put the cherry tomatoes onto a baking tray, drizzle with 2 tsp sunflower oil, season and bake for 30 mins. Cook the beans and sausages following the instructions on the pack. 
+3. Meanwhile, mix the maple syrup, soy sauce and ¼ tsp smoked paprika together in a large bowl, add the sliced mushroom, pour 2 tsp sunflower oil into a non-stick frying pan and bring it up to a medium high heat. Fry the mushroom until golden.
+4. Put 1 tbsp oil into the frying pan and add spoonfuls of the potato mixture – you should get about 4. Fry for 3-4 mins, each side then drain onto kitchen paper.
+5. Crumble the tofu into your frying pan and sprinkle over the remaining ingredients and a good pinch of salt and pepper. Fry for 3-4 mins then serve. </string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>2</string>
+		<string>Blackcurrant compote</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 25 mins</string>
 		<key>Image</key>
-		<string>2</string>
+		<string>Blackcurrant compote</string>
 		<key>Description</key>
-		<string>This is Vegan 2</string>
+		<string>Ingredients: 
+
+1. juice ½ lemon, 500g blackcurrants, 100g golden caster sugar
+
+Recipe: 
+
+1. Put 2 tbsp water and the lemon juice in a large saucepan, bring to the boil, then add the blackcurrants and simmer until broken down.
+2. Tip in the golden caster sugar and bring to 105C on a temperature probe. Pour into sterilised jars and leave to cool.</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>3</string>
+		<string>Tropical smoothie bowl</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 20 mins</string>
 		<key>Image</key>
-		<string>3</string>
+		<string>Tropical smoothie bowl</string>
 		<key>Description</key>
-		<string>This is Vegan  133</string>
+		<string>Ingredients: 
+
+1. 1 small ripe mango , stoned, peeled and cut into chunks, 200g pineapple , peeled, cored and cut into chunks. 2 ripe bananas. 
+2. 2 tbsp coconut yogurt, 150ml coconut drinking milk, 2 passion fruits , halved, seeds scooped out, handful blueberries, 2 tbsp coconut flakes, a few mint leaves. 
+
+Recipe: 
+
+1. Put the mango, pineapple, bananas, yogurt and coconut milk in a blender, and blitz until smooth and thick
+2.  Pour into two bowls and decorate with the passion fruit, blueberries, coconut flakes and mint leaves. keep in the fridge for 1 day. Add the toppings just before serving.</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>4</string>
+		<string>Orange &amp; mint salad</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 15 mins</string>
 		<key>Image</key>
-		<string>4</string>
+		<string>Orange &amp; mint salad</string>
 		<key>Description</key>
-		<string>This is Vegan Nut 4</string>
+		<string>Ingredients:
+
+1. 4 oranges, 12 soft dates , stoned, sliced lengthways, small bunch mint , leaves finely chopped, plus a few left whole, 1 tbsp rose syrup
+
+Recipe:
+
+1. Peel then segment the oranges, removing the white pith. Place in a bowl along with any juices, then add the dates, chopped mint and rose syrup and toss gently. Divide between 4 dessert bowls, scatter on the mint leaves and serve.</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>5</string>
+		<string>Kiwi fruit smoothie</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 5 mins</string>
 		<key>Image</key>
-		<string>5</string>
+		<string>Kiwi fruit smoothie</string>
 		<key>Description</key>
-		<string>This is Vegan NUT 5</string>
+		<string>Ingredients: 
+
+1. 3 peeled kiwi fruit, 1 mango , peeled, stoned and chopped, 500ml pineapple juice and 1 banana , sliced
+
+Recipe: 
+
+1. Put all of the ingredients in a blender and blitz until smooth then pour into 2 tall glasses.</string>
 	</dict>
 </array>
 </plist>
