@@ -7,7 +7,24 @@
 
 import UIKit
 
-class EditProfileView:UIViewController,UIImagePickerControllerDelegate & UINavigationControllerDelegate {
+class EditProfileView:UIViewController,UIImagePickerControllerDelegate & UINavigationControllerDelegate, UIPickerViewDelegate, UIPickerViewDataSource {
+    
+    
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return weightGoalsList.count
+    }
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return weightGoalsList[row]
+    }
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        weightGoalTextField.text = weightGoalsList[row]
+        weightGoalTextField.resignFirstResponder()
+    }
+    
     
     var flag = 0
     let image = UIImagePickerController()
@@ -26,9 +43,18 @@ class EditProfileView:UIViewController,UIImagePickerControllerDelegate & UINavig
     
     @IBOutlet weak var targetWeightTextField: UITextField!
     
+    let weightGoalsList = ["Lose Weight", "Build Muscle", "Stay Fit"]
+    var weightGoalPickerView = UIPickerView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+       
+        weightGoalPickerView.delegate = self
+        weightGoalPickerView.dataSource = self
+        weightGoalTextField.inputView = weightGoalPickerView
+        weightGoalTextField.textAlignment = .center
+        weightGoalTextField.placeholder = "Weight Goal"
+        
         let defaults = UserDefaults.standard
            if let name = defaults.string(forKey: "weightGoalValue"){
             weightGoalTextField.text = name

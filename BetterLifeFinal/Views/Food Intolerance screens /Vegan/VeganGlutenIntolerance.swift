@@ -19,7 +19,7 @@ class VeganGlutenIntolerance:UIViewController,UICollectionViewDelegate,UICollect
     
     let breakfastLabels = ["Protein pancakes", "Vegan fry-up", "Blackcurrant compote", "Tropical smoothie bowl", "Kiwi fruit smoothie"]
     let lunchLabels = ["Bean, tomato & watercress salad","Quick hummus", "Black bean, tofu & avocado rice bowl", "Minted green bean salad", "Curried Cauliflower Soup"]
-    let dinnerLabels = ["Vegan chilli", "apple", "shake", "avacado", "rice", "last food"]
+    let dinnerLabels = ["Vegan chilli", "Chickpea curry", "Chilli & avocado salsa sweet potatoes", "Spiced aubergine bake", "Green masala butternut squash curry"]
     
     var breakfastItems = [[String:String]]()
     var lunchItems = [[String:String]]()
