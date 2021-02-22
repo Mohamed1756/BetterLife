@@ -4,13 +4,24 @@
 <array>
 	<dict>
 		<key>Title</key>
-		<string>1</string>
+		<string>Hummus wrap with beetroot</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 16 mins</string>
 		<key>Image</key>
-		<string>1</string>
+		<string>Hummus wrap with beetroot</string>
 		<key>Description</key>
-		<string>This is Pescatarian Lunch 1</string>
+		<string>Ingredients: 
+
+1. 85g wholemeal self-raising flour , 1 tsp rapeseed oil, 160g frozen peas , 
+2. 1 lemon , 4 tbsp bio yogurt, 1 large garlic clove, baby leaf salad, 1 small red onion ,
+3. 2 large ready-cooked beetroots , 30g feta, 20g walnuts 
+
+Recipe: 
+
+1. For the wraps, tip the flour into a small bowl and roughly rub in the oil. Add 60ml warm water to make soft dough
+2. Cut in half, then roll out each piece on a floured surface as thinly as you can to make a round that will cover the base of a large frying pan, heat the pan 
+3. Cook the wraps for 2 mins. For the filling, blitz the peas, lemon juice, 2 tbsp yogurt, garlic and most of the mint using a food processor. 
+4. Spread over wraps, then pile on the salad leaves, onion and beetroot. Add the remaining yogurt and scatter over the feta, walnuts. Serve !</string>
 	</dict>
 	<dict>
 		<key>Title</key>
@@ -34,23 +45,42 @@
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>4</string>
+		<string>Fattoush Salad</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 35 mins</string>
 		<key>Image</key>
-		<string>4</string>
+		<string>Fattoush Salad</string>
 		<key>Description</key>
-		<string>This is Pescatarian Lunch 4</string>
+		<string>Ingredients: 
+
+1. 2 toasted pita - torn into bitesize. 2 tbsp extra-virgin olive oil, pinch of sea salt
+2. ½ batch fresh mint dressing, fresh romaine lettuce, chopped, 1 large tomato, chopped,
+3. 1 cup quartered of cucumber, 1 chopped red onion, ½ cup torn fresh mint leaves 
+
+Recipe: 
+
+1. Toast the pita in your oven for 8-12 minutes until golden and crispy 
+2. In a large bowl, combine the chopped lettuce, tomatoes, cucumber, onion, mint and toasted pita.
+3. drizzle up to ½ cup dressing over the salad. Gently toss until all of the ingredients are lightly coated in dressing. Serve promptly.</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>5</string>
+		<string>Boiled egg avocado toast</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 20 mins</string>
 		<key>Image</key>
-		<string>5</string>
+		<string>Boiled egg avocado toast</string>
 		<key>Description</key>
-		<string>This is Pescatarian Lunch 5</string>
+		<string>Ingredients: 
+
+1. 100g mixed radishes ,1 tbsp vinegar, pinch caster sugar, 1 large avocado
+2. juice 1/2 lime, pinch chilli flakes, 4 slices of bread, 2 eggs boiled. 
+
+Recipe: 
+
+1. Toss the radishes in a bowl with the vinegar, sugar and a pinch of salt.
+2. In a separate bowl, mash the avocado with the lime juice, chilli flakes and some seasoning.
+3. Toast the bread, then top each slice with a little avocado, half an egg, some pickled radishes. Serve!</string>
 	</dict>
 </array>
 </plist>
