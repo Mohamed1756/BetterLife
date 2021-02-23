@@ -15,9 +15,11 @@ class PescatarianBasicView:UIViewController,UICollectionViewDelegate,UICollectio
     
     @IBOutlet weak var dinnerCollectionView: UICollectionView!
     
-    let breakfastLabels = ["Pesc Fish", "2", "3", "4", "5"]
-    let lunchLabels = ["1- high calorie","2", "3", "4", "5"]
-    let dinnerLabels = ["veg", "apple", "shake", "avacado", "rice", "last"]
+    let breakfastLabels = ["Homemade Muesli", "Veggie Sandwich", "Carrot cake porridge", "Blueberry & banana power smoothie", "Indian scrambled eggs"]
+    
+    let lunchLabels = ["Hummus wrap with beetroot","Salmon & leek parcel", "Sesame salmon & sweet potato mash", "Fattoush Salad", "Boiled egg avocado toast"]
+    
+    let dinnerLabels = ["Honey & orange roast sea bass with lentils", "Salmon & leek parcel", "Vegetable Fried Rice", "Chickpea & coriander burgers", "Caponata pasta"]
     
     var breakfastItems = [[String:String]]()
     var lunchItems = [[String:String]]()

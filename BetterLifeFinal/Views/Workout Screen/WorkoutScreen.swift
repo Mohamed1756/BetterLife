@@ -12,7 +12,6 @@ class WorkoutScreen:UIViewController {
     
     @IBOutlet weak var workoutImage: UIImageView!
     
-   
     @IBOutlet weak var titleTextLabel: UILabel!
     
     @IBOutlet weak var dayTextLabel: UILabel!
@@ -26,9 +25,9 @@ class WorkoutScreen:UIViewController {
     
     override func viewDidLoad() {
         
-        workoutImage.image = UIImage(named: sentData3)
         titleTextLabel.text = sentData1
         dayTextLabel.text = sentData2
+        workoutImage.image = UIImage(named: sentData3)
         workoutDetailsTextLabel.text = sentData4
         
     }

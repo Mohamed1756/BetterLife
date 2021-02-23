@@ -16,9 +16,11 @@ class PescatarianEggFreeView:UIViewController,UICollectionViewDelegate,UICollect
     
     @IBOutlet weak var dinnerCollectionView: UICollectionView!
     
-    let breakfastLabels = ["Pesc Egg Free", "2", "3", "4", "5"]
-    let lunchLabels = ["1- high calorie","2", "3", "4", "5"]
-    let dinnerLabels = ["veg", "apple", "shake", "avacado", "rice", "last"]
+    let breakfastLabels = ["Blueberry & banana power smoothie", "Homemade Muesli", "Avocado toast", "Carrot cake porridge", "Chia pudding"]
+    
+    let lunchLabels = ["Salmon & leek parcel","Sesame salmon & sweet potato mash", "Sweet potato & avacado", "Honey & orange roast sea bass with lentils", "Fattoush Salad"]
+    
+    let dinnerLabels = ["Sweet potato curry", "Caponata pasta", "Salmon & leek parcel", "Sesame salmon & sweet potato mash", "Curried Cauliflower Soup"]
     
     var breakfastItems = [[String:String]]()
     var lunchItems = [[String:String]]()

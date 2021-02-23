@@ -44,7 +44,7 @@ class SignUpScreen:UIViewController {
         
         guard let Name = firstNameTextField.text else {return}
         guard let image = profileImageView.image else {return}
-        
+       
         Auth.auth().createUser(withEmail: emailTextField.text!, password: passwordTextField.text!){ (user, error) in
          if error == nil && user != nil {
         // upload Picture on Firebase

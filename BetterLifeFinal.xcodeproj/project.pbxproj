@@ -68,6 +68,7 @@
 		D96F043A25B4A3E700467282 /* VegetarianGlutenBreakfast.plist in Resources */ = {isa = PBXBuildFile; fileRef = D96F043925B4A3E700467282 /* VegetarianGlutenBreakfast.plist */; };
 		D96F043E25B4A43D00467282 /* VegetarianGlutenLunch.plist in Resources */ = {isa = PBXBuildFile; fileRef = D96F043D25B4A43D00467282 /* VegetarianGlutenLunch.plist */; };
 		D96F044225B4A47B00467282 /* VegetarianGlutenDinner.plist in Resources */ = {isa = PBXBuildFile; fileRef = D96F044125B4A47B00467282 /* VegetarianGlutenDinner.plist */; };
+		D97E65BF25E589BB00F94370 /* BetterLifeFinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97E65BE25E589BB00F94370 /* BetterLifeFinalUITests.swift */; };
 		D97F66FF25C439D500A9903A /* BMICalculatorScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D97F66FE25C439D500A9903A /* BMICalculatorScreen.storyboard */; };
 		D97F670425C43C5100A9903A /* BMICalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97F670325C43C5100A9903A /* BMICalculatorView.swift */; };
 		D981F274259DEE810001F55E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D981F273259DEE810001F55E /* GoogleService-Info.plist */; };
@@ -163,6 +164,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D97E65C125E589BB00F94370 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D98A4F9D259CEA6D00294F64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D98A4FA4259CEA6D00294F64;
+			remoteInfo = BetterLifeFinal;
+		};
 		D98A4FBC259CEA7100294F64 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D98A4F9D259CEA6D00294F64 /* Project object */;
@@ -238,6 +246,9 @@
 		D96F043925B4A3E700467282 /* VegetarianGlutenBreakfast.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VegetarianGlutenBreakfast.plist; sourceTree = "<group>"; };
 		D96F043D25B4A43D00467282 /* VegetarianGlutenLunch.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VegetarianGlutenLunch.plist; sourceTree = "<group>"; };
 		D96F044125B4A47B00467282 /* VegetarianGlutenDinner.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VegetarianGlutenDinner.plist; sourceTree = "<group>"; };
+		D97E65BC25E589BB00F94370 /* BetterLifeFinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterLifeFinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D97E65BE25E589BB00F94370 /* BetterLifeFinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterLifeFinalUITests.swift; sourceTree = "<group>"; };
+		D97E65C025E589BB00F94370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D97F66FE25C439D500A9903A /* BMICalculatorScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BMICalculatorScreen.storyboard; sourceTree = "<group>"; };
 		D97F670325C43C5100A9903A /* BMICalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMICalculatorView.swift; sourceTree = "<group>"; };
 		D981F273259DEE810001F55E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -338,6 +349,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D97E65B925E589BB00F94370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D98A4FA2259CEA6D00294F64 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -576,6 +594,15 @@
 			path = "Storyboards ";
 			sourceTree = "<group>";
 		};
+		D97E65BD25E589BB00F94370 /* BetterLifeFinalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D97E65BE25E589BB00F94370 /* BetterLifeFinalUITests.swift */,
+				D97E65C025E589BB00F94370 /* Info.plist */,
+			);
+			path = BetterLifeFinalUITests;
+			sourceTree = "<group>";
+		};
 		D97F66FB25C439AC00A9903A /* BMI Calculator */ = {
 			isa = PBXGroup;
 			children = (
@@ -597,6 +624,7 @@
 			children = (
 				D98A4FA7259CEA6D00294F64 /* BetterLifeFinal */,
 				D98A4FBE259CEA7100294F64 /* BetterLifeFinalTests */,
+				D97E65BD25E589BB00F94370 /* BetterLifeFinalUITests */,
 				D98A4FA6259CEA6D00294F64 /* Products */,
 				BCCE0EE787486B5BA51782E6 /* Pods */,
 				074FFE15697C5C81FF7F29EB /* Frameworks */,
@@ -608,6 +636,7 @@
 			children = (
 				D98A4FA5259CEA6D00294F64 /* BetterLifeFinal.app */,
 				D98A4FBB259CEA7100294F64 /* BetterLifeFinalTests.xctest */,
+				D97E65BC25E589BB00F94370 /* BetterLifeFinalUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1001,6 +1030,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D97E65BB25E589BB00F94370 /* BetterLifeFinalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D97E65C525E589BB00F94370 /* Build configuration list for PBXNativeTarget "BetterLifeFinalUITests" */;
+			buildPhases = (
+				D97E65B825E589BB00F94370 /* Sources */,
+				D97E65B925E589BB00F94370 /* Frameworks */,
+				D97E65BA25E589BB00F94370 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D97E65C225E589BB00F94370 /* PBXTargetDependency */,
+			);
+			name = BetterLifeFinalUITests;
+			productName = BetterLifeFinalUITests;
+			productReference = D97E65BC25E589BB00F94370 /* BetterLifeFinalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		D98A4FA4259CEA6D00294F64 /* BetterLifeFinal */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D98A4FCF259CEA7100294F64 /* Build configuration list for PBXNativeTarget "BetterLifeFinal" */;
@@ -1049,6 +1096,10 @@
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
+					D97E65BB25E589BB00F94370 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = D98A4FA4259CEA6D00294F64;
+					};
 					D98A4FA4259CEA6D00294F64 = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -1073,11 +1124,19 @@
 			targets = (
 				D98A4FA4259CEA6D00294F64 /* BetterLifeFinal */,
 				D98A4FBA259CEA7100294F64 /* BetterLifeFinalTests */,
+				D97E65BB25E589BB00F94370 /* BetterLifeFinalUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D97E65BA25E589BB00F94370 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D98A4FA3259CEA6D00294F64 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1273,6 +1332,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D97E65B825E589BB00F94370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97E65BF25E589BB00F94370 /* BetterLifeFinalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D98A4FA1259CEA6D00294F64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1346,6 +1413,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D97E65C225E589BB00F94370 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D98A4FA4259CEA6D00294F64 /* BetterLifeFinal */;
+			targetProxy = D97E65C125E589BB00F94370 /* PBXContainerItemProxy */;
+		};
 		D98A4FBD259CEA7100294F64 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D98A4FA4259CEA6D00294F64 /* BetterLifeFinal */;
@@ -1365,6 +1437,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D97E65C325E589BB00F94370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6T5ZGRV4GY;
+				INFOPLIST_FILE = BetterLifeFinalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mohamed.BetterLifeFinalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BetterLifeFinal;
+			};
+			name = Debug;
+		};
+		D97E65C425E589BB00F94370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6T5ZGRV4GY;
+				INFOPLIST_FILE = BetterLifeFinalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mohamed.BetterLifeFinalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BetterLifeFinal;
+			};
+			name = Release;
+		};
 		D98A4FCD259CEA7100294F64 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1579,6 +1689,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D97E65C525E589BB00F94370 /* Build configuration list for PBXNativeTarget "BetterLifeFinalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97E65C325E589BB00F94370 /* Debug */,
+				D97E65C425E589BB00F94370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D98A4FA0259CEA6D00294F64 /* Build configuration list for PBXProject "BetterLifeFinal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
