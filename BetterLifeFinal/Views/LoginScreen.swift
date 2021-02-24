@@ -11,13 +11,17 @@ class LoginScreen:UIViewController {
     
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
-    
-override func viewDidLoad() {
+    @IBOutlet weak var loginTextLabel: UILabel!
+    override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         emailTextField.layer.cornerRadius = 02
         passwordTextField.layer.cornerRadius = 02
-       
+        loginTextLabel.text = "Great, let's get started."
+        emailTextField.placeholder = "Email"
+        passwordTextField.placeholder = "Password"
+        emailTextField.keyboardType = .emailAddress
+        emailTextField.textContentType = .emailAddress
 
     }
     @IBAction func loginTapped(_ sender: Any) {

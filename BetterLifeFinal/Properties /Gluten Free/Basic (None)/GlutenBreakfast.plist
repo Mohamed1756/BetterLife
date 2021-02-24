@@ -4,53 +4,97 @@
 <array>
 	<dict>
 		<key>Title</key>
-		<string>1</string>
+		<string>Poached eggs with smoked salmon</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 25 mins</string>
 		<key>Image</key>
-		<string>1</string>
+		<string>Poached eggs with smoked salmon</string>
 		<key>Description</key>
-		<string>This is Gluten Free Breakfast 1</string>
+		<string>Ingredients: 
+
+1. 1 tbsp rapeseed oil, 140g white cabbage , 2 spring onions , 300g whole new potato
+2. 1 tbsp snipped chives, 2 medium eggs , 75g smoked salmon 
+
+Recipe: 
+
+1. Cook the potatoes in a pan of boiling water until tender, then drain.
+2. Heat the oil in a non-stick frying pan or wok. Sweat the cabbage and the spring onions in the pan for a couple of mins. Meanwhile, chop and squash the potatoes roughly, then add to the pan along with the chives. Cook for 4-5 mins, flip it over (don’t worry if it breaks) and cook for a further 4-5 mins.
+3. Meanwhile, bring a small pan of water to a rolling boil, then reduce the heat so it is just simmering. Crack the eggs into the pan and simmer for about 3 mins until the whites are cooked and the yolk is just beginning to set. Remove with a slotted spoon and drain on kitchen paper.
+4. To serve, divide the bubble &amp; squeak between 2 plates, place the smoked salmon and poached eggs on top and grind over a little black pepper, to taste.</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>2</string>
+		<string>Homemade Muesli </string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 20 mins</string>
 		<key>Image</key>
-		<string>2</string>
+		<string>Homemade Muesli</string>
 		<key>Description</key>
-		<string>This is Gluten Free Breakfast 2</string>
+		<string>Ingredients: 
+
+1. ⅓ cup of oats, 
+1 tablespoon raisins, 1 tablespoon almond butter or peanut butter 
+2. 2 tablespoon Applesauce, ⅓ cup milk of choice, Chopped almonds, Drizzle of honey 
+
+Recipe: 
+1. In a bowl, combine the oats, raisins, and applesauce. Stir. Then add milk and stir.
+
+2. Place the lid on the bowl and refrigerate for at least 30 minutes, or up to 5 days. When you’re ready to serve</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>3</string>
+		<string>Indian scrambled eggs</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 20 mins </string>
 		<key>Image</key>
-		<string>3</string>
+		<string>Indian scrambled eggs</string>
 		<key>Description</key>
-		<string>This is Gluten Free Breakfast 3</string>
+		<string>Ingredients: 
+
+1. 1 tbsp butter, 1 small red onion, 1 green or red chilli , 2 garlic cloves 
+2. ¼ tsp ground cumin, ¼ tsp garam masala, good pinch of turmeric, 2 tomatoes. 
+3. 7 eggs , beaten. Small pack coriander, 4 chapatis (or gluten-free alternative), lightly toasted, to serve
+
+Recipe: 
+
+1. Heat a large frying pan over a low-medium heat and add the butter.  fry the onion, chilli and garlic – about 5 mins, Add the spices and cook for 1-2 mins.
+2. Add the tomatoes, cook for 1 min, then pour in the eggs. Stir slowly to scramble the eggs as they cook
+3. Stir through the coriander and serve with chapatis for a delicious breakfast </string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>4</string>
+		<string>Eggs &amp; potatoes</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 50 mins </string>
 		<key>Image</key>
-		<string>4</string>
+		<string>Eggs &amp; potatoes</string>
 		<key>Description</key>
-		<string>This is Gluten Free Breakfast 4</string>
+		<string>Ingredients: 
+
+1. 400g new potatoes , 4 tbsp olive oil, 1 onion thinly sliced
+2. 2-4 eggs, few large pinches of paprika, handful chopped parsley
+
+Recipe: 
+
+1. Cut the potatoes into medium-sized chips, then dry in a clean tea towel. 
+2. Heat the oil in a large frying pan, add the potatoes and onion, and cook fairly gently for 20-25 mins
+3. Make 2-4 spaces in the pan and crack in the eggs. Cook until the whites are set, then break the yolks. Sprinkle with paprika and parsley, and serve. </string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>5</string>
+		<string>Kiwi fruit smoothie</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 5 mins</string>
 		<key>Image</key>
-		<string>5</string>
+		<string>Kiwi fruit smoothie</string>
 		<key>Description</key>
-		<string>This is Gluten Free Breakfast 5</string>
+		<string>Ingredients: 
+
+1. 3 peeled kiwi fruit, 1 mango , peeled, stoned and chopped, 500ml pineapple juice and 1 banana , sliced
+
+Recipe: 
+
+1. Put all of the ingredients in a blender and blitz until smooth then pour into 2 tall glasses.</string>
 	</dict>
 </array>
 </plist>
