@@ -29,6 +29,7 @@
 		D928C0DE25ADCC9600A62C9A /* EggsBreakfast.plist in Resources */ = {isa = PBXBuildFile; fileRef = D928C0DD25ADCC9600A62C9A /* EggsBreakfast.plist */; };
 		D928C0E225ADCD8500A62C9A /* EggsLunch.plist in Resources */ = {isa = PBXBuildFile; fileRef = D928C0E125ADCD8500A62C9A /* EggsLunch.plist */; };
 		D928C0E625ADCF8800A62C9A /* EggsDinner.plist in Resources */ = {isa = PBXBuildFile; fileRef = D928C0E525ADCF8800A62C9A /* EggsDinner.plist */; };
+		D92B049C25E931EE003DE271 /* PerformanceTestForApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92B049B25E931EE003DE271 /* PerformanceTestForApp.swift */; };
 		D92C140C25C58E700061CAD1 /* StepCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92C140B25C58E700061CAD1 /* StepCounterView.swift */; };
 		D92C141125C591D90061CAD1 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92C141025C591D90061CAD1 /* HealthKit.framework */; };
 		D930A90D25AB71FD00E46FB0 /* DinnerSelection.plist in Resources */ = {isa = PBXBuildFile; fileRef = D930A90C25AB71FD00E46FB0 /* DinnerSelection.plist */; };
@@ -60,6 +61,7 @@
 		D93BC13A25B1CB580051602E /* VeganGlutenLunch.plist in Resources */ = {isa = PBXBuildFile; fileRef = D93BC13925B1CB580051602E /* VeganGlutenLunch.plist */; };
 		D93BC13E25B1CB6C0051602E /* VeganGlutenDinner.plist in Resources */ = {isa = PBXBuildFile; fileRef = D93BC13D25B1CB6C0051602E /* VeganGlutenDinner.plist */; };
 		D93BC14225B1E27F0051602E /* VeganNutIntolerance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93BC14125B1E27F0051602E /* VeganNutIntolerance.swift */; };
+		D9403FA625E6F6F4000C8E12 /* RegistrationPageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9403FA525E6F6F4000C8E12 /* RegistrationPageUITests.swift */; };
 		D9431D8625A5F69D009F13EF /* imageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9431D8525A5F69D009F13EF /* imageCollectionView.swift */; };
 		D960037525C7327F00030CA3 /* StepCounterScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D960037425C7327F00030CA3 /* StepCounterScreen.storyboard */; };
 		D9601A8E25BF4C25005B35CD /* WorkoutScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9601A8D25BF4C25005B35CD /* WorkoutScreen.swift */; };
@@ -163,6 +165,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D92B049E25E931EE003DE271 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D98A4F9D259CEA6D00294F64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D98A4FA4259CEA6D00294F64;
+			remoteInfo = BetterLifeFinal;
+		};
 		D98A4FBC259CEA7100294F64 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D98A4F9D259CEA6D00294F64 /* Project object */;
@@ -198,6 +207,9 @@
 		D928C0DD25ADCC9600A62C9A /* EggsBreakfast.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = EggsBreakfast.plist; sourceTree = "<group>"; };
 		D928C0E125ADCD8500A62C9A /* EggsLunch.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = EggsLunch.plist; sourceTree = "<group>"; };
 		D928C0E525ADCF8800A62C9A /* EggsDinner.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = EggsDinner.plist; sourceTree = "<group>"; };
+		D92B049925E931EE003DE271 /* PerformanceTestForApp.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerformanceTestForApp.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D92B049B25E931EE003DE271 /* PerformanceTestForApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceTestForApp.swift; sourceTree = "<group>"; };
+		D92B049D25E931EE003DE271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D92C140B25C58E700061CAD1 /* StepCounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepCounterView.swift; sourceTree = "<group>"; };
 		D92C140F25C591D90061CAD1 /* BetterLifeFinal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BetterLifeFinal.entitlements; sourceTree = "<group>"; };
 		D92C141025C591D90061CAD1 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
@@ -230,6 +242,7 @@
 		D93BC13925B1CB580051602E /* VeganGlutenLunch.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VeganGlutenLunch.plist; sourceTree = "<group>"; };
 		D93BC13D25B1CB6C0051602E /* VeganGlutenDinner.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VeganGlutenDinner.plist; sourceTree = "<group>"; };
 		D93BC14125B1E27F0051602E /* VeganNutIntolerance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeganNutIntolerance.swift; sourceTree = "<group>"; };
+		D9403FA525E6F6F4000C8E12 /* RegistrationPageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationPageUITests.swift; sourceTree = "<group>"; };
 		D9431D8525A5F69D009F13EF /* imageCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageCollectionView.swift; sourceTree = "<group>"; };
 		D960037425C7327F00030CA3 /* StepCounterScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StepCounterScreen.storyboard; sourceTree = "<group>"; };
 		D9601A8D25BF4C25005B35CD /* WorkoutScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutScreen.swift; sourceTree = "<group>"; };
@@ -338,6 +351,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D92B049625E931EE003DE271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D98A4FA2259CEA6D00294F64 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -459,6 +479,15 @@
 				D928C0E525ADCF8800A62C9A /* EggsDinner.plist */,
 			);
 			path = Eggs;
+			sourceTree = "<group>";
+		};
+		D92B049A25E931EE003DE271 /* PerformanceTestForApp */ = {
+			isa = PBXGroup;
+			children = (
+				D92B049B25E931EE003DE271 /* PerformanceTestForApp.swift */,
+				D92B049D25E931EE003DE271 /* Info.plist */,
+			);
+			path = PerformanceTestForApp;
 			sourceTree = "<group>";
 		};
 		D92C140825C58E4B0061CAD1 /* Step Counter */ = {
@@ -597,6 +626,7 @@
 			children = (
 				D98A4FA7259CEA6D00294F64 /* BetterLifeFinal */,
 				D98A4FBE259CEA7100294F64 /* BetterLifeFinalTests */,
+				D92B049A25E931EE003DE271 /* PerformanceTestForApp */,
 				D98A4FA6259CEA6D00294F64 /* Products */,
 				BCCE0EE787486B5BA51782E6 /* Pods */,
 				074FFE15697C5C81FF7F29EB /* Frameworks */,
@@ -608,6 +638,7 @@
 			children = (
 				D98A4FA5259CEA6D00294F64 /* BetterLifeFinal.app */,
 				D98A4FBB259CEA7100294F64 /* BetterLifeFinalTests.xctest */,
+				D92B049925E931EE003DE271 /* PerformanceTestForApp.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -635,6 +666,7 @@
 			children = (
 				D98A4FBF259CEA7100294F64 /* BetterLifeFinalTests.swift */,
 				D98A4FC1259CEA7100294F64 /* Info.plist */,
+				D9403FA525E6F6F4000C8E12 /* RegistrationPageUITests.swift */,
 			);
 			path = BetterLifeFinalTests;
 			sourceTree = "<group>";
@@ -1001,6 +1033,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D92B049825E931EE003DE271 /* PerformanceTestForApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D92B04A025E931EE003DE271 /* Build configuration list for PBXNativeTarget "PerformanceTestForApp" */;
+			buildPhases = (
+				D92B049525E931EE003DE271 /* Sources */,
+				D92B049625E931EE003DE271 /* Frameworks */,
+				D92B049725E931EE003DE271 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D92B049F25E931EE003DE271 /* PBXTargetDependency */,
+			);
+			name = PerformanceTestForApp;
+			productName = PerformanceTestForApp;
+			productReference = D92B049925E931EE003DE271 /* PerformanceTestForApp.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		D98A4FA4259CEA6D00294F64 /* BetterLifeFinal */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D98A4FCF259CEA7100294F64 /* Build configuration list for PBXNativeTarget "BetterLifeFinal" */;
@@ -1049,6 +1099,10 @@
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
+					D92B049825E931EE003DE271 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = D98A4FA4259CEA6D00294F64;
+					};
 					D98A4FA4259CEA6D00294F64 = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -1073,11 +1127,19 @@
 			targets = (
 				D98A4FA4259CEA6D00294F64 /* BetterLifeFinal */,
 				D98A4FBA259CEA7100294F64 /* BetterLifeFinalTests */,
+				D92B049825E931EE003DE271 /* PerformanceTestForApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D92B049725E931EE003DE271 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D98A4FA3259CEA6D00294F64 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1273,6 +1335,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D92B049525E931EE003DE271 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92B049C25E931EE003DE271 /* PerformanceTestForApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D98A4FA1259CEA6D00294F64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1340,12 +1410,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				D98A4FC0259CEA7100294F64 /* BetterLifeFinalTests.swift in Sources */,
+				D9403FA625E6F6F4000C8E12 /* RegistrationPageUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D92B049F25E931EE003DE271 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D98A4FA4259CEA6D00294F64 /* BetterLifeFinal */;
+			targetProxy = D92B049E25E931EE003DE271 /* PBXContainerItemProxy */;
+		};
 		D98A4FBD259CEA7100294F64 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D98A4FA4259CEA6D00294F64 /* BetterLifeFinal */;
@@ -1365,6 +1441,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D92B04A125E931EE003DE271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6T5ZGRV4GY;
+				INFOPLIST_FILE = PerformanceTestForApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mohamed.PerformanceTestForApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BetterLifeFinal;
+			};
+			name = Debug;
+		};
+		D92B04A225E931EE003DE271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6T5ZGRV4GY;
+				INFOPLIST_FILE = PerformanceTestForApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Mohamed.PerformanceTestForApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BetterLifeFinal;
+			};
+			name = Release;
+		};
 		D98A4FCD259CEA7100294F64 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1579,6 +1693,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D92B04A025E931EE003DE271 /* Build configuration list for PBXNativeTarget "PerformanceTestForApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D92B04A125E931EE003DE271 /* Debug */,
+				D92B04A225E931EE003DE271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D98A4FA0259CEA6D00294F64 /* Build configuration list for PBXProject "BetterLifeFinal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

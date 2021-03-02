@@ -4,53 +4,105 @@
 <array>
 	<dict>
 		<key>Title</key>
-		<string>1</string>
+		<string>Salmon &amp; leek parcel</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 30 mins</string>
 		<key>Image</key>
-		<string>1</string>
+		<string>Salmon &amp; leek parcel</string>
 		<key>Description</key>
-		<string>This is Gluten Free Lunch 1</string>
+		<string>Ingredients: 
+
+1. 250g leek, 85g mascarpone, 1 tbsp chopped dill , plus 1 tsp. 2 skinless salmon fillets
+2. ½ lemon , grated zest of 1/4, plus a good squeeze of juice, 2-3 tsp capers, baby potatoes and wilted spinach, to serve (optional)
+
+Recipe: 
+
+1. Heat oven to 200C/180C fan/gas 6. Place two sheets of baking parchment (large enough to wrap up each salmon fillet) on your work surface.
+2. Put the leeks in a pan with 6 tbsp water, cover and bring to the boil. Cook for 5 mins until the water has been absorbed and the leeks are almost tender. Stir in the mascarpone, 1 tbsp dill and some seasoning.
+3. Spoon half the creamy leeks into the middle of one sheet of parchment and place a salmon fillet on top, then repeat to make a second parcel. Sprinkle over the lemon zest with a squeeze of juice, then scatter over the capers and the remaining 1 tsp dill.
+4. Bring the parchment up over the fish and join the two edges together by folding them over several times down the middle. Do the same with the ends and place the parcels, spaced apart, on a baking sheet.
+5. Bake for 12-15 mins, depending on how well done you like your fish, then carefully tear open the parcel. Serve with lemon wedges for squeezing over, baby potatoes and wilted spinach, if you like.</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>2</string>
+		<string>Thai green curry</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 55 mins</string>
 		<key>Image</key>
-		<string>2</string>
+		<string>Thai green curry</string>
 		<key>Description</key>
-		<string>This is Gluten Free Lunch 2</string>
+		<string>Ingredients: 
+
+1. 2 tbsp vegetable oil, 3 shallots, 4 tbsp Thai green curry paste, 1 red chilli, 350g butternut squash. 
+2. 1 large red pepper, 400g can full fat coconut milk, 5 dried kaffir lime leaves, 150g mangetout
+3. 100g baby corn, 1 small bunch coriander, cooked rice and lime wedges. 
+
+Recipe: 
+
+1. Heat the oil, Add the shallots with a generous pinch of salt and fry for 7-10 mins over a medium heat until softened. Add the curry paste and chilli to the dish and fry for 2 mins.
+2. Tip in the squash and pepper, then stir through the coconut milk along with 200ml water. Add the lime leaves, cover and cook for 15-20 mins
+3. Stir the mangetout and baby corn through the curry, then re-cover, cooking over a medium-low heat for a further 5 mins, Season and stir through half the coriander. Remove the lime leaves and discard.
+4. Spoon the curry into deep bowls, scatter with the remaining coriander and serve with rice and lime wedges. </string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>3</string>
+		<string>Healthy tuna lettuce wraps</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 17 mins</string>
 		<key>Image</key>
-		<string>3</string>
+		<string>Healthy tuna lettuce wraps</string>
 		<key>Description</key>
-		<string>This is Gluten Free Lunch 3</string>
+		<string>Ingredients: 
+
+1. 2 drops rapeseed oil , 2 x 140g fresh tuna fillets, 1 ripe avocado, ½ tsp English mustard powder
+2. 1 tsp cider vinegar, 1 tbsp capers, 8 romaine lettuce leaves, 16 cherry tomatoes , preferably on the vine, halved
+
+Recipes: 
+
+1. Brush the tuna with a little oil. Heat a non-stick pan, add the tuna and cook for 1 min each side, or a min or so longer for a thicker fillet. Transfer to a plate to rest.
+2. Halve and stone the avocado and scoop the flesh into a small bowl. Add the mustard powder and vinegar, then mash well so that the mixture is smooth like mayonnaise. Stir in the capers. Spoon into two small dishes and put on serving plates with the lettuce leaves, and tomatoes.
+3. Slice the tuna (it should be slightly pink inside) and arrange on the plates. Spoon some ‘mayo’ on the lettuce leaves and top with tuna and cherry tomatoes and a few extra capers. To eat, roll up into little wraps.</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>4</string>
+		<string>Mushroom buckwheat risotto</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 45 mins</string>
 		<key>Image</key>
-		<string>4</string>
+		<string>Mushroom buckwheat risotto</string>
 		<key>Description</key>
-		<string>This is Gluten Free Lunch 4</string>
+		<string>Ingredients: 
+
+1. 45g butter, 1 banana shallot, 1 bay leaf, 300g buckwheat, 150ml white wine
+2. 15g dried porcini mushrooms soaked in 800ml water, 200g Portobello mushrooms, 250g chestnut mushrooms
+3. 200g cooked beetroot, 100ml crème fraîche, 1 tbsp creamed horseradish, ½ small pack dill , juice ½ lemon
+
+Recipe: 
+
+1. Mix all the ingredients for the buraczki together in a bowl, then set aside.
+2. Melt 15g of the butter in a sauté pan over a medium heat. Add the shallot and a pinch of salt and cook for 8 mins, Stir in the garlic and bay leaf, cook for 1 min more, then pour in the wine.
+2. Continue to gradually add the liquor and stir occasionally until all the liquor has been used - 20 mins. Meanwhile, heat the remaining butter in a frying pan over a high heat. Add the mushrooms and fry for 5 mins.
+4. Add the mushrooms to the risotto, give it a good stir and season to taste. Serve. </string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>5</string>
+		<string>Black bean, tofu &amp; avocado rice bowl</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 45 mins</string>
 		<key>Image</key>
-		<string>5</string>
+		<string>Black bean, tofu &amp; avocado rice bowl</string>
 		<key>Description</key>
-		<string>This is Gluten Free Lunch 5</string>
+		<string>Ingredients: 
+
+1. 2 tbsp olive or rapeseed oil, 1 red onion , chopped, 3 garlic cloves , crushed. 2 tsp ground cumin
+2. 2 x 400g cans black beans , zest 2 limes , then 1 juiced, the other cut into wedges to serve, 396g pack tofu , halved through the centre, then chopped into small chunks.
+3. 2 tsp smoked paprika, 2 x 200g pouches cooked brown rice, 2 small ripe avocados , halved, stoned, peeled and chopped, small bunch coriander , leaves only, 1 red chilli
+
+Recipe: 
+
+1. Heat the grill to High. Heat 1 tbsp oil in a frying pan, add the onion and cook, stirring, for 5 mins. Add the garlic and sizzle for 30 secs more, then stir in the cumin and black beans. Cook for 5 mins. Stir through the lime zest and juice, and season.
+2. While the beans cook, put the tofu in a bowl and gently toss through the remaining oil, the paprika and some seasoning. Line a baking tray with foil and arrange the tofu on top. Cook under the grill for 5 mins
+3. Heat the rice following pack instructions, then divide between bowls. Top with the beans, tofu, avocado, coriander and a wedge of lime. Add a few slices of chilli too, if you like it spicy</string>
 	</dict>
 </array>
 </plist>

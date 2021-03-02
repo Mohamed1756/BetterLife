@@ -32,7 +32,7 @@ class LoginScreen:UIViewController {
             
                           }
             else{
-             let alertController = UIAlertController(title: "Error", message: error?.localizedDescription, preferredStyle: .alert)
+             let alertController = UIAlertController(title: "Error", message: "This account is invalid, please register an account", preferredStyle: .alert)
              let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
                             
               alertController.addAction(defaultAction)

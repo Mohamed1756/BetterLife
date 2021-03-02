@@ -25,9 +25,7 @@ HomeScreenVIew:UIViewController{
     }
     
     @IBAction func MealsButton(_ sender: UIButton) {
-        
-      
-        
+    
     }
     
     @IBAction func WorkoutButton(_ sender: Any) {

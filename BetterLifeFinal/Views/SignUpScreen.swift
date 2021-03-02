@@ -17,31 +17,63 @@ class SignUpScreen:UIViewController {
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var profileImageView: UIImageView!
     @IBOutlet weak var changeProfilePictureButton: UIButton!
+   
+    @IBOutlet weak var signUpTapped: UIButton!
+    
+    
+    
     
     var imagePicker:UIImagePickerController!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        textFieldPlaceholders()
         
+    //    signUpTapped.addTarget(self, action: Selector ("SignUp button pressed:"), for: .touchUpInside)
+        
+        imageTappedAttributes()
+        
+        firstNameTextField.allowsEditingTextAttributes = true
+       
+        imagePickerEditior()
+        
+    }
+    
+    func imagePickerEditior() {
+       
+        imagePicker = UIImagePickerController()
+        imagePicker.allowsEditing = true
+        imagePicker.sourceType = .photoLibrary
+        imagePicker.delegate = self
+    }
+    
+    
+    func textFieldPlaceholders(){
+    
+        firstNameTextField.placeholder = "Name"
+        emailTextField.placeholder = "Enter Email"
+        passwordTextField.placeholder = "Password"
+        
+    }
+    func imageTappedAttributes(){
         let imageTap = UITapGestureRecognizer (target: self, action: #selector (openImagePicker))
         profileImageView.isUserInteractionEnabled = true
         profileImageView.addGestureRecognizer(imageTap)
         profileImageView.layer.cornerRadius = profileImageView.bounds.height / 2
         profileImageView.clipsToBounds = true
         changeProfilePictureButton.addTarget(self, action: #selector (openImagePicker), for: .touchUpInside)
-        
-        imagePicker = UIImagePickerController()
-        imagePicker.allowsEditing = true
-        imagePicker.sourceType = .photoLibrary
-        imagePicker.delegate = self
     }
-    // validate user registration
+    
+    
+    
+ 
     @objc func openImagePicker(_ sender: Any){
         self.present(imagePicker, animated: true, completion: nil)
     }
     // registers user on firebase
-    @IBAction func signUpTapped(_ sender: Any) {
-        
+    @IBAction func signUpTapped(_ sender: UIButton) {
+    
         guard let Name = firstNameTextField.text else {return}
         guard let image = profileImageView.image else {return}
        
