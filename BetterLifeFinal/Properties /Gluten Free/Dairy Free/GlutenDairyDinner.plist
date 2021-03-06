@@ -4,53 +4,104 @@
 <array>
 	<dict>
 		<key>Title</key>
-		<string>1</string>
+		<string>Green masala butternut squash curry</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 40 minutes</string>
 		<key>Image</key>
-		<string>1</string>
+		<string>Green masala butternut squash curry</string>
 		<key>Description</key>
-		<string>This is Gluten Dairy Free Dinner 1</string>
+		<string>Ingredients: 
+
+1. 40g coriander, 20g mint , 2 green chillies , 4 garlic cloves, 2cm ginger , 400ml can coconut milk
+2. 1 tsp garam masala, 1 tsp ground turmeric, 500g butternut squash , 150g green beans , cooked basmati rice
+3. Extra coriander , to serve.  Mango chutney , to serve. 
+
+Recipe: 
+
+1. Put the herbs, chillies, garlic, ginger and coconut milk in a blender and blend until completely smooth and bright green. 
+2. Pour the mixture into a medium saucepan and add the spices and 1 tsp salt. Bring to a simmer, add the squash and cook until soft – about 25 mins. Meanwhile, blanch the beans in boiling water, then drain and rinse in cold water – this keeps them perfectly cooked. Add them to the curry just before serving to warm them through. Serve with warm rice, extra coriander and chutney.</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>2</string>
+		<string>Salmon &amp; leek parcel</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 30 mins</string>
 		<key>Image</key>
-		<string>2</string>
+		<string>Salmon &amp; leek parcel</string>
 		<key>Description</key>
-		<string>This is Gluten Dairy Free Dinner 2</string>
+		<string>Ingredients: 
+
+1. 250g leek, 85g mascarpone, 1 tbsp chopped dill , plus 1 tsp. 2 skinless salmon fillets
+2. ½ lemon , grated zest of 1/4, plus a good squeeze of juice, 2-3 tsp capers, baby potatoes and wilted spinach, to serve (optional)
+
+Recipe: 
+
+1. Heat oven to 200C/180C fan/gas 6. Place two sheets of baking parchment (large enough to wrap up each salmon fillet) on your work surface.
+2. Put the leeks in a pan with 6 tbsp water, cover and bring to the boil. Cook for 5 mins until the water has been absorbed and the leeks are almost tender. Stir in the mascarpone, 1 tbsp dill and some seasoning.
+3. Spoon half the creamy leeks into the middle of one sheet of parchment and place a salmon fillet on top, then repeat to make a second parcel. Sprinkle over the lemon zest with a squeeze of juice, then scatter over the capers and the remaining 1 tsp dill.
+4. Bring the parchment up over the fish and join the two edges together by folding them over several times down the middle. Do the same with the ends and place the parcels, spaced apart, on a baking sheet.
+5. Bake for 12-15 mins, depending on how well done you like your fish, then carefully tear open the parcel. Serve with lemon wedges for squeezing over, baby potatoes and wilted spinach, if you like.</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>3</string>
+		<string>Chilli &amp; avocado salsa sweet potatoes</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 60 minutes</string>
 		<key>Image</key>
-		<string>3</string>
+		<string>Chilli &amp; avocado salsa sweet potatoes</string>
 		<key>Description</key>
-		<string>This is Gluten Dairy Free Dinner 3</string>
+		<string>Ingredients:
+
+1. 2 large sweet potatoes, 1 tbsp vegetable oil, 1 onion, 2 garlic cloves, 1 tsp paprika
+2. 400g can chopped tomatoes, 1 small avocado, 1 red chilli, ½ small pack coriander 
+3. 400g can mixed beans, ½ x 460g jar roasted red peppers, 1 tbsp coconut yogurt , to serve 
+
+Recipes:
+
+1. Heat oven to 200C, Prick the sweet potatoes with a fork and bake for 40-45 mins,Meanwhile, heat the oil in a deep frying pan and cook the onion for about 10 mins 
+2.  Add the garlic and paprika, and stir for 1 min. Tip in the tomatoes, then bring to a gentle simmer, season well and leave to bubble away for 10-15 mins. 
+3. To make the salsa, combine the avocado, chilli and coriander in a small bowl. Pour the mixed beans into the pan with the red peppers. Warm through for 5 mins and taste.
+4. Halve each baked potato, ladle over the chilli and spoon on the salsa. Add a dollop of coconut yogurt to each half before serving, if you like.</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>4</string>
+		<string>Roasted cauliflower &amp; cashew sauce</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 45 mins </string>
 		<key>Image</key>
-		<string>4</string>
+		<string>Roasted cauliflower &amp; cashew sauce</string>
 		<key>Description</key>
-		<string>This is Gluten Dairy Free Dinner 4</string>
+		<string>Ingredients: 
+
+1. 1 cauliflower, 2 tsp nigella seeds, 2 tbsp vegetable oil, 3 tsp garam masala, 2 garlic cloves
+2. 2cm piece ginger , 500g passata, 2 tbsp cashew nut butter, 50ml double cream, brown rice. 
+
+Recipe:
+
+1. Heat oven to 200C, Toss the cauliflower florets with the nigella seeds, 1 tbsp of the oil and 2 tsp of the garam masala.  Spread out onto a roasting tray and cook for 35-40 mins 
+2. heat the rest of the oil in a small pan. Add the garlic, ginger, passata and the remaining garam masala and leave to simmer, uncovered, for 10-15 mins. Stir in the cashew nut butter and cream
+3. Serve the sauce over the brown rice, top with the roasted cauliflower</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>5</string>
+		<string>Caponata pasta</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 30 mins</string>
 		<key>Image</key>
-		<string>5</string>
+		<string>Caponata pasta</string>
 		<key>Description</key>
-		<string>This is Gluten Dairy Free Dinner 5</string>
+		<string>Ingredients: 
+
+1. 4 tbsp olive oil, 1 onion, 4 garlic cloves, 250g chargrilled Mediterranean veg
+2. 400g can chopped tomatoes, 1 tbsp small capers, 2 tbsp raisins, 350g rigatoni pasta
+3. bunch basil leaves and parmesan 
+
+Recipe: 
+
+1. Heat the oil in a large pan and cook the onion for 8-10 mins, Add the garlic for the final 2 mins of cooking time.
+2. Tip in the mixed veg, tomatoes, capers and raisins. 10 mins. Meanwhile, boil the kettle.
+3. Pour the kettleful of water into a large pan with a little salt and bring back to the boil. Add the pasta and cook until tender
+4.  Tip the pasta into the sauce, Scatter with the basil leaves and parmesan. Serve</string>
 	</dict>
 </array>
 </plist>

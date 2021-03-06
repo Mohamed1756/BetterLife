@@ -16,9 +16,9 @@ class GlutenFreeBasic:UIViewController,UICollectionViewDelegate,UICollectionView
     
     @IBOutlet weak var dinnerCollectionView: UICollectionView!
     
-    let breakfastLabels = ["Gluten Free", "2", "3", "4", "5"]
-    let lunchLabels = ["1- high calorie","2", "3", "4", "5"]
-    let dinnerLabels = ["veg", "apple", "shake", "avacado", "rice", "last"]
+    let breakfastLabels = ["Poached eggs with smoked salmon", "Homemade Muesli ", "Indian scrambled eggs", "Eggs & potatoes", "Kiwi fruit smoothie"]
+    let lunchLabels = ["Salmon & leek parcel","Thai green curry", "Healthy tuna lettuce wraps", "Mushroom buckwheat risotto", "Black bean, tofu & avocado rice bowl"]
+    let dinnerLabels = ["Salmon & leek parcel", "Honey & orange roast sea bass with lentils", "Caponata pasta", "Green masala butternut squash curry", "Vegetarian Stuffed Peppers"]
     
     var breakfastItems = [[String:String]]()
     var lunchItems = [[String:String]]()

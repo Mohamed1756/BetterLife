@@ -33,7 +33,7 @@ class PerformanceTestForApp: XCTestCase {
 
     func testLaunchPerformance() throws {
         if #available(macOS 10.15, iOS 13.0, tvOS 13.0, *) {
-            // This measures how long it takes to launch the application.
+            // measures how long it takes to launch the application.
             measure(metrics: [XCTApplicationLaunchMetric(waitUntilResponsive: true)]) {
                 XCUIApplication().launch()
             }

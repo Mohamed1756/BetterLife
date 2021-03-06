@@ -4,53 +4,103 @@
 <array>
 	<dict>
 		<key>Title</key>
-		<string>1</string>
+		<string>Indian scrambled eggs</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 20 mins </string>
 		<key>Image</key>
-		<string>1</string>
+		<string>Indian scrambled eggs</string>
 		<key>Description</key>
-		<string>This is Gluten Dairy Free Breakfast 1</string>
+		<string>Ingredients: 
+
+1. 1 tbsp butter, 1 small red onion, 1 green or red chilli , 2 garlic cloves 
+2. ¼ tsp ground cumin, ¼ tsp garam masala, good pinch of turmeric, 2 tomatoes. 
+3. 7 eggs , beaten. Small pack coriander, 4 chapatis (or gluten-free alternative), lightly toasted, to serve
+
+Recipe: 
+
+1. Heat a large frying pan over a low-medium heat and add the butter.  fry the onion, chilli and garlic – about 5 mins, Add the spices and cook for 1-2 mins.
+2. Add the tomatoes, cook for 1 min, then pour in the eggs. Stir slowly to scramble the eggs as they cook
+3. Stir through the coriander and serve with chapatis for a delicious breakfast </string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>2</string>
+		<string>Eggs &amp; potatoes</string>
 		<key>Recipe</key>
 		<string>Recipe</string>
 		<key>Image</key>
-		<string>2</string>
+		<string>Eggs &amp; potatoes</string>
 		<key>Description</key>
-		<string>This is Gluten Dairy Free Breakfast 2</string>
+		<string>Ingredients: 
+
+1. 400g new potatoes , 4 tbsp olive oil, 1 onion thinly sliced
+2. 2-4 eggs, few large pinches of paprika, handful chopped parsley
+
+Recipe: 
+
+1. Cut the potatoes into medium-sized chips, then dry in a clean tea towel. 
+2. Heat the oil in a large frying pan, add the potatoes and onion, and cook fairly gently for 20-25 mins
+3. Make 2-4 spaces in the pan and crack in the eggs. Cook until the whites are set, then break the yolks. Sprinkle with paprika and parsley, and serve. </string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>3</string>
+		<string>Vegan fry-up</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 45 mins</string>
 		<key>Image</key>
-		<string>3</string>
+		<string>Vegan fry-up</string>
 		<key>Description</key>
-		<string>This is Gluten Dairy Free Breakfast 3</string>
+		<string>Ingredients: 
+
+1. For hash browns : 1 large potato, 1 ½ tbsp peanut butter
+2. For tomatoes and mushrooms : 14 cherry tomatoes, sunflower oil, 2 tsp maple syrup, 1 tsp soy sauce, ¼ tsp smoked paprika, 1 large Portobello mushroom. 
+3. For scrambled tofu : 349g pack silken tofu, 2 tbsp nutritional yeast, ½ tsp turmeric, 1 clove garlic, crushed. 
+4. To serve : 4 vegan sausages, 1 x 200g can baked beans
+
+Recipe: 
+
+1. Cook the potato whole in a large pan of water, boil for 10 mins then drain and allow to cool. Peel the skin away. Mix with the peanut butter and season well. Set aside in the fridge until needed.
+2. Heat oven to 200C, Put the cherry tomatoes onto a baking tray, drizzle with 2 tsp sunflower oil, season and bake for 30 mins. Cook the beans and sausages following the instructions on the pack. 
+3. Meanwhile, mix the maple syrup, soy sauce and ¼ tsp smoked paprika together in a large bowl, add the sliced mushroom, pour 2 tsp sunflower oil into a non-stick frying pan and bring it up to a medium high heat. Fry the mushroom until golden.
+4. Put 1 tbsp oil into the frying pan and add spoonfuls of the potato mixture – you should get about 4. Fry for 3-4 mins, each side then drain onto kitchen paper.
+5. Crumble the tofu into your frying pan and sprinkle over the remaining ingredients and a good pinch of salt and pepper. Fry for 3-4 mins then serve. </string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>4</string>
+		<string>Protein pancakes</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 40 mins</string>
 		<key>Image</key>
-		<string>4</string>
+		<string>Protein pancakes</string>
 		<key>Description</key>
-		<string>This is Gluten Dairy Free Breakfast 4</string>
+		<string>Ingredients: 
+
+1. For the batter: 2 tbsp ground flaxseeds, 20g ground almonds, 300ml soya milk, 200g quinoa flour, 1 medium banana , 2 tbsp maple syrup, coconut oil
+2. For the blueberry chia jam: 200g blueberries, 2 tbsp chia seeds, 1-2 tbsp maple syrup, 2 tsp lemon juice
+3. For the stack: 100g coconut yogurt or Greek yogurt, 1 tbsp pistachio nuts or pumpkin seeds, 2 tsp hulled hemp seeds, mixed berries
+
+Recipes: 
+
+1. In a small bowl stir the flaxseeds with 6 tbsp water and set aside to soak while you make the jam.
+2. Mash the blueberries with a fork in a pan then set over a low-medium heat until syrupy and bubbling. Remove from the heat and stir in the chia seeds, maple syrup and lemon juice. Leave to cool slightly then transfer to a small serving jar.
+3. Put the ground almonds, milk, flour, banana, maple syrup and a pinch of salt in a blender. Stir the flax to make sure it has become thick and gloopy, like an egg, then tip into the mix and blitz until smooth and thick.
+4. Heat 1 tsp of coconut oil in a large frying pan over a medium heat and add tablespoon of batter, Cook for a couple of mins on one side. Cook until both sides golden. Make 16 pancakes. 
+5. Pile the pancakes high between two plates, alternating the layers with spoonfuls of jam and yogurt. Dollop any remaining yogurt and another spoonful of jam on top then scatter over the nuts, seeds and berries to serve.</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>5</string>
+		<string>Kiwi fruit smoothie</string>
 		<key>Recipe</key>
 		<string>Recipe</string>
 		<key>Image</key>
-		<string>5</string>
+		<string>Kiwi fruit smoothie</string>
 		<key>Description</key>
-		<string>This is Gluten Dairy Free Breakfast 5</string>
+		<string>Ingredients: 
+
+1. 3 peeled kiwi fruit, 1 mango , peeled, stoned and chopped, 500ml pineapple juice and 1 banana , sliced
+
+Recipe: 
+
+1. Put all of the ingredients in a blender and blitz until smooth then pour into 2 tall glasses.</string>
 	</dict>
 </array>
 </plist>

@@ -91,8 +91,10 @@
                     <tabBarItem key="tabBarItem" title="BMI" id="3Mx-OH-d2T"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="heightSliderValues" destination="cv2-v5-L1g" id="lw1-VC-wiG"/>
                         <outlet property="heightValue" destination="9qi-gN-v8h" id="5Da-pE-mIK"/>
                         <outlet property="resultAnswer" destination="5Lz-X7-IjT" id="pGi-ff-N5Y"/>
+                        <outlet property="weightSliderValues" destination="gHm-pj-7L4" id="1Ct-1o-ZaW"/>
                         <outlet property="weightValue" destination="iPk-Ko-nu3" id="ZVI-Gq-B1E"/>
                     </connections>
                 </viewController>

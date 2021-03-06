@@ -17,7 +17,6 @@ class BuildMuscleIntermediateViews:UIViewController,UICollectionViewDelegate,UIC
     
     @IBOutlet weak var thirdWeekCollectionView: UICollectionView!
     
-    // maybe Reuse ?
     let firstWeekLabels = ["Day 1", "Day 2", "Day 3", "Day 4"]
     let secondWeekLabels = ["Day 1", "Day 2", "Day 3", "Day 4"]
     let thirdWeekLabels = ["Day 1", "Day 2", "Day 3", "Day 4"]

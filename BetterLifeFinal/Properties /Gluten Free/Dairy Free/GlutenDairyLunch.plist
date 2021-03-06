@@ -4,53 +4,101 @@
 <array>
 	<dict>
 		<key>Title</key>
-		<string>1</string>
+		<string>Cherry Tomato Salad</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 25 mins</string>
 		<key>Image</key>
-		<string>1</string>
+		<string>Cherry Tomato Salad</string>
 		<key>Description</key>
-		<string>This is Gluten Dairy Free Lunch 1</string>
+		<string>Ingredients:
+
+1. 1 quart cherry tomatoes, halved. 1/4 cup canola oil, 3 tablespoons white vinegar
+2. 1/2 teaspoon salt, 1/4 cup minced fresh parsley, 1 to 2 teaspoons minced fresh basil, 1 to 2 teaspoons minced fresh oregano
+
+Recipe: 
+
+1. Place tomatoes in a shallow bowl. In a small bowl, whisk oil, vinegar, salt and sugar until blended; stir in herbs. Pour over tomatoes; gently toss to coat. Refrigerate, covered, overnight.</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>2</string>
+		<string>Lemon Rice Salad</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 25 mins</string>
 		<key>Image</key>
-		<string>2</string>
+		<string>Lemon Rice Salad</string>
 		<key>Description</key>
-		<string>This is Gluten Dairy Free Lunch 2</string>
+		<string>Ingredients: 
+
+1. 1 cup olive oil,1/3 cup white wine vinegar, 1 garlic clove, minced, 1 to 2 teaspoons grated lemon zest
+2. 1 teaspoon Dijon mustard, 1/2 teaspoon salt, 6 cups cooked long grain rice, 2 cup cooked wild rice
+3. 2 cups diced seeded cucumbers, 2/3 cup thinly sliced green onions, 1/4 cup minced fresh parsley 
+4. 1/4 cup minced fresh basil or 1 tablespoon dried basil, 1/2 teaspoon pepper, 1/2 cup chopped pecans, toasted
+
+Recipes: 
+
+1. For dressing, place first seven ingredients in a jar with a tight-fitting lid; shake well. In a large bowl, toss long grain rice and wild rice with dressing. Refrigerate, covered, overnight.
+2. Stir cucumbers, green onions, parsley, basil and pepper into rice mixture. Refrigerate, covered, 2 hours. Stir in pecans just before serving. </string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>3</string>
+		<string>Chickpea curry</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 40 minutes</string>
 		<key>Image</key>
-		<string>3</string>
+		<string>Chickpea curry</string>
 		<key>Description</key>
-		<string>This is Gluten Dairy Free Lunch 3</string>
+		<string>Ingredients: 
+
+1. For the paste: 2 tbsp oil, 1 onion, 1 tsp fresh or dried chilli, 9 garlic cloves, thumb-sized piece ginger, 1 tbsp ground coriander, 2 tbsp ground cumin, 1 tbsp garam masala, 2 tbsp tomato purée
+2. For the curry: 2 x 400g cans chickpeas, 400g can chopped tomatoes, 100g creamed coconut, ½ small pack coriander, chopped, plus extra to garnish, 100g spinach. 
+3. To serve: cooked rice and/or dahl
+
+Recipe: 
+
+1. To make the paste, heat a little of the 2 tbsp oil in a frying pan, add 1 diced onion and 1 tsp fresh or dried chilli, and cook until softened, about 8 mins.
+2. In a food processor, combine 9 garlic cloves, a thumb-sized piece of peeled ginger and the remaining oil, then add 1 tbsp ground coriander, 2 tbsp ground cumin, 1 tbsp garam masala, 2 tbsp tomato purée, ½ tsp salt and the fried onion. Blend to a smooth paste – add a drop of water or more oil, if needed.
+3. Cook the paste in a medium saucepan for 2 mins over a medium-high heat, stirring occasionally so it doesn’t stick. Tip in two 400g cans drained chickpeas and a 400g can chopped tomatoes, and simmer for 5 mins until reduced down.
+4. Add 100g creamed coconut with a little water, cook for 5 mins more, then add ½ small pack chopped coriander and 100g spinach, and cook until wilted. Garnish with extra coriander and serve with rice or dhal (or both).</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>4</string>
+		<string>Healthy tuna lettuce wraps</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 17 mins</string>
 		<key>Image</key>
-		<string>4</string>
+		<string>Healthy tuna lettuce wraps</string>
 		<key>Description</key>
-		<string>This is Gluten Dairy Free Lunch 4</string>
+		<string>Ingredients: 
+
+1. 2 drops rapeseed oil , 2 x 140g fresh tuna fillets, 1 ripe avocado, ½ tsp English mustard powder
+2. 1 tsp cider vinegar, 1 tbsp capers, 8 romaine lettuce leaves, 16 cherry tomatoes , preferably on the vine, halved
+
+Recipes: 
+
+1. Brush the tuna with a little oil. Heat a non-stick pan, add the tuna and cook for 1 min each side, or a min or so longer for a thicker fillet. Transfer to a plate to rest.
+2. Halve and stone the avocado and scoop the flesh into a small bowl. Add the mustard powder and vinegar, then mash well so that the mixture is smooth like mayonnaise. Stir in the capers. Spoon into two small dishes and put on serving plates with the lettuce leaves, and tomatoes.
+3. Slice the tuna (it should be slightly pink inside) and arrange on the plates. Spoon some ‘mayo’ on the lettuce leaves and top with tuna and cherry tomatoes and a few extra capers. To eat, roll up into little wraps.</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>5</string>
+		<string>Chilli &amp; avocado salsa sweet potatoes</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 60 minutes</string>
 		<key>Image</key>
-		<string>5</string>
+		<string>Chilli &amp; avocado salsa sweet potatoes</string>
 		<key>Description</key>
-		<string>This is Gluten Dairy Free Lunch 5</string>
+		<string>Ingredients:
+
+1. 2 large sweet potatoes, 1 tbsp vegetable oil, 1 onion, 2 garlic cloves, 1 tsp paprika
+2. 400g can chopped tomatoes, 1 small avocado, 1 red chilli, ½ small pack coriander 
+3. 400g can mixed beans, ½ x 460g jar roasted red peppers, 1 tbsp coconut yogurt , to serve 
+
+Recipes:
+
+1. Heat oven to 200C, Prick the sweet potatoes with a fork and bake for 40-45 mins,Meanwhile, heat the oil in a deep frying pan and cook the onion for about 10 mins 
+2.  Add the garlic and paprika, and stir for 1 min. Tip in the tomatoes, then bring to a gentle simmer, season well and leave to bubble away for 10-15 mins. 
+3. To make the salsa, combine the avocado, chilli and coriander in a small bowl. Pour the mixed beans into the pan with the red peppers. Warm through for 5 mins and taste.
+4. Halve each baked potato, ladle over the chilli and spoon on the salsa. Add a dollop of coconut yogurt to each half before serving, if you like</string>
 	</dict>
 </array>
 </plist>

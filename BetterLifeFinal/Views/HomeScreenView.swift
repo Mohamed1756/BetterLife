@@ -15,7 +15,7 @@ HomeScreenVIew:UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         
-      
+    
     }
     
     @IBAction func logOutButton(_ target:UIBarButtonItem) {

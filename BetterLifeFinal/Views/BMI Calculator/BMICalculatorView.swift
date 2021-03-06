@@ -15,28 +15,49 @@ class BMICalculatorView:UIViewController {
     
     @IBOutlet weak var resultAnswer: UILabel!
     
+    @IBOutlet weak var heightSliderValues: UISlider!
+    
+    @IBOutlet weak var weightSliderValues: UISlider!
+    
     
     // BMI variables - h = height, W = weight
-    var h:Float = 1.5
-    var w:Float = 75
+    var height:Float = 1.5
+    var weight:Float = 75
     var bmi:Float = 0
+    
+    override func viewDidLoad() {
+       sliderValues()
+        
+    }
+    
+    func sliderValues() {
+        // minimum Values for the slider
+        heightSliderValues.minimumValue = 0.5
+        weightSliderValues.minimumValue = 35
+        
+        // Maximum Values for the slider
+        heightSliderValues.maximumValue = 2.5
+        weightSliderValues.maximumValue = 150
+        
+    }
+    
     
     
     @IBAction func heightSlider(_ sender: UISlider) {
-        h = sender.value
-        heightValue.text = NSString (format: " %.2f m", h) as String
+        height = sender.value
+        heightValue.text = NSString (format: " %.2f m", height) as String
     }
     
     
     @IBAction func weightSlider(_ sender: UISlider) {
-        w = sender.value
-        weightValue.text = NSString (format: " %.1f kg", w) as String
+        weight = sender.value
+        weightValue.text = NSString (format: " %.1f kg", weight) as String
         // 1 decimal
     }
     
     
     @IBAction func calculateBMIButton(_ sender: UIButton) {
-        bmi = w/(h*h)
+        bmi = weight/(height*height)
         resultAnswer.text = NSString (format: " BMI value is %.2f ", bmi) as String
         
         if bmi < 18.5 {

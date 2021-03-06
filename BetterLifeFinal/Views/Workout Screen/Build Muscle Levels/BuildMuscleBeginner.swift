@@ -15,6 +15,13 @@ class BuildMuscleBeginner:UIViewController,UICollectionViewDataSource, UICollect
     
     @IBOutlet weak var thirdWeekCollectionView: UICollectionView!
     
+    @IBOutlet weak var firstWeekTextLabel: UILabel!
+    
+    @IBOutlet weak var secondWeekTextLabel: UILabel!
+    
+    
+    @IBOutlet weak var thirdWeekTextLabel: UILabel!
+    
     
     let firstWeekLabels = ["Day 1", "Day 2", "Day 3", "Day 4"]
     let secondWeekLabels = ["Day 1", "Day 2", "Day 3", "Day 4"]
@@ -53,7 +60,18 @@ class BuildMuscleBeginner:UIViewController,UICollectionViewDataSource, UICollect
         self.secondWeekItems = BuildMuscleBeginnerWeekTwoPlist()
         
         self.thirdWeekItems = BuildMuscleBeginnerWeekThreePlist()
+        
+        textFieldLabels()
+        
+    
      
+    }
+    
+    func textFieldLabels(){
+        
+        firstWeekTextLabel.text = "Week 1"
+        secondWeekTextLabel.text = "Week 2"
+        thirdWeekTextLabel.text = "Week 3"
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
