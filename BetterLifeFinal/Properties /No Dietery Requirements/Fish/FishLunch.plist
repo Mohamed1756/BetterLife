@@ -4,53 +4,100 @@
 <array>
 	<dict>
 		<key>Title</key>
-		<string>1</string>
+		<string>Lentil Soup</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 30 mins</string>
 		<key>Image</key>
-		<string>1</string>
+		<string>Lentil Soup</string>
 		<key>Description</key>
-		<string>This is 1 Lunch</string>
+		<string>Ingredients: 
+
+1. ¼ cup of olive oil, 1 onion chopped, 2 carrots chopped, 4 garlic clove minced
+2. 1 tsp curry powder &amp; ½ tsp dried thyme,1 large can diced tomatoes 
+3. 1 cup brown or green lentils, 4 cups vegetable broth, 2 cups water, 1 tsp salt
+4. Pinch of red pepper flakes, black pepper, 1 tbsp lemon juice 
+
+Recipe: 
+
+1. Warm the olive oil in pot, add the chopped onion and carrot and cook, 5 mins
+2. Add the curry powder and thyme. Stir. Pour in the drained diced tomatoes and cook 
+3. Pour in the lentils and the water. Add 1 tsp salt &amp; red pepper flakes with black pepper and cook 30 mins
+4. Transfer 2 cups of the soup to a blender. and purée the soup until smooth. Pour the puréed soup back into the pot.
+5. Add the chopped greens and cook for 5 more minutes,  stir in 1 tbsp of lemon juice and serve</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>2</string>
+		<string>Sweet potato &amp; avacado</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 30 mins</string>
 		<key>Image</key>
-		<string>2</string>
+		<string>Sweet potato &amp; avacado</string>
 		<key>Description</key>
-		<string>This is 2 Lunch</string>
+		<string>Ingredients: 
+
+1. 1 large ripe avocado, 1 lime, 1 tbsp olive oil, 1 red onion
+2. 2 medium sweet potatoes , 2 large eggs, sriracha , for drizzling
+
+Recipe: 
+
+1. Smash up the avocado with a fork, then add the lime juice and season to taste.
+2. Heat the oil in a large, non-stick frying pan over a medium heat. Add the onion and cook for 2 mins
+3. then stir in the sweet potato. Season and press the potato into the pan with the back of a wooden spoon. Cook for 10-15 mins, until golden.
+4. Make two spaces in the pan, crack in the eggs and cook for 2-3 mins until the whites are just set and the yolks runny. Add the avocado and drizzle with sriracha to serve.</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>3</string>
+		<string>Fattoush Salad</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 35 mins</string>
 		<key>Image</key>
-		<string>3</string>
+		<string>Fattoush Salad</string>
 		<key>Description</key>
-		<string>This is 3 Lunch</string>
+		<string>Ingredients: 
+
+1. 2 toasted pita - torn into bitesize. 2 tbsp extra-virgin olive oil, pinch of sea salt
+2. ½ batch fresh mint dressing, fresh romaine lettuce, chopped, 1 large tomato, chopped,
+3. 1 cup quartered of cucumber, 1 chopped red onion, ½ cup torn fresh mint leaves 
+
+Recipe: 
+
+1. Toast the pita in your oven for 8-12 minutes until golden and crispy 
+2. In a large bowl, combine the chopped lettuce, tomatoes, cucumber, onion, mint and toasted pita.
+3. drizzle up to ½ cup dressing over the salad. Gently toss until all of the ingredients are lightly coated in dressing. Serve promptly.</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>4</string>
+		<string>Quick hummus</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 12 mins</string>
 		<key>Image</key>
-		<string>4</string>
+		<string>Quick hummus</string>
 		<key>Description</key>
-		<string>This is 4 Lunch</string>
+		<string>Ingredients: 
+
+1. 400g can chickpeas, 100ml lemon juice, 150ml olive oil, 125g tahini
+2.  1 ½ tsp ground coriander, 5 cardamom pods, toasted pine nuts, sumac
+
+Recipe: 
+
+1. Drain the can of chickpeas, keeping the water. Gently warm in a microwave, then tip into a food processor with the lemon juice, olive oil, tahini, ground coriander and crushed seeds from the cardamom pods.
+2. Blend until smooth – add a splash of chickpea water if it&apos;s looking a little dry. Check the seasoning and add more oil and lemon juice to taste. Serve sprinkled with toasted pine nuts and sumac.</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>5</string>
+		<string>Melon &amp; crunchy bran pots</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 10 mins</string>
 		<key>Image</key>
-		<string>5</string>
+		<string>Melon &amp; crunchy bran pots</string>
 		<key>Description</key>
-		<string>This is 5 Lunch</string>
+		<string>Ingredients:
+
+1. ½ x 200g pack melon medley, 150g pot fat-free yogurt, 2 tbsp fruit &amp; fibre cereal, 1 tbsp mixed seed, 1 tsp clear honey
+
+Recipes: 
+
+1. Top melon medley with yogurt, then sprinkle over cereal mixed with seeds. Drizzle over honey and eat immediately.</string>
 	</dict>
 </array>
 </plist>

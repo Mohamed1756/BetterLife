@@ -4,53 +4,102 @@
 <array>
 	<dict>
 		<key>Title</key>
-		<string>1</string>
+		<string>One-pan summer eggs</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 17 mins</string>
 		<key>Image</key>
-		<string>1</string>
+		<string>One-pan summer eggs</string>
 		<key>Description</key>
-		<string>This is 1</string>
+		<string>Ingredients: 
+
+1. 1 tbsp olive oil, 400g courgettes, 200g pack cherry tomatoes halved
+2. 1 garlic clove , 2 eggs, few basil leaves , to serve
+
+Recipe: 
+
+1. Heat the oil in a non-stick frying pan, then add the courgettes. Fry for 5 mins, 
+2. add the tomatoes and garlic, then cook for a few mins more. Stir in a little seasoning
+3. ake two gaps in the mix and crack in the eggs. Cover the pan with a lid or a sheet of foil,
+4. then cook for 2-3 mins until the eggs are done to your liking.Scatter over a few basil leaves and serve with crusty bread.</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>2</string>
+		<string>Homemade Muesli</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 20 mins</string>
 		<key>Image</key>
-		<string>2</string>
+		<string>Homemade Muesli</string>
 		<key>Description</key>
-		<string>This is 2</string>
+		<string>Ingredients: 
+
+1. ⅓ cup of oats, 
+1 tablespoon raisins, 1 tablespoon almond butter or peanut butter 
+2. 2 tablespoon Applesauce, ⅓ cup milk of choice, Chopped almonds, Drizzle of honey 
+
+Recipe: 
+1. In a bowl, combine the oats, raisins, and applesauce. Stir. Then add milk and stir.
+
+2. Place the lid on the bowl and refrigerate for at least 30 minutes, or up to 5 days. When you’re ready to serve</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>3</string>
+		<string>Indian scrambled eggs</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 20 mins</string>
 		<key>Image</key>
-		<string>3</string>
+		<string>Indian scrambled eggs</string>
 		<key>Description</key>
-		<string>This is 3</string>
+		<string>Ingredients: 
+
+1. 1 tbsp butter, 1 small red onion, 1 green or red chilli , 2 garlic cloves 
+2. ¼ tsp ground cumin, ¼ tsp garam masala, good pinch of turmeric, 2 tomatoes. 
+3. 7 eggs , beaten. Small pack coriander, 4 chapatis (or gluten-free alternative), lightly toasted, to serve
+
+Recipe: 
+
+1. Heat a large frying pan over a low-medium heat and add the butter.  fry the onion, chilli and garlic – about 5 mins, Add the spices and cook for 1-2 mins.
+2. Add the tomatoes, cook for 1 min, then pour in the eggs. Stir slowly to scramble the eggs as they cook
+3. Stir through the coriander and serve with chapatis for a delicious breakfast </string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>4</string>
+		<string>Protein pancakes</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 40 mins</string>
 		<key>Image</key>
-		<string>4</string>
+		<string>Protein pancakes</string>
 		<key>Description</key>
-		<string>This is 4</string>
+		<string>Ingredients: 
+
+1. For the batter: 2 tbsp ground flaxseeds, 20g ground almonds, 300ml soya milk, 200g quinoa flour, 1 medium banana , 2 tbsp maple syrup, coconut oil
+2. For the blueberry chia jam: 200g blueberries, 2 tbsp chia seeds, 1-2 tbsp maple syrup, 2 tsp lemon juice
+3. For the stack: 100g coconut yogurt or Greek yogurt, 1 tbsp pistachio nuts or pumpkin seeds, 2 tsp hulled hemp seeds, mixed berries
+
+Recipes: 
+
+1. In a small bowl stir the flaxseeds with 6 tbsp water and set aside to soak while you make the jam.
+2. Mash the blueberries with a fork in a pan then set over a low-medium heat until syrupy and bubbling. Remove from the heat and stir in the chia seeds, maple syrup and lemon juice. Leave to cool slightly then transfer to a small serving jar.
+3. Put the ground almonds, milk, flour, banana, maple syrup and a pinch of salt in a blender. Stir the flax to make sure it has become thick and gloopy, like an egg, then tip into the mix and blitz until smooth and thick.
+4. Heat 1 tsp of coconut oil in a large frying pan over a medium heat and add tablespoon of batter, Cook for a couple of mins on one side. Cook until both sides golden. Make 16 pancakes. 
+5. Pile the pancakes high between two plates, alternating the layers with spoonfuls of jam and yogurt. Dollop any remaining yogurt and another spoonful of jam on top then scatter over the nuts, seeds and berries to serve.</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>5</string>
+		<string>Blueberry &amp; banana power smoothie</string>
 		<key>Recipe</key>
-		<string>Recipe</string>
+		<string>Cook Time: 5 mins</string>
 		<key>Image</key>
-		<string>5</string>
+		<string>Blueberry &amp; banana power smoothie</string>
 		<key>Description</key>
-		<string>This is 5</string>
+		<string>Ingredients: 
+
+1. 2 ripe bananas , peeled. 125g blueberries (fresh or frozen)
+2. 300g pack silken tofu, 2 tbsp porridge oats 
+
+Recipe: 
+
+1. Whizz all of the ingredients together in a blender with 300ml water. 
+2. Drink straight away or transfer to a bottle for later, shaking well before drinking.</string>
 	</dict>
 </array>
 </plist>
