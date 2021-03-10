@@ -6,7 +6,7 @@
 		<key>Title</key>
 		<string>Vegan chilli</string>
 		<key>Recipe</key>
-		<string>Cook Time: 60 minutes</string>
+		<string>Cook Time: 60 mins</string>
 		<key>Image</key>
 		<string>Vegan chilli</string>
 		<key>Description</key>
@@ -28,7 +28,7 @@ Recipe:
 		<key>Title</key>
 		<string>Chilli &amp; avocado salsa sweet potatoes</string>
 		<key>Recipe</key>
-		<string>Cook Time: 60 minutes</string>
+		<string>Cook Time: 60 mins</string>
 		<key>Image</key>
 		<string>Chilli &amp; avocado salsa sweet potatoes</string>
 		<key>Description</key>
@@ -49,7 +49,7 @@ Recipes:
 		<key>Title</key>
 		<string>Spiced aubergine bake</string>
 		<key>Recipe</key>
-		<string>Cook Time: 60 minutes</string>
+		<string>Cook Time: 60 mins</string>
 		<key>Image</key>
 		<string>Spiced aubergine bake</string>
 		<key>Description</key>
@@ -70,7 +70,7 @@ Recipe:
 		<key>Title</key>
 		<string>Chickpea curry</string>
 		<key>Recipe</key>
-		<string>Cook Time: 40 minutes</string>
+		<string>Cook Time: 40 mins</string>
 		<key>Image</key>
 		<string>Chickpea curry</string>
 		<key>Description</key>
@@ -91,7 +91,7 @@ Recipe:
 		<key>Title</key>
 		<string>Green masala butternut squash curry</string>
 		<key>Recipe</key>
-		<string>Cook Time: 40 minutes</string>
+		<string>Cook Time: 40 mins</string>
 		<key>Image</key>
 		<string>Green masala butternut squash curry</string>
 		<key>Description</key>

@@ -6,7 +6,7 @@
 		<key>Title</key>
 		<string>Vegan chilli</string>
 		<key>Recipe</key>
-		<string>Cook Time: 60 minutes</string>
+		<string>Cook Time: 60 mins</string>
 		<key>Image</key>
 		<string>Vegan chilli</string>
 		<key>Description</key>
@@ -16,7 +16,7 @@
 		<key>Title</key>
 		<string>Green masala butternut squash curry</string>
 		<key>Recipe</key>
-		<string>Cook Time: 40 minutes</string>
+		<string>Cook Time: 40 mins</string>
 		<key>Image</key>
 		<string>Green masala butternut squash curry</string>
 		<key>Description</key>
@@ -35,7 +35,7 @@ Recipe:
 		<key>Title</key>
 		<string>Chilli &amp; avocado salsa sweet potatoes</string>
 		<key>Recipe</key>
-		<string>Cook Time: 60 minutes</string>
+		<string>Cook Time: 60 mins</string>
 		<key>Image</key>
 		<string>Chilli &amp; avocado salsa sweet potatoes</string>
 		<key>Description</key>
@@ -56,7 +56,7 @@ Recipes:
 		<key>Title</key>
 		<string>Japanese noodles with sesame dressing</string>
 		<key>Recipe</key>
-		<string>Cook Time: 20 minutes</string>
+		<string>Cook Time: 20 mins</string>
 		<key>Image</key>
 		<string>Japanese noodles with sesame dressing</string>
 		<key>Description</key>
@@ -74,7 +74,7 @@ Recipe:
 		<key>Title</key>
 		<string>Chickpea curry</string>
 		<key>Recipe</key>
-		<string>Cook Time: 40 minutes</string>
+		<string>Cook Time: 40 mins</string>
 		<key>Image</key>
 		<string>Chickpea curry</string>
 		<key>Description</key>

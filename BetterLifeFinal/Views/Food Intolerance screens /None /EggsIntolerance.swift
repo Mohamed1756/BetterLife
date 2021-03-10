@@ -18,9 +18,11 @@ class EggsIntolerance: UIViewController,UICollectionViewDelegate, UICollectionVi
     
  
     
-    let breakfastLabels = ["1", "2", "3", "4", "5"]
-    let lunchLabels = ["1","2", "3", "4", "5"]
-    let dinnerLabels = ["Munch", "apple", "shake", "Pasta", "rice", "last"]
+    let breakfastLabels = ["Homemade Muesli", "Blueberry & banana power smoothie", "Protein pancakes", "Avocado toast", "Carrot cake porridge"]
+    
+    let lunchLabels = ["Salmon & leek parcel","Thai green curry", "Vegetable Paella", "Sesame salmon & sweet potato mash", "Lime prawn cocktail pitta salad"]
+    
+    let dinnerLabels = ["Vegetable Fried Rice", "Japanese noodles with sesame dressing", "Vegetarian Stuffed Peppers", "Sesame salmon & sweet potato mash", "Falafel burgers"]
     
     var breakfastItems = [[String:String]]()
     var lunchItems = [[String:String]]()

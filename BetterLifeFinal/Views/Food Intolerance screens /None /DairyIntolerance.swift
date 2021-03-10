@@ -18,9 +18,11 @@ class DairyIntolerance:UIViewController,UICollectionViewDelegate, UICollectionVi
     
     @IBOutlet weak var dinnerCollectionView: UICollectionView!
     
-    let breakfastLabels = ["1", "2", "3", "4", "5"]
-    let lunchLabels = ["1","2", "3", "4", "5"]
-    let dinnerLabels = ["Munch", "apple", "shake", "Pasta", "rice", "last"]
+    let breakfastLabels = ["Kiwi fruit smoothie", "Homemade Muesli", "Vegan fry-up", "Indian scrambled eggs", "Blackcurrant compote"]
+    
+    let lunchLabels = ["Fattoush Salad","Honey & orange roast sea bass with lentils", "Lemon Rice Salad", "Cherry Tomato Salad", "Healthy tuna lettuce wraps"]
+    
+    let dinnerLabels = ["Caponata pasta", "Salmon & leek parcel", "Curried Cauliflower Soup", "Chilli & avocado salsa sweet potatoes", "Roasted cauliflower & cashew sauce"]
     
     var breakfastItems = [[String:String]]()
     var lunchItems = [[String:String]]()

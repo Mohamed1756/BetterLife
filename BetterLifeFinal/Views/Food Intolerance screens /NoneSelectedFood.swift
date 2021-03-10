@@ -18,9 +18,11 @@ class NoneSelectedFood: UIViewController,UICollectionViewDelegate,UICollectionVi
     
      //let imageArray = [UIImage(named: "1"), UIImage(named: "2"), UIImage(named: "3"), UIImage(named: "4"), UIImage(named: "5"),]
 
-    let itemLabels = ["1", "2", "3", "4", "5"]
-    let lunchLabels = ["1","2", "3", "4", "5"]
-    let dinnerLabels = ["Munch", "apple", "shake", "Pasta", "rice", "last"]
+    let itemLabels = ["Homemade Muesli", "Protein pancakes", "Poached eggs with smoked salmon", "Vegan fry-up", "Veggie Sandwich"]
+    
+    let lunchLabels = ["Lentil Soup","Lime prawn cocktail pitta salad", "Melon & crunchy bran pots", "Salmon & leek parcel", "Vegetable Paella"]
+    
+    let dinnerLabels = ["Vegetable Fried Rice", "Sweet potato curry", "Honey & orange roast sea bass with lentils", "Spiced aubergine bake", "Salmon & leek parcel"]
     
     var items = [[String:String]]()
     var lunchItems = [[String:String]]()

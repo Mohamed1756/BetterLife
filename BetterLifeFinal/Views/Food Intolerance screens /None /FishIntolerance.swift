@@ -18,9 +18,9 @@ class FishIntolerance: UIViewController,UICollectionViewDelegate, UICollectionVi
     @IBOutlet weak var dinnerCollectionView: UICollectionView!
     
     
-    let breakfastLabels = ["1", "2", "3", "4", "5"]
-    let lunchLabels = ["1","2", "3", "4", "5"]
-    let dinnerLabels = ["Munch", "apple", "shake", "Pasta", "rice", "last"]
+    let breakfastLabels = ["One-pan summer eggs", "Homemade Muesli", "Indian scrambled eggs", "Protein pancakes", "Blueberry & banana power smoothie"]
+    let lunchLabels = ["Lentil Soup","Sweet potato & avacado", "Fattoush Salad", "Quick hummus", "Melon & crunchy bran pots"]
+    let dinnerLabels = ["Vegetable Fried Rice", "Caponata pasta", "Chickpea & coriander burgers", "Moroccan freekeh traybake", "Roasted cauliflower & cashew sauce"]
     
     var breakfastItems = [[String:String]]()
     var lunchItems = [[String:String]]()
