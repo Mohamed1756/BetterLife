@@ -10,9 +10,13 @@
 		<key>Image</key>
 		<string>Stay Fit</string>
 		<key>Description</key>
-		<string>5 sets of deadlift. 
-30 mins Jogging
-10 push ups                                             </string>
+		<string>Bodyweight Strength: 30 - 60 sec rest inbetween sets 
+
+1. Plank x as long as possible - 3 sets 
+2. Superman x 10 - 3 sets 
+3. Bodyweight squat x 10 - 3 sets 
+4. Bodyweight forward or reverse lunge x 10 / side - 3 sets 
+5. Push-up x as many as possible - 3 sets  </string>
 	</dict>
 	<dict>
 		<key>Title</key>
@@ -22,7 +26,12 @@
 		<key>Image</key>
 		<string>Lose Weight</string>
 		<key>Description</key>
-		<string>5 sets of deadlift.    30 mins Jogging                                                </string>
+		<string>Bodyweight Strength: 30 - 60 sec rest inbetween sets 
+
+1. Walk-out to push-up x 5 - 5 sets 
+2. Cossack squat/lateral lunge x 5 side - 3 sets
+3. Single-leg deadlift &amp; stretch x 6-8 side - 3 sets
+4. Repeat 2x </string>
 	</dict>
 	<dict>
 		<key>Title</key>
@@ -32,7 +41,13 @@
 		<key>Image</key>
 		<string>running</string>
 		<key>Description</key>
-		<string>5 sets of deadlift.    30 mins Jogging                                                </string>
+		<string>Bodyweight Strength: 30 - 60 sec rest inbetween sets 
+
+1. Spidermans x 8 side - 3 sets 
+2. Inchworms x 8 side - 3 sets 
+3. Pinwheel shinbox x 8 side - sets 
+4. Thread the needle x 8 side - 3 sets 
+5. Repeat 2x</string>
 	</dict>
 	<dict>
 		<key>Title</key>
@@ -42,7 +57,13 @@
 		<key>Image</key>
 		<string>Build Muscle</string>
 		<key>Description</key>
-		<string>5 sets of deadlift.    30 mins Jogging. 3 sets of pull ups                                   </string>
+		<string>Bodyweight Strength: 30 - 60 sec rest inbetween sets 
+
+1. Plank x as long as possible - 3 sets 
+2. Superman x 10 - 3 sets 
+3. Bodyweight squat x 10 - 3 sets 
+4. Bodyweight forward or reverse lunge x 10 / side - 3 sets 
+5. Push-up x as many as possible - 3 sets  </string>
 	</dict>
 </array>
 </plist>

@@ -10,9 +10,14 @@
 		<key>Image</key>
 		<string>Stay Fit</string>
 		<key>Description</key>
-		<string>5 sets of deadlift. 
-30 mins Jogging
-10 push ups                                             </string>
+		<string>Bodyweight Exercise: 60-90 sec rest between sets 
+
+1. Birddog Progression 10x on each side - 3 sets 
+2. Deadbug Progression 10x on each side - 3 sets 
+3. Push-up Progression 12x - 5 sets  
+4. Rows (Or Reverse Push-ups) Progression 12x - 5 sets  
+5. Squat Progression 15x - 3 sets 
+6. Glute Bridge Progression 15x - 3 sets</string>
 	</dict>
 	<dict>
 		<key>Title</key>
@@ -22,9 +27,11 @@
 		<key>Image</key>
 		<string>Build Muscle</string>
 		<key>Description</key>
-		<string>5 sets of deadlift. 
-30 mins Jogging
-10 push ups                                             </string>
+		<string>Bodyweight Exercise:
+
+1. Brisk five-minute warmup walk
+ 
+2. Then jog 4km (or 25 minutes).</string>
 	</dict>
 	<dict>
 		<key>Title</key>
@@ -34,9 +41,14 @@
 		<key>Image</key>
 		<string>Lose Weight</string>
 		<key>Description</key>
-		<string>5 sets of deadlift. 
-30 mins Jogging
-10 push ups                                             </string>
+		<string>Bodyweight Exercise: 60-90 sec rest between sets 
+
+1. Birddog Progression 10x on each side - 3 sets 
+2. Deadbug Progression 10x on each side - 3 sets 
+3. Push-up Progression 12x - 5 sets  
+4. Rows (Or Reverse Push-ups) Progression 12x - 5 sets  
+5. Squat Progression 15x - 3 sets 
+6. Glute Bridge Progression 15x - 3 sets</string>
 	</dict>
 	<dict>
 		<key>Title</key>
@@ -46,9 +58,11 @@
 		<key>Image</key>
 		<string>running</string>
 		<key>Description</key>
-		<string>5 sets of deadlift. 
-30 mins Jogging
-10 push ups                                             </string>
+		<string>Bodyweight Exercise:
+
+1. Brisk five-minute warmup walk
+ 
+2. Then jog 4km (or 25 minutes).</string>
 	</dict>
 </array>
 </plist>
