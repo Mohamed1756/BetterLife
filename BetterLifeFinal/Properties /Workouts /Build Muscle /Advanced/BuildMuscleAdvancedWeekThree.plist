@@ -10,9 +10,12 @@
 		<key>Image</key>
 		<string>Stay Fit</string>
 		<key>Description</key>
-		<string>5 sets of deadlift. 
-30 mins Jogging
-10 push ups                                             </string>
+		<string>Gym Workouts: (Shoulders, Calves) 60 - 90 sec rest between sets 
+
+1. Overhead Dumbell Press: Reps - 10,10,12,15 for 4 sets 
+2. Smith Machine Upright Row: Reps - 10,10,12,15 for 4 sets 
+3. Dumbbell Lateral Raise: Reps - 10 for 3 sets 
+4. Seated Calf Raise: Reps - 10 for 10 sets   </string>
 	</dict>
 	<dict>
 		<key>Title</key>
@@ -22,9 +25,13 @@
 		<key>Image</key>
 		<string>Build Muscle</string>
 		<key>Description</key>
-		<string>5 sets of deadlift. 
-30 mins Jogging
-10 push ups                                             </string>
+		<string>Gym Workouts: (Back, Biceps, Abs) 60 - 90 sec rest between sets 
+
+1. Barbell Bent-Over Row: Reps - 12 for 5 sets 
+2. Lat Pulldown: Reps - 8,8,10,12,12 for 5 sets 
+3. Single-Arm Neutral-Grip Dumbell Row: Reps - 8,8,10,12,12 for 5 sets 
+4. Incline Dumbell Biceps Curl: Reps - 8,8,10,12 for 4 sets 
+5. Barbell Biceps Curl: Reps - 8,8,10,12 for 4 sets </string>
 	</dict>
 	<dict>
 		<key>Title</key>
@@ -34,9 +41,14 @@
 		<key>Image</key>
 		<string>Lose Weight</string>
 		<key>Description</key>
-		<string>5 sets of deadlift. 
-30 mins Jogging
-10 push ups                                             </string>
+		<string>Gym Workouts: (Legs) 60 - 90 sec rest between sets 
+
+1. Back Squat: Reps - 8,8,10,12 for 4 sets 
+2. Leg Squat: Reps - 8,8,10,12 for 4 sets 
+3. Seated Leg Curl: Reps - 8,8,10,12 for 4 sets 
+4. Romanian Deadlift: Reps - 8,8,10,12 for 4 sets 
+5. Standing Calf Raise: Reps - 25 for 3 sets 
+6. Seated Calf Raise: Reps - 25 for 3 sets </string>
 	</dict>
 	<dict>
 		<key>Title</key>
@@ -46,9 +58,16 @@
 		<key>Image</key>
 		<string>running</string>
 		<key>Description</key>
-		<string>5 sets of deadlift. 
-30 mins Jogging
-10 push ups                                             </string>
+		<string>Gym Workouts: (Chest, Triceps, Calves) 60 - 90 sec rest between sets 
+
+1. Incline Barbell Bench Press: Reps 10 for 5 sets 
+2. Dumbbell Bench Press: Reps - 8,8,10,10,12 for 5 sets 
+3. Dumbbell Flye: Reps - 8,8,10,10,12 for 5 sets 
+4. Rope Pressdown: Reps - 8,10,10,12 for 4 sets 
+5. Dumbbell Kickback: Reps 10 for 3 sets 
+6. Lying Ez-Bar Triceps Extension: Reps 10 for 3 sets 
+7. Standing Calf Raise: Reps 25 for 3 sets 
+8. Seated Calf Raise: Reps 25 for 3 sets </string>
 	</dict>
 </array>
 </plist>

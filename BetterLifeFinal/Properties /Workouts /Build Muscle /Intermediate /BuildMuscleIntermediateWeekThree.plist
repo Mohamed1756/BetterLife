@@ -10,9 +10,13 @@
 		<key>Image</key>
 		<string>Stay Fit</string>
 		<key>Description</key>
-		<string>5 sets of deadlift. 
-30 mins Jogging
-10 push ups                                             </string>
+		<string>Gym Workouts: (Lower Body) 60-90 sec rest between sets 
+
+1. Leg Press: Reps - 10,12,15 for 3 sets 
+2. Lying Leg Curl: Reps - 10,12,15 for 3 sets 
+3. Seated Leg Curl:  Reps - 10,12,15 for 3 sets 
+4. Standing Calf Raise: Reps - 10,12,15 for 3 sets 
+5. Seated Calf Raise: Reps - 10,12,15 for 3 sets </string>
 	</dict>
 	<dict>
 		<key>Title</key>
@@ -22,9 +26,17 @@
 		<key>Image</key>
 		<string>running</string>
 		<key>Description</key>
-		<string>5 sets of deadlift. 
-30 mins Jogging
-10 push ups                                             </string>
+		<string>Gym Workouts: (Upper Body Workout) 60 - 90 sec rest between sets
+
+1. Barbell Bench Press: Reps - 10,12,15 for 3 sets 
+2.  Dumbbell Flyes: Reps - 10,12,15 for 3 sets 
+3. Overhead Dumbbell Press: Reps - 10,12,15 for 3 sets 
+4. Lat Pulldown: Reps - 10,12,15 for 3 sets 
+5. Dumbbell Lateral Rise: Reps - 8,10,12 for 3 sets 
+6. Barbell Bicep Curls: Reps - 8,10,12 for 3 sets 
+7. Preacher Curl with Cable: Reps - 10,12,15 for 3 sets 
+8. Triceps Extension: Reps - 10,12,15 for 3 sets 
+9. Rope Pressdown: Reps - 10,12,15 for 3 sets </string>
 	</dict>
 	<dict>
 		<key>Title</key>
@@ -34,9 +46,13 @@
 		<key>Image</key>
 		<string>Build Muscle</string>
 		<key>Description</key>
-		<string>5 sets of deadlift. 
-30 mins Jogging
-10 push ups                                             </string>
+		<string>Gym Workouts: (Lower Body) 60-90 sec rest between sets 
+
+1. Leg Press: Reps - 10,12,15 for 3 sets 
+2. Lying Leg Curl: Reps - 10,12,15 for 3 sets 
+3. Seated Leg Curl:  Reps - 10,12,15 for 3 sets 
+4. Standing Calf Raise: Reps - 10,12,15 for 3 sets 
+5. Seated Calf Raise: Reps - 10,12,15 for 3 sets </string>
 	</dict>
 	<dict>
 		<key>Title</key>
@@ -46,9 +62,17 @@
 		<key>Image</key>
 		<string>Lose Weight</string>
 		<key>Description</key>
-		<string>5 sets of deadlift. 
-30 mins Jogging
-10 push ups                                             </string>
+		<string>Gym Workouts: (Upper Body Workout) 60 - 90 sec rest between sets
+
+1. Barbell Bench Press: Reps - 10,12,15 for 3 sets 
+2.  Dumbbell Flyes: Reps - 10,12,15 for 3 sets 
+3. Overhead Dumbbell Press: Reps - 10,12,15 for 3 sets 
+4. Lat Pulldown: Reps - 10,12,15 for 3 sets 
+5. Dumbbell Lateral Rise: Reps - 8,10,12 for 3 sets 
+6. Barbell Bicep Curls: Reps - 8,10,12 for 3 sets 
+7. Preacher Curl with Cable: Reps - 10,12,15 for 3 sets 
+8. Triceps Extension: Reps - 10,12,15 for 3 sets 
+9. Rope Pressdown: Reps - 10,12,15 for 3 sets </string>
 	</dict>
 </array>
 </plist>

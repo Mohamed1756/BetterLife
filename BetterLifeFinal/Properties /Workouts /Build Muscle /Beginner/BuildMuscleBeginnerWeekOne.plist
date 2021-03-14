@@ -10,9 +10,15 @@
 		<key>Image</key>
 		<string>Stay Fit</string>
 		<key>Description</key>
-		<string>5 sets of deadlift. 
-30 mins Jogging
-10 push ups                                             </string>
+		<string>Gym Workouts: 60 - 90 sec rest between sets 
+
+1. Squats: Reps - 10,12 for 2 sets 
+2. Leg Curls: Reps 12 for 1 set
+3. Calf Raises: Reps - 12, 15 for 2 sets 
+4. Bench Press: Reps - 10,12 for 2 sets  
+5. Pulldowns: Reps - 10,12 for 2 sets  
+6. Cable Rows: Reps - 10,12 for 2 sets  
+7. Overhead Press: Reps - 10,12 for 2 sets  </string>
 	</dict>
 	<dict>
 		<key>Title</key>
@@ -22,9 +28,15 @@
 		<key>Image</key>
 		<string>running</string>
 		<key>Description</key>
-		<string>5 sets of deadlift. 
-30 mins Jogging
-10 push ups                                             </string>
+		<string>Gym Workouts: 60 - 90 sec rest between sets 
+
+1. Squats: Reps - 10,12 for 2 sets 
+2. Leg Curls: Reps 12 for 1 set
+3. Calf Raises: Reps - 12, 15 for 2 sets 
+4. Bench Press: Reps - 10,12 for 2 sets  
+5. Pulldowns: Reps - 10,12 for 2 sets  
+6. Cable Rows: Reps - 10,12 for 2 sets  
+7. Overhead Press: Reps - 10,12 for 2 sets  </string>
 	</dict>
 	<dict>
 		<key>Title</key>
@@ -34,9 +46,15 @@
 		<key>Image</key>
 		<string>Build Muscle</string>
 		<key>Description</key>
-		<string>5 sets of deadlift. 
-30 mins Jogging
-10 push ups                                             </string>
+		<string>Gym Workouts: 60 - 90 sec rest between sets 
+
+1. Squats: Reps - 10,12 for 2 sets 
+2. Leg Extensions: Reps - 12 for 1 set 
+3. Leg Curls: Reps - 12 for 1 set 
+4. Standing Calf Raises: Reps - 10,12 for 2 sets 
+5. Bench Press: Reps - 10,12 for 2 sets 
+6. Flyes: Reps - 12 for 1 set 
+7. Pushdown: Reps - 12 for 1 set </string>
 	</dict>
 	<dict>
 		<key>Title</key>
@@ -46,9 +64,15 @@
 		<key>Image</key>
 		<string>Lose Weight</string>
 		<key>Description</key>
-		<string>5 sets of deadlift. 
-30 mins Jogging
-10 push ups                                             </string>
+		<string>Gym Workouts: 60 - 90 sec rest between sets 
+
+1. Squats: Reps - 10,12 for 2 sets 
+2. Leg Curls: Reps 12 for 1 set
+3. Calf Raises: Reps - 12, 15 for 2 sets 
+4. Bench Press: Reps - 10,12 for 2 sets  
+5. Pulldowns: Reps - 10,12 for 2 sets  
+6. Cable Rows: Reps - 10,12 for 2 sets  
+7. Overhead Press: Reps - 10,12 for 2 sets  </string>
 	</dict>
 </array>
 </plist>

@@ -10,9 +10,14 @@
 		<key>Image</key>
 		<string>Stay Fit</string>
 		<key>Description</key>
-		<string>5 sets of deadlift. 
-30 mins Jogging
-10 push ups                                             </string>
+		<string>Gym Workouts: (Push) 60 - 90 sec rest between sets 
+
+1. Incline Barbell Bench Press: Reps - 10,10,12,15 for 4 sets 
+2. Dumbbell Flye: Reps - 10,10,12,15 for 4 sets 
+3. Overhead Dumbell Press: Reps - 10,10,12,15 for 4 sets 
+4. Smith Machine Upright Row: Reps - 10,10,12,15 for 4 sets 
+5. Lying Ez-Bar Tricep Extension: Reps - 10,12,15 for 3 sets 
+6. Dumbell Kickback: Reps - 10,12,15 for 3 sets </string>
 	</dict>
 	<dict>
 		<key>Title</key>
@@ -22,9 +27,13 @@
 		<key>Image</key>
 		<string>running</string>
 		<key>Description</key>
-		<string>5 sets of deadlift. 
-30 mins Jogging
-10 push ups                                             </string>
+		<string>Gym Workouts: (Pull) 60 - 90 sec rest between sets 
+
+1. Barbell Upright Row: Reps - 8,8,10,12 for 4 sets 
+2. Single-Arm Neutral-Grip Dumbell Row: Reps - 8,8,10,12 for 4 sets 
+3. Incline Dumbell Biceps Curl: Reps - 8,8,10,12 for 4 sets 
+4. Preacher Curl with Cable: Reps - 8,8,10,12 for 4 sets 
+5. Reverse Crunch: Reps - 8,8,10,12 for 4 sets </string>
 	</dict>
 	<dict>
 		<key>Title</key>
@@ -34,9 +43,14 @@
 		<key>Image</key>
 		<string>Stay Fit</string>
 		<key>Description</key>
-		<string>5 sets of deadlift. 
-30 mins Jogging
-10 push ups                                             </string>
+		<string>Gym Workouts: (Legs) 60 - 90 sec rest between sets 
+
+1. Back Squat: Reps - 8,8,10,12 for 4 sets 
+2. Leg Squat: Reps - 8,8,10,12 for 4 sets 
+3. Seated Leg Curl: Reps - 8,8,10,12 for 4 sets 
+4. Romanian Deadlift: Reps - 8,8,10,12 for 4 sets 
+5. Standing Calf Raise: Reps - 25 for 3 sets 
+6. Seated Calf Raise: Reps - 25 for 3 sets </string>
 	</dict>
 	<dict>
 		<key>Title</key>
@@ -46,9 +60,14 @@
 		<key>Image</key>
 		<string>Lose Weight</string>
 		<key>Description</key>
-		<string>5 sets of deadlift. 
-30 mins Jogging
-10 push ups                                             </string>
+		<string>Gym Workouts: (Push) 60 - 90 sec rest between sets 
+
+1. Incline Barbell Bench Press: Reps - 10,10,12,15 for 4 sets 
+2. Dumbbell Flye: Reps - 10,10,12,15 for 4 sets 
+3. Overhead Dumbell Press: Reps - 10,10,12,15 for 4 sets 
+4. Smith Machine Upright Row: Reps - 10,10,12,15 for 4 sets 
+5. Lying Ez-Bar Tricep Extension: Reps - 10,12,15 for 3 sets 
+6. Dumbell Kickback: Reps - 10,12,15 for 3 sets </string>
 	</dict>
 </array>
 </plist>

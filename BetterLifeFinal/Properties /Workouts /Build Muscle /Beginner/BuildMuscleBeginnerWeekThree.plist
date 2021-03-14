@@ -10,9 +10,15 @@
 		<key>Image</key>
 		<string>Stay Fit</string>
 		<key>Description</key>
-		<string>5 sets of deadlift. 
-30 mins Jogging
-10 push ups                                             </string>
+		<string>Gym Workouts: 60 - 90 sec rest between sets
+
+1. Dumbbell Bench Press: Reps - 8,10,12 for 3 sets 
+2.  Lat Pulldown: Reps - 8,10,12 for 3 sets 
+3. Overhead Dumbbell Press: Reps - 8,10,12 for 3 sets 
+4. Leg press: Reps - 8,10,12 for 3 sets 
+5. Lying Leg Curls: Reps - 8,10,12 for 3 sets 
+6. Barbell Bicep Curls: Reps - 8,10,12 for 3 sets 
+7. Standing Calf Raise: Reps - 8,10,12 for 3 sets  </string>
 	</dict>
 	<dict>
 		<key>Title</key>
@@ -22,9 +28,15 @@
 		<key>Image</key>
 		<string>running</string>
 		<key>Description</key>
-		<string>5 sets of deadlift. 
-30 mins Jogging
-10 push ups                                             </string>
+		<string>Gym Workouts: 60 - 90 sec rest between sets
+
+1. Dumbbell Bench Press: Reps - 8,10,12 for 3 sets 
+2.  Lat Pulldown: Reps - 8,10,12 for 3 sets 
+3. Overhead Dumbbell Press: Reps - 8,10,12 for 3 sets 
+4. Leg press: Reps - 8,10,12 for 3 sets 
+5. Lying Leg Curls: Reps - 8,10,12 for 3 sets 
+6. Barbell Bicep Curls: Reps - 8,10,12 for 3 sets 
+7. Standing Calf Raise: Reps - 8,10,12 for 3 sets  </string>
 	</dict>
 	<dict>
 		<key>Title</key>
@@ -34,9 +46,15 @@
 		<key>Image</key>
 		<string>Lose Weight</string>
 		<key>Description</key>
-		<string>5 sets of deadlift. 
-30 mins Jogging
-10 push ups                                             </string>
+		<string>Gym Workouts: 60 - 90 sec rest between sets
+
+1. Dumbbell Bench Press: Reps - 8,10,12 for 3 sets 
+2.  Lat Pulldown: Reps - 8,10,12 for 3 sets 
+3. Overhead Dumbbell Press: Reps - 8,10,12 for 3 sets 
+4. Leg press: Reps - 8,10,12 for 3 sets 
+5. Lying Leg Curls: Reps - 8,10,12 for 3 sets 
+6. Barbell Bicep Curls: Reps - 8,10,12 for 3 sets 
+7. Standing Calf Raise: Reps - 8,10,12 for 3 sets  </string>
 	</dict>
 	<dict>
 		<key>Title</key>
@@ -46,9 +64,15 @@
 		<key>Image</key>
 		<string>Build Muscle</string>
 		<key>Description</key>
-		<string>5 sets of deadlift. 
-30 mins Jogging
-10 push ups                                             </string>
+		<string>Gym Workouts: 60 - 90 sec rest between sets
+
+1. Dumbbell Bench Press: Reps - 8,10,12 for 3 sets 
+2.  Lat Pulldown: Reps - 8,10,12 for 3 sets 
+3. Overhead Dumbbell Press: Reps - 8,10,12 for 3 sets 
+4. Leg press: Reps - 8,10,12 for 3 sets 
+5. Lying Leg Curls: Reps - 8,10,12 for 3 sets 
+6. Barbell Bicep Curls: Reps - 8,10,12 for 3 sets 
+7. Standing Calf Raise: Reps - 8,10,12 for 3 sets  </string>
 	</dict>
 </array>
 </plist>
