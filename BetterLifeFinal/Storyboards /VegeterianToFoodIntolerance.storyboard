@@ -12,7 +12,7 @@
         <!--Vegetarian-->
         <scene sceneID="Up6-hT-1rA">
             <objects>
-                <viewController title="Vegetarian" modalPresentationStyle="fullScreen" id="PTS-vx-otJ" customClass="VegetarainFoodIntoleranceScreen" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="VegeterianToFoodIntolerance" title="Vegetarian" modalPresentationStyle="fullScreen" id="PTS-vx-otJ" customClass="VegetarainFoodIntoleranceScreen" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nbl-i6-0EW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -24,44 +24,44 @@
                                 <rect key="frame" x="185" y="296" width="45.5" height="210"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="am0-w8-Pic">
-                                        <rect key="frame" x="0.0" y="0.0" width="45" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="45.5" height="30"/>
                                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" title="None "/>
+                                        <state key="normal" title="Example"/>
                                         <connections>
                                             <segue destination="PwP-Jf-PiM" kind="show" identifier="VeggieToNothing" id="j7I-vy-TQL"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CyR-Bk-PZn">
-                                        <rect key="frame" x="0.0" y="36" width="45" height="30"/>
-                                        <state key="normal" title="Eggs"/>
+                                        <rect key="frame" x="0.0" y="36" width="45.5" height="30"/>
+                                        <state key="normal" title="Example"/>
                                         <connections>
                                             <segue destination="XdF-Zy-3OS" kind="show" identifier="VegEggFreeMeals" id="ece-eu-F6h"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Mb-rb-cgj">
-                                        <rect key="frame" x="0.0" y="72" width="45" height="30"/>
-                                        <state key="normal" title="Dairy"/>
+                                        <rect key="frame" x="0.0" y="72" width="45.5" height="30"/>
+                                        <state key="normal" title="Example"/>
                                         <connections>
                                             <segue destination="b7H-0C-Bm8" kind="show" identifier="dairyVegToGlutenView" id="aIY-gg-YGB"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IgA-nJ-td5">
-                                        <rect key="frame" x="0.0" y="108" width="45" height="30"/>
-                                        <state key="normal" title="Nuts"/>
+                                        <rect key="frame" x="0.0" y="108" width="45.5" height="30"/>
+                                        <state key="normal" title="Example"/>
                                         <connections>
                                             <segue destination="oFj-yk-kTU" kind="show" identifier="vegetarianNutFree" id="4eY-pQ-VZE"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uMh-db-s9X">
-                                        <rect key="frame" x="0.0" y="144" width="45" height="30"/>
-                                        <state key="normal" title="Gluten"/>
+                                        <rect key="frame" x="0.0" y="144" width="45.5" height="30"/>
+                                        <state key="normal" title="Example"/>
                                         <connections>
                                             <segue destination="b7H-0C-Bm8" kind="show" identifier="VegGlutenChoice" id="B5q-75-GoC"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uow-fa-8do">
-                                        <rect key="frame" x="0.0" y="180" width="45" height="30"/>
-                                        <state key="normal" title="Wheat"/>
+                                        <rect key="frame" x="0.0" y="180" width="45.5" height="30"/>
+                                        <state key="normal" title="Example"/>
                                         <connections>
                                             <segue destination="b7H-0C-Bm8" kind="show" id="45h-aM-meh"/>
                                         </connections>
@@ -83,14 +83,14 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3Or-bz-8Wb">
                                 <rect key="frame" x="159" y="229" width="97.5" height="43"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Any Food" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cOc-m0-Xli">
-                                        <rect key="frame" x="0.0" y="0.0" width="97.5" height="21.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Example" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cOc-m0-Xli">
+                                        <rect key="frame" x="12" y="0.0" width="73.5" height="21.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Intolerance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ql9-nw-Nu7">
-                                        <rect key="frame" x="0.0" y="21.5" width="97.5" height="21.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Example" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ql9-nw-Nu7">
+                                        <rect key="frame" x="12" y="21.5" width="73.5" height="21.5"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -118,6 +118,16 @@
                         </constraints>
                     </view>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="textTitleOne" destination="cOc-m0-Xli" id="S99-pi-9GE"/>
+                        <outlet property="textTitleTwo" destination="ql9-nw-Nu7" id="WGU-Vc-YvD"/>
+                        <outlet property="vegDairyButton" destination="8Mb-rb-cgj" id="wM9-BR-5pX"/>
+                        <outlet property="vegEggButton" destination="CyR-Bk-PZn" id="0a5-xW-AuZ"/>
+                        <outlet property="vegGlutenButton" destination="uMh-db-s9X" id="xWz-nP-vEZ"/>
+                        <outlet property="vegNoneButton" destination="am0-w8-Pic" id="WBl-pp-PrQ"/>
+                        <outlet property="vegNutsButton" destination="IgA-nJ-td5" id="PxJ-EB-401"/>
+                        <outlet property="vegWheatButton" destination="Uow-fa-8do" id="eTB-Lb-Q8x"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5N9-6C-OZJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

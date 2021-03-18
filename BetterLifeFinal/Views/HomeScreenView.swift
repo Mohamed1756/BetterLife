@@ -11,10 +11,24 @@ import Firebase
 class
 HomeScreenVIew:UIViewController{
     
+    @IBOutlet weak var myMealsText: UIButton!
+    
+    @IBOutlet weak var myStepsText: UIButton!
+    
+    @IBOutlet weak var progressScreenText: UIButton!
+  
+    @IBOutlet weak var BmiText: UIButton!
+    
+    @IBOutlet weak var myWorkoutText: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        myMealsText.setTitle("My Meals", for: .normal)
+        myStepsText.setTitle("My Steps", for: .normal)
+        BmiText.setTitle("BMI", for: .normal )
+        myWorkoutText.setTitle("My Workouts", for: .normal)
+        progressScreenText.setTitle("Progress", for: .normal)
     
     }
     
@@ -24,21 +38,12 @@ HomeScreenVIew:UIViewController{
         
     }
     
-    @IBAction func MealsButton(_ sender: UIButton) {
     
     }
-    
-    @IBAction func WorkoutButton(_ sender: Any) {
-        
-        }
-    
-    
-
     
         
     
      
         
     
-    
-}
+

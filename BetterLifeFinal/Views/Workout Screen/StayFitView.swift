@@ -10,18 +10,29 @@ import UIKit
 class StayFitView:UIViewController {
     
     
+    @IBOutlet weak var textTitle: UILabel!
     
-    @IBAction func stayFitBeginnerButton(_ sender: Any) {
+    @IBOutlet weak var beginnerButton: UIButton!
+    
+    @IBOutlet weak var intermediateButton: UIButton!
+    
+    @IBOutlet weak var advancedButton: UIButton!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
         
+        textTitle.text = "What is your Fitness Level ?, select your preference"
+        
+        buttonTextNames()
     }
     
-    
-    @IBAction func stayFitIntermediateButton(_ sender: Any) {
+    func buttonTextNames (){
         
-    }
-    
-    
-    @IBAction func stayFitAdvancedButton(_ sender: Any) {
+        beginnerButton.setTitle("Beginner", for: .normal)
+        
+        intermediateButton.setTitle("Intermediate", for: .normal)
+        
+        advancedButton.setTitle("Advanced", for: .normal)
     }
     
     

@@ -12,7 +12,7 @@
         <!--Intolerance-->
         <scene sceneID="RhP-20-V3k">
             <objects>
-                <viewController title="Intolerance" modalPresentationStyle="fullScreen" id="NVD-as-RRL" customClass="FoodIntoleranceScreen" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FoodIntoleranceScreen" title="Intolerance" modalPresentationStyle="fullScreen" id="NVD-as-RRL" customClass="FoodIntoleranceScreen" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FFR-Gy-4cH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

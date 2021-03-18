@@ -25,37 +25,34 @@
                                 <rect key="frame" x="129" y="335" width="156" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="Beginner"/>
+                                <state key="normal" title="Example"/>
                                 <connections>
-                                    <action selector="loseWeightBeginnerBtn:" destination="N9o-ys-SwY" eventType="touchUpInside" id="eKU-78-Wif"/>
-                                    <segue destination="Edx-rh-VGU" kind="show" id="YVB-WU-NvI"/>
+                                    <action selector="beginnerButtonTapped:" destination="N9o-ys-SwY" eventType="touchUpInside" id="zr7-bs-uq6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bYD-no-yqj">
                                 <rect key="frame" x="129" y="394" width="156" height="10"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="Intermediate"/>
+                                <state key="normal" title="Example"/>
                                 <connections>
-                                    <action selector="loseWeightIntermediateBtn:" destination="N9o-ys-SwY" eventType="touchUpInside" id="rBH-dc-ZZv"/>
-                                    <segue destination="7R3-f1-vm3" kind="show" identifier="IntermediateLoseWeight" id="keM-fu-sc9"/>
+                                    <action selector="intermediateButtonTapped:" destination="N9o-ys-SwY" eventType="touchUpInside" id="24Z-me-NLI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LCv-7c-cVV">
                                 <rect key="frame" x="129" y="412" width="156" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="Advanced"/>
+                                <state key="normal" title="Example"/>
                                 <connections>
-                                    <action selector="loseWeightAdvancedBtn:" destination="N9o-ys-SwY" eventType="touchUpInside" id="iFP-gn-RYU"/>
-                                    <segue destination="XNI-do-V4v" kind="show" identifier="loseWeightAdvanced" id="sxX-pQ-dsj"/>
+                                    <action selector="advancedButtonTapped:" destination="N9o-ys-SwY" eventType="touchUpInside" id="EOc-9Q-Pcp"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="198-2k-9cI">
                                 <rect key="frame" x="36" y="211" width="342" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="What is your Fitness Level ?, select your preference">
+                                    <fragment content="Example">
                                         <attributes>
                                             <font key="NSFont" size="17" name="SFPro-Ultralight"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
@@ -69,6 +66,12 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="advancedButton" destination="LCv-7c-cVV" id="nMT-uh-FK2"/>
+                        <outlet property="beginnerButton" destination="3TX-HE-Fpo" id="S4i-W0-93f"/>
+                        <outlet property="intermediateButton" destination="bYD-no-yqj" id="8FS-CO-BQ6"/>
+                        <outlet property="titleText" destination="198-2k-9cI" id="ysy-eI-tUe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gMk-f0-yDF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -77,7 +80,7 @@
         <!--Advanced-->
         <scene sceneID="5RX-gu-A6Q">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="XNI-do-V4v" customClass="LoseWeightAdvancedView" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="advancedLoseWeightScreen" modalPresentationStyle="fullScreen" id="XNI-do-V4v" customClass="LoseWeightAdvancedView" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Wf8-oT-QG1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -235,12 +238,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uuc-sV-Cdc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5683" y="1016"/>
+            <point key="canvasLocation" x="5707" y="926"/>
         </scene>
         <!--Intermediate-->
         <scene sceneID="64V-wf-zhV">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="7R3-f1-vm3" customClass="LoseWeightIntermediateViews" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="intermediateLoseWeightScreen" modalPresentationStyle="fullScreen" id="7R3-f1-vm3" customClass="LoseWeightIntermediateViews" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ARR-sL-6jX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -403,13 +406,13 @@
         <!--Beginner-->
         <scene sceneID="1bA-I7-Vzj">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="Edx-rh-VGU" customClass="LoseWeightBeginner" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="beginnerLoseWeightScreen" modalPresentationStyle="fullScreen" id="Edx-rh-VGU" customClass="LoseWeightBeginner" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="n4n-UC-2dm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background " translatesAutoresizingMaskIntoConstraints="NO" id="k0y-un-z36">
-                                <rect key="frame" x="-11" y="23" width="445" height="847"/>
+                                <rect key="frame" x="-11" y="-21" width="445" height="935"/>
                             </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="hvn-FK-Cqt">
                                 <rect key="frame" x="0.0" y="258" width="414" height="127"/>
@@ -581,7 +584,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="fWi-BX-nfV"/>
+        <segue reference="WFT-Se-0m2"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Background " width="540" height="1182"/>

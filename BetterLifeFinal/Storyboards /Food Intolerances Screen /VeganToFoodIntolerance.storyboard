@@ -12,7 +12,7 @@
         <!--Vegan-->
         <scene sceneID="zhZ-lC-wn3">
             <objects>
-                <viewController title="Vegan" modalPresentationStyle="fullScreen" id="DQz-Wp-PMM" customClass="VeganFoodIntolerance" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="VeganToFoodIntolerance" title="Vegan" modalPresentationStyle="fullScreen" id="DQz-Wp-PMM" customClass="VeganFoodIntolerance" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CXG-De-OhG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -117,6 +117,15 @@
                         </constraints>
                     </view>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="textTitleOne" destination="SL8-1H-Gmm" id="0k0-ZI-9H4"/>
+                        <outlet property="textTitleTwo" destination="wdx-Re-ElY" id="0Es-to-V0F"/>
+                        <outlet property="veganCeleryButton" destination="SLw-oS-RkD" id="xip-9J-KPX"/>
+                        <outlet property="veganGlutenButton" destination="4Bq-AZ-TDU" id="tbT-lP-CAu"/>
+                        <outlet property="veganNoneButton" destination="AdF-GH-Ruw" id="yqA-BD-6P0"/>
+                        <outlet property="veganNutsButton" destination="DJT-sq-pEU" id="y3O-SY-Amb"/>
+                        <outlet property="veganWheatButton" destination="vMS-Qy-Tep" id="ste-Y0-lOz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UAc-NA-SEt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

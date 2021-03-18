@@ -23,7 +23,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y3F-0R-Sqy">
                                 <rect key="frame" x="144" y="338" width="123" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Intermediate"/>
+                                <state key="normal" title="Example"/>
                                 <connections>
                                     <segue destination="3b8-KZ-STe" kind="show" id="Kpo-k4-xwJ"/>
                                 </connections>
@@ -31,7 +31,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y1a-Q1-a3t">
                                 <rect key="frame" x="144" y="278" width="123" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Beginner"/>
+                                <state key="normal" title="Example"/>
                                 <connections>
                                     <segue destination="UcS-Jf-NCT" kind="show" id="hch-uk-2gj"/>
                                 </connections>
@@ -39,7 +39,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mCA-aO-DSb">
                                 <rect key="frame" x="144" y="409" width="119" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Advanced"/>
+                                <state key="normal" title="Example"/>
                                 <connections>
                                     <segue destination="lRP-px-TIa" kind="show" id="MGT-Q3-ggD"/>
                                 </connections>
@@ -48,7 +48,7 @@
                                 <rect key="frame" x="36" y="172" width="342" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="What is your Fitness Level ?, select your preference">
+                                    <fragment content="Example">
                                         <attributes>
                                             <font key="NSFont" size="17" name="SFPro-Ultralight"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
@@ -70,6 +70,12 @@
                     <tabBarItem key="tabBarItem" title="Item" id="RSZ-sb-LWv"/>
                     <navigationItem key="navigationItem" title="Build Muscle" id="pmd-gO-EPG"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="advancedButton" destination="mCA-aO-DSb" id="yCj-39-EK3"/>
+                        <outlet property="beginnerButton" destination="y1a-Q1-a3t" id="GBR-yq-T3V"/>
+                        <outlet property="intermediateButton" destination="Y3F-0R-Sqy" id="DMV-d5-G3R"/>
+                        <outlet property="titleTextScreen" destination="nSZ-UU-42C" id="KUb-jQ-CzG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0kw-Sc-n3z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

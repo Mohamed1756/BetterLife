@@ -12,7 +12,7 @@
         <!--Pescatarian-->
         <scene sceneID="3fK-Uq-BhR">
             <objects>
-                <viewController title="Pescatarian" modalPresentationStyle="fullScreen" id="hDp-uH-mtG" customClass="PescFoodIntolerance" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PescToFoodIntolerance" title="Pescatarian" modalPresentationStyle="fullScreen" id="hDp-uH-mtG" customClass="PescFoodIntolerance" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="phj-xF-hAS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -24,37 +24,37 @@
                                 <rect key="frame" x="185" y="284" width="45.5" height="150"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="88j-Lr-MNF">
-                                        <rect key="frame" x="0.0" y="0.0" width="45" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="45.5" height="30"/>
                                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" title="None "/>
+                                        <state key="normal" title="Example"/>
                                         <connections>
                                             <segue destination="bai-EZ-vj8" kind="show" identifier="PescFoodNone" id="hS0-OK-03i"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Viq-8p-x1S">
-                                        <rect key="frame" x="0.0" y="30" width="45" height="30"/>
-                                        <state key="normal" title="Eggs"/>
+                                        <rect key="frame" x="0.0" y="30" width="45.5" height="30"/>
+                                        <state key="normal" title="Example"/>
                                         <connections>
                                             <segue destination="lKy-31-nfO" kind="show" identifier="pescEggFreeScreen" id="nwR-jE-CdU"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Z5-6b-jV0">
-                                        <rect key="frame" x="0.0" y="60" width="45" height="30"/>
-                                        <state key="normal" title="Dairy"/>
+                                        <rect key="frame" x="0.0" y="60" width="45.5" height="30"/>
+                                        <state key="normal" title="Example"/>
                                         <connections>
                                             <segue destination="4MH-XN-3GW" kind="show" identifier="DairyToGluten" id="Pv0-E4-1ss"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="80z-9k-QKn">
-                                        <rect key="frame" x="0.0" y="90" width="45" height="30"/>
-                                        <state key="normal" title="Gluten"/>
+                                        <rect key="frame" x="0.0" y="90" width="45.5" height="30"/>
+                                        <state key="normal" title="Example"/>
                                         <connections>
                                             <segue destination="4MH-XN-3GW" kind="show" identifier="pescGlutenScreen" id="iyl-Qw-N8F"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="feA-kQ-mCi">
-                                        <rect key="frame" x="0.0" y="120" width="45" height="30"/>
-                                        <state key="normal" title="Wheat"/>
+                                        <rect key="frame" x="0.0" y="120" width="45.5" height="30"/>
+                                        <state key="normal" title="Example"/>
                                         <connections>
                                             <segue destination="bai-EZ-vj8" kind="show" id="OK5-6I-48K"/>
                                         </connections>
@@ -74,13 +74,13 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="mrf-qv-2CY">
                                 <rect key="frame" x="159" y="219" width="97.5" height="43"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Any Food" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hvM-Pu-WIl">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Example" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hvM-Pu-WIl">
                                         <rect key="frame" x="0.0" y="0.0" width="97.5" height="21.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Intolerance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ezP-lq-YKl">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Example" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ezP-lq-YKl">
                                         <rect key="frame" x="0.0" y="21.5" width="97.5" height="21.5"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <nil key="textColor"/>
@@ -109,6 +109,15 @@
                         </constraints>
                     </view>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="pescDairyButton" destination="5Z5-6b-jV0" id="Ehq-hn-hMq"/>
+                        <outlet property="pescEggsButton" destination="Viq-8p-x1S" id="YGH-fN-oiA"/>
+                        <outlet property="pescGlutenButton" destination="80z-9k-QKn" id="cNC-hW-CF5"/>
+                        <outlet property="pescNoneButton" destination="88j-Lr-MNF" id="FCM-1L-6Nj"/>
+                        <outlet property="pescWheatButton" destination="feA-kQ-mCi" id="2gb-Wq-Azk"/>
+                        <outlet property="textTitleOne" destination="hvM-Pu-WIl" id="oip-P0-j7c"/>
+                        <outlet property="textTitleTwo" destination="ezP-lq-YKl" id="eeT-di-kUa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bvi-U1-GAE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
