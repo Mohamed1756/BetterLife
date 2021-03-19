@@ -12,7 +12,7 @@
         <!--Build Muscle-->
         <scene sceneID="BXA-Xa-DFJ">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="vlT-eY-XUb" customClass="BuildMuscleView" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="buildMuscleScreenHome" modalPresentationStyle="fullScreen" id="vlT-eY-XUb" customClass="BuildMuscleView" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="09M-kQ-WD6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -25,7 +25,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Example"/>
                                 <connections>
-                                    <segue destination="3b8-KZ-STe" kind="show" id="Kpo-k4-xwJ"/>
+                                    <action selector="intermediateButtonTapped:" destination="vlT-eY-XUb" eventType="touchUpInside" id="sHH-LJ-drR"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y1a-Q1-a3t">
@@ -33,7 +33,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Example"/>
                                 <connections>
-                                    <segue destination="UcS-Jf-NCT" kind="show" id="hch-uk-2gj"/>
+                                    <action selector="beginnerButtonTapped:" destination="vlT-eY-XUb" eventType="touchUpInside" id="piu-UO-uTW"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mCA-aO-DSb">
@@ -41,7 +41,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Example"/>
                                 <connections>
-                                    <segue destination="lRP-px-TIa" kind="show" id="MGT-Q3-ggD"/>
+                                    <action selector="advancedButtonTapped:" destination="vlT-eY-XUb" eventType="touchUpInside" id="hhg-5P-DCY"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nSZ-UU-42C">
@@ -84,13 +84,13 @@
         <!--Advanced-->
         <scene sceneID="eYk-Ql-ZZq">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="lRP-px-TIa" customClass="BuildMuscleAdvancedViews" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="advancedBuildMuscleScreen" modalPresentationStyle="fullScreen" id="lRP-px-TIa" customClass="BuildMuscleAdvancedViews" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EX9-Ds-GUi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background " translatesAutoresizingMaskIntoConstraints="NO" id="Xzf-uT-oIp">
-                                <rect key="frame" x="-22" y="44" width="458" height="870"/>
+                                <rect key="frame" x="-22" y="0.0" width="458" height="914"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Advanced Workouts " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qKC-qG-Kzj">
                                 <rect key="frame" x="107" y="121" width="200" height="70"/>
@@ -252,13 +252,13 @@
         <!--Intermediate-->
         <scene sceneID="nOF-US-xIe">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="3b8-KZ-STe" customClass="BuildMuscleIntermediateViews" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="intermediateBuildMuscleScreen" modalPresentationStyle="fullScreen" id="3b8-KZ-STe" customClass="BuildMuscleIntermediateViews" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mGO-G4-WzK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background " translatesAutoresizingMaskIntoConstraints="NO" id="7lq-cv-0O6">
-                                <rect key="frame" x="-24" y="31" width="456" height="887"/>
+                                <rect key="frame" x="-24" y="-13" width="456" height="931"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Intermediate Workouts " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1Tt-lq-aoE">
                                 <rect key="frame" x="99" y="121" width="216" height="70"/>
@@ -420,13 +420,13 @@
         <!--Beginner-->
         <scene sceneID="RxF-zM-HSo">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="UcS-Jf-NCT" customClass="BuildMuscleBeginner" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="beginnerBuildMuscleScreen" modalPresentationStyle="fullScreen" id="UcS-Jf-NCT" customClass="BuildMuscleBeginner" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4zY-7Q-Fxu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background " translatesAutoresizingMaskIntoConstraints="NO" id="azn-Zm-KZ5">
-                                <rect key="frame" x="-14" y="31" width="444" height="879"/>
+                                <rect key="frame" x="-14" y="-13" width="444" height="923"/>
                             </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="aJ3-Ri-00U">
                                 <rect key="frame" x="0.0" y="259" width="414" height="128"/>
@@ -607,7 +607,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dx3-fs-Ca4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7376.811594202899" y="345.53571428571428"/>
+            <point key="canvasLocation" x="7245" y="120"/>
         </scene>
         <!--ViewWorkoutChoiceScreen-->
         <scene sceneID="5dO-aU-xXe">
@@ -619,7 +619,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="YJ0-ze-A06"/>
+        <segue reference="fjF-Ww-DvF"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Background " width="540" height="1182"/>

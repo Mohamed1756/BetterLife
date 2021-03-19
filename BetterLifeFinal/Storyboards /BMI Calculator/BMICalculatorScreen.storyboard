@@ -11,7 +11,7 @@
         <!--BMI-->
         <scene sceneID="Acy-dm-y1o">
             <objects>
-                <viewController title="BMI" modalPresentationStyle="fullScreen" id="Q8Q-gw-1eR" customClass="BMICalculatorView" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BMIScreen" title="BMI" modalPresentationStyle="fullScreen" id="Q8Q-gw-1eR" customClass="BMICalculatorView" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9ZI-Ch-gWi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

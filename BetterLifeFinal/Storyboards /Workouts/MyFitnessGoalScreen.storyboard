@@ -8,20 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--LoseWeightScreen-->
-        <scene sceneID="1aS-nf-JJa">
-            <objects>
-                <viewControllerPlaceholder storyboardName="LoseWeightScreen" id="APl-YH-76u" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="yAH-4P-cH6"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3g2-Zc-RV8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="6775" y="702"/>
-        </scene>
         <!--myWorkouts-->
         <scene sceneID="3nF-Vs-0Vw">
             <objects>
-                <viewController title="myWorkouts" modalPresentationStyle="fullScreen" id="otf-Sa-0Zg" customClass="MyWorkoutsChoiceView" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="workoutScreenHome" title="myWorkouts" modalPresentationStyle="fullScreen" id="otf-Sa-0Zg" customClass="MyWorkoutsChoiceView" customModule="BetterLifeFinal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qB7-Ig-7Wz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -69,7 +59,6 @@
                                 <state key="normal" title="LoseWeightButton"/>
                                 <connections>
                                     <action selector="loseWeightButton:" destination="otf-Sa-0Zg" eventType="touchUpInside" id="7lG-hd-NgF"/>
-                                    <segue destination="APl-YH-76u" kind="show" identifier="choiceLoseWeight" id="c1g-QA-B55"/>
                                 </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" alpha="0.05000000074505806" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="On0-cD-2xq">
@@ -79,7 +68,6 @@
                                 <state key="normal" title="BuildMuscleButton"/>
                                 <connections>
                                     <action selector="buildMuscleButton:" destination="otf-Sa-0Zg" eventType="touchUpInside" id="m25-eM-YYT"/>
-                                    <segue destination="Y5A-1n-cSI" kind="show" identifier="BuildMuscleScreen" id="hwA-xS-Xxt"/>
                                 </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" alpha="0.05000000074505806" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ss-mE-kiI">
@@ -89,7 +77,6 @@
                                 <state key="normal" title="StayFitButton"/>
                                 <connections>
                                     <action selector="stayFitButton:" destination="otf-Sa-0Zg" eventType="touchUpInside" id="Qn7-jc-Ft3"/>
-                                    <segue destination="a7T-4U-xT0" kind="show" identifier="StayFitScreen" id="eIW-XP-HEF"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zrL-eP-Fru">
@@ -121,26 +108,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0gF-rh-UcB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="6117.3913043478269" y="837.72321428571422"/>
-        </scene>
-        <!--BuildMuscleScreen-->
-        <scene sceneID="bXG-0E-HZi">
-            <objects>
-                <viewControllerPlaceholder storyboardName="BuildMuscleScreen" id="Y5A-1n-cSI" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="GAr-oF-Aym"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="F4A-sR-qFp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="7114.4927536231889" y="859.82142857142856"/>
-        </scene>
-        <!--StayFitScreen-->
-        <scene sceneID="D0J-KH-Kmm">
-            <objects>
-                <viewControllerPlaceholder storyboardName="StayFitScreen" id="a7T-4U-xT0" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="4Fr-pV-9MZ"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Xra-eb-QbR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="5040" y="1422"/>
         </scene>
     </scenes>
     <resources>

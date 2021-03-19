@@ -68,7 +68,6 @@ class MyMeals:UIViewController {
     }
     
     
-    
     @IBAction func vegetarianButtonTapped(_ sender: UIButton) {
         
         let vegetarianStoryboard = UIStoryboard (name: "VegeterianToFoodIntolerance", bundle: Bundle.main)

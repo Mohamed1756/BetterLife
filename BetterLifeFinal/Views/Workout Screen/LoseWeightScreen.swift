@@ -40,7 +40,7 @@ class LoseWeightScreen: UIViewController {
         
         let beginnerStoryboard = UIStoryboard (name: "LoseWeightScreen", bundle: Bundle.main)
         
-        guard let toBeginnerStoryboard = beginnerStoryboard.instantiateViewController(withIdentifier: "beginnerLoseWeightScreen") as? LoseWeightBeginner else {return}
+        guard let toBeginnerStoryboard = beginnerStoryboard.instantiateViewController(withIdentifier: "beginnerLoseWeightScreen") as? LoseWeightScreen else {return}
         
         navigationController?.pushViewController(toBeginnerStoryboard, animated: true)
     }
