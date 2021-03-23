@@ -27,7 +27,11 @@ class MyMeals:UIViewController {
     override func viewDidLoad() {
         
         nameOfButtons()
-        titleTextLabel()
+        
+
+        
+        firstLineTitle.text = "Any Dietry"
+        requirementsTextLabel.text = "Requirements"
     }
     
     // Button Textfields
@@ -45,17 +49,13 @@ class MyMeals:UIViewController {
         
     }
     
-    // Title Text Label
-    
-    func titleTextLabel() {
-        firstLineTitle.text = "Any Dietry"
-        requirementsTextLabel.text = "Requirements"
-    }
 
     // Button Actions Segues
     
     
     @IBAction func noneButtonTapped(_ sender: UIButton) {
+        
+      
         
         let noneStoryboard = UIStoryboard (name: "NoneToFoodIntolerance", bundle: Bundle.main)
         

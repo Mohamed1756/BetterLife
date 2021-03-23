@@ -53,7 +53,16 @@ class EditProfileView:UIViewController,UIImagePickerControllerDelegate & UINavig
         weightGoalPickerView.dataSource = self
         weightGoalTextField.inputView = weightGoalPickerView
         weightGoalTextField.textAlignment = .center
+        
+        currentWeightTextField.allowsEditingTextAttributes = true
+        targetWeightTextField.allowsEditingTextAttributes = true
+        
         weightGoalTextField.placeholder = "Weight Goal"
+        targetWeightTextField.placeholder = "Target Weight (Kg)"
+        currentWeightTextField.placeholder = "Current Weight (Kg)"
+        
+        
+        // Saves state of user input
         
         let defaults = UserDefaults.standard
            if let name = defaults.string(forKey: "weightGoalValue"){

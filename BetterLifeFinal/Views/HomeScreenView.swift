@@ -23,7 +23,8 @@ HomeScreenVIew:UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+       
+    
         myMealsText.setTitle("My Meals", for: .normal)
         myStepsText.setTitle("My Steps", for: .normal)
         BmiText.setTitle("BMI", for: .normal )
@@ -48,7 +49,8 @@ HomeScreenVIew:UIViewController{
         navigationController?.pushViewController(toProgressScreen, animated: true)
     }
     
-    @IBAction func mealsButtonTapped(_ sender: Any) {
+    @IBAction func mealsButtonTapped(_ sender: UIButton) {
+
         
         let mealsScreenStoryboard = UIStoryboard(name: "Main", bundle: Bundle.main)
         

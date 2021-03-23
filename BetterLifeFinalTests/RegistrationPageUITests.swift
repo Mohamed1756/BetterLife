@@ -44,7 +44,7 @@ class RegistrationScreenTests:XCTestCase {
         // Attempt Access UIButton Actions
         
  //       guard let signUpButtonAction = signUpButton.actions(forTarget: register, forControlEvent: .touchUpInside) else {
-//            XCTFail("UIButton does not have actions assigned for Control Event .touchUpInside")
+//  XCTFail("UIButton does not have actions assigned for Control Event .touchUpInside")
    //         return
  //       }
   //      XCTAssertTrue(signUpButtonAction.contains("SignUp button pressed:"))

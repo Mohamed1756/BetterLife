@@ -162,6 +162,7 @@
 		D9E3BED525B3498600AE110A /* VegeterianBreakfast.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9E3BED425B3498600AE110A /* VegeterianBreakfast.plist */; };
 		D9E3BED925B3498F00AE110A /* VegeterianLunch.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9E3BED825B3498F00AE110A /* VegeterianLunch.plist */; };
 		D9E3BEDD25B3499F00AE110A /* VegeterianDinner.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9E3BEDC25B3499F00AE110A /* VegeterianDinner.plist */; };
+		D9EAAF5526093C0E007E4E82 /* otherFeaturesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EAAF5426093C0E007E4E82 /* otherFeaturesTests.swift */; };
 		D9FFCAFB25A3444300502914 /* FoodIntoleranceScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FFCAFA25A3444300502914 /* FoodIntoleranceScreen.swift */; };
 /* End PBXBuildFile section */
 
@@ -349,6 +350,7 @@
 		D9E3BED425B3498600AE110A /* VegeterianBreakfast.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VegeterianBreakfast.plist; sourceTree = "<group>"; };
 		D9E3BED825B3498F00AE110A /* VegeterianLunch.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VegeterianLunch.plist; sourceTree = "<group>"; };
 		D9E3BEDC25B3499F00AE110A /* VegeterianDinner.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VegeterianDinner.plist; sourceTree = "<group>"; };
+		D9EAAF5426093C0E007E4E82 /* otherFeaturesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = otherFeaturesTests.swift; sourceTree = "<group>"; };
 		D9FFCAFA25A3444300502914 /* FoodIntoleranceScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodIntoleranceScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -670,6 +672,7 @@
 				D98A4FC1259CEA7100294F64 /* Info.plist */,
 				D9403FA525E6F6F4000C8E12 /* RegistrationPageUITests.swift */,
 				D987B10F26014D7B00024D4E /* HomeScreenUITests.swift */,
+				D9EAAF5426093C0E007E4E82 /* otherFeaturesTests.swift */,
 			);
 			path = BetterLifeFinalTests;
 			sourceTree = "<group>";
@@ -1415,6 +1418,7 @@
 				D98A4FC0259CEA7100294F64 /* BetterLifeFinalTests.swift in Sources */,
 				D9403FA625E6F6F4000C8E12 /* RegistrationPageUITests.swift in Sources */,
 				D987B11026014D7B00024D4E /* HomeScreenUITests.swift in Sources */,
+				D9EAAF5526093C0E007E4E82 /* otherFeaturesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
