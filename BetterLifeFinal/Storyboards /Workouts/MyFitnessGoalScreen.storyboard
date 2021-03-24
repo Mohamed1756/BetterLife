@@ -104,6 +104,12 @@
                     </view>
                     <nil key="simulatedTopBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="buildMuscleTextLabel" destination="rF9-qh-e0I" id="7w5-Fz-sLO"/>
+                        <outlet property="loseWeightTextLabel" destination="jIV-5i-BeN" id="kAV-d1-2mi"/>
+                        <outlet property="stayFitTextLabel" destination="UD1-J1-lds" id="X1v-EV-bzq"/>
+                        <outlet property="workoutChoiceTextLabel" destination="zrL-eP-Fru" id="cfp-1O-yuW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0gF-rh-UcB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

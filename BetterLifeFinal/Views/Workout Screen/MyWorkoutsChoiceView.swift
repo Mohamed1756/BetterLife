@@ -9,6 +9,20 @@ import UIKit
 
 class MyWorkoutsChoiceView:UIViewController {
     
+    @IBOutlet weak var loseWeightTextLabel: UILabel!
+    @IBOutlet weak var buildMuscleTextLabel: UILabel!
+    @IBOutlet weak var workoutChoiceTextLabel: UILabel!
+    
+    @IBOutlet weak var stayFitTextLabel: UILabel!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        loseWeightTextLabel.text = "Lose Weight"
+        buildMuscleTextLabel.text = "Build Muscle"
+        stayFitTextLabel.text = "Stay Fit"
+        workoutChoiceTextLabel.text = "What Are Your Fitness Goals ?"
+    }
+    
     
     @IBAction func loseWeightButton(_ sender: Any) {
         
@@ -40,5 +54,6 @@ class MyWorkoutsChoiceView:UIViewController {
         navigationController?.pushViewController(toStayFitStoryboard, animated: true)
 
     }
+    
     
 }

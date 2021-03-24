@@ -70,6 +70,7 @@
 		D96F043A25B4A3E700467282 /* VegetarianGlutenBreakfast.plist in Resources */ = {isa = PBXBuildFile; fileRef = D96F043925B4A3E700467282 /* VegetarianGlutenBreakfast.plist */; };
 		D96F043E25B4A43D00467282 /* VegetarianGlutenLunch.plist in Resources */ = {isa = PBXBuildFile; fileRef = D96F043D25B4A43D00467282 /* VegetarianGlutenLunch.plist */; };
 		D96F044225B4A47B00467282 /* VegetarianGlutenDinner.plist in Resources */ = {isa = PBXBuildFile; fileRef = D96F044125B4A47B00467282 /* VegetarianGlutenDinner.plist */; };
+		D971A90A260BD8C800AD73F4 /* WorkoutUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D971A909260BD8C800AD73F4 /* WorkoutUITest.swift */; };
 		D97F66FF25C439D500A9903A /* BMICalculatorScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D97F66FE25C439D500A9903A /* BMICalculatorScreen.storyboard */; };
 		D97F670425C43C5100A9903A /* BMICalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97F670325C43C5100A9903A /* BMICalculatorView.swift */; };
 		D981F274259DEE810001F55E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D981F273259DEE810001F55E /* GoogleService-Info.plist */; };
@@ -253,6 +254,7 @@
 		D96F043925B4A3E700467282 /* VegetarianGlutenBreakfast.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VegetarianGlutenBreakfast.plist; sourceTree = "<group>"; };
 		D96F043D25B4A43D00467282 /* VegetarianGlutenLunch.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VegetarianGlutenLunch.plist; sourceTree = "<group>"; };
 		D96F044125B4A47B00467282 /* VegetarianGlutenDinner.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VegetarianGlutenDinner.plist; sourceTree = "<group>"; };
+		D971A909260BD8C800AD73F4 /* WorkoutUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutUITest.swift; sourceTree = "<group>"; };
 		D97F66FE25C439D500A9903A /* BMICalculatorScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BMICalculatorScreen.storyboard; sourceTree = "<group>"; };
 		D97F670325C43C5100A9903A /* BMICalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMICalculatorView.swift; sourceTree = "<group>"; };
 		D981F273259DEE810001F55E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -673,6 +675,7 @@
 				D9403FA525E6F6F4000C8E12 /* RegistrationPageUITests.swift */,
 				D987B10F26014D7B00024D4E /* HomeScreenUITests.swift */,
 				D9EAAF5426093C0E007E4E82 /* otherFeaturesTests.swift */,
+				D971A909260BD8C800AD73F4 /* WorkoutUITest.swift */,
 			);
 			path = BetterLifeFinalTests;
 			sourceTree = "<group>";
@@ -1416,6 +1419,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D98A4FC0259CEA7100294F64 /* BetterLifeFinalTests.swift in Sources */,
+				D971A90A260BD8C800AD73F4 /* WorkoutUITest.swift in Sources */,
 				D9403FA625E6F6F4000C8E12 /* RegistrationPageUITests.swift in Sources */,
 				D987B11026014D7B00024D4E /* HomeScreenUITests.swift in Sources */,
 				D9EAAF5526093C0E007E4E82 /* otherFeaturesTests.swift in Sources */,
