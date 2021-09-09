@@ -2,4 +2,4 @@ COMPUTER SCIENCE - FINAL YEAR PROJECT
 
             BetterLifeFinal---FYP
   
-  This is the application developed for the my Final Year Project
+  This is a Nutritional-based Fitness application i developed for the my Final Year Project
