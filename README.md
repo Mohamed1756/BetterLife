@@ -4,7 +4,7 @@
   
   This is a Nutritional-based Fitness application i developed for the my Final Year Project. All development was done using the Swift programming langauge (IOS)
   
-The focal research topic of this report is on the health sector, it aims to find possible solutions on how individuals can lead a healthier and a more productive lifestyle. World-wide obesity rates had tripled in the last 45 years with more than 1.9 billion adults overweight today. Analysing this problem, no evidential solution has arisen, which validates this project enquiry of aiming to form a potential solution. A nutrition-based fitness application intends to be developed to act as solution to negate the rising obesity rates and enable users to achieve their desired health goals.
+The focal research topic of this report is on the health sector, it aims to find possible solutions on how individuals can lead a healthier and a more productive lifestyle.A nutrition-based fitness application was be developed to act as solution to enable users to achieve their desired health goals.
 
 <img width="236" alt="image" src="https://user-images.githubusercontent.com/56473612/181748093-190cfabc-b534-4107-933f-050f33188a2e.png">
 
