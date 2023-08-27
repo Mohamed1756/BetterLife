@@ -1,10 +1,10 @@
 <img width="497" alt="Screenshot 2022-07-29 at 12 10 58" src="https://user-images.githubusercontent.com/56473612/181747199-7ee90baf-3818-4238-a702-776af6cf2f8b.png">
 
-            BetterLifeFinal---FYP
+            BetterLifeFinal
   
-  This is a Nutritional-based Fitness application i developed for the my Final Year Project. All development was done using the Swift programming langauge (IOS)
+  This is a Nutritional-based Fitness application i developed for ios.
   
-The focal research topic of this report is on the health sector, it aims to find possible solutions on how individuals can lead a healthier and a more productive lifestyle.A nutrition-based fitness application was be developed to act as solution to enable users to achieve their desired health goals.
+The focal research topic of this report is on the health sector, it aims to find possible solutions on how individuals can lead a healthier and a more productive lifestyle.
 
 <img width="236" alt="image" src="https://user-images.githubusercontent.com/56473612/181748093-190cfabc-b534-4107-933f-050f33188a2e.png">
 

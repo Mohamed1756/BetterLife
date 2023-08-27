@@ -1,87 +1,61 @@
-//
-//  BMICalculatorView.swift
-//  BetterLifeFinal
-//
-//  Created by Mohamed on 29/01/2021.
-//
-
 import UIKit
 
-class BMICalculatorView:UIViewController {
-    
+class BMICalculatorView: UIViewController {
+    // Outlets
     @IBOutlet weak var heightValue: UILabel!
-    
     @IBOutlet weak var weightValue: UILabel!
-    
     @IBOutlet weak var resultAnswer: UILabel!
-    
     @IBOutlet weak var heightSliderValues: UISlider!
-    
     @IBOutlet weak var weightSliderValues: UISlider!
-    
-    
-    // BMI variables - h = height, W = weight
-    var height:Float = 1.5
-    var weight:Float = 75
-    var bmi:Float = 0
-    
+
+    // Properties
+    var height: Float = 1.5
+    var weight: Float = 75
+    var bmi: Float = 0
+
     override func viewDidLoad() {
-       sliderValues()
-        
+        super.viewDidLoad()
+        setupSliderValues()
     }
-    
-    func sliderValues() {
-        // minimum Values for the slider
+
+    // Set up slider minimum and maximum values
+    func setupSliderValues() {
         heightSliderValues.minimumValue = 0.5
         weightSliderValues.minimumValue = 35
-        
-        // Maximum Values for the slider
         heightSliderValues.maximumValue = 2.5
         weightSliderValues.maximumValue = 150
-        
     }
-    
-    
-    
+
+    // Update height label when slider value changes
     @IBAction func heightSlider(_ sender: UISlider) {
         height = sender.value
-        heightValue.text = NSString (format: " %.2f m", height) as String
+        heightValue.text = String(format: "%.2f m", height)
     }
-    
-    
+
+    // Update weight label when slider value changes
     @IBAction func weightSlider(_ sender: UISlider) {
         weight = sender.value
-        weightValue.text = NSString (format: " %.1f kg", weight) as String
-        // 1 decimal
+        weightValue.text = String(format: "%.1f kg", weight)
     }
-    
-    
+
+    // Calculate BMI and update result label
     @IBAction func calculateBMIButton(_ sender: UIButton) {
-        bmi = weight/(height*height)
-        resultAnswer.text = NSString (format: " BMI value is %.2f ", bmi) as String
-        
+        bmi = weight / (height * height)
+        updateResultLabel()
+    }
+
+    // Update result label with BMI value and interpretation
+    func updateResultLabel() {
+        var interpretation = ""
         if bmi < 18.5 {
-            resultAnswer.text = NSString (format: " BMI value is %.2f: Under Weight ", bmi) as String
-            resultAnswer.alpha = 1
-            
-        } else if bmi >= 18.5 && bmi < 25 {
-            resultAnswer.text = NSString (format: " BMI value is %.2f: Normal Weight ", bmi) as String
-            resultAnswer.alpha = 1
-
-        } else if bmi >= 25 && bmi < 30 {
-            resultAnswer.text = NSString (format: " BMI value is %.2f: Over Weight ", bmi) as String
-            resultAnswer.alpha = 1
-
+            interpretation = "Underweight"
+        } else if bmi < 25 {
+            interpretation = "Normal Weight"
+        } else if bmi < 30 {
+            interpretation = "Overweight"
         } else {
-            resultAnswer.text = NSString (format: " BMI value is %.2f:  Obese ", bmi) as String
-            resultAnswer.alpha = 1
-
+            interpretation = "Obese"
         }
-        
+        resultAnswer.text = String(format: "BMI value is %.2f: %@", bmi, interpretation)
     }
-    }
-    
-    
-    
-    
-
+}

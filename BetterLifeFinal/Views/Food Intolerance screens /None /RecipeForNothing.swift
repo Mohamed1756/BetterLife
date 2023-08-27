@@ -1,10 +1,3 @@
-//
-//  RecipeForNothing.swift
-//  BetterLifeFinal
-//
-//  Created by Mohamed on 07/01/2021.
-//
-
 import UIKit
 
 class RecipeForNothing: UIViewController {

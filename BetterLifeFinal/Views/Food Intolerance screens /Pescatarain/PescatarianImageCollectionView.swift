@@ -1,10 +1,3 @@
-//
-//  PescatarianImageCollectionView.swift
-//  BetterLifeFinal
-//
-//  Created by Mohamed on 19/01/2021.
-//
-
 import UIKit
 
 class PescatarianImageCollectionView:UICollectionViewCell {
