@@ -1,0 +1,9 @@
+BetterLifeFinal.xcodeproj/
+BetterLifeFinal.xcworkspace/
+
+# Ignore Pod configuration and dependencies
+Pods/
+Podfile.lock
+
+# Ignore the README file
+README.md
