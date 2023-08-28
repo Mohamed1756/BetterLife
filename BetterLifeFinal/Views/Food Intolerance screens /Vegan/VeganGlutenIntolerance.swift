@@ -1,10 +1,3 @@
-//
-//  VeganGlutenIntolerance.swift
-//  BetterLifeFinal
-//  Gluten Free Meal plans
-//  Created by Mohamed on 15/01/2021.
-//
-
 import UIKit
 
 class VeganGlutenIntolerance:UIViewController,UICollectionViewDelegate,UICollectionViewDataSource {
