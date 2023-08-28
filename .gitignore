@@ -1,3 +1,4 @@
+# Ignore Xcode project and workspace files
 BetterLifeFinal.xcodeproj/
 BetterLifeFinal.xcworkspace/
 
@@ -5,5 +6,9 @@ BetterLifeFinal.xcworkspace/
 Podfile
 Podfile.lock
 
-# Ignore the README file
-README.md
+# Ignore the Assets.xcassets directory
+BetterLifeFinal/Assets.xcassets
+BetterLifeFinal/Storyboards
+BetterLifeFinal/Properties
+BetterLifeFinal/Base.Iproj
+BetterLifeFinal/BetterLifeFinal.entitlements

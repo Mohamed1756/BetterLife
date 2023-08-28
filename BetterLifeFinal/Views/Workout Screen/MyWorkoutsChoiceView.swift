@@ -1,10 +1,3 @@
-//
-//  MyWorkoutsChoiceView.swift
-//  BetterLifeFinal
-//
-//  Created by Mohamed on 21/01/2021.
-//
-
 import UIKit
 
 class MyWorkoutsChoiceView:UIViewController {

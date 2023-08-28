@@ -1,10 +1,3 @@
-//
-//  StayFitImageCollectionView.swift
-//  BetterLifeFinal
-//
-//  Created by Mohamed on 28/01/2021.
-//
-
 import UIKit
 
 class StayFitImageCollectionView:UICollectionViewCell {

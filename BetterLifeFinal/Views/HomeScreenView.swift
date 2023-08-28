@@ -1,10 +1,3 @@
-//
-//  HomeScreenView.swift
-//  BetterLifeFinal
-//
-//  Created by Mohamed on 03/01/2021.
-//
-
 import UIKit
 import Firebase
 

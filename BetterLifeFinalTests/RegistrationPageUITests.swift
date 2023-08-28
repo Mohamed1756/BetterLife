@@ -1,10 +1,3 @@
-//
-//  RegistrationPageUITests.swift
-//  BetterLifeFinalTests
-//
-//  Created by Mohamed on 24/02/2021.
-//
-
 import XCTest
 @testable import BetterLifeFinal
 

@@ -1,10 +1,3 @@
-//
-//  PerformanceTestForApp.swift
-//  PerformanceTestForApp
-//
-//  Created by Mohamed on 26/02/2021.
-//
-
 import XCTest
 
 class PerformanceTestForApp: XCTestCase {

@@ -1,10 +1,3 @@
-//
-//  WorkoutScreen.swift
-//  BetterLifeFinal
-//
-//  Created by Mohamed on 25/01/2021.
-//
-
 import UIKit
 
 class WorkoutScreen:UIViewController {

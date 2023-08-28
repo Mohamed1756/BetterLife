@@ -1,10 +1,3 @@
-//
-//  WorkoutUITest.swift
-//  BetterLifeFinalTests
-//
-//  Created by Mohamed on 24/03/2021.
-//
-
 import XCTest
 @testable import BetterLifeFinal
 

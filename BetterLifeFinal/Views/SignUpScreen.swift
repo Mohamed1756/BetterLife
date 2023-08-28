@@ -1,10 +1,3 @@
-//
-//  SignUpScreen.swift
-//  BetterLifeFinal
-//
-//  Created by Mohamed on 31/12/2020.
-//
-
 import UIKit
 import FirebaseAuth
 import FirebaseStorage

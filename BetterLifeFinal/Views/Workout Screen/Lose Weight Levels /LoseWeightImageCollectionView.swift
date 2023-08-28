@@ -1,10 +1,3 @@
-//
-//  LoseWeightImageCollectionView.swift
-//  BetterLifeFinal
-//
-//  Created by Mohamed on 24/01/2021.
-//
-
 import UIKit
 
 class LoseWeightImageCollectionView:UICollectionViewCell {

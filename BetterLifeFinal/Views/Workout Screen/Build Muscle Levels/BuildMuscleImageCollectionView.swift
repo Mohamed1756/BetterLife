@@ -1,9 +1,3 @@
-//
-//  BuildMuscleImageCollectionView.swift
-//  BetterLifeFinal
-//
-//  Created by Mohamed on 27/01/2021.
-//
 
 import UIKit
 

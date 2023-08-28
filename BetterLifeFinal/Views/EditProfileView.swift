@@ -1,10 +1,3 @@
-//
-//  EditProfileView.swift
-//  BetterLifeFinal
-//
-//  Created by Mohamed on 06/02/2021.
-//
-
 import UIKit
 
 class EditProfileView:UIViewController,UIImagePickerControllerDelegate & UINavigationControllerDelegate, UIPickerViewDelegate, UIPickerViewDataSource {

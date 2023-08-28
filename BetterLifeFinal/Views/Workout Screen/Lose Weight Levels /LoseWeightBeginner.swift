@@ -1,10 +1,3 @@
-//
-//  LoseWeightBeginner.swift
-//  BetterLifeFinal
-//
-//  Created by Mohamed on 23/01/2021.
-//
-
 import UIKit
 
 class LoseWeightBeginner:UIViewController,UICollectionViewDelegate,UICollectionViewDataSource  {

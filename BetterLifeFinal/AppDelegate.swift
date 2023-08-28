@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  BetterLifeFinal
-//
-//  Created by Mohamed on 30/12/2020.
-//
-
 import UIKit
 import Firebase
 

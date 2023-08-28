@@ -1,10 +1,3 @@
-//
-//  otherFeaturesTests.swift
-//  BetterLifeFinalTests
-//
-//  Created by Mohamed on 22/03/2021.
-//
-
 import XCTest
 @testable import BetterLifeFinal
 
