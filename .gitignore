@@ -2,7 +2,7 @@ BetterLifeFinal.xcodeproj/
 BetterLifeFinal.xcworkspace/
 
 # Ignore Pod configuration and dependencies
-Pods/
+Podfile
 Podfile.lock
 
 # Ignore the README file
